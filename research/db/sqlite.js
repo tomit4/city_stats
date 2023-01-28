@@ -9,7 +9,7 @@ const db = new sqlite3.Database('../states.db', sqlite3.OPEN_READWRITE | sqlite3
         // Assign foreign keys and create separate tables for each:
         // senators TEXT NOT NULL,
         // house_delegation TEXT NOT NULL,
-db.serialize (() => {
+db.serialize(() => {
     db.run(`
         CREATE TABLE IF NOT EXISTS states(
         name TEXT NOT NULL,
@@ -72,12 +72,13 @@ db.serialize (() => {
             `${item.flag_url}`,
             `${item.insignia_url}`
         )
+        sqlStmt.finalize()
     })
 })
 
-module.exports = db
+db.close((err) => {
+    if (err) return console.error(err.message)
+    console.log('Closing the database connection...')
+});
 
-// db.close((err) => {
-    // if (err) return console.error(err.message)
-    // console.log('Closing the database connection...')
-// });
+module.exports = db
