@@ -2,6 +2,18 @@
 
 :construction: This repository is currently under heavy construction
 
+#### Installation
+
+```
+git clone <this_url>
+```
+```
+cd city_stats && npm install
+```
+```
+npm run start
+```
+
 This API will return various statistical data about United States city generally
 reflected from Wikipedia.
 
