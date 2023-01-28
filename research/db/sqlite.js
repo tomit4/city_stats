@@ -9,6 +9,7 @@ const db = new sqlite3.Database('../states.db', sqlite3.OPEN_READWRITE | sqlite3
         // Assign foreign keys and create separate tables for each:
         // senators TEXT NOT NULL,
         // house_delegation TEXT NOT NULL,
+        // Consider parsing out area and population in a similar fashion
 db.serialize(() => {
     db.run(`
         CREATE TABLE IF NOT EXISTS states(
@@ -59,12 +60,12 @@ db.serialize(() => {
             `${item.capital}`,
             `${item.largest_city}`,
             `${item.govenor}`,
-            `${item.area_total}`,
-            `${item.area_land}`,
-            `${item.area_water}`,
+            `${item.area.total}`,
+            `${item.area.land}`,
+            `${item.area.water}`,
             `${item.elevation}`,
-            `${item.population_total}`,
-            `${item.population_density}`,
+            `${item.population.total}`,
+            `${item.population.density}`,
             `${item.time_zone}`,
             `${item.latitude}`,
             `${item.longitude}`,
