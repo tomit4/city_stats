@@ -7,6 +7,8 @@ reflected from Wikipedia.
 
 __To Do:__
 - [x] Create a basic sample schema for a State
+- [ ] Mock Up 3 States and test aggregating into sqlite via csv/bash
+- [ ] Add brief description of States/Cities
 - [ ] Create a basic sample schema for a City
 - [ ] Fill an Sqlite database with data of both States and Cities
 - [ ] Use NodeJs to return sqlite data using basic http request tool, curl
