@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+// const items = require("./states_schema.json")
+const items = require("./states_schema.min.json")
+
+// console.log(items)
+// console.log(items.properties)
+
+for(let item in items){
+    console.log(items[item])
+}

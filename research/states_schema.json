@@ -9,7 +9,7 @@
         },
         "date_admitted": {
             "type": "string",
-            "description": "The date state was grantted sovereignty."
+            "description": "The date state was granted sovereignty."
         },
         "capital": {
             "type": "string",
