@@ -7,6 +7,7 @@ https://json-schema.org
 https://jsonapi.org/
 
 JSON validation
+https://extendsclass.com/json-schema-validator.html
 https://stackoverflow.com/questions/30104681/validating-json-input-with-a-json-schema
 
 Star Wars API
