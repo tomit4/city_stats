@@ -11,6 +11,9 @@ https://extendsclass.com/json-schema-validator.html
 https://deebee.dev/how-to-validate-json-data-with-json-schema
 https://stackoverflow.com/questions/30104681/validating-json-input-with-a-json-schema
 
+JSON Date conversion
+https://www.timestamp-converter.com/
+
 Star Wars API
 https://swapi.dev/
 https://github.com/phalt/swapi/
