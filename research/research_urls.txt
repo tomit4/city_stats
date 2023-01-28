@@ -1,0 +1,41 @@
+Wiki Stats
+https://en.wikipedia.org/wiki/List_of_United_States_cities?useskin=vector
+https://en.wikipedia.org/wiki/List_of_U.S._states_by_date_of_admission_to_the_Union?useskin=vector
+
+JSON Info
+https://json-schema.org
+https://jsonapi.org/
+
+JSON validation
+https://stackoverflow.com/questions/30104681/validating-json-input-with-a-json-schema
+
+Star Wars API
+https://swapi.dev/
+https://github.com/phalt/swapi/
+
+Breaking Bad API
+https://breakingbadapi.com
+https://github.com/timbiles/Breaking-Bad--API
+
+icanhazdadjoke API
+https://icanhazdadjoke.com
+
+Converting json to sqlite ready file (involves csv conversion)
+https://stackoverflow.com/questions/46407770/how-to-convert-a-json-file-to-an-sqlite-database
+
+Minify json:
+jq -c . < input.json
+
+On example schema as it stands:
+
+In the landmass section we're going to want to include:
+Total Area
+Landmass Area
+Water Area
+Length
+Width
+
+In the population section we're going to want to include:
+Total population
+Density
+Median Household Income

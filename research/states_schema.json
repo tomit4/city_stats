@@ -1,0 +1,114 @@
+{
+    "title" : "States",
+    "description": "A state within The United States",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The name of this state."
+        },
+        "date_admitted": {
+            "type": "string",
+            "description": "The date state was grantted sovereignty."
+        },
+        "capital": {
+            "type": "string",
+            "description": "The name of the capital city."
+        },
+        "largest_city": {
+            "type": "string",
+            "description": "The name of the largest city."
+        },
+        "govenor": {
+            "type": "string",
+            "description": "The name of the city's current govenor."
+        },
+        "senators": {
+            "type": "array",
+            "description": "List of state's senators.",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 2,
+            "uniqueItems": true
+        },
+        "house_delegation": {
+            "type": "array",
+            "description": "List of state's house representatives.",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "area": {
+            "type": "array",
+            "description": "List of landmass statistics.",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 5,
+            "uniqueItems": true
+        },
+        "elevation": {
+            "type": "array",
+            "description": "List of elevation statistics.",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "population": {
+            "type": "array",
+            "description": "List of population statistics.",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 3,
+            "uniqueItems": true
+        },
+        "time_zone": {
+            "type": "string",
+            "description": "The state's legal time zone."
+        },
+        "latitude": {
+            "type": "string",
+            "description": "The state's latitude."
+        },
+        "longitude": {
+            "type": "string",
+            "description": "The state's longitude."
+        },
+        "url": {
+            "type": "string",
+            "description": "The state's official government website."
+        },
+        "flag_url": {
+            "type": "string",
+            "description": "The state's official flag image."
+        },
+        "insignia_url": {
+            "type": "string",
+            "description": "The state's official insignia."
+        }
+    },
+    "required": [
+        "name",
+        "date_admitted",
+        "capital",
+        "largest_city",
+        "govenor",
+        "senators",
+        "house_delegation",
+        "area",
+        "elevation",
+        "population",
+        "time_zone",
+        "latitude",
+        "longitude",
+        "url",
+        "flag_url",
+        "insignia_url"
+    ]
+}
