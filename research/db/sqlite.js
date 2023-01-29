@@ -6,10 +6,14 @@ const db = new sqlite3.Database('../states.db', sqlite3.OPEN_READWRITE | sqlite3
     console.log('Connected to the in-memory SQlite database.')
 });
 
-        // Assign foreign keys and create separate tables for each:
-        // senators TEXT NOT NULL,
-        // house_delegation TEXT NOT NULL,
-        // Consider parsing out area and population in a similar fashion
+// Assign foreign keys and create separate tables for each:
+// Add a senatorsId value to the states_alabama.json file
+// senatorsId INTENGER NOT NULL,
+// FOREIGN KEY ([senatorsId]) REFERENCES "senators" ([senatorsId]) ON DELETE NO ACTION ON UPDATE NO ACTION
+
+// house_delegationId INTENGER NOT NULL,
+// FOREIGN KEY ([house_delegationId]) REFERENCES "house_delegation" ([house_delegationId]) ON DELETE NO ACTION ON UPDATE NO ACTION
+
 db.serialize(() => {
     db.run(`
         CREATE TABLE IF NOT EXISTS states(
@@ -31,6 +35,20 @@ db.serialize(() => {
         flag_url TEXT NOT NULL,
         insignia_url TEXT NOT NULL)`,
     )
+
+    // create key to be interfaced with here
+    db.run(`
+        CREATE TABLE IF NOT EXISTS senators(
+        senator_list TEXT NOT NULL
+        )`,
+    )
+
+    // and insert id/key here as well
+    data.forEach((item) => {
+        db.run(
+            `INSERT OR IGNORE INTO senators VALUES (json('${JSON.stringify(item.senators)}'))`,
+        )
+    })
 
     data.forEach((item) => {
         const sqlStmt = db.prepare(`

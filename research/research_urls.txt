@@ -45,6 +45,11 @@ Total population
 Density
 Median Household Income
 
+.schema albums
+on the sample database chinook.db from https://sqlitetutorial.net yields a
+FOREIGN KEY sqlite schema command. Explore this:
+https://www.sqlitetutorial.net/sqlite-foreign-key/
+
 Regarding handling the sqlite database, you'll need to create multiple tables
 for any field that has more than one value (population, areas). This will use a
 foreign key, here is the output in ChatGPT:
