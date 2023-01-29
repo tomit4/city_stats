@@ -18,14 +18,14 @@ app.use(express.json())
 const route = express.Router()
 const port = process.env.PORT || 8000
 
-app.use('/v1', route)
-
-route.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html')
-})
-
 app.get('/data', async (req, res) => {
     await db.all('SELECT * FROM states;', [], function(err, rows) {
+        return res.send(rows)
+    })
+})
+
+app.get('/senators', async (req, res) => {
+    await db.all('SELECT * FROM senators;', [], function(err, rows) {
         return res.send(rows)
     })
 })

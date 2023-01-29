@@ -95,9 +95,10 @@ db.serialize(() => {
     })
 })
 
-db.close((err) => {
-    if (err) return console.error(err.message)
-    console.log('Closing the database connection...')
-});
+// comment out when running with express
+// db.close((err) => {
+    // if (err) return console.error(err.message)
+    // console.log('Closing the database connection...')
+// });
 
 module.exports = db
