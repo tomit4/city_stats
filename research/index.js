@@ -19,30 +19,48 @@ const route = express.Router()
 const port = process.env.PORT || 8000
 
 
-app.get('/states', async (req, res) => {
-    await db.all(`SELECT * FROM states`, [], function(err, rows) {
-        return res.send(rows)
-    })
-})
-
-app.get('/senators', async (req, res) => {
-    await db.all(`SELECT * FROM senators`, [], function(err, rows) {
-        return res.send(rows)
-    })
-})
-
-app.get('/senators/:state/:index?', async (req, res) => {
-    const { state, index } = req.params;
-    const indexInt = index ? parseInt(index) : null;
-    await db.all(`SELECT senators FROM states WHERE name = ?`, [state], function(err, rows) {
-        if (!index) {
+app.get('/states/:state?/:senators?/:index?', async (req, res) => {
+    const { state, senators, index } = req.params;
+    if (!state) {
+        await db.all(`SELECT * FROM states`, [], function(err, rows) {
             return res.send(rows)
-        } else {
-            const senators = JSON.parse(rows[0].senators)
-            const senator = senators[indexInt - 1]
-            return res.send({ [`senator_${indexInt}`]: senator })
-        }
-    })
+        })
+    } else {
+        await db.all(`SELECT * FROM states WHERE name = ?`, [state], function(err, rows) {
+            if (!senators) {
+                return res.send(rows)
+            } else {
+                const senators = JSON.parse(rows[0].senators)
+                if (!index) {
+                    return res.send({[`${state}_senators`]: senators})
+                } else {
+                    const indexInt = index ? parseInt(index) : null
+                    const senator = senators[index - 1]
+                    return res.send({ [`${state}_senator_${indexInt}`]: senator })
+                }
+            }
+        })
+    }
+})
+
+app.get('/senators/:state?/:index?', async (req, res) => {
+    const { state, index } = req.params;
+    if (!state) {
+        await db.all(`SELECT * FROM senators`, [], function(err, rows) {
+            return res.send(rows)
+        })
+    } else {
+        await db.all(`SELECT senators FROM states WHERE name = ?`, [state], function(err, rows) {
+            if (!index) {
+                return res.send(rows)
+            } else {
+                const indexInt = index ? parseInt(index) : null
+                const senators = JSON.parse(rows[0].senators)
+                const senator = senators[indexInt - 1]
+                return res.send({ [`senator_${indexInt}`]: senator })
+            }
+        })
+    }
 })
 
 app.listen(port, () => {
