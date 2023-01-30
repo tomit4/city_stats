@@ -18,8 +18,13 @@ app.use(express.json())
 const route = express.Router()
 const port = process.env.PORT || 8000
 
-app.get('/data', async (req, res) => {
-    await db.all('SELECT * FROM states;', [], function(err, rows) {
+app.get('/states', async (req, res) => {
+    await db.all(`
+        SELECT states.*, senators.senator_list as senators
+        FROM states
+        JOIN senators
+        ON states.name = senators.state_name;`
+        , [], function(err, rows) {
         return res.send(rows)
     })
 })
