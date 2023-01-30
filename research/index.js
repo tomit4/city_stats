@@ -18,13 +18,9 @@ app.use(express.json())
 const route = express.Router()
 const port = process.env.PORT || 8000
 
+
 app.get('/states', async (req, res) => {
-    await db.all(`
-        SELECT states.*, senators.senator_list as senators
-        FROM states
-        JOIN senators
-        ON states.name = senators.state_name;`
-        , [], function(err, rows) {
+    await db.all(`SELECT * FROM states`, [], function(err, rows) {
         return res.send(rows)
     })
 })
@@ -35,10 +31,17 @@ app.get('/senators', async (req, res) => {
     })
 })
 
-app.get('/senators/:state', async (req, res) => {
-    const { state } = req.params;
-    await db.all(`SELECT senator_list FROM senators WHERE state_name = ?`, [state], function(err, rows) {
-        return res.send(rows)
+app.get('/senators/:state/:index?', async (req, res) => {
+    const { state, index } = req.params;
+    const indexInt = index ? parseInt(index) : null;
+    await db.all(`SELECT senators FROM states WHERE name = ?`, [state], function(err, rows) {
+        if (!index) {
+            return res.send(rows)
+        } else {
+            const senators = JSON.parse(rows[0].senators)
+            const senator = senators[indexInt - 1]
+            return res.send({ [`senator_${indexInt}`]: senator })
+        }
     })
 })
 

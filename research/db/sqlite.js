@@ -88,6 +88,17 @@ db.serialize(() => {
         )
     })
 
+    db.run(`
+        ALTER TABLE states ADD COLUMN senators TEXT;
+    `)
+
+    db.each(`
+        UPDATE states
+        SET senators = (SELECT senator_list FROM senators WHERE state_name = states.name)
+    `, (err) => {
+        if (err) console.error(err.message)
+    })
+
 })
 
 module.exports = db
