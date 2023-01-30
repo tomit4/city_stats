@@ -25,7 +25,14 @@ app.get('/data', async (req, res) => {
 })
 
 app.get('/senators', async (req, res) => {
-    await db.all('SELECT * FROM senators;', [], function(err, rows) {
+    await db.all(`SELECT * FROM senators`, [], function(err, rows) {
+        return res.send(rows)
+    })
+})
+
+app.get('/senators/:state', async (req, res) => {
+    const { state } = req.params;
+    await db.all(`SELECT senator_list FROM senators WHERE state_name = ?`, [state], function(err, rows) {
         return res.send(rows)
     })
 })

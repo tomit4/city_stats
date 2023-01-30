@@ -6,17 +6,10 @@ const db = new sqlite3.Database('./states.db', sqlite3.OPEN_READWRITE | sqlite3.
     console.log('Connected to the in-memory SQlite database.')
 });
 
-// Assign foreign keys and create separate tables for each:
-// Add a senatorsId value to the states_alabama.json file
-// senatorsId INTENGER NOT NULL,
-// FOREIGN KEY ([senatorsId]) REFERENCES "senators" ([senatorsId]) ON DELETE NO ACTION ON UPDATE NO ACTION
-
-// house_delegationId INTENGER NOT NULL,
-// FOREIGN KEY ([house_delegationId]) REFERENCES "house_delegation" ([house_delegationId]) ON DELETE NO ACTION ON UPDATE NO ACTION
-
 db.serialize(() => {
     db.run(`
         CREATE TABLE IF NOT EXISTS states(
+        primary_key INTEGER NOT NULL PRIMARY KEY,
         name TEXT NOT NULL,
         date_admitted TEXT NOT NULL,
         capital TEXT NOT NULL,
@@ -33,22 +26,9 @@ db.serialize(() => {
         longitude TEXT NOT NULL,
         url TEXT NOT NULL,
         flag_url TEXT NOT NULL,
-        insignia_url TEXT NOT NULL)`,
-    )
-
-    // create key to be interfaced with here
-    db.run(`
-        CREATE TABLE IF NOT EXISTS senators(
-        senator_list TEXT NOT NULL
+        insignia_url TEXT NOT NULL
         )`,
     )
-
-    // and insert id/key here as well
-    data.forEach((item) => {
-        db.run(
-            `INSERT OR IGNORE INTO senators VALUES (json('${JSON.stringify(item.senators)}'))`,
-        )
-    })
 
     data.forEach((item) => {
         const sqlStmt = db.prepare(`
@@ -93,7 +73,24 @@ db.serialize(() => {
         )
         sqlStmt.finalize()
     })
+
+    db.run(`
+        CREATE TABLE IF NOT EXISTS senators(
+        primary_key INTEGER NOT NULL PRIMARY KEY,
+        senator_list TEXT NOT NULL,
+        state_name TEXT NOT NULL
+        )`,
+    )
+
+    data.forEach((item) => {
+        db.run(
+            `INSERT OR IGNORE INTO senators (senator_list, state_name) VALUES (json('${JSON.stringify(item.senators)}'), '${item.name}')`,
+        )
+    })
+
 })
+
+module.exports = db
 
 // comment out when running with express
 // db.close((err) => {
@@ -101,4 +98,3 @@ db.serialize(() => {
     // console.log('Closing the database connection...')
 // });
 
-module.exports = db
