@@ -1,6 +1,6 @@
 [
   {
-    "name": "Alabama",
+    "state_name": "Alabama",
     "date_admitted": "1819-12-14T00:00:00.000Z",
     "capital": "Montgomery",
     "largest_city": "Huntsville",
@@ -34,7 +34,7 @@
     "insignia_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Seal_of_Alabama.svg"
   },
   {
-    "name": "Alaska",
+    "state_name": "Alaska",
     "date_admitted": "1959-01-03T00:00:00.000Z",
     "capital": "Juneau",
     "largest_city": "Anchorage",
@@ -62,7 +62,7 @@
     "insignia_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/State_Seal_of_Alaska.svg"
   },
   {
-    "name": "Arizona",
+    "state_name": "Arizona",
     "date_admitted": "1912-02-14T00:00:00.000Z",
     "capital": "Phoenix",
     "largest_city": "Phoenix",

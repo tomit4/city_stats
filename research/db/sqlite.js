@@ -10,7 +10,7 @@ db.serialize(() => {
     db.run(`
         CREATE TABLE IF NOT EXISTS states(
         primary_key INTEGER NOT NULL PRIMARY KEY,
-        name TEXT NOT NULL,
+        state_name TEXT NOT NULL,
         date_admitted TEXT NOT NULL,
         capital TEXT NOT NULL,
         largest_city TEXT NOT NULL,
@@ -33,7 +33,7 @@ db.serialize(() => {
     data.forEach((item) => {
         const sqlStmt = db.prepare(`
             INSERT OR IGNORE INTO states (
-                name,
+                state_name,
                 date_admitted,
                 capital,
                 largest_city,
@@ -53,7 +53,7 @@ db.serialize(() => {
             VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
         `)
         sqlStmt.run(
-            `${item.name}`,
+            `${item.state_name}`,
             `${item.date_admitted}`,
             `${item.capital}`,
             `${item.largest_city}`,
@@ -78,13 +78,13 @@ db.serialize(() => {
         CREATE TABLE IF NOT EXISTS senators(
         primary_key INTEGER NOT NULL PRIMARY KEY,
         senator_list TEXT NOT NULL,
-        state_name TEXT NOT NULL
+        state_state_name TEXT NOT NULL
         )`,
     )
 
     data.forEach((item) => {
         db.run(
-            `INSERT OR IGNORE INTO senators (senator_list, state_name) VALUES (json('${JSON.stringify(item.senators)}'), '${item.name}')`,
+            `INSERT OR IGNORE INTO senators (senator_list, state_state_name) VALUES (json('${JSON.stringify(item.senators)}'), '${item.state_name}')`,
         )
     })
 
@@ -92,13 +92,13 @@ db.serialize(() => {
         CREATE TABLE IF NOT EXISTS house_delegation(
         primary_key INTEGER NOT NULL PRIMARY KEY,
         house_delegates TEXT NOT NULL,
-        state_name TEXT NOT NULL
+        state_state_name TEXT NOT NULL
         )`,
     )
 
     data.forEach((item) => {
         db.run(
-            `INSERT OR IGNORE INTO house_delegation (house_delegates, state_name) VALUES (json('${JSON.stringify(item.house_delegation)}'), '${item.name}')`,
+            `INSERT OR IGNORE INTO house_delegation (house_delegates, state_state_name) VALUES (json('${JSON.stringify(item.house_delegation)}'), '${item.state_name}')`,
         )
     })
 
@@ -107,14 +107,14 @@ db.serialize(() => {
 
     db.each(`
         UPDATE states
-        SET senators = (SELECT senator_list FROM senators WHERE state_name = states.name)
+        SET senators = (SELECT senator_list FROM senators WHERE state_state_name = states.state_name)
     `, (err) => {
         if (err) console.error(err.message)
     })
 
     db.each(`
         UPDATE states
-        SET house_delegates = (SELECT house_delegates FROM house_delegation WHERE state_name = states.name)
+        SET house_delegates = (SELECT house_delegates FROM house_delegation WHERE state_state_name = states.state_name)
     `, (err) => {
         if (err) console.error(err.message)
     })
