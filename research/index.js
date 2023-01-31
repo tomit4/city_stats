@@ -3,6 +3,9 @@ const path = require('path')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const db = require('./db/sqlite')
+
+// these are a bit repetetive, querying the database and pushing the values
+// might be more efficient...
 const statesArr = require('./states_array.js')
 const keysArr = require('./keys_array.js')
 
