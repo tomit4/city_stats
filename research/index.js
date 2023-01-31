@@ -29,6 +29,8 @@ app.get('/states/:state?/:senators?/:index?', async (req, res) => {
         await db.all(`SELECT * FROM states WHERE name = ?`, [state], function(err, rows) {
             if (!senators) {
                 return res.send(rows)
+            } else if (senators !== "senators") {
+                return res.send( { ["msg"]: "404: Path Not Found!"})
             } else {
                 const senators = JSON.parse(rows[0].senators)
                 if (!index) {
