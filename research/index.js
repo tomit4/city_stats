@@ -55,6 +55,8 @@ app.get('/states/:state?/:legislature?/:index?', async (req, res) => {
                         return res.send({ [`${state}_delegate_${indexInt}`]: delegate })
                     }
                 }
+            } else {
+                return res.send({ ['msg']: '404: data not found!'})
             }
         })
     }
