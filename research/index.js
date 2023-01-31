@@ -18,67 +18,79 @@ app.use(express.json())
 const route = express.Router()
 const port = process.env.PORT || 8000
 
+/***********************
+* HELPER FUNCTIONS
+***********************/
+function handleError(res, err) {
+    console.error(err)
+    return res.send({ ['msg']: `500: ERROR: ${err}`})
+}
 
+async function returnAllStates(res) {
+    await db.all(`SELECT * FROM states`, [], (err, rows) => {
+        if (err)
+            handleError(res, err)
+        return res.send(rows)
+    })
+}
+
+function returnSenators(res, state, rows, index, err) {
+    if (err)
+        handleError(res, err)
+    const senators = JSON.parse(rows[0].senators)
+    if (!index) {
+        return res.send({[`${state}_senators`]: senators})
+    } else {
+        const indexInt = index ? parseInt(index) : null
+        const senator = senators[index - 1]
+        if (!senator)
+            return res.send({ ['msg']: '404: data not found!'})
+        return res.send({ [`${state}_senator_${indexInt}`]: senator })
+    }
+}
+
+function returnDelegates(res, state, rows, index, err) {
+    if (err)
+        handleError(res, err)
+    const delegates = JSON.parse(rows[0].house_delegates)
+    if (!index) {
+        return res.send({[`${state}_house_delegates`]: delegates })
+    } else {
+        const indexInt = index ? parseInt(index) : null
+        const delegate = delegates[index - 1]
+        if (!delegate) {
+            return res.send({ ['msg']: '404: data not found!'})
+        } else {
+            return res.send({ [`${state}_delegate_${indexInt}`]: delegate })
+        }
+    }
+}
+
+async function returnCongressData(res, state, legislature, index) {
+    await db.all(`SELECT * FROM states WHERE name = ?`, [state], (err, rows) => {
+        if (err)
+            handleError(res, err)
+        if (!legislature) {
+            return res.send(rows)
+        } else if (legislature === "senators") {
+            returnSenators(res, state, rows, index, err)
+        } else if (legislature === "house_delegates"){
+            returnDelegates(res, state, rows, index, err)
+        } else {
+            return res.send({ ['msg']: '404: data not found!'})
+        }
+    })
+}
+
+/***********************
+* MAIN PATH ROUTINE
+***********************/
 app.get('/states/:state?/:legislature?/:index?', async (req, res) => {
     const { state, legislature, index } = req.params;
     if (!state) {
-        await db.all(`SELECT * FROM states`, [], function(err, rows) {
-            return res.send(rows)
-        })
+        returnAllStates(res)
     } else {
-        await db.all(`SELECT * FROM states WHERE name = ?`, [state], function(err, rows) {
-            if (!legislature) {
-                return res.send(rows)
-            } else if (legislature === "senators") {
-                const senators = JSON.parse(rows[0].senators)
-                if (!index) {
-                    return res.send({[`${state}_senators`]: senators})
-                } else {
-                    const indexInt = index ? parseInt(index) : null
-                    const senator = senators[index - 1]
-                    if (!senator) {
-                        return res.send({ ['msg']: '404: data not found!'})
-                    } else {
-                        return res.send({ [`${state}_senator_${indexInt}`]: senator })
-                    }
-                }
-            } else if (legislature === "house_delegates"){
-                const delegates = JSON.parse(rows[0].house_delegates)
-                if (!index) {
-                    return res.send({[`${state}_house_delegates`]: delegates })
-                } else {
-                    const indexInt = index ? parseInt(index) : null
-                    const delegate = delegates[index - 1]
-                    if (!delegate) {
-                        return res.send({ ['msg']: '404: data not found!'})
-                    } else {
-                        return res.send({ [`${state}_delegate_${indexInt}`]: delegate })
-                    }
-                }
-            } else {
-                return res.send({ ['msg']: '404: data not found!'})
-            }
-        })
-    }
-})
-
-app.get('/senators/:state?/:index?', async (req, res) => {
-    const { state, index } = req.params;
-    if (!state) {
-        await db.all(`SELECT * FROM senators`, [], function(err, rows) {
-            return res.send(rows)
-        })
-    } else {
-        await db.all(`SELECT senators FROM states WHERE name = ?`, [state], function(err, rows) {
-            if (!index) {
-                return res.send(rows)
-            } else {
-                const indexInt = index ? parseInt(index) : null
-                const senators = JSON.parse(rows[0].senators)
-                const senator = senators[indexInt - 1]
-                return res.send({ [`senator_${indexInt}`]: senator })
-            }
-        })
+        returnCongressData(res, state, legislature, index)
     }
 })
 
