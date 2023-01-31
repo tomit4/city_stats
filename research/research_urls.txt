@@ -1,6 +1,8 @@
 Wiki Stats
 https://en.wikipedia.org/wiki/List_of_United_States_cities?useskin=vector
 https://en.wikipedia.org/wiki/List_of_U.S._states_by_date_of_admission_to_the_Union?useskin=vector
+/* List of Major cities on US, ordered by population as of 2021 (331): */
+https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population?useskin=vector#Cities_formerly_over_100,000_people
 
 JSON Info
 https://json-schema.org
