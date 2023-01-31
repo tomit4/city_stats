@@ -19,26 +19,41 @@ const route = express.Router()
 const port = process.env.PORT || 8000
 
 
-app.get('/states/:state?/:senators?/:index?', async (req, res) => {
-    const { state, senators, index } = req.params;
+app.get('/states/:state?/:legislature?/:index?', async (req, res) => {
+    const { state, legislature, index } = req.params;
     if (!state) {
         await db.all(`SELECT * FROM states`, [], function(err, rows) {
             return res.send(rows)
         })
     } else {
         await db.all(`SELECT * FROM states WHERE name = ?`, [state], function(err, rows) {
-            if (!senators) {
+            if (!legislature) {
                 return res.send(rows)
-            } else if (senators !== "senators") {
-                return res.send( { ["msg"]: "404: Path Not Found!"})
-            } else {
+            } else if (legislature === "senators") {
                 const senators = JSON.parse(rows[0].senators)
                 if (!index) {
                     return res.send({[`${state}_senators`]: senators})
                 } else {
                     const indexInt = index ? parseInt(index) : null
                     const senator = senators[index - 1]
-                    return res.send({ [`${state}_senator_${indexInt}`]: senator })
+                    if (!senator) {
+                        return res.send({ ['msg']: '404: data not found!'})
+                    } else {
+                        return res.send({ [`${state}_senator_${indexInt}`]: senator })
+                    }
+                }
+            } else if (legislature === "house_delegates"){
+                const delegates = JSON.parse(rows[0].house_delegates)
+                if (!index) {
+                    return res.send({[`${state}_house_delegates`]: delegates })
+                } else {
+                    const indexInt = index ? parseInt(index) : null
+                    const delegate = delegates[index - 1]
+                    if (!delegate) {
+                        return res.send({ ['msg']: '404: data not found!'})
+                    } else {
+                        return res.send({ [`${state}_delegate_${indexInt}`]: delegate })
+                    }
                 }
             }
         })
