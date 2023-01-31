@@ -89,12 +89,32 @@ db.serialize(() => {
     })
 
     db.run(`
-        ALTER TABLE states ADD COLUMN senators TEXT;
-    `)
+        CREATE TABLE IF NOT EXISTS house_delegation(
+        primary_key INTEGER NOT NULL PRIMARY KEY,
+        house_delegates TEXT NOT NULL,
+        state_name TEXT NOT NULL
+        )`,
+    )
+
+    data.forEach((item) => {
+        db.run(
+            `INSERT OR IGNORE INTO house_delegation (house_delegates, state_name) VALUES (json('${JSON.stringify(item.house_delegation)}'), '${item.name}')`,
+        )
+    })
+
+    db.run(`ALTER TABLE states ADD COLUMN senators TEXT;`)
+    db.run(`ALTER TABLE states ADD COLUMN house_delegates TEXT;`)
 
     db.each(`
         UPDATE states
         SET senators = (SELECT senator_list FROM senators WHERE state_name = states.name)
+    `, (err) => {
+        if (err) console.error(err.message)
+    })
+
+    db.each(`
+        UPDATE states
+        SET house_delegates = (SELECT house_delegates FROM house_delegation WHERE state_name = states.name)
     `, (err) => {
         if (err) console.error(err.message)
     })
