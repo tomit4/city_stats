@@ -84,7 +84,12 @@ db.serialize(() => {
 
     data.forEach((item) => {
         db.run(
-            `INSERT OR IGNORE INTO senators (senator_list, state_state_name) VALUES (json('${JSON.stringify(item.senators)}'), '${item.state_name}')`,
+            `INSERT OR IGNORE INTO senators(
+            senator_list,
+            state_state_name)
+            VALUES(
+            json('${JSON.stringify(item.senators)}'),
+            '${item.state_name}')`,
         )
     })
 
@@ -98,7 +103,12 @@ db.serialize(() => {
 
     data.forEach((item) => {
         db.run(
-            `INSERT OR IGNORE INTO house_delegation (house_delegates, state_state_name) VALUES (json('${JSON.stringify(item.house_delegation)}'), '${item.state_name}')`,
+            `INSERT OR IGNORE INTO house_delegation(
+            house_delegates,
+            state_state_name)
+            VALUES(
+            json('${JSON.stringify(item.house_delegation)}'),
+            '${item.state_name}')`,
         )
     })
 
