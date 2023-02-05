@@ -7,7 +7,8 @@ const db = require('./db/sqlite')
 // these are a bit repetetive, querying the database and pushing the values
 // might be more efficient...
 const statesArr = require('./states_array.js')
-const keysArr = require('./keys_array.js')
+// const keysArr = require('./keys_array.js')
+let keysArr = []
 
 const app = express()
 
@@ -20,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false}))
 // app.use(express.static(path.join(__dirstate_name, "public")))
 app.use(express.json())
 
-const route = express.Router()
+// const route = express.Router()
 const port = process.env.PORT || 8000
 
 /***********************
@@ -33,6 +34,19 @@ function handle500Error(res, err) {
 
 function handle404Error(res) {
     return res.send({ ['msg']: '404: data not found!'})
+}
+
+const keysArrFill = async (res) => {
+    await db.all(
+        `SELECT * FROM states`,
+        [], (err, rows) => {
+            if (err) {
+                return handle500Error(res, err)
+            } else {
+                keysArr = Object.keys(rows[0])
+            }
+        }
+    )
 }
 
 async function returnAllStates(res) {
@@ -140,6 +154,7 @@ async function parseQuery(res, query, field, index) {
 * MAIN PATH ROUTINE
 ***********************/
 app.get('/states/:query?/:field?/:index?', async (req, res) => {
+    keysArrFill(res)
     const { query, field , index } = req.params;
     if (!query) {
         returnAllStates(res)

@@ -1,4 +1,5 @@
 const keys = [
+    "state_abbreviation",
     "date_admitted",
     "capital",
     "largest_city",
