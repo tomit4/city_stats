@@ -11,6 +11,7 @@ db.serialize(() => {
         CREATE TABLE IF NOT EXISTS states(
         primary_key INTEGER NOT NULL PRIMARY KEY,
         state_name TEXT NOT NULL,
+        state_abbreviation TEXT NOT NULL,
         date_admitted TEXT NOT NULL,
         capital TEXT NOT NULL,
         largest_city TEXT NOT NULL,
@@ -34,6 +35,7 @@ db.serialize(() => {
         const sqlStmt = db.prepare(`
             INSERT OR IGNORE INTO states (
                 state_name,
+                state_abbreviation,
                 date_admitted,
                 capital,
                 largest_city,
@@ -50,10 +52,11 @@ db.serialize(() => {
                 url,
                 flag_url,
                 insignia_url)
-            VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+            VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
         `)
         sqlStmt.run(
             `${item.state_name}`,
+            `${item.state_abbreviation}`,
             `${item.date_admitted}`,
             `${item.capital}`,
             `${item.largest_city}`,

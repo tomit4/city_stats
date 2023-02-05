@@ -1,6 +1,7 @@
 [
   {
     "state_name": "Alabama",
+    "state_abbreviation": "AL",
     "date_admitted": "1819-12-14T00:00:00.000Z",
     "capital": "Montgomery",
     "largest_city": "Huntsville",
@@ -35,6 +36,7 @@
   },
   {
     "state_name": "Alaska",
+    "state_abbreviation": "AK",
     "date_admitted": "1959-01-03T00:00:00.000Z",
     "capital": "Juneau",
     "largest_city": "Anchorage",
@@ -63,6 +65,7 @@
   },
   {
     "state_name": "Arizona",
+    "state_abbreviation": "AZ",
     "date_admitted": "1912-02-14T00:00:00.000Z",
     "capital": "Phoenix",
     "largest_city": "Phoenix",
