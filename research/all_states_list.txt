@@ -1,0 +1,50 @@
+x Alabama AL
+x Alaska AK
+x Arizona AZ
+x Arkansas AR
+x California CA
+x Colorado CO
+x Connecticut CT
+x Delaware DE
+x Florida FL
+x Georgia GA
+Hawaii HI
+Idaho ID
+Illinois IL
+Indiana IN
+Iowa IA
+Kansas KS
+Kentucky KY
+Louisiana LA
+Maine ME
+Maryland MD
+Massachusetts[ MA
+Michigan MI
+Minnesota MN
+Mississippi MS
+Missouri MO
+Montana MT
+Nebraska NE
+Nevada NV
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Ohio OH
+Oklahoma OK
+Oregon OR
+Pennsylvania PA
+Rhode Island
+South Carolina
+South Dakota
+Tennessee TN
+Texas TX
+Utah UT
+Vermont VT
+Virginia VA
+Washington WA
+West Virginia
+Wisconsin WI
+Wyoming WY
