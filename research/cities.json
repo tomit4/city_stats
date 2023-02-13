@@ -1,45 +1,133 @@
 [
   {
-    "city_name": "Albany",
-    "state_name": "New York",
-    "region": "Capital District",
-    "county": "Albany",
-    "settled": "1614",
-    "incorporated": "1686",
+    "city_name": "Abilene",
+    "state_name": "Texas",
+    "counties": ["Taylor", "Jones"],
+    "settled_founded": "1881",
+    "incorporated": "1881",
     "government": {
-        "type": "Strong mayor-council",
-        "mayor": "Kathy Sheehan"
+      "type": "Council-Manager",
+      "mayor": "Anthony Williams",
+      "city_council": [
+        "Shane Price",
+        "Jack Rentz",
+        "Donna Albus",
+        "Weldon W. Hurt",
+        "Kyle McAlister",
+        "Travis Craver"
+      ],
+      "city_manager": "Robert Hanna"
     },
     "area": {
-        "land": "21.40 sq mi",
-        "water": "0.53 sq mi",
-        "metro": "2,811.6 sq mi"
+      "city": "112.09 sq mi",
+      "land": "21.40 sq mi",
+      "water": "0.53 sq mi"
     },
-    "elevation": "141 ft",
+    "elevation": "1719 ft",
     "population": {
-        "density": "4,635,77/sq mi",
-        "urban": "593,142",
-        "urban_density": "2,186.3/sq mi",
-        "metro": "1,170,483",
-        "metro_density": "416.3/sq mi"
+      "city": "125182",
+      "density": "1157/sq mi",
+      "metro": "170219"
     },
+    "time_zone": "UTC-6 (CST)",
+    "zip_codes": ["79601-08", "79697-99"],
+    "area_codes": [325],
+    "FIPS code": "48-01000",
+    "GNIS feature ID": "1329173",
+    "url": "https://www.abilenetx.gov/"
+  },
+  {
+    "city_name": "Akron",
+    "state_name": "Ohio",
+    "counties": ["Summit"],
+    "settled_founded": "1825",
+    "incorporated": "1865",
+    "government": {
+      "type": "Strong Mayor-council",
+      "mayor": "Dan Horrigan",
+      "city_council": null,
+      "city_manager": null
+    },
+    "area": {
+      "city": "62.27 sq mi",
+      "land": "61.93 sq mi",
+      "water": "0.34 sq mi"
+    },
+    "elevation": "1004 ft",
+    "population": {
+      "city": "190469",
+      "density": "3075.40/sq mi",
+      "metro": "702219"
+    },
+    //
+    "time_zone": "UTC-5(EST)",
     "zip_codes": [
-        "12201-12212",
-        "12214",
-        "12220",
-        "12222-12232"
+      "44301-44321",
+      "44325-44326",
+      "44328",
+      "44333-44334",
+      "44372",
+      "44396",
+      "44398"
     ],
-    "area_codes": [
-        518,
-        838
+    "area_codes": [234, 330],
+    "FIPS code": "39-01000",
+    "GNIS feature ID": "1064305",
+    "url": "https://www.akronohio.gov/"
+  },
+  {
+    "city_name": "Albuquerque",
+    "state_name": "New Mexico",
+    "counties": ["Bernalillo"],
+    "settled_founded": "1706",
+    "incorporated": "1891",
+    "government": {
+      "type": "Mayor-council government",
+      "mayor": "Tim Keller",
+      "city_council": [
+        "Louie Sanchez",
+        "Isaac Benton",
+        "Klarissa J. Peña",
+        "Brook Bassan",
+        "Dan Lewis",
+        "Pat Davis",
+        "Tammy Fiebelkorn",
+        "Trudy Jones",
+        "Renee Grout"
+      ],
+      "city_manager": null
+    },
+    "area": {
+      "city": "188.95 sq mi",
+      "land": "187.27 sq mi",
+      "water": "1.68 sq mi"
+    },
+    "elevation": "5312 ft",
+    "population": {
+      "city": "564559",
+      "density": "3014/sq mi",
+      "metro": "916528"
+    },
+    //
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": [
+      "87101–87125",
+      "87131",
+      "87151",
+      "87153",
+      "87154",
+      "87158",
+      "87174",
+      "87176",
+      "87181",
+      "87184",
+      "87185",
+      "87187",
+      "87190–87199"
     ],
-    "geocode": [
-        977310,
-        978659
-    ],
-    "ISO 366 code": "36-01000",
-    "FIPS code": "36-01000",
-    "GNIS feature ID": "978659",
-    "url": "https://www.albanyny.gov/"
+    "area_codes": [505],
+    "FIPS code": "35-02000",
+    "GNIS feature ID": "928679",
+    "url": "https://www.cabq.gov/"
   }
 ]
