@@ -8,21 +8,21 @@ x Connecticut CT
 x Delaware DE
 x Florida FL
 x Georgia GA
-Hawaii HI
-Idaho ID
-Illinois IL
-Indiana IN
-Iowa IA
-Kansas KS
-Kentucky KY
-Louisiana LA
-Maine ME
-Maryland MD
-Massachusetts[ MA
-Michigan MI
-Minnesota MN
-Mississippi MS
-Missouri MO
+x Hawaii HI
+x Idaho ID
+x Illinois IL
+x Indiana IN
+x Iowa IA
+x Kansas KS
+x Kentucky KY
+x Louisiana LA
+x Maine ME
+x Maryland MD
+x Massachusetts MA
+x Michigan MI
+x Minnesota MN
+x Mississippi MS
+x Missouri MO
 Montana MT
 Nebraska NE
 Nevada NV
