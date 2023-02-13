@@ -1,0 +1,45 @@
+[
+  {
+    "city_name": "Albany",
+    "state_name": "New York",
+    "region": "Capital District",
+    "county": "Albany",
+    "settled": "1614",
+    "incorporated": "1686",
+    "government": {
+        "type": "Strong mayor-council",
+        "mayor": "Kathy Sheehan"
+    },
+    "area": {
+        "land": "21.40 sq mi",
+        "water": "0.53 sq mi",
+        "metro": "2,811.6 sq mi"
+    },
+    "elevation": "141 ft",
+    "population": {
+        "density": "4,635,77/sq mi",
+        "urban": "593,142",
+        "urban_density": "2,186.3/sq mi",
+        "metro": "1,170,483",
+        "metro_density": "416.3/sq mi"
+    },
+    "zip_codes": [
+        "12201-12212",
+        "12214",
+        "12220",
+        "12222-12232"
+    ],
+    "area_codes": [
+        518,
+        838
+    ],
+    "geocode": [
+        977310,
+        978659
+    ],
+    "ISO 366 code": "36-01000",
+    "FIPS code": "36-01000",
+    "GNIS feature ID": "978659",
+    "url": "https://www.albanyny.gov/"
+  }
+]
