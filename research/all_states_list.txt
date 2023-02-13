@@ -23,28 +23,28 @@ x Michigan MI
 x Minnesota MN
 x Mississippi MS
 x Missouri MO
-Montana MT
-Nebraska NE
-Nevada NV
-New Hampshire
-New Jersey
-New Mexico
-New York
-North Carolina
-North Dakota
-Ohio OH
-Oklahoma OK
-Oregon OR
-Pennsylvania PA
-Rhode Island
-South Carolina
-South Dakota
-Tennessee TN
-Texas TX
-Utah UT
-Vermont VT
-Virginia VA
-Washington WA
-West Virginia
-Wisconsin WI
-Wyoming WY
+x Montana MT
+x Nebraska NE
+x Nevada NV
+x New Hampshire NH
+x New Jersey NJ
+x New Mexico NM
+x New York NY
+x North Carolina NC
+x North Dakota ND
+x Ohio OH
+x Oklahoma OK
+x Oregon OR
+x Pennsylvania PA
+x Rhode Island RI
+x South Carolina SC
+x South Dakota SD
+x Tennessee TN
+x Texas TX
+x Utah UT
+x Vermont VT
+x Virginia VA
+x Washington WA
+x West Virginia WV
+x Wisconsin WI
+x Wyoming WY
