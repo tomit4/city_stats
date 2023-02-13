@@ -1,50 +1,50 @@
-x Alabama AL
-x Alaska AK
-x Arizona AZ
-x Arkansas AR
-x California CA
-x Colorado CO
-x Connecticut CT
-x Delaware DE
-x Florida FL
-x Georgia GA
-x Hawaii HI
-x Idaho ID
-x Illinois IL
-x Indiana IN
-x Iowa IA
-x Kansas KS
-x Kentucky KY
-x Louisiana LA
-x Maine ME
-x Maryland MD
-x Massachusetts MA
-x Michigan MI
-x Minnesota MN
-x Mississippi MS
-x Missouri MO
-x Montana MT
-x Nebraska NE
-x Nevada NV
-x New Hampshire NH
-x New Jersey NJ
-x New Mexico NM
-x New York NY
-x North Carolina NC
-x North Dakota ND
-x Ohio OH
-x Oklahoma OK
-x Oregon OR
-x Pennsylvania PA
-x Rhode Island RI
-x South Carolina SC
-x South Dakota SD
-x Tennessee TN
-x Texas TX
-x Utah UT
-x Vermont VT
-x Virginia VA
-x Washington WA
-x West Virginia WV
-x Wisconsin WI
-x Wyoming WY
+Alabama
+Alaska
+Arizona
+Arkansas
+California
+Colorado
+Connecticut
+Delaware
+Florida
+Georgia
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Ohio
+Oklahoma
+Oregon
+Pennsylvania
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming

@@ -307,7 +307,7 @@
     "insignia_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Seal_of_Delaware.svg"
   },
   {
-    "state_name": "Florida ",
+    "state_name": "Florida",
     "state_abbreviation": "FL",
     "date_admitted": "1845-03-03T00:00:00.000Z",
     "capital": "Tallahassee",
@@ -814,7 +814,7 @@
     "insignia_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Seal_of_Michigan.svg"
   },
   {
-    "state_name": "Minnesota ",
+    "state_name": "Minnesota",
     "state_abbreviation": "MN",
     "date_admitted": "1858-05-11T00:00:00.000Z",
     "capital": "Saint Paul",
@@ -1004,7 +1004,7 @@
     "insignia_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/State_Seal_of_Nevada.svg"
   },
   {
-    "state_name": "New Hampshire",
+    "state_name": "New_Hampshire",
     "state_abbreviation": "NH",
     "date_admitted": "1788-06-21T00:00:00.000Z",
     "capital": "Concord",
@@ -1031,7 +1031,7 @@
     "insignia_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Seal_of_New_Hampshire.svg"
   },
   {
-    "state_name": "New Jersey",
+    "state_name": "New_Jersey",
     "state_abbreviation": "NJ",
     "date_admitted": "1787-12-18T00:00:00.000Z",
     "capital": "Trenton",
@@ -1071,7 +1071,7 @@
     "insignia_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Seal_of_New_Jersey.svg"
   },
   {
-    "state_name": "New Mexico ",
+    "state_name": "New_Mexico ",
     "state_abbreviation": "NM",
     "date_admitted": "1912-01-06T00:00:00.000Z",
     "capital": "Santa Fe",
@@ -1102,7 +1102,7 @@
     "insignia_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Seal_of_New_Mexico.svg"
   },
   {
-    "state_name": "New York",
+    "state_name": "New_York",
     "state_abbreviation": "NY",
     "date_admitted": "1788-07-26T00:00:00.000Z",
     "capital": "Albany",
@@ -1113,7 +1113,7 @@
       "Nick LaLota",
       "Andrew Garbarino",
       "George Santos",
-      "Anthony D'Esposito",
+      "Anthony D`Esposito",
       "Gregory Meeks",
       "Grace Meng",
       "Nydia Velázquez",
@@ -1156,7 +1156,7 @@
     "insignia_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Seal_of_New_York.svg"
   },
   {
-    "state_name": "North Carolina",
+    "state_name": "North_Carolina",
     "state_abbreviation": "NC",
     "date_admitted": "1789-11-21T00:00:00.000Z",
     "capital": "Raleigh",
@@ -1198,7 +1198,7 @@
     "insignia_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Seal_of_North_Carolina.svg"
   },
   {
-    "state_name": "North Dakota",
+    "state_name": "North_Dakota",
     "state_abbreviation": "ND",
     "date_admitted": "1889-11-02T00:00:00.000Z",
     "capital": "Bismarck",
@@ -1407,7 +1407,7 @@
     "insignia_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Seal_of_Rhode_Island.svg"
   },
   {
-    "state_name": "South Carolina",
+    "state_name": "South_Carolina",
     "state_abbreviation": "SC",
     "date_admitted": "1788-05-23T00:00:00.000Z",
     "capital": "Columbia",
@@ -1442,7 +1442,7 @@
     "insignia_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Seal_of_South_Carolina.svg"
   },
   {
-    "state_name": "South Dakota",
+    "state_name": "South_Dakota",
     "state_abbreviation": "SD",
     "date_admitted": "1889-11-02T00:00:00.000Z",
     "capital": "Pierre",
@@ -1707,7 +1707,7 @@
     "insignia_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Seal_of_Washington.svg"
   },
   {
-    "state_name": "West Virginia",
+    "state_name": "West_Virginia",
     "state_abbreviation": "WV",
     "date_admitted": "1863-06-20T00:00:00.000Z",
     "capital": "Charleston",
