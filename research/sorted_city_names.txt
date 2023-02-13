@@ -1,13 +1,13 @@
 x Abilene Texas
 x Akron Ohio
 x Albuquerque New
-Alexandria[m] Virginia
-Allen Texas
-Allentown Pennsylvania
-Amarillo Texas
-Anaheim California
-Anchorage[q] Alaska
-Ann Arbor
+x Alexandria[m] Virginia
+x Allen Texas
+x Allentown Pennsylvania
+x Amarillo Texas
+x Anaheim California
+x Anchorage[q] Alaska
+x Ann Arbor
 Antioch California
 Arlington Texas
 Arvada Colorado

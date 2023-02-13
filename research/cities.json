@@ -2,6 +2,7 @@
   {
     "city_name": "Abilene",
     "state_name": "Texas",
+    "coordinates": "32°27′N 99°45′W",
     "counties": ["Taylor", "Jones"],
     "settled_founded": "1881",
     "incorporated": "1881",
@@ -16,7 +17,9 @@
         "Kyle McAlister",
         "Travis Craver"
       ],
-      "city_manager": "Robert Hanna"
+      "city_manager": "Robert Hanna",
+      "city_solicitor": null,
+      "city_controller": null
     },
     "area": {
       "city": "112.09 sq mi",
@@ -33,12 +36,13 @@
     "zip_codes": ["79601-08", "79697-99"],
     "area_codes": [325],
     "FIPS code": "48-01000",
-    "GNIS feature ID": "1329173",
+    "GNIS feature ID": ["1329173"],
     "url": "https://www.abilenetx.gov/"
   },
   {
     "city_name": "Akron",
     "state_name": "Ohio",
+    "coordinates": "41°4′23″N 81°31′4″W",
     "counties": ["Summit"],
     "settled_founded": "1825",
     "incorporated": "1865",
@@ -46,7 +50,9 @@
       "type": "Strong Mayor-council",
       "mayor": "Dan Horrigan",
       "city_council": null,
-      "city_manager": null
+      "city_manager": null,
+      "city_solicitor": null,
+      "city_controller": null
     },
     "area": {
       "city": "62.27 sq mi",
@@ -59,7 +65,6 @@
       "density": "3075.40/sq mi",
       "metro": "702219"
     },
-    //
     "time_zone": "UTC-5(EST)",
     "zip_codes": [
       "44301-44321",
@@ -72,12 +77,13 @@
     ],
     "area_codes": [234, 330],
     "FIPS code": "39-01000",
-    "GNIS feature ID": "1064305",
+    "GNIS feature ID": ["1064305"],
     "url": "https://www.akronohio.gov/"
   },
   {
     "city_name": "Albuquerque",
     "state_name": "New Mexico",
+    "coordinates": "35°06′39″N 106°36′36″W",
     "counties": ["Bernalillo"],
     "settled_founded": "1706",
     "incorporated": "1891",
@@ -95,7 +101,9 @@
         "Trudy Jones",
         "Renee Grout"
       ],
-      "city_manager": null
+      "city_manager": null,
+      "city_solicitor": null,
+      "city_controller": null
     },
     "area": {
       "city": "188.95 sq mi",
@@ -108,7 +116,6 @@
       "density": "3014/sq mi",
       "metro": "916528"
     },
-    //
     "time_zone": "UTC-7(MST)",
     "zip_codes": [
       "87101–87125",
@@ -127,7 +134,311 @@
     ],
     "area_codes": [505],
     "FIPS code": "35-02000",
-    "GNIS feature ID": "928679",
+    "GNIS feature ID": ["928679"],
     "url": "https://www.cabq.gov/"
+  },
+  {
+    "city_name": "Alexandria",
+    "state_name": "Virginia",
+    "coordinates": "38°49′13″N 77°03′01″W",
+    "counties": null,
+    "settled_founded": "1749",
+    "incorporated": "1779",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Justin Wilson",
+      "city_council": null,
+      "city_manager": null,
+      "city_solicitor": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "15.35 sq mi",
+      "land": "14.93 sq mi",
+      "water": "0.41 sq mi"
+    },
+    "elevation": "287 ft",
+    "population": {
+      "city": "159467",
+      "density": "10680.97/sq mi",
+      "metro": null
+    },
+
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["22301–22315", "22320-22336"],
+    "area_codes": [703, 571],
+    "FIPS code": "51-01000",
+    "GNIS feature ID": ["1492456"],
+    "url": "https://www.alexandriava.gov/"
+  },
+  {
+    "city_name": "Allen",
+    "state_name": "Texas",
+    "coordinates": "33°05′59″N 96°39′47″W",
+    "counties": ["Collin"],
+    "settled_founded": null,
+    "incorporated": "1953",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Keny Fulk",
+      "city_council": [
+        "Ben Trahan",
+        "Dave Shafer",
+        "Dave Cornette",
+        "Carl Clemencich",
+        "Chris Schulmeister",
+        "Daren Meis"
+      ],
+      "city_manager": "Eric Ellwanger",
+      "city_solicitor": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "261.55 sq mi",
+      "land": "17sq mi",
+      "water": "0.09 sq mi"
+    },
+    "elevation": "659 ft",
+    "population": {
+      "city": "104627",
+      "density": "4000.87/sq mi",
+      "metro": null
+    },
+
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["75002", "75013"],
+    "area_codes": [214, 469, 945, 972],
+    "FIPS code": "48-01924",
+    "GNIS feature ID": ["1329377"],
+    "url": "https://www.cityofallen.org/"
+  },
+  {
+    "city_name": "Allentown",
+    "state_name": "Pennsylvania",
+    "coordinates": "40°36′06″N 75°28′38″W",
+    "counties": ["Lehigh"],
+    "settled_founded": "1762",
+    "incorporated": "1867",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Matthew Tuerk",
+      "city_council": [
+        "Daryl L. Hendricks",
+        "Cynthia Mota",
+        "Candida Affa",
+        "Cecilia Ce-Ce Gerlach",
+        "Santo Napoli",
+        "Natalie Santos",
+        "Ed Zucal"
+      ],
+      "city_manager": null,
+      "city_solicitor": "Matt Kloiber",
+      "city_controller": "Jeff Glazier"
+    },
+    "area": {
+      "city": "18.01 sq mi",
+      "land": "17.56 sq mi",
+      "water": null
+    },
+    "elevation": "338 ft",
+    "population": {
+      "city": "125845",
+      "density": "7164.94/sq mi",
+      "metro": "865310"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "18101",
+      "18102",
+      "18103",
+      "18104",
+      "18105",
+      "18106",
+      "18109",
+      "18175",
+      "18195"
+    ],
+    "area_codes": [610, 484],
+    "FIPS code": "42-02000",
+    "GNIS feature ID": ["1202899"],
+    "url": "https://www.allentownpa.gov/"
+  },
+  {
+    "city_name": "Amarillo",
+    "state_name": "Texas",
+    "coordinates": "35°11′57″N 101°50′43″W",
+    "counties": ["Potter", "Randall"],
+    "settled_founded": "1887",
+    "incorporated": "1892",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Ginger Nelson",
+      "city_council": [
+        "Cole Stanley",
+        "Freda Powell",
+        "Eddie Sauer",
+        "Howard Smith"
+      ],
+      "city_manager": "Jared Miller",
+      "city_solicitor": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "103.86 sq mi",
+      "land": "102.30 sq mi",
+      "water": "1.56 sq mi"
+    },
+    "elevation": "3668 ft",
+    "population": {
+      "city": "200393",
+      "density": "1948.81/sq mi",
+      "metro": "269703"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "79101–79111",
+      "79114",
+      "79116–79121",
+      "79123–79124",
+      "79159",
+      "79163",
+      "79166–79168",
+      "79171–79172",
+      "79174",
+      "79178",
+      "79182",
+      "79185",
+      "79187",
+      "79189"
+    ],
+    "area_codes": [806],
+    "FIPS code": "48-03000",
+    "GNIS feature ID": ["1351066"],
+    "url": "https://www.amarillo.gov/"
+  },
+  {
+    "city_name": "Anaheim",
+    "state_name": "California",
+    "coordinates": "33°50′10″N 117°53′23″W",
+    "counties": ["Orange"],
+    "settled_founded": "1857",
+    "incorporated": "1876",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Ashleigh Aitken",
+      "city_council": [
+        "Natalie Rubalcava",
+        "Jose Diaz",
+        "Carlos A. Leon",
+        "Norma Campos Kurtz",
+        "Stephen Faessel",
+        "Natalie Meeks"
+      ],
+      "city_manager": "James Vanderpool",
+      "city_solicitor": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "50.88 sq mi",
+      "land": "50.27 sq mi",
+      "water": "0.61 sq mi"
+    },
+    "elevation": "157 ft",
+    "population": {
+      "city": "346824",
+      "density": "6899.22/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "92801–92809",
+      "92812",
+      "92814–92817",
+      "92825",
+      "92850",
+      "92899"
+    ],
+    "area_codes": [657, 714],
+    "FIPS code": "06-02000",
+    "GNIS feature ID": ["1652663", "2409704"],
+    "url": "https://anaheim.net/"
+  },
+  {
+    "city_name": "Anchorage",
+    "state_name": "Alaska",
+    "coordinates": "61°13′00″N 149°53′37″W",
+    "counties": null,
+    "settled_founded": "1914",
+    "incorporated": "1920",
+    "government": {
+      "type": "Municipality",
+      "mayor": "Dave Bronson",
+      "city_council": null,
+      "city_manager": null,
+      "city_solicitor": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "1946.69 sq mi",
+      "land": "1706.89 sq mi",
+      "water": "239.80 sq mi"
+    },
+    "elevation": "102 ft",
+    "population": {
+      "city": "291247",
+      "density": "170.6/sq mi",
+      "metro": "398807"
+    },
+    "time_zone": "UTC-9(AKST)",
+    "zip_codes": ["99501–99524", "99529–99530", "99599"],
+    "area_codes": [907],
+    "FIPS code": "02-03000",
+    "GNIS feature ID": null,
+    "url": "https://www.muni.org/"
+  },
+  {
+    "city_name": "Ann Arbor",
+    "state_name": "Michigan",
+    "coordinates": "42°16′53″N 83°44′54″W",
+    "counties": ["Washtenaw"],
+    "settled_founded": "1824",
+    "incorporated": "1833",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Christopher Taylor",
+      "city_council": [
+        "Christopher Taylor",
+        "Cynthia Harrison",
+        "Linh Song",
+        "Christopher Watson",
+        "Travis Radina",
+        "Ayesha Ghazi Edwin",
+        "Jen Eyer",
+        "Dharma Akmon",
+        "Jenn Cornell",
+        "Erica Briggs",
+        "Lisa Disch"
+      ],
+      "city_manager": null,
+      "city_solicitor": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "29.09 sq mi",
+      "land": "28.22 sq mi",
+      "water": "0.87 sq mi"
+    },
+    "elevation": "840 ft",
+    "population": {
+      "city": "123851",
+      "density": "4388.14/sq mi",
+      "metro": "372258"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["48103–48109", "48113"],
+    "area_codes": [734],
+    "FIPS code": "26-03000",
+    "GNIS feature ID": "0620133",
+    "url": "https://www.a2gov.org/"
   }
 ]
