@@ -36,7 +36,7 @@
     "zip_codes": ["79601-08", "79697-99"],
     "area_codes": [325],
     "FIPS code": "48-01000",
-    "GNIS feature ID": ["1329173"],
+    "GNIS feature IDs": ["1329173"],
     "url": "https://www.abilenetx.gov/"
   },
   {
@@ -47,7 +47,7 @@
     "settled_founded": "1825",
     "incorporated": "1865",
     "government": {
-      "type": "Strong Mayor-council",
+      "type": "Mayor-Council",
       "mayor": "Dan Horrigan",
       "city_council": null,
       "city_manager": null,
@@ -77,7 +77,7 @@
     ],
     "area_codes": [234, 330],
     "FIPS code": "39-01000",
-    "GNIS feature ID": ["1064305"],
+    "GNIS feature IDs": ["1064305"],
     "url": "https://www.akronohio.gov/"
   },
   {
@@ -88,7 +88,7 @@
     "settled_founded": "1706",
     "incorporated": "1891",
     "government": {
-      "type": "Mayor-council government",
+      "type": "Mayor-Council",
       "mayor": "Tim Keller",
       "city_council": [
         "Louie Sanchez",
@@ -134,7 +134,7 @@
     ],
     "area_codes": [505],
     "FIPS code": "35-02000",
-    "GNIS feature ID": ["928679"],
+    "GNIS feature IDs": ["928679"],
     "url": "https://www.cabq.gov/"
   },
   {
@@ -168,7 +168,7 @@
     "zip_codes": ["22301–22315", "22320-22336"],
     "area_codes": [703, 571],
     "FIPS code": "51-01000",
-    "GNIS feature ID": ["1492456"],
+    "GNIS feature IDs": ["1492456"],
     "url": "https://www.alexandriava.gov/"
   },
   {
@@ -209,7 +209,7 @@
     "zip_codes": ["75002", "75013"],
     "area_codes": [214, 469, 945, 972],
     "FIPS code": "48-01924",
-    "GNIS feature ID": ["1329377"],
+    "GNIS feature IDs": ["1329377"],
     "url": "https://www.cityofallen.org/"
   },
   {
@@ -260,7 +260,7 @@
     ],
     "area_codes": [610, 484],
     "FIPS code": "42-02000",
-    "GNIS feature ID": ["1202899"],
+    "GNIS feature IDs": ["1202899"],
     "url": "https://www.allentownpa.gov/"
   },
   {
@@ -313,7 +313,7 @@
     ],
     "area_codes": [806],
     "FIPS code": "48-03000",
-    "GNIS feature ID": ["1351066"],
+    "GNIS feature IDs": ["1351066"],
     "url": "https://www.amarillo.gov/"
   },
   {
@@ -360,7 +360,7 @@
     ],
     "area_codes": [657, 714],
     "FIPS code": "06-02000",
-    "GNIS feature ID": ["1652663", "2409704"],
+    "GNIS feature IDs": ["1652663", "2409704"],
     "url": "https://anaheim.net/"
   },
   {
@@ -393,7 +393,7 @@
     "zip_codes": ["99501–99524", "99529–99530", "99599"],
     "area_codes": [907],
     "FIPS code": "02-03000",
-    "GNIS feature ID": null,
+    "GNIS feature IDs": null,
     "url": "https://www.muni.org/"
   },
   {
@@ -438,7 +438,172 @@
     "zip_codes": ["48103–48109", "48113"],
     "area_codes": [734],
     "FIPS code": "26-03000",
-    "GNIS feature ID": "0620133",
+    "GNIS feature IDs": ["0620133"],
     "url": "https://www.a2gov.org/"
+  },
+  {
+    "city_name": "Antioch",
+    "state_name": "California",
+    "coordinates": "38°00′18″N 121°48′21″W",
+    "counties": ["Countra Costa"],
+    "settled_founded": "1850",
+    "incorporated": "1872",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Lamar Thorpe",
+      "city_council": [
+        "Tamisha Torres-Walker",
+        "Michael Barbanica",
+        "Lori Orgorchock",
+        "Monica E. Wilson"
+      ],
+      "city_manager": null,
+      "city_solicitor": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "29.94 sq mi",
+      "land": "29.17 sq mi",
+      "water": "0.77 sq mi"
+    },
+    "elevation": "43 ft",
+    "population": {
+      "city": "115291",
+      "density": "3952.25/sq mi",
+      "metro": "7468390"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["94509", "94531"],
+    "area_codes": [925],
+    "FIPS code": "06-02252",
+    "GNIS feature IDs": ["1657936", "2409715"],
+    "url": "https://www.antiochca.gov/"
+  },
+  {
+    "city_name": "Arlington",
+    "state_name": "Texas",
+    "coordinates": "32°42′18″N 97°07′22″W",
+    "counties": ["Tarrant"],
+    "settled_founded": "1876",
+    "incorporated": "1884",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Jim Ross",
+      "city_council": [
+        "Helen Moise",
+        "Raul H. Gonzalez",
+        "Nikkie Hunter",
+        "Andrew Piel",
+        "Rebecca Boxall",
+        "Long Pham",
+        "Bowie Hogg",
+        "Barbara Odom-Wesley"
+      ],
+      "city_manager": "Trey Yelverton",
+      "city_solicitor": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "99.44 sq mi",
+      "land": "95.84 sq mi",
+      "water": "3.60 sq mi"
+    },
+    "elevation": "604 ft",
+    "population": {
+      "city": "394266",
+      "density": "4113.79/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["76001-76007", "76010-76018", "76094", "76096"],
+    "area_codes": [682, 817, 214, 469, 945, 972],
+    "FIPS code": "48-04000",
+    "GNIS feature IDs": ["1372320"],
+    "url": "https://www.arlingtontx.gov/"
+  },
+  {
+    "city_name": "Arvada",
+    "state_name": "Colorado",
+    "coordinates": "39°50′01″N 105°09′01″W",
+    "counties": ["Jefferson County", "Adams County"],
+    "settled_founded": "1859",
+    "incorporated": "1904",
+    "government": {
+      "type": "Municipality",
+      "mayor": "Marc Williams",
+      "city_council": [
+        "Randy Moorman",
+        "Lauren Simpson",
+        "John Marriott",
+        "David Jones",
+        "Lisa Smith",
+        "Bob Fifer"
+      ],
+      "city_manager": "Mark Deven",
+      "city_solicitor": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "39.57 sq mi",
+      "land": "38.91 sq mi",
+      "water": "0.66 sq mi"
+    },
+    "elevation": "5344 ft",
+    "population": {
+      "city": "124402",
+      "density": "3197/sq mi",
+      "metro": "2963821"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["80001-80007", "80403"],
+    "area_codes": [303, 720, 983],
+    "FIPS code": "08-03455",
+    "GNIS feature IDs": ["0204709"],
+    "url": "https://arvada.org/"
+  },
+  {
+    "city_name": "Athens",
+    "state_name": "Georgia",
+    "coordinates": "33°57′N 83°23′W",
+    "counties": ["Clarke"],
+    "settled_founded": "1801",
+    "incorporated": "1806",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Kelly Girtz",
+      "city_council": [
+          "Patrick Davenport",
+          "Tiffany Taylor",
+          "Allison Wright",
+          "Dexter Fisher",
+          "Jesse Houle",
+          "John Culpepper",
+          "Carol Myers",
+          "Ovita Thornton",
+          "Mike Hamby"
+      ],
+      // LEFT OFF HERE
+      "city_manager": "Mark Deven",
+      "city_solicitor": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "39.57 sq mi",
+      "land": "38.91 sq mi",
+      "water": "0.66 sq mi"
+    },
+    "elevation": "5344 ft",
+    "population": {
+      "city": "124402",
+      "density": "3197/sq mi",
+      "metro": "2963821"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["80001-80007", "80403"],
+    "area_codes": [303, 720, 983],
+    "FIPS code": "08-03455",
+    "GNIS feature IDs": ["0204709"],
+    "url": "https://arvada.org/"
   }
+
 ]

@@ -8,9 +8,9 @@ x Amarillo Texas
 x Anaheim California
 x Anchorage[q] Alaska
 x Ann Arbor
-Antioch California
-Arlington Texas
-Arvada Colorado
+x Antioch California
+x Arlington Texas
+x Arvada Colorado
 Athens[y] Georgia
 Atlanta Georgia
 Augusta[v] Georgia
