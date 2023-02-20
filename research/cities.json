@@ -18,7 +18,7 @@
         "Travis Craver"
       ],
       "city_manager": "Robert Hanna",
-      "city_solicitor": null,
+      "city_solicitor_attorney": null,
       "city_controller": null
     },
     "area": {
@@ -51,7 +51,7 @@
       "mayor": "Dan Horrigan",
       "city_council": null,
       "city_manager": null,
-      "city_solicitor": null,
+      "city_solicitor_attorney": null,
       "city_controller": null
     },
     "area": {
@@ -102,7 +102,7 @@
         "Renee Grout"
       ],
       "city_manager": null,
-      "city_solicitor": null,
+      "city_solicitor_attorney": null,
       "city_controller": null
     },
     "area": {
@@ -149,7 +149,7 @@
       "mayor": "Justin Wilson",
       "city_council": null,
       "city_manager": null,
-      "city_solicitor": null,
+      "city_solicitor_attorney": null,
       "city_controller": null
     },
     "area": {
@@ -190,7 +190,7 @@
         "Daren Meis"
       ],
       "city_manager": "Eric Ellwanger",
-      "city_solicitor": null,
+      "city_solicitor_attorney": null,
       "city_controller": null
     },
     "area": {
@@ -232,7 +232,7 @@
         "Ed Zucal"
       ],
       "city_manager": null,
-      "city_solicitor": "Matt Kloiber",
+      "city_solicitor_attorney": "Matt Kloiber",
       "city_controller": "Jeff Glazier"
     },
     "area": {
@@ -280,7 +280,7 @@
         "Howard Smith"
       ],
       "city_manager": "Jared Miller",
-      "city_solicitor": null,
+      "city_solicitor_attorney": null,
       "city_controller": null
     },
     "area": {
@@ -335,7 +335,7 @@
         "Natalie Meeks"
       ],
       "city_manager": "James Vanderpool",
-      "city_solicitor": null,
+      "city_solicitor_attorney": null,
       "city_controller": null
     },
     "area": {
@@ -375,7 +375,7 @@
       "mayor": "Dave Bronson",
       "city_council": null,
       "city_manager": null,
-      "city_solicitor": null,
+      "city_solicitor_attorney": null,
       "city_controller": null
     },
     "area": {
@@ -420,7 +420,7 @@
         "Lisa Disch"
       ],
       "city_manager": null,
-      "city_solicitor": null,
+      "city_solicitor_attorney": null,
       "city_controller": null
     },
     "area": {
@@ -458,7 +458,7 @@
         "Monica E. Wilson"
       ],
       "city_manager": null,
-      "city_solicitor": null,
+      "city_solicitor_attorney": null,
       "city_controller": null
     },
     "area": {
@@ -500,7 +500,7 @@
         "Barbara Odom-Wesley"
       ],
       "city_manager": "Trey Yelverton",
-      "city_solicitor": null,
+      "city_solicitor_attorney": null,
       "city_controller": null
     },
     "area": {
@@ -540,7 +540,7 @@
         "Bob Fifer"
       ],
       "city_manager": "Mark Deven",
-      "city_solicitor": null,
+      "city_solicitor_attorney": null,
       "city_controller": null
     },
     "area": {
@@ -583,7 +583,7 @@
         "Mike Hamby"
       ],
       "city_manager": null,
-      "city_solicitor": null,
+      "city_solicitor_attorney": null,
       "city_controller": null
     },
     "area": {
@@ -633,7 +633,7 @@
         "Antonio Lewis"
       ],
       "city_manager": null,
-      "city_solicitor": null,
+      "city_solicitor_attorney": null,
       "city_controller": null
     },
     "area": {
@@ -684,5 +684,304 @@
     "FIPS code": "13-03440",
     "GNIS feature IDs": ["0351615"],
     "url": "https://www.atlantaga.gov/"
+  },
+  {
+    "city_name": "Augusta",
+    "state_name": "Georgia",
+    "coordinates": "33°28′12″N 81°58′30″W",
+    "counties": ["Richmond"],
+    "settled_founded": "1736",
+    "incorporated": "1798",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Garnett Johnson",
+      "city_council": [
+        "Jordan Johnson",
+        "Stacy Pulliam",
+        "Catherine Smith",
+        "Alvin Mason",
+        "Bobby Williams",
+        "Tony Lewis",
+        "Sean Frantom",
+        "Brandon Garrett",
+        "Francine Scott",
+        "Wayne Guilfoyle"
+      ],
+      "city_manager": null,
+      "city_solicitor_attorney": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "306.44 sq mi",
+      "land": "302.28 sq mi",
+      "water": "4.17 sq mi"
+    },
+    "elevation": "136 ft",
+    "population": {
+      "city": "202081",
+      "density": "668.52/sq mi",
+      "metro": "611000"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "30901",
+      "30904",
+      "30906",
+      "30907",
+      "30909",
+      "30912",
+      "30815"
+    ],
+    "area_codes": [706, 762],
+    "FIPS code": "13245",
+    "GNIS feature IDs": ["310456"],
+    "url": "https://www.augustaga.gov/"
+  },
+  {
+    "city_name": "Aurora",
+    "state_name": "Colorado",
+    "coordinates": "39°42′39″N 104°48′45″W",
+    "counties": ["Arapahoe County", "Adams County", "Douglas County"],
+    "settled_founded": "1891",
+    "incorporated": "1929",
+    "government": {
+      "type": "Municipality",
+      "mayor": "Mike Coffman",
+      "city_council": [
+        "Crystal Murillo",
+        "Steve Sundberg",
+        "Ruben Medina",
+        "Juan Marcano",
+        "Alison Coombs",
+        "Françoise Bergan",
+        "Curtis Gardner",
+        "Danielle Jurinsky",
+        "Angela Lawson",
+        "Dustin Zvonek"
+      ],
+      "city_manager": "Jim Twombly",
+      "city_solicitor_attorney": "Daniel L. Brotzman",
+      "city_controller": null
+    },
+    "area": {
+      "city": "160.705 sq mi",
+      "land": "160.130 sq mi",
+      "water": "0.575 sq mi"
+    },
+    "elevation": "5403 ft",
+    "population": {
+      "city": "386261",
+      "density": "2412/sq mi",
+      "metro": "2963821"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["80010-80019", "80040-80047", "80137", "80247"],
+    "area_codes": [303, 720],
+    "FIPS code": "08-04000",
+    "GNIS feature IDs": ["169446", "169456", "169507"],
+    "url": "https://www.auroragov.org"
+  },
+  {
+    "city_name": "Aurora",
+    "state_name": "Illinois",
+    "coordinates": "41°45′50″N 88°17′24″W",
+    "counties": ["DuPage", "Kane", "Kendall", "Will"],
+    "settled_founded": "1834",
+    "incorporated": "1845",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Richard C. Irvin",
+      "city_council": [
+        "Emmanuel Llamas",
+        "Juany Garza",
+        "Ted Mesiacos",
+        "Bill Donnell",
+        "Carl Franco",
+        "Michael B. Saville",
+        "Scheketa Hart-Burns",
+        "Patty Smith",
+        "Edward Bugg",
+        "Shweta Baid",
+        "Ron Woerman",
+        "Sherman L. Jenkins"
+      ],
+      "city_manager": null,
+      "city_solicitor_attorney": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "45.92 sq mi",
+      "land": "44.97 sq mi",
+      "water": "0.94 sq mi"
+    },
+    "elevation": "719 ft",
+    "population": {
+      "city": "180542",
+      "density": "4014.81/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["60502–60507", "60568", "60569", "60572", "60598"],
+    "area_codes": [630, 331],
+    "FIPS code": "17-03012",
+    "GNIS feature IDs": ["2394031"],
+    "url": "https://www.aurora-il.org/"
+  },
+  {
+    "city_name": "Austin",
+    "state_name": "Texas",
+    "coordinates": "30°16′2″N 97°44′35″W",
+    "counties": ["Travis", "Hays", "Williamson"],
+    "settled_founded": "1835",
+    "incorporated": "1839",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Kirk Watson",
+      "city_council": [
+        "Natasha Harper-Madison",
+        "Vanessa Fuentes",
+        "José Miguel Anwar Velásquez",
+        "José Chito Vela",
+        "Ryan Alter",
+        "Mackenzie Kelly",
+        "Leslie Pool",
+        "Paige Ellis",
+        "Zohaib Zo Qadri",
+        "Alison Alter"
+      ],
+      "city_manager": "Jesús Garza",
+      "city_solicitor_attorney": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "326.51 sq mi",
+      "land": "319.94 sq mi",
+      "water": "6.57 sq mi"
+    },
+    "elevation": "1450 ft",
+    "population": {
+      "city": "964177",
+      "density": "3006.36/sq mi",
+      "metro": "2283371"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "73301",
+      "73344",
+      "78681",
+      "78701–78705",
+      "78708–78739",
+      "78741–78742",
+      "78744–78768",
+      "78772-78774",
+      "78778-78779",
+      "78783",
+      "78799"
+    ],
+    "area_codes": [512, 737],
+    "FIPS code": "48-05000",
+    "GNIS feature IDs": ["1384879"],
+    "url": "https://www.austintexas.gov/"
+  },
+  {
+    "city_name": "Bakersfield",
+    "state_name": "California",
+    "coordinates": "35°22′N 119°1′W",
+    "counties": ["Kern"],
+    "settled_founded": "1851",
+    "incorporated": "1876",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Karen K. Goh",
+      "city_council": [
+        "Eric Arias",
+        "Andrae Gonzales",
+        "Ken Weir",
+        "Bob Smith",
+        "Bruce Freeman",
+        "Patty Gray",
+        "Manpreet Kaur"
+      ],
+      "city_manager": "Christian Clegg",
+      "city_solicitor_attorney": "Virginia Ginny Gennaro",
+      "city_controller": "Aimee X. Espinoza"
+    },
+    "area": {
+      "city": "151.28 sq mi",
+      "land": "149.81 sq mi",
+      "water": "1.46 sq mi"
+    },
+    "elevation": "404 ft",
+    "population": {
+      "city": "403455",
+      "density": "2700/sq mi",
+      "metro": "909235"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "93220",
+      "93301–93309",
+      "93311–93314",
+      "93380–93390",
+      "93399"
+    ],
+    "area_codes": [661],
+    "FIPS code": "06-03526",
+    "GNIS feature IDs": ["1652668", "2409774"],
+    "url": "https://www.bakersfieldcity.us/"
+  },
+  {
+    "city_name": "Baltimore",
+    "state_name": "Maryland",
+    "coordinates": "39°17′22″N 76°36′55″W",
+    "counties": null,
+    "settled_founded": "1729",
+    "incorporated": "1797",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Brandon Scott",
+      "city_council": [
+        "Sheridan Todd Yeary",
+        "Richard Ghandi Akwei",
+        "A. Adar Ayira",
+        "Phillip H. Farfel",
+        "Sarah R. Heaton",
+        "Stephen M. Ruckman",
+        "Stephanie M. Smith",
+        "Karsonya Wise Whitehead",
+        "Nadine Finnigan-Carr"
+      ],
+      "city_manager": null,
+      "city_solicitor_attorney": "Ebony Thompson",
+      "city_controller": "Bill Henry"
+    },
+    "area": {
+      "city": "92.05 sq mi",
+      "land": "80.95 sq mi",
+      "water": "11.10 sq mi"
+    },
+    "elevation": "480 ft",
+    "population": {
+      "city": "585708",
+      "density": "7235.43/sq mi",
+      "metro": "2844510"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "21201-21202",
+      "21204-21222",
+      "21223-21225",
+      "21226-21231",
+      "21234",
+      "21236-21237",
+      "21239",
+      "21244",
+      "21250-21252",
+      "21286"
+    ],
+    "area_codes": [410, 443, 667],
+    "FIPS code": "24-04000",
+    "GNIS feature IDs": ["597040"],
+    "url": "https://www.baltimorecity.gov/"
   }
 ]

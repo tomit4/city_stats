@@ -13,12 +13,12 @@ x Arlington Texas
 x Arvada Colorado
 x Athens[y] Georgia
 x Atlanta Georgia
-Augusta[v] Georgia
-Aurora Colorado
-Aurora Illinois
-Austin Texas
-Bakersfield California
-Baltimore[m] Maryland
+x Augusta[v] Georgia
+x Aurora Colorado
+x Aurora Illinois
+x Austin Texas
+x Bakersfield California
+x Baltimore[m] Maryland
 Baton Rouge[t]
 Beaumont Texas
 Bellevue Washington
