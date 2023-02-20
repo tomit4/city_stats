@@ -11,8 +11,8 @@ x Ann Arbor
 x Antioch California
 x Arlington Texas
 x Arvada Colorado
-Athens[y] Georgia
-Atlanta Georgia
+x Athens[y] Georgia
+x Atlanta Georgia
 Augusta[v] Georgia
 Aurora Colorado
 Aurora Illinois

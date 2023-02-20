@@ -572,38 +572,117 @@
       "type": "Council-Manager",
       "mayor": "Kelly Girtz",
       "city_council": [
-          "Patrick Davenport",
-          "Tiffany Taylor",
-          "Allison Wright",
-          "Dexter Fisher",
-          "Jesse Houle",
-          "John Culpepper",
-          "Carol Myers",
-          "Ovita Thornton",
-          "Mike Hamby"
+        "Patrick Davenport",
+        "Tiffany Taylor",
+        "Allison Wright",
+        "Dexter Fisher",
+        "Jesse Houle",
+        "John Culpepper",
+        "Carol Myers",
+        "Ovita Thornton",
+        "Mike Hamby"
       ],
-      // LEFT OFF HERE
-      "city_manager": "Mark Deven",
+      "city_manager": null,
       "city_solicitor": null,
       "city_controller": null
     },
     "area": {
-      "city": "39.57 sq mi",
-      "land": "38.91 sq mi",
-      "water": "0.66 sq mi"
+      "city": "118.10 sq mi",
+      "land": "116.33 sq mi",
+      "water": "1.77 sq mi"
     },
-    "elevation": "5344 ft",
+    "elevation": "636 ft",
     "population": {
-      "city": "124402",
-      "density": "3197/sq mi",
-      "metro": "2963821"
+      "city": "127315",
+      "density": "1094.43/sq mi",
+      "metro": "215415"
     },
-    "time_zone": "UTC-7(MST)",
-    "zip_codes": ["80001-80007", "80403"],
-    "area_codes": [303, 720, 983],
-    "FIPS code": "08-03455",
-    "GNIS feature IDs": ["0204709"],
-    "url": "https://arvada.org/"
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["30601-30609", "30612"],
+    "area_codes": [706],
+    "FIPS code": "13-03440",
+    "GNIS feature IDs": null,
+    "url": "https://www.accgov.com/"
+  },
+  {
+    "city_name": "Atlanta",
+    "state_name": "Georgia",
+    "coordinates": "33°44′56″N 84°23′24″W",
+    "counties": ["Fulton", "DeKalb"],
+    "settled_founded": "1837",
+    "incorporated": "1847",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Andre Dickens",
+      "city_council": [
+        "Doug Shipman",
+        "Michael Julian Bond",
+        "Matt Westmoreland",
+        "Keisha Sean Waites",
+        "Jason Winston",
+        "Amir R. Farokhi",
+        "Byron Amos",
+        "Jason Dozier",
+        "Liliana Bakhtiari",
+        "Alex Wan",
+        "Howard Shook",
+        "Mary Norwood",
+        "Dustin Hillis",
+        "Andrea L. Boone",
+        "Marci Collier Overstreet",
+        "Antonio Lewis"
+      ],
+      "city_manager": null,
+      "city_solicitor": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "136.31 sq mi",
+      "land": "135.32 sq mi",
+      "water": "0.99 sq mi"
+    },
+    "elevation": "1050 ft",
+    "population": {
+      "city": "498715",
+      "density": "3685.45/sq mi",
+      "metro": "6144050"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "30301–30322",
+      "30324–30329",
+      "30331–30334",
+      "30336-30346",
+      "30348-30350",
+      "30353-30364",
+      "30366",
+      "30368-30371",
+      "30374-30375",
+      "30377-30378",
+      "30380",
+      "30384-30385",
+      "30388",
+      "30392",
+      "30394",
+      "30396",
+      "30398",
+      "31106-31107",
+      "31119",
+      "31126",
+      "31131",
+      "31136",
+      "31139",
+      "31141",
+      "31145-31146",
+      "31150",
+      "31156",
+      "31192-31193",
+      "31195-31196",
+      "39901"
+    ],
+    "area_codes": [404, 678, 470, 943, 770],
+    "FIPS code": "13-03440",
+    "GNIS feature IDs": ["0351615"],
+    "url": "https://www.atlantaga.gov/"
   }
-
 ]
