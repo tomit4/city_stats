@@ -983,5 +983,263 @@
     "FIPS code": "24-04000",
     "GNIS feature IDs": ["597040"],
     "url": "https://www.baltimorecity.gov/"
+  },
+  {
+    "city_name": "Baton Rouge",
+    "state_name": "Louisiana",
+    "coordinates": "30°26′51″N 91°10′43″W",
+    "counties": null,
+    "settled_founded": "1699",
+    "incorporated": "1721",
+    "government": {
+      "type": "Mayor-President",
+      "mayor": "Sharon Weston Broome",
+      "city_council": [
+        "Brandon Noel",
+        "Chauna Banks",
+        "Rowdy Gaudet",
+        "Aaron Moak",
+        "Darryl Hurst",
+        "Cleve Dunn Jr",
+        "LaMont Cole",
+        "Denise Amoroso",
+        "Dwight Hudson",
+        "Carolyn Coleman",
+        "Laurie Adams",
+        "Jennifer Racca"
+      ],
+      "city_manager": null,
+      "city_solicitor_attorney": null,
+      "city_controller": null
+    },
+    "area": {
+      "city": "88.52 sq mi",
+      "land": "86.32 sq mi",
+      "water": "2.20 sq mi"
+    },
+    "elevation": "56 ft",
+    "population": {
+      "city": "226460",
+      "density": "2635.32/sq mi",
+      "metro": "870569"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "70801–70817",
+      "70819–70823",
+      "70825–70827",
+      "70831",
+      "70833",
+      "70835–70837",
+      "70874",
+      "70879",
+      "70883",
+      "70884",
+      "70892–70896",
+      "70898"
+    ],
+    "area_codes": [225],
+    "FIPS code": "22-05000",
+    "GNIS feature IDs": ["1629914"],
+    "url": "https://www.brla.gov/"
+  },
+  {
+    "city_name": "Beaumont",
+    "state_name": "Texas",
+    "coordinates": "30°04′48″N 94°07′36″W",
+    "counties": ["Jefferson"],
+    "settled_founded": "1835",
+    "incorporated": "1838",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Robin Mouton",
+      "city_council": [
+        "Albert AJ. Turner",
+        "Randy Feldschau",
+        "Taylor Neild",
+        "Mike Getz",
+        "Audwin Samuel",
+        "Charles Durio"
+      ],
+      "city_manager": "Kenneth R. Williams",
+      "city_solicitor_attorney": "Sharae Reed",
+      "city_controller": null
+    },
+    "area": {
+      "city": "85.19 sq mi",
+      "land": "82.46 sq mi",
+      "water": "2.73 sq mi"
+    },
+    "elevation": "16 ft",
+    "population": {
+      "city": "115282",
+      "density": "147922/sq mi",
+      "metro": "404872"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["77701–77710", "77713", "77720", "77725", "77726"],
+    "area_codes": [409],
+    "FIPS code": "48-07000",
+    "GNIS feature IDs": ["1330268"],
+    "url": "https://beaumonttexas.gov/"
+  },
+  {
+    "city_name": "Bellevue",
+    "state_name": "Washington",
+    "coordinates": "47°36′52″N 122°11′33″W",
+    "counties": ["King"],
+    "settled_founded": "1869",
+    "incorporated": "1953",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Lynne Robinson",
+      "city_council": [
+        "Janice Zahn",
+        "John Stokes",
+        "Conrad Lee",
+        "Lynne Robinson",
+        "Jared Nieuwenhuis",
+        "Jennifer Robertson",
+        "Jeremy Barksdale"
+      ],
+      "city_manager": "Brad Miyake",
+      "city_solicitor_attorney": "Kathy Gerla",
+      "city_controller": null
+    },
+    "area": {
+      "city": "37.50 sq mi",
+      "land": "33.46 sq mi",
+      "water": "4.04 sq mi"
+    },
+    "elevation": "85 ft",
+    "population": {
+      "city": "151854",
+      "density": "4000/sq mi",
+      "metro": "4011553"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["98004-98009"],
+    "area_codes": [425],
+    "FIPS code": "53-05210",
+    "GNIS feature IDs": ["1512000"],
+    "url": "https://bellevuewa.gov/"
+  },
+  {
+    "city_name": "Bend",
+    "state_name": "Oregon",
+    "coordinates": "44°3′N 121°18′W",
+    "counties": ["Deschutes"],
+    "settled_founded": null,
+    "incorporated": "1905",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Melanie Kebler",
+      "city_council": [
+        "Megan Perkins",
+        "Anthony Broadman",
+        "Barb Campbell",
+        "Ariel Mendez",
+        "Megan Norris",
+        "Mike Riley"
+      ],
+      "city_manager": "Eric King",
+      "city_solicitor_attorney": "Mary A. Winters",
+      "city_controller": null
+    },
+    "area": {
+      "city": "34.89 sq mi",
+      "land": "34.65 sq mi",
+      "water": "0.24 sq mi"
+    },
+    "elevation": "3623 ft",
+    "population": {
+      "city": "99178",
+      "density": "2862.61/sq mi",
+      "metro": "204801"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["97701–97703", "97707–97709"],
+    "area_codes": [458, 541],
+    "FIPS code": "41-05800",
+    "GNIS feature IDs": ["1137914"],
+    "url": "https://www.bendoregon.gov/"
+  },
+  {
+    "city_name": "Berkeley",
+    "state_name": "California",
+    "coordinates": "37°52′18″N 122°16′22″W",
+    "counties": ["Alameda"],
+    "settled_founded": null,
+    "incorporated": "1878",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Jesse Arreguín",
+      "city_council": [
+        "Rashi Kesarwani",
+        "Terry Taplin",
+        "Ben Bartlett",
+        "Kate Harrison",
+        "Sophie Hahn",
+        "Susan Wengraf",
+        "Rigel Robinson",
+        "Mark Humbert"
+      ],
+      "city_manager": "Dee Williams-Ridley",
+      "city_solicitor_attorney": "Farimah Brown",
+      "city_controller": null
+    },
+    "area": {
+      "city": "17.66 sq mi",
+      "land": "10.43 sq mi",
+      "water": "7.22 sq mi"
+    },
+    "elevation": "171 ft",
+    "population": {
+      "city": "127321",
+      "density": "11917.27/sq mi",
+      "metro": "4623264"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["94701–94710", "94712", "94720"],
+    "area_codes": [510, 341],
+    "FIPS code": "06-06000",
+    "GNIS feature IDs": ["1658037", "2409837"],
+    "url": "https://berkeleyca.gov/"
+  },
+  {
+    "city_name": "Billings",
+    "state_name": "Montana",
+    "coordinates": "45°47′01″N 108°30′22″W",
+    "counties": ["Yellowstone"],
+    "settled_founded": "1877",
+    "incorporated": "1882",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Bill Cole",
+      // LEFT OFF
+      "city_council": [
+      ],
+      "city_manager": "Dee Williams-Ridley",
+      "city_solicitor_attorney": "Farimah Brown",
+      "city_controller": null
+    },
+    "area": {
+      "city": "17.66 sq mi",
+      "land": "10.43 sq mi",
+      "water": "7.22 sq mi"
+    },
+    "elevation": "171 ft",
+    "population": {
+      "city": "127321",
+      "density": "11917.27/sq mi",
+      "metro": "4623264"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["94701–94710", "94712", "94720"],
+    "area_codes": [510, 341],
+    "FIPS code": "06-06000",
+    "GNIS feature IDs": ["1658037", "2409837"],
+    "url": "https://berkeleyca.gov/"
   }
+
 ]

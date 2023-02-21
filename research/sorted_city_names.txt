@@ -19,11 +19,11 @@ x Aurora Illinois
 x Austin Texas
 x Bakersfield California
 x Baltimore[m] Maryland
-Baton Rouge[t]
-Beaumont Texas
-Bellevue Washington
-Bend Oregon
-Berkeley California
+x Baton Rouge[t]
+x Beaumont Texas
+x Bellevue Washington
+x Bend Oregon
+x Berkeley California
 Billings Montana
 Birmingham Alabama
 Boise[s] Idaho
