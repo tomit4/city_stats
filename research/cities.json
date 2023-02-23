@@ -1489,10 +1489,10 @@
       "type": "Council-Manager",
       "mayor": "Debra Wimpee",
       "city_council": [
-          "Lisa Ford",
-          "Christi Gillespie",
-          "Scott Eudey",
-          "Johnnie Parks"
+        "Lisa Ford",
+        "Christi Gillespie",
+        "Scott Eudey",
+        "Johnnie Parks"
       ]
     },
     "area": {
@@ -1512,5 +1512,306 @@
     "FIPS code": "40-09050",
     "GNIS feature IDs": ["1090512"],
     "url": "https://www.brokenarrowok.gov/"
+  },
+  {
+    "city_name": "Brownsville",
+    "state_name": "Texas",
+    "coordinates": "25°55′49″N 97°29′4″W",
+    "counties": ["Cameron"],
+    "settled_founded": "1848",
+    "incorporated": "1853",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Juan Trey Mendez",
+      "city_council": [
+        "John Cowen Jr.",
+        "Rose M.Z. Gowen",
+        "Nurith Galonsky Pizana",
+        "Jessica Tetreau-Kalifa",
+        "Roy De Los Santos",
+        "Pedro Cardenas"
+      ]
+    },
+    "area": {
+      "city": "186738 sq mi",
+      "land": "131.53 sq mi",
+      "water": "13.66 sq mi"
+    },
+    "elevation": "33 ft",
+    "population": {
+      "city": "186738",
+      "density": "1420/sq mi",
+      "metro": "471017"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["78520–78523", "78526"],
+    "area_codes": [956],
+    "FIPS code": "48-10768",
+    "GNIS feature IDs": ["1372749"],
+    "url": "https://brownsvilletx.gov/"
+  },
+  {
+    "city_name": "Buckeye",
+    "state_name": "Arizona",
+    "coordinates": "33°22′14″N 112°35′27″W",
+    "counties": ["Maricopa"],
+    "settled_founded": "1910",
+    "incorporated": "1929",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Eric Orsborn",
+      "city_council": [
+        "Tony Youngker",
+        "Jeanine Guy",
+        "Michelle Hess",
+        "Patrick HagEstad",
+        "Craig Heustis",
+        "Clay Goodman"
+      ]
+    },
+    "area": {
+      "city": "393.16 sq mi",
+      "land": "392.99 sq mi",
+      "water": "0.18 sq mi"
+    },
+    "elevation": "869 ft",
+    "population": {
+      "city": "91502",
+      "density": "232.84/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["85326", "85396"],
+    "area_codes": [623, 602, 480, 928],
+    "FIPS code": "04-07940",
+    "GNIS feature IDs": ["2081"],
+    "url": "https://www.buckeyeaz.gov/"
+  },
+  {
+    "city_name": "Buffalo",
+    "state_name": "New York",
+    "coordinates": "42°53′11″N 78°52′41″W",
+    "counties": ["Erie"],
+    "settled_founded": "1789",
+    "incorporated": "1832",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Byron Brown",
+      "city_council": [
+        "Darius G. Pridgen",
+        "David A. Rivera",
+        "Christopher Scanlon",
+        "Joel P. Feroleto",
+        "Bryan Bollman",
+        "Mitch Nowakowski",
+        "Joseph Golombek, Jr.",
+        "Ulysees O. Wingo, Sr.",
+        "Rasheed Wyatt"
+      ]
+    },
+    "area": {
+      "city": "52.48 sq mi",
+      "land": "40.38 sq mi",
+      "water": "12.10 sq mi"
+    },
+    "elevation": "600 ft",
+    "population": {
+      "city": "278349",
+      "density": "6893.41/sq mi",
+      "metro": "1125637"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["142XX"],
+    "area_codes": [716],
+    "FIPS code": "36-11000",
+    "GNIS feature IDs": ["0973345"],
+    "url": "https://www.buffalony.gov/"
+  },
+  {
+    "city_name": "Burbank",
+    "state_name": "California",
+    "coordinates": "34°10′49″N 118°19′42″W",
+    "counties": ["Los Angeles"],
+    "settled_founded": "1887",
+    "incorporated": "1911",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Konstantine Anthony",
+      "city_council": [
+        "Nick Schultz",
+        "Nikki Perez",
+        "Tamala Takahashi",
+        "Zizette Mullins"
+      ]
+    },
+    "area": {
+      "city": "17.35 sq mi",
+      "land": "17.32 sq mi",
+      "water": "0.04 sq mi"
+    },
+    "elevation": "607 ft",
+    "population": {
+      "city": "107337",
+      "density": "6198.72/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["91501–91508", "91510", "91521–91523", "91526"],
+    "area_codes": [747, 818],
+    "FIPS code": "06-08954",
+    "GNIS feature IDs": ["1652677", "2409939"],
+    "url": "https://www.burbankca.gov/"
+  },
+  {
+    "city_name": "Cambridge",
+    "state_name": "Massachusetts",
+    "coordinates": "42°22′25″N 71°06′38″W",
+    "counties": ["Middlesex"],
+    "settled_founded": "1630",
+    "incorporated": "1636",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Sumbul Siddiqui",
+      "city_council": [
+        "Burhan Azeem",
+        "Dennis J. Carlone",
+        "Alanna M. Mallon",
+        "Marc C. McGovern",
+        "Patricia M. Nolan",
+        "E. Denise Simmons",
+        "Paul F. Toner",
+        "Quiton Y. Zondervan"
+      ]
+    },
+    "area": {
+      "city": "7.10 sq mi",
+      "land": "6.40 sq mi",
+      "water": "0.71 sq mi"
+    },
+    "elevation": "40 ft",
+    "population": {
+      "city": "118403",
+      "density": "18512.04/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["02138-02142"],
+    "area_codes": [617, 857],
+    "FIPS code": "25-11000",
+    "GNIS feature IDs": ["0617365"],
+    "url": "https://www.cambridgema.gov/"
+  },
+  {
+    "city_name": "Cape Coral",
+    "state_name": "Florida",
+    "coordinates": "26°38′23″N 81°58′57″W",
+    "counties": ["Lee"],
+    "settled_founded": "1957",
+    "incorporated": "1970",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "John Gunter",
+      "city_council": [
+        "William E. Steinke",
+        "Dan Sheppard",
+        "Tom Hayden",
+        "Patty L. Cummings",
+        "Robert Welsh",
+        "Keith Long",
+        "Jessica Cosden"
+      ]
+    },
+    "area": {
+      "city": "119.41 sq mi",
+      "land": "106.03 sq mi",
+      "water": "13.38 sq mi"
+    },
+    "elevation": "3 ft",
+    "population": {
+      "city": "194016",
+      "density": "1829.84/sq mi",
+      "metro": "760822"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["33904", "33909", "33914", "33990", "33991", "33993"],
+    "area_codes": [239],
+    "FIPS code": "12-10275",
+    "GNIS feature IDs": ["0279997"],
+    "url": "https://www.capecoral.gov/"
+  },
+  {
+    "city_name": "Carlsbad",
+    "state_name": "California",
+    "coordinates": "33°7′19″N 117°17′49″W",
+    "counties": ["San Diego"],
+    "settled_founded": null,
+    "incorporated": "1952",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Matt Hall",
+      "city_council": [
+        "Melanie Burkholder",
+        "Carolyn Luna",
+        "Priya Bhat-Patel",
+        "Teresa Acosta"
+      ]
+    },
+    "area": {
+      "city": "39.08 sq mi",
+      "land": "37.77 sq mi",
+      "water": "1.30 sq mi"
+    },
+    "elevation": "52 ft",
+    "population": {
+      "city": "114746",
+      "density": "3038.02/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92008–92011", "92018"],
+    "area_codes": [442, 760],
+    "FIPS code": "06-11194",
+    "GNIS feature IDs": ["1660437", "2409984"],
+    "url": "https://www.carlsbadca.gov/"
+  },
+  {
+    "city_name": "Carmel",
+    "state_name": "Indiana",
+    "coordinates": "39°58′N 86°6′W",
+    "counties": ["Hamilton"],
+    "settled_founded": "1837",
+    "incorporated": "1874",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "James Brainard",
+      "city_council": [
+        "Jeff Worrell",
+        "Laura Campbell",
+        "Sue Finkam",
+        "Kevin Woody Rider",
+        "Tim Hannon",
+        "Teresa Ayers",
+        "Adam Aasen",
+        "Tony Green",
+        "Miles Nelson"
+      ]
+    },
+    "area": {
+      "city": "50.17 sq mi",
+      "land": "49.09 sq mi",
+      "water": "1.08 sq mi"
+    },
+    "elevation": "853 ft",
+    "population": {
+      "city": "100777",
+      "density": "2032.3/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["46032", "46033", "46074", "46082", "46280", "46290"],
+    "area_codes": [317, 463],
+    "FIPS code": "18-10342",
+    "GNIS feature IDs": ["0432143"],
+    "url": "https://www.carmel.in.gov/"
   }
 ]

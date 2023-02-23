@@ -32,14 +32,14 @@ x Boulder Colorado
 x Bridgeport Connecticut
 x Brockton Massachusetts
 x Broken Arrow, Oklahoma
-Brownsville Texas
-Buckeye Arizona
-Buffalo New
-Burbank California
-Cambridge Massachusetts
-Cape Coral
-Carlsbad California
-Carmel Indiana
+x Brownsville Texas
+x Buckeye Arizona
+x Buffalo New York
+x Burbank California
+x Cambridge Massachusetts
+x Cape Coral Florida
+x Carlsbad California
+x Carmel Indiana
 Carrollton Texas
 Cary North
 Cedar Rapids
