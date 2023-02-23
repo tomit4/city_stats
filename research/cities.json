@@ -1813,5 +1813,550 @@
     "FIPS code": "18-10342",
     "GNIS feature IDs": ["0432143"],
     "url": "https://www.carmel.in.gov/"
+  },
+  {
+    "city_name": "Carrollton",
+    "state_name": "Texas",
+    "coordinates": "32°57′13″N 96°53′25″W",
+    "counties": ["Dallas", "Denton", "Collin"],
+    "settled_founded": "1842",
+    "incorporated": "1913",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Steve Babick",
+      "city_council": [
+        "Christopher Axberg",
+        "Adam Polter",
+        "Richard Fleming",
+        "Dr. Andrew Palacios",
+        "Nancy S. Cline",
+        "Young Sung",
+        "H.A. Rusty Pendleton"
+      ]
+    },
+    "area": {
+      "city": "37.43 sq mi",
+      "land": "36.66 sq mi",
+      "water": "0.77 sq mi"
+    },
+    "elevation": "482 ft",
+    "population": {
+      "city": "119097",
+      "density": "3798.78/sq mi",
+      "metro": "7102800"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["75006", "75007", "75010", "75011"],
+    "area_codes": [214, 469, 945, 972],
+    "FIPS code": "48-13024",
+    "GNIS feature IDs": ["2409992"],
+    "url": "https://www.cityofcarrollton.com/"
+  },
+  {
+    "city_name": "Cary",
+    "state_name": "North Carolina",
+    "coordinates": "35°47′30″N 78°46′52″W",
+    "counties": ["Chatham", "Wake"],
+    "settled_founded": "1750",
+    "incorporated": "1871",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Harold Weinbrecht",
+      "city_council": [
+        "Lori Bush",
+        "Jack Smith",
+        "Carissa Kohn-Johnson",
+        "Jennifer Bryson Robinson",
+        "Don Frantz",
+        "Ryan Eades"
+      ]
+    },
+    "area": {
+      "city": "61.05 sq mi",
+      "land": "59.94 sq mi",
+      "water": "1.11 sq mi"
+    },
+    "elevation": "495 ft",
+    "population": {
+      "city": "174721",
+      "density": "2915.03/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["27511–27513", "27518", "27519"],
+    "area_codes": [919, 984],
+    "FIPS code": "37-10740",
+    "GNIS feature IDs": ["1019552"],
+    "url": "https://www.carync.gov/"
+  },
+  {
+    "city_name": "Cedar Rapids",
+    "state_name": "Iowa",
+    "coordinates": "41°58′59″N 91°40′7″W",
+    "counties": ["Linn"],
+    "settled_founded": "1841",
+    "incorporated": "1849",
+    "government": {
+      "type": "Home Rule",
+      "mayor": "Tiffany O'Donnell",
+      "city_council": [
+        "Tyler Olson",
+        "Ann Poe",
+        "Patrick Loeffler",
+        "Marty Hoeger",
+        "Scott Overland",
+        "Dale Todd",
+        "Scott Olson",
+        "Ashley Vanorny"
+      ]
+    },
+    "area": {
+      "city": "74.26 sq mi",
+      "land": "73.03 sq mi",
+      "water": "1.23 sq mi"
+    },
+    "elevation": "810 ft",
+    "population": {
+      "city": "137710",
+      "density": "1885.72/sq mi",
+      "metro": "276520"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "52227",
+      "52228",
+      "52233",
+      "52324",
+      "52338",
+      "52401-11",
+      "52497-99"
+    ],
+    "area_codes": [319],
+    "FIPS code": "19-12000",
+    "GNIS feature IDs": ["0465941"],
+    "url": "https://www.cedar-rapids.org/"
+  },
+  {
+    "city_name": "Centennial",
+    "state_name": "Colorado",
+    "coordinates": "39°35′26″N 104°52′09″W",
+    "counties": ["Arapahoe County"],
+    "settled_founded": null,
+    "incorporated": "2001",
+    "government": {
+      "type": "Home Rule",
+      "mayor": "Stephanie Piko",
+      "city_council": [
+        "Candace Moon",
+        "Christine Sweetland",
+        "Mike Sutherland",
+        "Don Sheehan"
+      ]
+    },
+    "area": {
+      "city": "29.87 sq mi",
+      "land": "29,72 sq mi",
+      "water": "0.15 sq mi"
+    },
+    "elevation": "5830 ft",
+    "population": {
+      "city": "108418",
+      "density": "3648/sq mi",
+      "metro": "2963821"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["80015-80016", "80111-80112", "80121-80122", "80161"],
+    "area_codes": [303, 720],
+    "FIPS code": "08-12815",
+    "GNIS feature IDs": ["2409422"],
+    "url": "https://www.centennialco.gov/"
+  },
+  {
+    "city_name": "Chandler",
+    "state_name": "Arizona",
+    "coordinates": "33°18′N 111°50′W",
+    "counties": ["Maricopa"],
+    "settled_founded": "1912",
+    "incorporated": "1920",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Kevin Hartke",
+      "city_council": [
+        "Matt Orlando",
+        "Angel Encinas",
+        "Christine Ellis",
+        "OD Harris",
+        "Jane Poston",
+        "Mark Stewart"
+      ]
+    },
+    "area": {
+      "city": "65.55 sq mi",
+      "land": "65.48 sq mi",
+      "water": "0.07 sq mi"
+    },
+    "elevation": "1211 ft",
+    "population": {
+      "city": "275987",
+      "density": "4125.09/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["85224–85226", "85246–85249", "85286"],
+    "area_codes": [480],
+    "FIPS code": "04-12000",
+    "GNIS feature IDs": ["2409433"],
+    "url": "https://www.chandleraz.gov/"
+  },
+  {
+    "city_name": "Charleston",
+    "state_name": "South Carolina",
+    "coordinates": "32°47′00″N 79°55′55″W",
+    "counties": ["Charleston", "Berkeley"],
+    "settled_founded": "1680",
+    "incorporated": "1783",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "John Tecklenburg",
+      "city_council": [
+        "Boyd Gregg",
+        "Kevin Shealy",
+        "Jason Sakran",
+        "Robert M. Mitchell",
+        "Karl L. Brady, Jr.",
+        "William Dudley Gregorie",
+        "Perry K. Waring",
+        "Michael S. Seekings",
+        "A. Peter Shahid, Jr.",
+        "Stephen Bowden",
+        "Ross A. Appel",
+        "Caroline Parker"
+      ]
+    },
+    "area": {
+      "city": "135.51 sq mi",
+      "land": "115.03 sq mi",
+      "water": "20.48 sq mi"
+    },
+    "elevation": "20 ft",
+    "population": {
+      "city": "150227",
+      "density": "1305.97/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "29401",
+      "29403",
+      "29405",
+      "29407",
+      "29409",
+      "29412",
+      "29414",
+      "29424",
+      "29425",
+      "29455",
+      "29492"
+    ],
+    "area_codes": [843, 854],
+    "FIPS code": "45-13330",
+    "GNIS feature IDs": ["1221516"],
+    "url": "https://www.charleston-sc.gov/"
+  },
+  {
+    "city_name": "Charlotte",
+    "state_name": "North Carolina",
+    "coordinates": "35°13′38″N 80°50′35″W",
+    "counties": ["Mecklenburg"],
+    "settled_founded": "1755",
+    "incorporated": "1768",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Vi Lyles",
+      "city_council": [
+        "Braxton Winston",
+        "Dimple Ajmera",
+        "LaWana Mayfield",
+        "James Mitchell Jr.",
+        "Danté Anderson",
+        "Malcolm Graham",
+        "Victoria Watlington",
+        "Reneé Johnson",
+        "Marjorie Molina",
+        "Tariq Bokhari",
+        "Edmund H. Driggs"
+      ]
+    },
+    "area": {
+      "city": "312 sq mi",
+      "land": "310.02 sq mi",
+      "water": "1.98 sq mi"
+    },
+    "elevation": "761 ft",
+    "population": {
+      "city": "874579",
+      "density": "2821.06/sq mi",
+      "metro": "2660329"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["282XX"],
+    "area_codes": [704, 980],
+    "FIPS code": "37-12000",
+    "GNIS feature IDs": ["2404032"],
+    "url": "https://charlottenc.gov/"
+  },
+  {
+    "city_name": "Chattanooga",
+    "state_name": "Tennessee",
+    "coordinates": "35°2′44″N 85°16′2″W",
+    "counties": ["Hamilton", "Marion"],
+    "settled_founded": null,
+    "incorporated": "1839",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Tim Kelly",
+      "city_council": [
+        "Chip Henderson",
+        "Jenny Hill",
+        "Ken Smith",
+        "Darrin Ledford",
+        "Isiah Hester",
+        "Dr. Carol Berz",
+        "Raquetta Dotley",
+        "Marvene Noel",
+        "Demetrus Coonrod"
+      ]
+    },
+    "area": {
+      "city": "150.08 sq mi",
+      "land": "142.35 sq mi",
+      "water": "7.73 sq mi"
+    },
+    "elevation": "676 ft",
+    "population": {
+      "city": "181099",
+      "density": "1272.19/sq mi",
+      "metro": "562647"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "37341",
+      "37343",
+      "37350",
+      "37351",
+      "37363",
+      "37377",
+      "37379",
+      "37402",
+      "37403",
+      "37404",
+      "37405",
+      "37406",
+      "37407",
+      "37408",
+      "37409",
+      "37410",
+      "37411",
+      "37412",
+      "37415",
+      "37416",
+      "37419",
+      "37421"
+    ],
+    "area_codes": [423],
+    "FIPS code": "47-14000",
+    "GNIS feature IDs": ["1307240"],
+    "url": "https://chattanooga.gov/"
+  },
+  {
+    "city_name": "Chesapeake",
+    "state_name": "Virginia",
+    "coordinates": "36°42′51″N 76°14′18″W",
+    "counties": null,
+    "settled_founded": "1963",
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Rick West",
+      "city_council": [
+        "John de Triquet",
+        "C. Jeff Bunn",
+        "Don J. Carey III",
+        "Robert C. Ike, Jr.",
+        "Amanda L. Newins",
+        "S.Z. Debbie Ritter",
+        "Dr. Ella P. Ward",
+        "Daniel W. Whitaker"
+      ]
+    },
+    "area": {
+      "city": "350.95 sq mi",
+      "land": "338.51 sq mi",
+      "water": "12.44 sq mi"
+    },
+    "elevation": "50 ft",
+    "population": {
+      "city": "249422",
+      "density": "710/sq mi",
+      "metro": "1799674"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["23320-23328"],
+    "area_codes": [757, 948],
+    "FIPS code": "51-16000",
+    "GNIS feature IDs": ["1496841"],
+    "url": "https://www.cityofchesapeake.net/"
+  },
+  {
+    "city_name": "Chicago",
+    "state_name": "Illinois",
+    "coordinates": "41°52′55″N 87°37′40″W",
+    "counties": ["Cook", "DuPage"],
+    "settled_founded": "1780",
+    "incorporated": "1837",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Lori Lightfoot",
+      "city_council": [
+        "Daniel La Spata",
+        "Brian Hopkins",
+        "Pat Dowell",
+        "Sophia King",
+        "Leslie Hairston",
+        "Roderick Sawyer",
+        "Gregory Mitchell",
+        "Michelle Harris",
+        "Anthony Beale",
+        "Susan Sadlowski Garza",
+        "Nicole Lee",
+        "Anabel Abarca",
+        "Marty Quinn",
+        "Ed Burke",
+        "Raymond Lopez",
+        "Stephanie D. Coleman",
+        "David Moore",
+        "Derrick Curtis",
+        "Matthew O'Shea",
+        "Jeanette B. Taylor",
+        "Howard Brookins Jr.",
+        "Micahel D. Rodriguez",
+        "Silvana Tabares",
+        "Monique Scott",
+        "Byron Sigcho Lopez",
+        "Roberto Maldonado",
+        "Walter Burnett, Jr.",
+        "Jason Ervin",
+        "Chris Taliaferro",
+        "Ariel E. Reboyras",
+        "Felix Cardona, Jr.",
+        "Scott Waguespack",
+        "Rossana Rodriguez Sanchez",
+        "Carrie Austin",
+        "Carlos Ramirez-Rosa",
+        "Gilbert Villegas",
+        "Emma Mitts",
+        "Nicholas Sposato",
+        "Samantha Nugent",
+        "Andre Vasquez, Jr.",
+        "Anthony Napolitano",
+        "Brendan Reilly",
+        "Timmy Knudsen",
+        "Thomas M. Tunney",
+        "James M. Gardiner",
+        "James Cappleman",
+        "Matthew J. Martin",
+        "Harry Osterman",
+        "Maria E. Hadden",
+        "Debra Silverstein"
+      ]
+    },
+    "area": {
+      "city": "234.53 sq mi",
+      "land": "227.73 sq mi",
+      "water": "6.80 sq mi"
+    },
+    "elevation": "597.18 ft",
+    "population": {
+      "city": "2746388",
+      "density": "12059.84/sq mi",
+      "metro": "9618502"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["606xx", "607xx", "608xx"],
+    "area_codes": [312, 773, 872],
+    "FIPS code": "17-14000",
+    "GNIS feature IDs": ["0428803"],
+    "url": "https://www.chicago.gov/"
+  },
+  {
+    "city_name": "Chico",
+    "state_name": "California",
+    "coordinates": "39°44′24″N 121°50′8″W",
+    "counties": ["Butte"],
+    "settled_founded": "1860",
+    "incorporated": "1872",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Andrew Coolidge",
+      "city_council": [
+        "Kasey Reynolds",
+        "Dale Bennett",
+        "Deepika Tandon",
+        "Tom van Overbeek",
+        "Addison Winslow"
+      ]
+    },
+    "area": {
+      "city": "34.62 sq mi",
+      "land": "34.45 sq mi",
+      "water": "0.17 sq mi"
+    },
+    "elevation": "243 ft",
+    "population": {
+      "city": "101475",
+      "density": "2945.57/sq mi",
+      "metro": "211632"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["95926–95929", "95973", "95976"],
+    "area_codes": [530],
+    "FIPS code": "06-13014",
+    "GNIS feature IDs": ["2409447"],
+    "url": "https://chico.ca.us/"
+  },
+  {
+    "city_name": "Chula Vista",
+    "state_name": "California",
+    "coordinates": "32°37′40″N 117°2′53″W",
+    "counties": ["San Diego"],
+    "settled_founded": null,
+    "incorporated": "1911",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "John McCann",
+      "city_council": [
+        "Carolina Chavez",
+        "Jose Preciado",
+        "Alonso Gonzalez",
+        "Andrea Cardenas"
+      ]
+    },
+    "area": {
+      "city": "52.09 sq mi",
+      "land": "49.64 sq mi",
+      "water": "2.46 sq mi"
+    },
+    "elevation": "66 ft",
+    "population": {
+      "city": "275487",
+      "density": "5549.70/sq mi",
+      "metro": "5105768"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["91909–91915", "91921"],
+    "area_codes": [619],
+    "FIPS code": "06-13392",
+    "GNIS feature IDs": ["1660481", "2409461"],
+    "url": "https://www.chulavistaca.gov/"
   }
 ]

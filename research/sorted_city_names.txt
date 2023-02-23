@@ -40,18 +40,18 @@ x Cambridge Massachusetts
 x Cape Coral Florida
 x Carlsbad California
 x Carmel Indiana
-Carrollton Texas
-Cary North
-Cedar Rapids
-Centennial Colorado
-Chandler Arizona
-Charleston South
-Charlotte North
-Chattanooga Tennessee
-Chesapeake[m] Virginia
-Chicago Illinois
-Chico California
-Chula Vista
+x Carrollton Texas
+x Cary North Carolina
+x Cedar Rapids, Iowa
+x Centennial Colorado
+x Chandler Arizona
+x Charleston South Carolina
+x Charlotte North Carolina
+x Chattanooga Tennessee
+x Chesapeake[m] Virginia
+x Chicago Illinois
+x Chico California
+x Chula Vista
 Cincinnati Ohio
 Clarksville Tennessee
 Clearwater Florida
