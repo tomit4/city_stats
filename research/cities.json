@@ -16,10 +16,7 @@
         "Weldon W. Hurt",
         "Kyle McAlister",
         "Travis Craver"
-      ],
-      "city_manager": "Robert Hanna",
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "112.09 sq mi",
@@ -49,10 +46,7 @@
     "government": {
       "type": "Mayor-Council",
       "mayor": "Dan Horrigan",
-      "city_council": null,
-      "city_manager": null,
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      "city_council": null
     },
     "area": {
       "city": "62.27 sq mi",
@@ -100,10 +94,7 @@
         "Tammy Fiebelkorn",
         "Trudy Jones",
         "Renee Grout"
-      ],
-      "city_manager": null,
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "188.95 sq mi",
@@ -147,10 +138,7 @@
     "government": {
       "type": "Council-Manager",
       "mayor": "Justin Wilson",
-      "city_council": null,
-      "city_manager": null,
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      "city_council": null
     },
     "area": {
       "city": "15.35 sq mi",
@@ -188,10 +176,7 @@
         "Carl Clemencich",
         "Chris Schulmeister",
         "Daren Meis"
-      ],
-      "city_manager": "Eric Ellwanger",
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "261.55 sq mi",
@@ -230,10 +215,7 @@
         "Santo Napoli",
         "Natalie Santos",
         "Ed Zucal"
-      ],
-      "city_manager": null,
-      "city_solicitor_attorney": "Matt Kloiber",
-      "city_controller": "Jeff Glazier"
+      ]
     },
     "area": {
       "city": "18.01 sq mi",
@@ -278,10 +260,7 @@
         "Freda Powell",
         "Eddie Sauer",
         "Howard Smith"
-      ],
-      "city_manager": "Jared Miller",
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "103.86 sq mi",
@@ -333,10 +312,7 @@
         "Norma Campos Kurtz",
         "Stephen Faessel",
         "Natalie Meeks"
-      ],
-      "city_manager": "James Vanderpool",
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "50.88 sq mi",
@@ -373,10 +349,7 @@
     "government": {
       "type": "Municipality",
       "mayor": "Dave Bronson",
-      "city_council": null,
-      "city_manager": null,
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      "city_council": null
     },
     "area": {
       "city": "1946.69 sq mi",
@@ -418,10 +391,7 @@
         "Jenn Cornell",
         "Erica Briggs",
         "Lisa Disch"
-      ],
-      "city_manager": null,
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "29.09 sq mi",
@@ -456,10 +426,7 @@
         "Michael Barbanica",
         "Lori Orgorchock",
         "Monica E. Wilson"
-      ],
-      "city_manager": null,
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "29.94 sq mi",
@@ -498,10 +465,7 @@
         "Long Pham",
         "Bowie Hogg",
         "Barbara Odom-Wesley"
-      ],
-      "city_manager": "Trey Yelverton",
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "99.44 sq mi",
@@ -538,10 +502,7 @@
         "David Jones",
         "Lisa Smith",
         "Bob Fifer"
-      ],
-      "city_manager": "Mark Deven",
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "39.57 sq mi",
@@ -581,10 +542,7 @@
         "Carol Myers",
         "Ovita Thornton",
         "Mike Hamby"
-      ],
-      "city_manager": null,
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "118.10 sq mi",
@@ -631,10 +589,7 @@
         "Andrea L. Boone",
         "Marci Collier Overstreet",
         "Antonio Lewis"
-      ],
-      "city_manager": null,
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "136.31 sq mi",
@@ -706,10 +661,7 @@
         "Brandon Garrett",
         "Francine Scott",
         "Wayne Guilfoyle"
-      ],
-      "city_manager": null,
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "306.44 sq mi",
@@ -758,10 +710,7 @@
         "Danielle Jurinsky",
         "Angela Lawson",
         "Dustin Zvonek"
-      ],
-      "city_manager": "Jim Twombly",
-      "city_solicitor_attorney": "Daniel L. Brotzman",
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "160.705 sq mi",
@@ -804,10 +753,7 @@
         "Shweta Baid",
         "Ron Woerman",
         "Sherman L. Jenkins"
-      ],
-      "city_manager": null,
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "45.92 sq mi",
@@ -848,10 +794,7 @@
         "Paige Ellis",
         "Zohaib Zo Qadri",
         "Alison Alter"
-      ],
-      "city_manager": "Jesús Garza",
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "326.51 sq mi",
@@ -901,10 +844,7 @@
         "Bruce Freeman",
         "Patty Gray",
         "Manpreet Kaur"
-      ],
-      "city_manager": "Christian Clegg",
-      "city_solicitor_attorney": "Virginia Ginny Gennaro",
-      "city_controller": "Aimee X. Espinoza"
+      ]
     },
     "area": {
       "city": "151.28 sq mi",
@@ -950,10 +890,7 @@
         "Stephanie M. Smith",
         "Karsonya Wise Whitehead",
         "Nadine Finnigan-Carr"
-      ],
-      "city_manager": null,
-      "city_solicitor_attorney": "Ebony Thompson",
-      "city_controller": "Bill Henry"
+      ]
     },
     "area": {
       "city": "92.05 sq mi",
@@ -1007,10 +944,7 @@
         "Carolyn Coleman",
         "Laurie Adams",
         "Jennifer Racca"
-      ],
-      "city_manager": null,
-      "city_solicitor_attorney": null,
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "88.52 sq mi",
@@ -1060,10 +994,7 @@
         "Mike Getz",
         "Audwin Samuel",
         "Charles Durio"
-      ],
-      "city_manager": "Kenneth R. Williams",
-      "city_solicitor_attorney": "Sharae Reed",
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "85.19 sq mi",
@@ -1101,10 +1032,7 @@
         "Jared Nieuwenhuis",
         "Jennifer Robertson",
         "Jeremy Barksdale"
-      ],
-      "city_manager": "Brad Miyake",
-      "city_solicitor_attorney": "Kathy Gerla",
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "37.50 sq mi",
@@ -1141,10 +1069,7 @@
         "Ariel Mendez",
         "Megan Norris",
         "Mike Riley"
-      ],
-      "city_manager": "Eric King",
-      "city_solicitor_attorney": "Mary A. Winters",
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "34.89 sq mi",
@@ -1183,10 +1108,7 @@
         "Susan Wengraf",
         "Rigel Robinson",
         "Mark Humbert"
-      ],
-      "city_manager": "Dee Williams-Ridley",
-      "city_solicitor_attorney": "Farimah Brown",
-      "city_controller": null
+      ]
     },
     "area": {
       "city": "17.66 sq mi",
@@ -1216,30 +1138,379 @@
     "government": {
       "type": "Mayor-Council",
       "mayor": "Bill Cole",
-      // LEFT OFF
       "city_council": [
-      ],
-      "city_manager": "Dee Williams-Ridley",
-      "city_solicitor_attorney": "Farimah Brown",
-      "city_controller": null
+        "Kendra Shaw",
+        "Ed Gulick",
+        "Jennifer Owen",
+        "Roy Neese",
+        "Danny Choriki",
+        "Denise Joy",
+        "Pam Purinton",
+        "Daniel Tidswell",
+        "Mike Boyett",
+        "Tom Rupsis"
+      ]
     },
     "area": {
-      "city": "17.66 sq mi",
-      "land": "10.43 sq mi",
-      "water": "7.22 sq mi"
+      "city": "45.39 sq mi",
+      "land": "45.29 sq mi",
+      "water": "0.11 sq mi"
     },
-    "elevation": "171 ft",
+    "elevation": "3124 ft",
     "population": {
-      "city": "127321",
-      "density": "11917.27/sq mi",
-      "metro": "4623264"
+      "city": "117116",
+      "density": "2586.08/sq mi",
+      "metro": "187037"
     },
-    "time_zone": "UTC-8(PST)",
-    "zip_codes": ["94701–94710", "94712", "94720"],
-    "area_codes": [510, 341],
-    "FIPS code": "06-06000",
-    "GNIS feature IDs": ["1658037", "2409837"],
-    "url": "https://berkeleyca.gov/"
+    "time_zone": "UTC-7(PST)",
+    "zip_codes": ["59101-59117"],
+    "area_codes": [406],
+    "FIPS code": "30-06550",
+    "GNIS feature IDs": ["802034"],
+    "url": "https://www.billingsmt.gov/"
+  },
+  {
+    "city_name": "Birmingham ",
+    "state_name": "Alabama",
+    "coordinates": "33°31′03″N 86°48′34″W",
+    "counties": ["Jefferson", "Shelby"],
+    "settled_founded": "1871",
+    "incorporated": "1871",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Randall Woodfin",
+      "city_council": [
+        "Clinton P. Woods",
+        "Hunter Williams",
+        "Valerie A. Abbott",
+        "J.T. Moore",
+        "Darrell O'Quinn",
+        "Crystal N. Smitherman",
+        "Wardine T. Alexander",
+        "Carol Clarke",
+        "LaTonya Tate"
+      ]
+    },
+    "area": {
+      "city": "149.54 sq mi",
+      "land": "147.02 sq mi",
+      "water": "2.52 sq mi"
+    },
+    "elevation": "597 ft",
+    "population": {
+      "city": "200733",
+      "density": "1365.37/sq mi",
+      "metro": "1115289"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "35201-35224",
+      "35226",
+      "35228-35229",
+      "35231-35238",
+      "35242-35244",
+      "35246",
+      "35249",
+      "35253-35255",
+      "35259-35261",
+      "35266",
+      "35270",
+      "35282-35283",
+      "35285",
+      "35287-35288",
+      "35290-35298"
+    ],
+    "area_codes": [205, 659],
+    "FIPS code": "01-07000",
+    "GNIS feature IDs": ["2403868"],
+    "url": "https://www.birminghamal.gov/"
+  },
+  {
+    "city_name": "Boise",
+    "state_name": "Idaho",
+    "coordinates": "43°36′57″N 116°12′6″W",
+    "counties": ["Ada"],
+    "settled_founded": "1863",
+    "incorporated": "1864",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Lauren McLean",
+      "city_council": [
+        "Holli Woodings",
+        "Jimmy Hallyburton",
+        "Elaine Clegg",
+        "Patrick Bageant",
+        "Luci Willits"
+      ]
+    },
+    "area": {
+      "city": "149.54 sq mi",
+      "land": "147.02 sq mi",
+      "water": "2.52 sq mi"
+    },
+    "elevation": "597 ft",
+    "population": {
+      "city": "200733",
+      "density": "1365.37/sq mi",
+      "metro": "1115289"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "35201-35224",
+      "35226",
+      "35228-35229",
+      "35231-35238",
+      "35242-35244",
+      "35246",
+      "35249",
+      "35253-35255",
+      "35259-35261",
+      "35266",
+      "35270",
+      "35282-35283",
+      "35285",
+      "35287-35288",
+      "35290-35298"
+    ],
+    "area_codes": [205, 659],
+    "FIPS code": "01-07000",
+    "GNIS feature IDs": ["2403868"],
+    "url": "https://www.birminghamal.gov/"
+  },
+  {
+    "city_name": "Boston",
+    "state_name": "Massachusetts",
+    "coordinates": "42°21′37″N 71°03′28″W",
+    "counties": ["Suffolk"],
+    "settled_founded": "1625",
+    "incorporated": "1630",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Michelle Wu",
+      "city_council": [
+        "Michael Flaherty",
+        "Ruthzee Louijeune",
+        "Julia Mejia",
+        "Erin Murphy",
+        "Gabriela Coletta",
+        "Frank Baker",
+        "Brian Worrell",
+        "Ricardo Arroyo",
+        "Kendra Lara",
+        "Tania Fernandes Anderson",
+        "Kenzie Bok",
+        "Liz Breadon"
+      ]
+    },
+    "area": {
+      "city": "89.61 sq mi",
+      "land": "48.34 sq mi",
+      "water": "41.27 sq mi"
+    },
+    "elevation": "141 ft",
+    "population": {
+      "city": "675647",
+      "density": "13976.88/sq mi",
+      "metro": "4941632"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "02108–02137",
+      "02163",
+      "02196",
+      "02199",
+      "02201",
+      "02203–02206",
+      "02210–02212",
+      "02215",
+      "02217",
+      "02222",
+      "02126",
+      "02228",
+      "02241",
+      "02266",
+      "02283–02284",
+      "02293",
+      "02295",
+      "02297–02298",
+      "02467"
+    ],
+    "area_codes": [617, 857],
+    "FIPS code": "25-07000",
+    "GNIS feature IDs": ["617565"],
+    "url": "https://www.boston.gov/"
+  },
+  {
+    "city_name": "Boulder",
+    "state_name": "Colorado",
+    "coordinates": "40°00′54″N 105°16′14″W",
+    "counties": ["Boulder"],
+    "settled_founded": "1858",
+    "incorporated": "1871",
+    "government": {
+      "type": "Municipality",
+      "mayor": "Aaron Brockett",
+      "city_council": [
+        "Matt Benjamin",
+        "Lauren Folkerts",
+        "Rachel Friend",
+        "Junie Joseph",
+        "Nicole Speer",
+        "Mark Wallach",
+        "Tara Winer",
+        "Bob Yates"
+      ]
+    },
+    "area": {
+      "city": "27.36 sq mi",
+      "land": "26.33 sq mi",
+      "water": "1.03 sq mi"
+    },
+    "elevation": "5318 ft",
+    "population": {
+      "city": "108250",
+      "density": "4112/sq mi",
+      "metro": "330758"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["80301-80310", "80314", "80321-80323", "80328", "80329"],
+    "area_codes": [303, 720],
+    "FIPS code": "08-07850",
+    "GNIS feature IDs": ["178680"],
+    "url": "https://bouldercolorado.gov/"
+  },
+  {
+    "city_name": "Bridgeport",
+    "state_name": "Connecticut",
+    "coordinates": "41°11′11″N 73°11′44″W",
+    "counties": ["Fairfield"],
+    "settled_founded": "1821",
+    "incorporated": "1836",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Joseph P. Ganim",
+      "city_council": [
+        "Aidee Nieves",
+        "Scott Burns",
+        "Matthew McCarthy",
+        "Tyler Mack",
+        "Jorge Cruz, Sr.",
+        "Marcus A. Brown",
+        "Rolanda Smith",
+        "Jeanette Herron",
+        "Aikeem G. Boyd",
+        "Michelle A. Lyons",
+        "Amy Marie Vizzo-Paniccia",
+        "Mary A. McBride-Lee",
+        "Rosalina Roman-Christy",
+        "Frederick Hodges",
+        "Alfredo Castillo",
+        "Maria I. Valle",
+        "Maria H. Pereira",
+        "Samia S. Suliman",
+        "Ernest E. Newton, II"
+      ]
+    },
+    "area": {
+      "city": "19.4 sq mi",
+      "land": "16 sq mi",
+      "water": "3.4 sq mi"
+    },
+    "elevation": "3 ft",
+    "population": {
+      "city": "148654",
+      "density": "7700/sq mi",
+      "metro": "939904"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "06601–06602",
+      "06604–06608",
+      "06610",
+      "06650",
+      "06673",
+      "06699"
+    ],
+    "area_codes": [203, 475],
+    "FIPS code": "09-08000",
+    "GNIS feature IDs": ["205720"],
+    "url": "https://bridgeportct.gov/"
+  },
+  {
+    "city_name": "Brockton",
+    "state_name": "Massachusetts",
+    "coordinates": "42°05′00″N 71°01′08″W",
+    "counties": ["Plymouth"],
+    "settled_founded": "1700",
+    "incorporated": "1881",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Robert F. Sullivan",
+      "city_council": [
+        "Winthrop Farwell Jr.",
+        "Moises M. Rodrigues",
+        "Rita Mendes",
+        "David C. Teixeira",
+        "Thomas J. Minichiello Jr.",
+        "Maria T. Tavares",
+        "Mark D'Agostino",
+        "Susan Nicastro",
+        "Jeffrey A. Thompson",
+        "John Lally",
+        "Shirley Asack"
+      ]
+    },
+    "area": {
+      "city": "21.52 sq mi",
+      "land": "21,33 sq mi",
+      "water": "0.18 sq mi"
+    },
+    "elevation": "112 ft",
+    "population": {
+      "city": "105643",
+      "density": "4952.09/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["02301-02305"],
+    "area_codes": [508, 774],
+    "FIPS code": "25-09000",
+    "GNIS feature IDs": ["0617571"],
+    "url": "https://brockton.ma.us/"
+  },
+  {
+    "city_name": "Broken Arrow",
+    "state_name": "Oklahoma",
+    "coordinates": "36°2′11″N 95°47′1″W",
+    "counties": ["Tulsa", "Wagoner"],
+    "settled_founded": "1902",
+    "incorporated": "1903",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Debra Wimpee",
+      "city_council": [
+          "Lisa Ford",
+          "Christi Gillespie",
+          "Scott Eudey",
+          "Johnnie Parks"
+      ]
+    },
+    "area": {
+      "city": "63.54 sq mi",
+      "land": "62.96 sq mi",
+      "water": "0.58 sq mi"
+    },
+    "elevation": "755 ft",
+    "population": {
+      "city": "113540",
+      "density": "1803.34/sq mi",
+      "metro": "1023988"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["74011-74014"],
+    "area_codes": [508, 774],
+    "FIPS code": "40-09050",
+    "GNIS feature IDs": ["1090512"],
+    "url": "https://www.brokenarrowok.gov/"
   }
-
 ]

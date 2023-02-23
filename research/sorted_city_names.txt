@@ -24,14 +24,14 @@ x Beaumont Texas
 x Bellevue Washington
 x Bend Oregon
 x Berkeley California
-Billings Montana
-Birmingham Alabama
-Boise[s] Idaho
-Boston Massachusetts
-Boulder Colorado
-Bridgeport Connecticut
-Brockton Massachusetts
-Broken Arrow
+x Billings Montana
+x Birmingham Alabama
+x Boise[s] Idaho
+x Boston Massachusetts
+x Boulder Colorado
+x Bridgeport Connecticut
+x Brockton Massachusetts
+x Broken Arrow, Oklahoma
 Brownsville Texas
 Buckeye Arizona
 Buffalo New
