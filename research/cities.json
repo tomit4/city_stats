@@ -2358,5 +2358,448 @@
     "FIPS code": "06-13392",
     "GNIS feature IDs": ["1660481", "2409461"],
     "url": "https://www.chulavistaca.gov/"
+  },
+  {
+    "city_name": "Cincinnati",
+    "state_name": "Ohio",
+    "coordinates": "39°06′00″N 84°30′45″W",
+    "counties": ["Hamilton"],
+    "settled_founded": "1788",
+    "incorporated": "1802",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Aftab Pureval",
+      "city_council": [
+        "Jan-Michele Lemon Kearney",
+        "Victoria Parks",
+        "Jeff Cramerding",
+        "Reggie Harris",
+        "Mark Jeffreys",
+        "Scotty Johnson",
+        "Liz Keating",
+        "Seth Walsh",
+        "Meeka Owens"
+      ]
+    },
+    "area": {
+      "city": "79.64 sq mi",
+      "land": "77.91 sq mi",
+      "water": "1.72 sq mi"
+    },
+    "elevation": "482 ft",
+    "population": {
+      "city": "309317",
+      "density": "3969.98/sq mi",
+      "metro": "2259935"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["452XX", "45999"],
+    "area_codes": [513],
+    "FIPS code": "39-15000",
+    "GNIS feature IDs": ["1066650"],
+    "url": "https://www.cincinnati-oh.gov/"
+  },
+  {
+    "city_name": "Clarksville",
+    "state_name": "Tennessee",
+    "coordinates": "36°31′47″N 87°21′34″W",
+    "counties": ["Montgomery"],
+    "settled_founded": "1785",
+    "incorporated": "1808",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Joe Pitts",
+      "city_council": [
+        "Brian Zacharias",
+        "Deanna McLaughlin",
+        "Dajuan Little",
+        "Wallace Redd",
+        "Ambar Marquis",
+        "Wanda Smith",
+        "Travis Holleman",
+        "Wanda Allen",
+        "Karen Reynolds",
+        "Stacey Streetman",
+        "Joe Shakeenab",
+        "Trisha Butler Ward"
+      ]
+    },
+    "area": {
+      "city": "100.28 sq mi",
+      "land": "99.58 sq mi",
+      "water": "0.70 sq mi"
+    },
+    "elevation": "476 ft",
+    "population": {
+      "city": "166722",
+      "density": "1674.29/sq mi",
+      "metro": "328304"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["37040-37044"],
+    "area_codes": [931],
+    "FIPS code": "47-15160",
+    "GNIS feature IDs": ["1269467"],
+    "url": "https://www.cityofclarksville.com/"
+  },
+  {
+    "city_name": "Clearwater",
+    "state_name": "Florida",
+    "coordinates": "27°58′25″N 82°45′51″W",
+    "counties": ["Pinellas"],
+    "settled_founded": null,
+    "incorporated": "1891",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Frank Hibbard",
+      "city_council": [
+        "Mark Bunker",
+        "Kathleen Beckman",
+        "David Allbritton",
+        "Lina Teixeira"
+      ]
+    },
+    "area": {
+      "city": "35.92 sq mi",
+      "land": "26.13 sq mi",
+      "water": "9.79 sq mi"
+    },
+    "elevation": "30 ft",
+    "population": {
+      "city": "117292",
+      "density": "4488.62/sq mi",
+      "metro": "2783243"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["33755-33769"],
+    "area_codes": [727],
+    "FIPS code": "12-12875",
+    "GNIS feature IDs": ["0280543"],
+    "url": "https://www.myclearwater.com/"
+  },
+  {
+    "city_name": "Cleveland",
+    "state_name": "Ohio",
+    "coordinates": "41°28′56″N 81°40′11″W",
+    "counties": ["Cuyahoga"],
+    "settled_founded": "1796",
+    "incorporated": "1814",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Justin Bibb",
+      "city_council": [
+        "Joseph T. Jones",
+        "Kevin L. Bishop",
+        "Kerry McCormack",
+        "Deborah A. Gray",
+        "Richard A. Starr",
+        "Blaine A. Griffin",
+        "Stephanie D. Howse",
+        "Michael D. Polensek",
+        "Kevin Conwell",
+        "Anthony T. Hairston",
+        "Danny Kelly",
+        "Rebecca Maurer",
+        "Kris Harsh",
+        "Jasmin Santana",
+        "Jenny Spencer",
+        "Brian Kazy",
+        "Charles J. Slife"
+      ]
+    },
+    "area": {
+      "city": "82.48 sq mi",
+      "land": "77.73 sq mi",
+      "water": "4.75 sq mi"
+    },
+    "elevation": "653 ft",
+    "population": {
+      "city": "372624",
+      "density": "4793.52/sq mi",
+      "metro": "2075662"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "44101-44106",
+      "44108-44115",
+      "44118-44121",
+      "44124-44130",
+      "44134-44135",
+      "44143-44144",
+      "44181",
+      "44188",
+      "44190-44195",
+      "44197-44199"
+    ],
+    "area_codes": [216],
+    "FIPS code": "12-12875",
+    "GNIS feature IDs": ["1066654"],
+    "url": "https://www.clevelandohio.gov/"
+  },
+  {
+    "city_name": "Clovis",
+    "state_name": "California",
+    "coordinates": "36°49′31″N 119°42′11″W",
+    "counties": ["Fresno"],
+    "settled_founded": null,
+    "incorporated": "1912",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Lynne Ashbeck",
+      "city_council": [
+        "Vong Mouanoutoua",
+        "Matt Basgall",
+        "Drew Bessinger",
+        "Diane Pearce"
+      ]
+    },
+    "area": {
+      "city": "25.91 sq mi",
+      "land": "25.79 sq mi",
+      "water": "0.12 sq mi"
+    },
+    "elevation": "361 ft",
+    "population": {
+      "city": "120124",
+      "density": "4657.95/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["93611–93613", "93619"],
+    "area_codes": [559],
+    "FIPS code": "06-14218",
+    "GNIS feature IDs": ["1656303", "2409488"],
+    "url": "https://cityofclovis.com/"
+  },
+  {
+    "city_name": "College Station",
+    "state_name": "Texas",
+    "coordinates": "30°36′05″N 96°18′52″W",
+    "counties": ["Brazos"],
+    "settled_founded": "1876",
+    "incorporated": "1938",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "John Nichols",
+      "city_council": [
+        "Mark Smith",
+        "William Wright",
+        "Linda Harvell",
+        "Elizabeth Cunha",
+        "Bob Yancy",
+        "Dennis Maloney"
+      ]
+    },
+    "area": {
+      "city": "51.30 sq mi",
+      "land": "51.16 sq mi",
+      "water": "0.14 sq mi"
+    },
+    "elevation": "289 ft",
+    "population": {
+      "city": "120511",
+      "density": "2304.79/sq mi",
+      "metro": "272041"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["77840-77845"],
+    "area_codes": [979],
+    "FIPS code": "48-15976",
+    "GNIS feature IDs": ["2410193"],
+    "url": "https://www.cstx.gov/"
+  },
+  {
+    "city_name": "Colorado Springs",
+    "state_name": "Colorado",
+    "coordinates": "38°50′02″N 104°49′31″W",
+    "counties": ["El Paso County"],
+    "settled_founded": "1854",
+    "incorporated": "1886",
+    "government": {
+      "type": "Municipality",
+      "mayor": "John Suthers",
+      "city_council": [
+        "Dave Donelson",
+        "Randy Helms",
+        "Stephannie Fortune",
+        "Yolanda Avila",
+        "Nancy Henjum",
+        "Mike O'Malley",
+        "Bill Murray",
+        "Tom Strand",
+        "Wayne Williams"
+      ]
+    },
+    "area": {
+      "city": "191761 sq mi",
+      "land": "195.399 sq mi",
+      "water": "0.362 sq mi"
+    },
+    "elevation": "6010 ft",
+    "population": {
+      "city": "478961",
+      "density": "2400/sq mi",
+      "metro": "755105"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": [
+      "80901–80951",
+      "80960",
+      "80962",
+      "80970",
+      "80977",
+      "80995",
+      "80997"
+    ],
+    "area_codes": [719],
+    "FIPS code": "08-16000",
+    "GNIS feature IDs": ["0204797"],
+    "url": "https://coloradosprings.gov/"
+  },
+  {
+    "city_name": "Columbia",
+    "state_name": "Missouri",
+    "coordinates": "38.952°N 92.329°W",
+    "counties": ["Boone"],
+    "settled_founded": "1821",
+    "incorporated": "1826",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Barbara Buffaloe",
+      "city_council": [
+        "Pat Fowler",
+        "Andrea Waner",
+        "Roy Lovelady",
+        "Nick Foster",
+        "Matt Pitzer",
+        "Betsy Peters"
+      ]
+    },
+    "area": {
+      "city": "67.45 sq mi",
+      "land": "67.17 sq mi",
+      "water": "0.28 sq mi"
+    },
+    "elevation": "758 ft",
+    "population": {
+      "city": "126254",
+      "density": "1879.48/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["65201", "65202", "65203", "65211"],
+    "area_codes": [573],
+    "FIPS code": "29-15670",
+    "GNIS feature IDs": ["0716133"],
+    "url": "https://www.como.gov/"
+  },
+  {
+    "city_name": "Columbia",
+    "state_name": "South Carolina",
+    "coordinates": "34°0′2″N 81°2′5″W",
+    "counties": ["Richland", "Lexington"],
+    "settled_founded": "1786",
+    "incorporated": "1854",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Daniel J. Rickenmann",
+      "city_council": [
+        "Howard E. Duvall, Jr.",
+        "Edward H. McDowell, Jr.",
+        "Will Brennan",
+        "Aditi Bussells",
+        "Tina N. Herbert",
+        "Joe E. Taylor, Jr."
+      ]
+    },
+    "area": {
+      "city": "140.68 sq mi",
+      "land": "137.81 sq mi",
+      "water": "2.87 sq mi"
+    },
+    "elevation": "292 ft",
+    "population": {
+      "city": "136632",
+      "density": "991.45/sq mi",
+      "metro": "829470"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "29044",
+      "29201-29212",
+      "29214-29230",
+      "29240",
+      "29250",
+      "29260",
+      "29290",
+      "29292"
+    ],
+    "area_codes": [803, 839],
+    "FIPS code": "45-16000",
+    "GNIS feature IDs": ["1245051"],
+    "url": "https://columbiasc.gov/"
+  },
+  {
+    "city_name": "Columbus",
+    "state_name": "Ohio",
+    "coordinates": "39°57′44″N 83°00′02″W",
+    "counties": ["Franklin", "Delaware", "Fairfield"],
+    "settled_founded": "1812",
+    "incorporated": "1816",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Andrew Ginther",
+      "city_council": [
+        "Shannon G. Hardin",
+        "Rob Dorans",
+        "Nicholas J. Bankston",
+        "Lourdes Barroso de Padilla",
+        "Mitchell J. Brown",
+        "Shayla Favor",
+        "Emmanuel V. Remy",
+        "Michael Brown"
+      ]
+    },
+    "area": {
+      "city": "226.26 sq mi",
+      "land": "220.40 sq mi",
+      "water": "5.86 sq mi"
+    },
+    "elevation": "902 ft",
+    "population": {
+      "city": "905748",
+      "density": "4109.64/sq mi",
+      "metro": "2138926"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "43002",
+      "43004",
+      "43016-43017",
+      "43026",
+      "43035",
+      "43054",
+      "43065",
+      "43068",
+      "43081-43082",
+      "43085",
+      "43109-43110",
+      "43119",
+      "43123",
+      "43125",
+      "43137",
+      "43147",
+      "43201-43207",
+      "43209-43215",
+      "43217",
+      "43219-43224",
+      "43227-43232",
+      "43235",
+      "43240"
+    ],
+    "area_codes": [614, 380],
+    "FIPS code": "39-18000",
+    "GNIS feature IDs": ["1080996"],
+    "url": "https://www.columbus.gov/"
   }
 ]

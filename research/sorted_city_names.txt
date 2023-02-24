@@ -52,16 +52,16 @@ x Chesapeake[m] Virginia
 x Chicago Illinois
 x Chico California
 x Chula Vista
-Cincinnati Ohio
-Clarksville Tennessee
-Clearwater Florida
-Cleveland Ohio
-Clovis California
-College Station
-Colorado Springs
-Columbia Missouri
-Columbia South
-Columbus Ohio
+x Cincinnati Ohio
+x Clarksville Tennessee
+x Clearwater Florida
+x Cleveland Ohio
+x Clovis California
+x College Station, Texas
+x Colorado Springs, Colorado
+x Columbia Missouri
+x Columbia South Carolina
+x Columbus Ohio
 Columbus[u] Georgia
 Concord California
 Concord North
