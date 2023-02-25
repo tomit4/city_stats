@@ -62,18 +62,18 @@ x Colorado Springs, Colorado
 x Columbia Missouri
 x Columbia South Carolina
 x Columbus Ohio
-Columbus[u] Georgia
-Concord California
-Concord North
-Coral Springs
-Corona California
-Corpus Christi
-Costa Mesa
-Dallas Texas
-Daly City
-Davenport Iowa
-Davie Florida
-Dayton Ohio
+x Columbus[u] Georgia
+x Concord California
+x Concord North Carolina
+x Coral Springs, Florida
+x Corona California
+x Corpus Christi, Texas
+x Costa Mesa, California
+x Dallas Texas
+x Daly City, California
+x Davenport Iowa
+x Davie Florida
+x Dayton Ohio
 Dearborn Michigan
 Denton Texas
 Denver[i] Colorado

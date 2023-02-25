@@ -2801,5 +2801,526 @@
     "FIPS code": "39-18000",
     "GNIS feature IDs": ["1080996"],
     "url": "https://www.columbus.gov/"
+  },
+  {
+    "city_name": "Columbus",
+    "state_name": "Georgia",
+    "coordinates": "32°29′32″N 84°56′25″W",
+    "counties": ["Muscogee"],
+    "settled_founded": "1828",
+    "incorporated": null,
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "",
+      "city_council": [
+        "Jerry Barnes",
+        "Glenn Davis",
+        "Bruce Huff",
+        "Toyia Tucker",
+        "Charmaine Crabb",
+        "Gary Allen",
+        "JoAnne Cogle",
+        "Walker Garrett",
+        "Judy Thomas",
+        "John House"
+      ]
+    },
+    "area": {
+      "city": "221.01 sq mi",
+      "land": "216.50 sq mi",
+      "water": "4.51 sq mi"
+    },
+    "elevation": "243 ft",
+    "population": {
+      "city": "206922",
+      "density": "955.76/sq mi",
+      "metro": "328883"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "31820",
+      "31829",
+      "31900–09",
+      "31914",
+      "31917",
+      "31993–94",
+      "31997–99"
+    ],
+    "area_codes": [706, 762],
+    "FIPS code": "13-19007",
+    "GNIS feature IDs": ["0331158"],
+    "url": "https://www.columbusga.gov/"
+  },
+  {
+    "city_name": "Concord",
+    "state_name": "California",
+    "coordinates": "37°58′41″N 122°01′52″W",
+    "counties": ["Contra Costa"],
+    "settled_founded": "1869",
+    "incorporated": "1905",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Laura M. Hoffmeister",
+      "city_council": [
+        "Edi E. Birsan",
+        "Dominic Aliano",
+        "Laura Nakamura",
+        "Carlyn Obringer"
+      ]
+    },
+    "area": {
+      "city": "30.55 sq mi",
+      "land": "30.55 sq mi",
+      "water": "0 sq mi"
+    },
+    "elevation": "75 ft",
+    "population": {
+      "city": "125410",
+      "density": "4104.67/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["94518–94521"],
+    "area_codes": [925],
+    "FIPS code": "06-16000",
+    "GNIS feature IDs": ["1658308", "2410214"],
+    "url": "https://www.cityofconcord.org/"
+  },
+  {
+    "city_name": "Concord",
+    "state_name": "North Carolina",
+    "coordinates": "35°24′16″N 80°36′2″W",
+    "counties": ["Cabarrus"],
+    "settled_founded": "1796",
+    "incorporated": "1806",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "William C. Dusch",
+      "city_council": [
+        "Andy Langford",
+        "W. Brian King",
+        "Betty M. Stocks",
+        "JC McKenzie",
+        "Terry Crawford",
+        "Jennifer P. Hubbard",
+        "John Sweat, Jr."
+      ]
+    },
+    "area": {
+      "city": "64.04 sq mi",
+      "land": "64.00 sq mi",
+      "water": "0.04 sq mi"
+    },
+    "elevation": "706 ft",
+    "population": {
+      "city": "105240",
+      "density": "1644.32/sq mi",
+      "metro": "2660329"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["28025", "28026", "28027"],
+    "area_codes": [704, 980],
+    "FIPS code": "37-14100",
+    "GNIS feature IDs": ["37-14100"],
+    "url": "https://concordnc.gov/"
+  },
+  {
+    "city_name": "Coral Springs",
+    "state_name": "Florida",
+    "coordinates": "26°16′14″N 80°15′33″W",
+    "counties": ["Broward"],
+    "settled_founded": null,
+    "incorporated": "1963",
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "Scott J. Brook",
+      "city_council": [
+        "Shawn Cerra",
+        "Nancy Metayer Bowen",
+        "Joshua Simmons",
+        "Joy Carter"
+      ]
+    },
+    "area": {
+      "city": "23.99 sq mi",
+      "land": "22.86 sq mi",
+      "water": "1.12 sq mi"
+    },
+    "elevation": "13 ft",
+    "population": {
+      "city": "134394",
+      "density": "5877.97/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "33065",
+      "33067",
+      "33071",
+      "33073",
+      "33075",
+      "33076",
+      "33077"
+    ],
+    "area_codes": [754, 954],
+    "FIPS code": "12-14400",
+    "GNIS feature IDs": ["0307614"],
+    "url": "https://www.coralsprings.gov/"
+  },
+  {
+    "city_name": "Corona",
+    "state_name": "California",
+    "coordinates": "33°52′N 117°34′W",
+    "counties": ["Riverside"],
+    "settled_founded": "1886",
+    "incorporated": null,
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "Tony Daddario",
+      "city_council": [
+        "Tom Richins",
+        "Jacque Casillas",
+        "Wes Speake",
+        "Jim Steiner",
+        "Chad Willardson"
+      ]
+    },
+    "area": {
+      "city": "39.96 sq mi",
+      "land": "39.94 sq mi",
+      "water": "0.02 sq mi"
+    },
+    "elevation": "679 ft",
+    "population": {
+      "city": "157136",
+      "density": "3934.20/sq mi",
+      "metro": "4224851"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92877–92883"],
+    "area_codes": [951],
+    "FIPS code": "06-16350",
+    "GNIS feature IDs": ["1652691", "2410232"],
+    "url": "https://www.coronaca.gov/"
+  },
+  {
+    "city_name": "Corpus Christi",
+    "state_name": "Texas",
+    "coordinates": "27°44′34″N 97°24′7″W",
+    "counties": ["Neuces", "Kleberg", "San Patricio", "Aransas"],
+    "settled_founded": "1839",
+    "incorporated": "1852",
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "Paulette Guajardo",
+      "city_council": [
+        "Michael T. Hunter",
+        "Jim Klein",
+        "Mike Pusley",
+        "Everett Roy",
+        "Sylvia Campos",
+        "Roland Barrera",
+        "Dan Suckley",
+        "Gil Hernandez"
+      ]
+    },
+    "area": {
+      "city": "488.73 sq mi",
+      "land": "160.63 sq mi",
+      "water": "328.10 sq mi"
+    },
+    "elevation": "7 ft",
+    "population": {
+      "city": "317863",
+      "density": "2033.17/sq mi",
+      "metro": "421933"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["78401–78402", "78404–78419"],
+    "area_codes": [361],
+    "FIPS code": "48-17000",
+    "GNIS feature IDs": ["1333380"],
+    "url": "https://www.cctexas.com/"
+  },
+  {
+    "city_name": "Costa Mesa",
+    "state_name": "California",
+    "coordinates": "33°39′54″N 117°54′44″W",
+    "counties": ["Orange"],
+    "settled_founded": "1920",
+    "incorporated": "1953",
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "John Stephens",
+      "city_council": [
+        "Jeffrey Harlan",
+        "Andrea Marr",
+        "Manuel Chavez",
+        "Loren Gameros",
+        "Don Harper",
+        "Arlis Reynolds"
+      ]
+    },
+    "area": {
+      "city": "15.81 sq mi",
+      "land": "15.81 sq mi",
+      "water": "0.01 sq mi"
+    },
+    "elevation": "98 ft",
+    "population": {
+      "city": "111918",
+      "density": "7080.73/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92626-92628"],
+    "area_codes": [714, 657, 949],
+    "FIPS code": "06-16532",
+    "GNIS feature IDs": ["1652692", "2410239"],
+    "url": "https://www.costamesaca.gov/"
+  },
+  {
+    "city_name": "Dallas",
+    "state_name": "Texas",
+    "coordinates": "32°46′45″N 96°48′32″W",
+    "counties": ["Dallas", "Collin", "Denton", "Kaufman", "Rockwall"],
+    "settled_founded": "1841",
+    "incorporated": "1856",
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "Eric Johnson",
+      "city_council": [
+        "Chad West",
+        "Jesse Moreno",
+        "Casey Thomas, II",
+        "Carolyn King Arnold",
+        "Jaime Resendez",
+        "Omar Narvaez",
+        "Adam Bazaldua",
+        "Tennell Atkins",
+        "Paula Blackmon",
+        "B. Adam McGough",
+        "Jaynie Schultz",
+        "Cara Mendelsohn",
+        "Gay Donnell Willis",
+        "Paul E. Ridley"
+      ]
+    },
+    "area": {
+      "city": "386.9 sq mi",
+      "land": "339.604 sq mi",
+      "water": "43.87 sq mi"
+    },
+    "elevation": "420 ft",
+    "population": {
+      "city": "1304379",
+      "density": "3400/sq mi",
+      "metro": "7637387"
+    },
+    "time_zone": "UTC-6(PST)",
+    "zip_codes": [
+      "75201-75238",
+      "75240-75244",
+      "75246-75254",
+      "75260-75267",
+      "75270",
+      "75275",
+      "75277",
+      "75283-75285",
+      "75287",
+      "75301",
+      "75303",
+      "75312",
+      "75313",
+      "75315",
+      "75320",
+      "75326",
+      "75336",
+      "75339",
+      "75342",
+      "75354-75360",
+      "75367",
+      "75368",
+      "75370-75374",
+      "75376",
+      "75378-75382",
+      "75389-75395",
+      "75397",
+      "75398"
+    ],
+    "area_codes": [214, 469, 945, 972],
+    "FIPS code": "48-19000",
+    "GNIS feature IDs": ["1380944"],
+    "url": "https://dallascityhall.com/"
+  },
+  {
+    "city_name": "Daly City",
+    "state_name": "California",
+    "coordinates": "37°41′11″N 122°28′06″W",
+    "counties": ["San Mateo"],
+    "settled_founded": null,
+    "incorporated": "1911",
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "Raymond A. Buenaventura",
+      "city_council": [
+        "Juslyn C. Manalo",
+        "Pamela DiGiovanni",
+        "Dr. Rod Daus-Magbual",
+        "Glenn R. Sylvester"
+      ]
+    },
+    "area": {
+      "city": "7.64 sq mi",
+      "land": "7.64 sq mi",
+      "water": "0.00 sq mi"
+    },
+    "elevation": "344 ft",
+    "population": {
+      "city": "104901",
+      "density": "13734.09/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["94014–94017"],
+    "area_codes": [415, 628, 650],
+    "FIPS code": "06-17918",
+    "GNIS feature IDs": ["1658369", "2410291"],
+    "url": "https://www.dalycity.org/"
+  },
+  {
+    "city_name": "Davenport",
+    "state_name": "Iowa",
+    "coordinates": "41°32′35″N 90°35′27″W",
+    "counties": ["Scott"],
+    "settled_founded": "1836",
+    "incorporated": "1839",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Mike Matson",
+      "city_council": [
+        "Kyle Gripp",
+        "JJ Condon",
+        "Rick Dunn",
+        "Maria Dickmann",
+        "Marion Meginnis",
+        "Robby Ortiz",
+        "Tim Kelly",
+        "Ben Jobgen",
+        "Derek Cornette",
+        "Judith Lee"
+      ]
+    },
+    "area": {
+      "city": "65.92 sq mi",
+      "land": "63.80 sq mi",
+      "water": "2.12 sq mi"
+    },
+    "elevation": "580 ft",
+    "population": {
+      "city": "101724",
+      "density": "1594.55/sq mi",
+      "metro": "384324"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["52801-52809"],
+    "area_codes": [563],
+    "FIPS code": "19-19000",
+    "GNIS feature IDs": ["2394467"],
+    "url": "https://www.davenportiowa.com/"
+  },
+  {
+    "city_name": "Davie",
+    "state_name": "Florida",
+    "coordinates": "26°4′53″N 80°16′49″W",
+    "counties": ["Broward"],
+    "settled_founded": "1925",
+    "incorporated": "1963",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Judy Paul",
+      "city_council": [
+        "Marlon Luis",
+        "Michelle Whitman",
+        "Caryl Hattan",
+        "Susan Starkey"
+      ]
+    },
+    "area": {
+      "city": "35.77 sq mi",
+      "land": "34.89 sq mi",
+      "water": "0.87 sq mi"
+    },
+    "elevation": "9 ft",
+    "population": {
+      "city": "105691",
+      "density": "3018.92/sq mi",
+      "metro": "5564635"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["33312", "33314", "33317", "33324–33326", "33328–33331"],
+    "area_codes": [754, 954],
+    "FIPS code": "12-16475",
+    "GNIS feature IDs": ["0281316"],
+    "url": "https://www.davie-fl.gov/"
+  },
+  {
+    "city_name": "Dayton",
+    "state_name": "Ohio",
+    "coordinates": "39°45′34″N 84°11′30″W",
+    "counties": ["Montgomery"],
+    "settled_founded": "1805",
+    "incorporated": "1841",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Jeff Mims",
+      "city_council": [
+        "Jeffrey J. Mims, Jr.",
+        "Matt Joseph",
+        "Christopher L. Shaw",
+        "Darryl Fairchild",
+        "Shenise Turner-Sloss"
+      ]
+    },
+    "area": {
+      "city": "56.96 sq mi",
+      "land": "55.81 sq mi",
+      "water": "1.15 sq mi"
+    },
+    "elevation": "738 ft",
+    "population": {
+      "city": "137644",
+      "density": "2466.47/sq mi",
+      "metro": "814049"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "45401-45406",
+      "45409",
+      "45410",
+      "45412-45417",
+      "45419",
+      "45420",
+      "45422-45424",
+      "45426",
+      "45428-45435",
+      "45437",
+      "45439-45441",
+      "45448",
+      "45449",
+      "45458",
+      "45459",
+      "45469",
+      "45470",
+      "45475",
+      "45479",
+      "45481",
+      "45482",
+      "45490"
+    ],
+    "area_codes": [937, 326],
+    "FIPS code": "39113",
+    "GNIS feature IDs": ["1064514"],
+    "url": "https://daytonohio.gov/"
   }
 ]
