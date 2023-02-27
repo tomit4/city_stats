@@ -74,17 +74,17 @@ x Daly City, California
 x Davenport Iowa
 x Davie Florida
 x Dayton Ohio
-Dearborn Michigan
-Denton Texas
-Denver[i] Colorado
-Des Moines
-Detroit Michigan
-Downey California
-Durham North
-Edinburg Texas
-Edison New
-El Cajon
-Elgin Illinois
+x Dearborn Michigan
+x Denton Texas
+x Denver Colorado
+x Des Moines Iowa
+x Detroit Michigan
+x Downey California
+x Durham North Carolina
+x Edinburg Texas
+x Edison New Jersey
+x El Cajon California
+x Elgin Illinois
 Elizabeth New
 Elk Grove
 El Monte

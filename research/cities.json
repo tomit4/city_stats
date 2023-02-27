@@ -3322,5 +3322,454 @@
     "FIPS code": "39113",
     "GNIS feature IDs": ["1064514"],
     "url": "https://daytonohio.gov/"
+  },
+  {
+    "city_name": "Dearborn",
+    "state_name": "Michigan",
+    "coordinates": "42°18′52″N 83°12′48″W",
+    "counties": ["Wayne"],
+    "settled_founded": "1786",
+    "incorporated": "1927",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Abdullah Hammoud",
+      "city_council": [
+        "Michael T. Sareini",
+        "Leslie C. Herrick",
+        "Kamal Alsawafy",
+        "Ken Paris",
+        "Robert Abraham",
+        "Mustapha Hammoud",
+        "Gary Enos"
+      ]
+    },
+    "area": {
+      "city": "24.52 sq mi",
+      "land": "24.25 sq mi",
+      "water": "0.27 sq mi"
+    },
+    "elevation": "591 ft",
+    "population": {
+      "city": "109976",
+      "density": "4535.65/sq mi",
+      "metro": "4285832"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["48120", "48121", "48123", "48124", "48126", "48128"],
+    "area_codes": [313],
+    "FIPS code": "26-21000",
+    "GNIS feature IDs": ["0624432"],
+    "url": "https://cityofdearborn.org/"
+  },
+  {
+    "city_name": "Denton",
+    "state_name": "Texas",
+    "coordinates": "33°12′59″N 97°7′45″W",
+    "counties": ["Denton"],
+    "settled_founded": null,
+    "incorporated": "1866",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Gerard Hudspeth",
+      "city_council": [
+        "Vicki Byrd",
+        "Brian Beck",
+        "Jesse Davis",
+        "Brandon Chase McGee",
+        "Chris Watts"
+      ]
+    },
+    "area": {
+      "city": "97.95 sq mi",
+      "land": "96.35 sq mi",
+      "water": "1.60 sq mi"
+    },
+    "elevation": "659 ft",
+    "population": {
+      "city": "139869",
+      "density": "429461/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["76201-76210"],
+    "area_codes": [940, 682, 817],
+    "FIPS code": "48-19972",
+    "GNIS feature IDs": ["2410323"],
+    "url": "https://www.cityofdenton.com/"
+  },
+  {
+    "city_name": "Denver",
+    "state_name": "Colorado",
+    "coordinates": "39.7392°N 104.9850°W",
+    "counties": ["Denver"],
+    "settled_founded": "1858",
+    "incorporated": "1861",
+    "government": {
+      "type": "Consolidated City and County",
+      "mayor": "Michael Hancock",
+      "city_council": [
+        "Amanda P. Sandoval",
+        "Kevin Flynn",
+        "Jamie Torres",
+        "Kendra Black",
+        "Amanda Sawyer",
+        "Paul Kashmann",
+        "Jolon Clark",
+        "Chris Herndon",
+        "Candi CdeBaca",
+        "Chris Hinds",
+        "Stacie Gilmore",
+        "Robin Kniech",
+        "Debbie Ortega"
+      ]
+    },
+    "area": {
+      "city": "154.73 sq mi",
+      "land": "153.08 sq mi",
+      "water": "1.65 sq mi"
+    },
+    "elevation": "5130 ft",
+    "population": {
+      "city": "715522",
+      "density": "4674/sq mi",
+      "metro": "2963821"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": [
+      "80201–80212",
+      "80214–80239",
+      "80241",
+      "80243–80244",
+      "80246–80252",
+      "80256–80266",
+      "80271",
+      "80273–80274",
+      "80279–80281",
+      "80290–80291",
+      "80293–80295",
+      "80299",
+      "80012",
+      "80014",
+      "80022",
+      "80033",
+      "80123"
+    ],
+    "area_codes": [303, 720, 983],
+    "FIPS code": "08-20000",
+    "GNIS feature IDs": ["201738"],
+    "url": "https://www.denvergov.org/"
+  },
+  {
+    "city_name": "Des Moines",
+    "state_name": "Iowa",
+    "coordinates": "41°35′27″N 93°37′15″W",
+    "counties": ["Polk", "Warren"],
+    "settled_founded": "1843",
+    "incorporated": "1851",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Frank Cownie",
+      "city_council": [
+        "Carl Voss",
+        "Connie Boesen",
+        "Indira Sheumaker",
+        "Linda Westergaard",
+        "Josh Mandelbaum",
+        "Joe Gatto"
+      ]
+    },
+    "area": {
+      "city": "90.70 sq mi",
+      "land": "88.18 sq mi",
+      "water": "2.52 sq mi"
+    },
+    "elevation": "955 ft",
+    "population": {
+      "city": "214133",
+      "density": "2428.39/sq mi",
+      "metro": "699292"
+    },
+    "time_zone": "UTC-6(MST)",
+    "zip_codes": ["50301", "50340", "50310", "50316"],
+    "area_codes": [515],
+    "FIPS code": "19-21000",
+    "GNIS feature IDs": ["465961"],
+    "url": "https://www.dsm.city/"
+  },
+  {
+    "city_name": "Detroit",
+    "state_name": "Michigan",
+    "coordinates": "42°19′53″N 83°02′45″W",
+    "counties": ["Wayne"],
+    "settled_founded": "1701",
+    "incorporated": "1806",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Mike Duggan",
+      "city_council": [
+        "Mary Sheffield",
+        "James Tate",
+        "Angela Whitfield Calloway",
+        "Scott Benson",
+        "Latisha Johnson",
+        "Gabriela Santiago-Romero",
+        "Fred Durhal III",
+        "Mary Waters",
+        "Coleman A. Young II"
+      ]
+    },
+    "area": {
+      "city": "142.89 sq mi",
+      "land": "138.73 sq mi",
+      "water": "4.16 sq mi"
+    },
+    "elevation": "656 ft",
+    "population": {
+      "city": "639111",
+      "density": "4606.84/sq mi",
+      "metro": "4365205"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["482XX"],
+    "area_codes": [313],
+    "FIPS code": "26-22000",
+    "GNIS feature IDs": ["1617959"],
+    "url": "https://detroitmi.gov/"
+  },
+  {
+    "city_name": "Downey",
+    "state_name": "California",
+    "coordinates": "33°56′17″N 118°07′51″W",
+    "counties": ["Los Angeles"],
+    "settled_founded": "1873",
+    "incorporated": "1956",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Claudia Frometa",
+      "city_council": [
+        "Timothy Horn",
+        "Hector Sosa",
+        "Claudia M. Frometa",
+        "Mario Trujillo"
+      ]
+    },
+    "area": {
+      "city": "12.57 sq mi",
+      "land": "12.41 sq mi",
+      "water": "0.16 sq mi"
+    },
+    "elevation": "118 ft",
+    "population": {
+      "city": "114355",
+      "density": "9215.49/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["90239-90242"],
+    "area_codes": [562],
+    "FIPS code": "06-19766",
+    "GNIS feature IDs": ["1652698", "2410352"],
+    "url": "https://www.downeyca.org/"
+  },
+  {
+    "city_name": "Durham",
+    "state_name": "North Carolina",
+    "coordinates": "35°59′19″N 78°54′26″W",
+    "counties": ["Durham", "Wake"],
+    "settled_founded": null,
+    "incorporated": "1869",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Elaine O'Neal",
+      "city_council": [
+        "Mark-Anthony Middleton",
+        "Javiera Caballero",
+        "DeDreana Freeman",
+        "Monique Holsey-Hyman",
+        "Jillian Johnson",
+        "Leonardo Williams"
+      ]
+    },
+    "area": {
+      "city": " 116.19 sq mi",
+      "land": "115.36 sq mi",
+      "water": "0.82 sq mi"
+    },
+    "elevation": "404 ft",
+    "population": {
+      "city": "283506",
+      "density": "2457.51/sq mi",
+      "metro": "649903"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "27701",
+      "27702",
+      "27703",
+      "27704",
+      "27705",
+      "27706",
+      "27707",
+      "27708",
+      "27709",
+      "27710",
+      "27711",
+      "27712",
+      "27713",
+      "27715",
+      "27717",
+      "27722"
+    ],
+    "area_codes": [919, 984],
+    "FIPS code": "37-19000",
+    "GNIS feature IDs": ["1020059"],
+    "url": "https://www.durhamnc.gov/"
+  },
+  {
+    "city_name": "Edinburg",
+    "state_name": "Texas",
+    "coordinates": "26°18′15″N 98°9′50″W",
+    "counties": ["Hidalgo"],
+    "settled_founded": "1908",
+    "incorporated": "1919",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Ramiro Garza, Jr.",
+      "city_council": [
+        "Johnny Garcia",
+        "Daniel Diaz",
+        "Jason De Leon",
+        "David White"
+      ]
+    },
+    "area": {
+      "city": "44.78 sq mi",
+      "land": "44.72 sq mi",
+      "water": "0.06 sq mi"
+    },
+    "elevation": "95 ft",
+    "population": {
+      "city": "77100",
+      "density": "2262.15/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["8539-78541"],
+    "area_codes": [956],
+    "FIPS code": "48-22660",
+    "GNIS feature IDs": ["48-22660"],
+    "url": "https://cityofedinburg.com/"
+  },
+  {
+    "city_name": "Edison",
+    "state_name": "New Jersey",
+    "coordinates": "40.5274°N 74.3933°W",
+    "counties": ["Middlesex"],
+    "settled_founded": "1651",
+    "incorporated": "1870",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Samip Joshi",
+      "city_council": [
+        "John H. Poyner",
+        "Margot Harris",
+        "Richard Brescher",
+        "Joseph A. Coyle",
+        "Ajay Patil",
+        "Joyce Ship-Freeman",
+        "Nishith Patel"
+      ]
+    },
+    "area": {
+      "city": "30.69 sq mi",
+      "land": "30.06 sq mi",
+      "water": "0.63 sq mi"
+    },
+    "elevation": "39 ft",
+    "population": {
+      "city": "107588",
+      "density": "3578.2/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["08817", "08818", "08820", "08837", "08899"],
+    "area_codes": [732, 908],
+    "FIPS code": "3402320230",
+    "GNIS feature IDs": ["00882166"],
+    "url": "https://www.edisonnj.org/"
+  },
+  {
+    "city_name": "El Cajon",
+    "state_name": "California",
+    "coordinates": "32°47′54″N 116°57′36″W",
+    "counties": ["San Diego"],
+    "settled_founded": null,
+    "incorporated": "1912",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Bill Wells",
+      "city_council": [
+        "Gary Kendrick",
+        "Michelle Metschel",
+        "Steve Goble",
+        "Phil Ortiz"
+      ]
+    },
+    "area": {
+      "city": "14.51 sq mi",
+      "land": "14.51 sq mi",
+      "water": "0.00 sq mi"
+    },
+    "elevation": "433 ft",
+    "population": {
+      "city": "106215",
+      "density": "7300/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92019–92022", "92090"],
+    "area_codes": [619],
+    "FIPS code": "06-21712",
+    "GNIS feature IDs": ["1652701"],
+    "url": "https://www.elcajon.gov/"
+  },
+  {
+    "city_name": "Elgin",
+    "state_name": "Illinois",
+    "coordinates": "42°02′18″N 88°19′22″W",
+    "counties": ["Kane", "Cook"],
+    "settled_founded": "1835",
+    "incorporated": "1854",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Dave Kaptain",
+      "city_council": [
+        "Corey Dixon",
+        "Dustin Good",
+        "Rosamaria Martinez",
+        "Tish S. Powell",
+        "Carol J. Rauschenberger",
+        "Toby Shaw",
+        "F. John Steffen",
+        "Steven Thoren"
+      ]
+    },
+    "area": {
+      "city": " 38.60 sq mi",
+      "land": "38.03 sq mi",
+      "water": "0.57 sq mi"
+    },
+    "elevation": "810 ft",
+    "population": {
+      "city": "114797",
+      "density": "3018.83/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["60120-60125"],
+    "area_codes": [331, 847, 224],
+    "FIPS code": "17-23074",
+    "GNIS feature IDs": ["407859", "407859", "418747", "2394641"],
+    "url": "https://www.cityofelgin.org/"
   }
 ]
