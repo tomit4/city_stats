@@ -3771,5 +3771,529 @@
     "FIPS code": "17-23074",
     "GNIS feature IDs": ["407859", "407859", "418747", "2394641"],
     "url": "https://www.cityofelgin.org/"
+  },
+  {
+    "city_name": "Elizabeth",
+    "state_name": "New Jersey",
+    "coordinates": "40.663°N 74.214°W",
+    "counties": ["Union"],
+    "settled_founded": "1664",
+    "incorporated": "1855",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "J. Christian Bollwage",
+      "city_council": [
+        "Patricia Perkins-Auguste",
+        "Frank Cuesta",
+        "Manny Grova, Jr.",
+        "Carlos Torres",
+        "Nelson Gonzalez",
+        "Kevin Kiniery",
+        "Carlos Cedeño",
+        "William Gallman, Jr.",
+        "Frank O. Mazza"
+      ]
+    },
+    "area": {
+      "city": "13.64 sq mi",
+      "land": "12.32 sq mi",
+      "water": "1.32 sq mi"
+    },
+    "elevation": "16 ft",
+    "population": {
+      "city": "137298",
+      "density": "11145.22/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["07201", "07206", "07207", "07208"],
+    "area_codes": [908],
+    "FIPS code": "3403921000",
+    "GNIS feature IDs": ["0885205"],
+    "url": "https://www.elizabethnj.org/"
+  },
+  {
+    "city_name": "Elk Grove",
+    "state_name": "California",
+    "coordinates": "38°26′18″N 121°22′55″W",
+    "counties": ["Sacramento"],
+    "settled_founded": "1850",
+    "incorporated": "2000",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Bobbie Singh-Allen",
+      "city_council": [
+        "Darren Suen",
+        "Rod Brewer",
+        "Kevin Spease",
+        "Sergio Robles"
+      ]
+    },
+    "area": {
+      "city": "42.20 sq mi",
+      "land": "42.03 sq mi",
+      "water": "0.17 sq mi"
+    },
+    "elevation": "46 ft",
+    "population": {
+      "city": "176124",
+      "density": "4190.44/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["95624", "95757–95759"],
+    "area_codes": [916, 279],
+    "FIPS code": "06-22020",
+    "GNIS feature IDs": ["277506", "2410425"],
+    "url": "https://www.elkgrovecity.org/"
+  },
+  {
+    "city_name": "El Monte",
+    "state_name": "California",
+    "coordinates": "34°4′24″N 118°1′39″W",
+    "counties": ["Los Angeles"],
+    "settled_founded": null,
+    "incorporated": "1912",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Jessica Ancona",
+      "city_council": [
+        "Alma Puente",
+        "Martitn Herrera",
+        "Victoria Martinez Muela"
+      ]
+    },
+    "area": {
+      "city": "9.65 sq mi",
+      "land": "9.56 sq mi",
+      "water": "0.09 sq mi"
+    },
+    "elevation": "299 ft",
+    "population": {
+      "city": "109450",
+      "density": "11341.97/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["91731-91735"],
+    "area_codes": [626],
+    "FIPS code": "06-22230",
+    "GNIS feature IDs": ["1652702", "2410413"],
+    "url": "https://ci.el-monte.ca.us/"
+  },
+  {
+    "city_name": "El Paso",
+    "state_name": "Texas",
+    "coordinates": "31°45′33″N 106°29′19″W",
+    "counties": ["El Paso"],
+    "settled_founded": "1849",
+    "incorporated": "1873",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Oscar Leeser",
+      "city_council": [
+        "Brian Kennedy",
+        "Alexsandra Annello",
+        "Cassandra Hernandez",
+        "Joe Molinar",
+        "Isabel Salcido",
+        "Art Fierro",
+        "Henry Rivera",
+        "Chris Canales"
+      ]
+    },
+    "area": {
+      "city": "259.25 sq mi",
+      "land": "258.43 sq mi",
+      "water": "0.82 sq mi"
+    },
+    "elevation": "3740 ft",
+    "population": {
+      "city": "678815",
+      "density": "2626.69/sq mi",
+      "metro": "868859"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["79900–79999", "88500–88599"],
+    "area_codes": [915],
+    "FIPS code": "48-24000",
+    "GNIS feature IDs": ["1380946"],
+    "url": "https://www.elpasotexas.gov/"
+  },
+  {
+    "city_name": "Escondido",
+    "state_name": "California",
+    "coordinates": "33°7′29″N 117°4′51″W",
+    "counties": ["San Diego"],
+    "settled_founded": null,
+    "incorporated": "1888",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Dane White",
+      "city_council": [
+        "Consuelo Martinez",
+        "Joe Garcia",
+        "Christian Garcia",
+        "Michael Morasco"
+      ]
+    },
+    "area": {
+      "city": "37.45 sq mi",
+      "land": "37.34 sq mi",
+      "water": "0.11 sq mi"
+    },
+    "elevation": "646 ft",
+    "population": {
+      "city": "151038",
+      "density": "4060.12/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92025–92027", "92029"],
+    "area_codes": [442, 760],
+    "FIPS code": "06-22804",
+    "GNIS feature IDs": ["1652706"],
+    "url": "https://www.escondido.org/"
+  },
+  {
+    "city_name": "Eugene",
+    "state_name": "Oregon",
+    "coordinates": "44°03′07″N 123°05′12″W",
+    "counties": ["Lane"],
+    "settled_founded": "1846",
+    "incorporated": "1862",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Lucy Vinis",
+      "city_council": [
+        "Emily Semple",
+        "Matt Keating",
+        "Alan Zelenka",
+        "Jennifer Yeh",
+        "Mike Clark",
+        "Greg Evans",
+        "Lyndsie Leech",
+        "Randy Groves"
+      ]
+    },
+    "area": {
+      "city": "44.29 sq mi",
+      "land": "44.22 sq mi",
+      "water": "0.07 sq mi"
+    },
+    "elevation": "430 ft",
+    "population": {
+      "city": "176654",
+      "density": "3995.07/sq mi",
+      "metro": "382971"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["97401–97405", "97408", "97440"],
+    "area_codes": [458, 541],
+    "FIPS code": "41-23850",
+    "GNIS feature IDs": ["1120527"],
+    "url": "https://www.eugene-or.gov/"
+  },
+  {
+    "city_name": "Evansville",
+    "state_name": "Indiana",
+    "coordinates": "37°58′38″N 87°33′2″W",
+    "counties": ["Vanderburgh"],
+    "settled_founded": "1812",
+    "incorporated": "1817",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Lloyd Winnecke",
+      "city_council": [
+        "Ben Trockman",
+        "Missy Mosby",
+        "Zac Heronemus",
+        "Alex Burton",
+        "Angela Koehler Lindsey",
+        "Jim Brinkmeyer",
+        "Ron Beane",
+        "Kaitlin Moore",
+        "Jonathan Weaver"
+      ]
+    },
+    "area": {
+      "city": "47.85 sq mi",
+      "land": "47.35 sq mi",
+      "water": "0.49 sq mi"
+    },
+    "elevation": "387 ft",
+    "population": {
+      "city": "118414",
+      "density": "2476.99/sq mi",
+      "metro": "358676"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "47701-47706",
+      "47708",
+      "47710-47716",
+      "47719-47722",
+      "47724-47728",
+      "47730-47737",
+      "47739-47741",
+      "47744",
+      "47747",
+      "47750",
+      "47755",
+      "47761",
+      "47777"
+    ],
+    "area_codes": [812, 930],
+    "FIPS code": "18-22000",
+    "GNIS feature IDs": ["434258"],
+    "url": "https://www.evansvillegov.org/"
+  },
+  {
+    "city_name": "Everett",
+    "state_name": "Washington",
+    "coordinates": "47°58′45″N 122°12′06″W",
+    "counties": ["Snohomish"],
+    "settled_founded": "1890",
+    "incorporated": "1893",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Cassie Franklin",
+      "city_council": [
+        "Brenda Stonecipher",
+        "Judy Tuohy",
+        "Mary Fosse",
+        "Paula Rhyne",
+        "Don Schwab",
+        "Liz Vogeli",
+        "Ben Zarlingo"
+      ]
+    },
+    "area": {
+      "city": "47.91 sq mi",
+      "land": "33.19 sq mi",
+      "water": "14.71 sq mi"
+    },
+    "elevation": "79 ft",
+    "population": {
+      "city": "110629",
+      "density": "3358.6/sq mi",
+      "metro": "4018762"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "98201",
+      "98203",
+      "98204",
+      "98206",
+      "98207",
+      "98208",
+      "98213"
+    ],
+    "area_codes": [425],
+    "FIPS code": "53-22640",
+    "GNIS feature IDs": ["1512198"],
+    "url": "https://www.everettwa.gov/"
+  },
+  {
+    "city_name": "Fairfield",
+    "state_name": "California",
+    "coordinates": "38°15′28″N 122°3′15″W",
+    "counties": ["Solano"],
+    "settled_founded": null,
+    "incorporated": "1903",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Harry T. Price",
+      "city_council": [
+        "Catherine Moy",
+        "Pam Bertani",
+        "K. Patrice Williams",
+        "Scott Tonnesen",
+        "Doug Carr",
+        "Rick Vaccaro",
+        "Doriss Panduro"
+      ]
+    },
+    "area": {
+      "city": "41.39 sq mi",
+      "land": "41.14 sq mi",
+      "water": "0.26 sq mi"
+    },
+    "elevation": "13 ft",
+    "population": {
+      "city": "119881",
+      "density": "2900/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["94533-94535"],
+    "area_codes": [707],
+    "FIPS code": "06-23182",
+    "GNIS feature IDs": ["1656005", "2410474"],
+    "url": "https://www.fairfield.ca.gov/"
+  },
+  {
+    "city_name": "Fargo",
+    "state_name": "North Dakota",
+    "coordinates": "46°52′38″N 96°47′22″W",
+    "counties": ["Cass"],
+    "settled_founded": "1871",
+    "incorporated": null,
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "Tim Mahoney",
+      "city_council": [
+        "Arlette Preston",
+        "Denise Kolpack",
+        "Dave Piepkorn",
+        "John Strand"
+      ]
+    },
+    "area": {
+      "city": "50.77 sq mi",
+      "land": "49.80 sq mi",
+      "water": "0.97 sq mi"
+    },
+    "elevation": "904 ft",
+    "population": {
+      "city": "125990",
+      "density": "2481.68/sq mi",
+      "metro": "252136"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["58102–58109", "58121–58122", "58124–58126"],
+    "area_codes": [701],
+    "FIPS code": "38-25700",
+    "GNIS feature IDs": ["1028945"],
+    "url": "https://www.fargond.gov/"
+  },
+  {
+    "city_name": "Fayetteville",
+    "state_name": "North Carolina",
+    "coordinates": "35°3′9″N 78°52′41″W",
+    "counties": ["Cumberland"],
+    "settled_founded": "1783",
+    "incorporated": "1783",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Mitch Colvin",
+      "city_council": [
+        "Johnny Dawkins",
+        "Kathy Jensen",
+        "Shakeyla Ingram",
+        "Mario Benavente",
+        "D.J. Haire",
+        "Derrick Thompson",
+        "Brenda McNair",
+        "Courtney Banks-McLaughlin",
+        "Deno Hondros"
+      ]
+    },
+    "area": {
+      "city": "150.08 sq mi",
+      "land": "148.26 sq mi",
+      "water": "1.82 sq mi"
+    },
+    "elevation": "102 ft",
+    "population": {
+      "city": "208501",
+      "density": "1406.34/sq mi",
+      "metro": "520378"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "28301",
+      "28302",
+      "28303",
+      "28304",
+      "28305",
+      "28306",
+      "28307",
+      "28308",
+      "28309",
+      "28310",
+      "28311",
+      "28312",
+      "28314"
+    ],
+    "area_codes": [910],
+    "FIPS code": "37-22920",
+    "GNIS feature IDs": ["1020226"],
+    "url": "https://www.fayettevillenc.gov/"
+  },
+  {
+    "city_name": "Fishers",
+    "state_name": "Indiana",
+    "coordinates": "39°57′22″N 86°0′46″W",
+    "counties": ["Hamilton"],
+    "settled_founded": "1802",
+    "incorporated": "1891",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Scott Fadness",
+      "city_council": [
+        "John Weingardt",
+        "Cecilia Coble",
+        "Brad DeReamer",
+        "David Giffel",
+        "Crystal Neumann",
+        "Pete Peterson",
+        "Selina Stoller",
+        "Jocelyn Vare",
+        "Todd Zimmerman"
+      ]
+    },
+    "area": {
+      "city": "38.15 sq mi",
+      "land": "35.92 sq mi",
+      "water": "2.24 sq mi"
+    },
+    "elevation": "817 ft",
+    "population": {
+      "city": "98977",
+      "density": "2755.71/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["46038", "46037", "46040"],
+    "area_codes": [317],
+    "FIPS code": "18-23278",
+    "GNIS feature IDs": ["0434526"],
+    "url": "https://www.fishers.in.us/"
+  },
+  {
+    "city_name": "Fontana",
+    "state_name": "California",
+    "coordinates": "34°6′N 117°28′W",
+    "counties": ["San Bernardino"],
+    "settled_founded": "1913",
+    "incorporated": "1952",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Acquanetta Warren",
+      "city_council": [
+        "Peter Garcia",
+        "John Roberts",
+        "Jesse Sandoval",
+        "Phillip Cothran"
+      ]
+    },
+    "area": {
+      "city": "43.07 sq mi",
+      "land": "43.07 sq mi",
+      "water": "0.00 sq mi"
+    },
+    "elevation": "1237 ft",
+    "population": {
+      "city": "212704",
+      "density": "4838.47/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92331", "92334-92337"],
+    "area_codes": [909, 951, 840],
+    "FIPS code": "06-24680",
+    "GNIS feature IDs": ["1652711", "2410517"],
+    "url": "https://www.fontana.org/"
   }
 ]

@@ -85,19 +85,19 @@ x Edinburg Texas
 x Edison New Jersey
 x El Cajon California
 x Elgin Illinois
-Elizabeth New
-Elk Grove
-El Monte
-El Paso
-Escondido California
-Eugene Oregon
-Evansville Indiana
-Everett Washington
-Fairfield California
-Fargo North
-Fayetteville North
-Fishers Indiana
-Fontana California
+x Elizabeth New Jersey
+x Elk Grove California
+x El Monte California
+x El Paso Texas
+x Escondido California
+x Eugene Oregon
+x Evansville Indiana
+x Everett Washington
+x Fairfield California
+x Fargo North Dakota
+x Fayetteville North
+x Fishers Indiana
+x Fontana California
 Fort Collins
 Fort Lauderdale
 Fort Wayne
