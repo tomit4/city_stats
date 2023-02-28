@@ -98,9 +98,9 @@ x Fargo North Dakota
 x Fayetteville North
 x Fishers Indiana
 x Fontana California
-Fort Collins
-Fort Lauderdale
-Fort Wayne
+x Fort Collins Colorado
+x Fort Lauderdale Florida
+x Fort Wayne Indiana
 Fort Worth
 Fremont California
 Fresno California

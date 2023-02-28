@@ -4295,5 +4295,137 @@
     "FIPS code": "06-24680",
     "GNIS feature IDs": ["1652711", "2410517"],
     "url": "https://www.fontana.org/"
+  },
+  {
+    "city_name": "Fort Collins",
+    "state_name": "Colorado",
+    "coordinates": "40°33′N 105°4′41″W",
+    "counties": ["Larimer"],
+    "settled_founded": "1864",
+    "incorporated": "1883",
+    "government": {
+      "type": "Municipality",
+      "mayor": "Jeni Arndt",
+      "city_council": [
+        "Susan Gutowsky",
+        "Julie Pignataro",
+        "Tricia Canonico",
+        "Shirley Peel",
+        "Kelly Ohlson",
+        "Emily Francis"
+      ]
+    },
+    "area": {
+      "city": " 58.47 sq mi",
+      "land": "57.21 sq mi",
+      "water": "1.26 sq mi"
+    },
+    "elevation": "5003 ft",
+    "population": {
+      "city": "169810",
+      "density": "2968/sq mi",
+      "metro": "359066"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["80521-80528"],
+    "area_codes": [970],
+    "FIPS code": "08-27425",
+    "GNIS feature IDs": ["0204673"],
+    "url": "https://www.fcgov.com/"
+  },
+  {
+    "city_name": "Fort Lauderdale",
+    "state_name": "Florida",
+    "coordinates": "26°8′N 80°4W",
+    "counties": ["Broward"],
+    "settled_founded": "1838",
+    "incorporated": "1911",
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "Dean Trantalis",
+      "city_council": [
+        "Warren Sturman",
+        "John C. Herbst",
+        "Steven Glassman",
+        "Beasley-Pittman"
+      ]
+    },
+    "area": {
+      "city": "36.30 sq mi",
+      "land": "34.59 sq mi",
+      "water": "1.71 sq mi"
+    },
+    "elevation": "9 ft",
+    "population": {
+      "city": "182760",
+      "density": "5284.07/sq mi",
+      "metro": "6138333"
+    },
+    "time_zone": "UTC-5(MST)",
+    "zip_codes": [
+      "33301-33332",
+      "33334-33340",
+      "33345-33346",
+      "33348-33349",
+      "33351",
+      "33355",
+      "33359",
+      "33388",
+      "33394"
+    ],
+    "area_codes": [754, 954],
+    "FIPS code": "12-24000",
+    "GNIS feature IDs": ["0282693"],
+    "url": "https://www.fortlauderdale.gov/"
+  },
+  {
+    "city_name": "Fort Wayne",
+    "state_name": "Indiana",
+    "coordinates": "41°04′50″N 85°08'21″W",
+    "counties": ["Allen"],
+    "settled_founded": "1794",
+    "incorporated": "1829",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Tom Henry",
+      "city_council": [
+        "Paul Ensley",
+        "Russ Jehl",
+        "Thomas F. Didier",
+        "Jason Arp",
+        "Geoff Paddock",
+        "Sharon Tucker",
+        "Michelle Chambers",
+        "Glynn A. Hines",
+        "Tom Freistroffer"
+      ]
+    },
+    "area": {
+      "city": "110.79 sq mi",
+      "land": "110.57 sq mi",
+      "water": "0.22 sq mi"
+    },
+    "elevation": "810 ft",
+    "population": {
+      "city": "265974",
+      "density": "2400/sq mi",
+      "metro": "423038"
+    },
+    "time_zone": "UTC-5(MST)",
+    "zip_codes": [
+      "46774",
+      "46802-46809",
+      "46814-46816",
+      "46818",
+      "46819",
+      "46825",
+      "46835",
+      "46845",
+      "46850"
+    ],
+    "area_codes": [260],
+    "FIPS code": "0434689",
+    "GNIS feature IDs": ["0434689"],
+    "url": "https://www.cityoffortwayne.org/"
   }
 ]
