@@ -4427,5 +4427,213 @@
     "FIPS code": "0434689",
     "GNIS feature IDs": ["0434689"],
     "url": "https://www.cityoffortwayne.org/"
+  },
+  {
+    "city_name": "Fort Worth",
+    "state_name": "Texas",
+    "coordinates": "32°45′N 97°20′W",
+    "counties": ["Tarrant", "Denton", "Johnson", "Parker", "Wise"],
+    "settled_founded": null,
+    "incorporated": "1874",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Mattie Parker",
+      "city_council": [
+        "Carlos Flores",
+        "Michael D. Crain",
+        "Alan Blaylock",
+        "Gyna Bivens",
+        "Jared Williams",
+        "Leonard Firestone",
+        "Chris Nettles",
+        "Elizabeth M. Beck"
+      ]
+    },
+    "area": {
+      "city": "355.56 sq mi",
+      "land": "347.27 sq mi",
+      "water": "8.28 sq mi"
+    },
+    "elevation": "541 ft",
+    "population": {
+      "city": "918915",
+      "density": "2600/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["760XX", "761XX", "76244"],
+    "area_codes": [682, 817],
+    "FIPS code": "48-27000",
+    "GNIS feature IDs": ["2410531"],
+    "url": "https://www.fortworthtexas.gov/"
+  },
+  {
+    "city_name": "Fremont",
+    "state_name": "California",
+    "coordinates": "37°32′53″N 121°59′18″W",
+    "counties": ["Alameda"],
+    "settled_founded": null,
+    "incorporated": "1956",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Lily Mei",
+      "city_council": [
+        "Teresa Keng",
+        "Desrie Campbell",
+        "Jenny Kassan",
+        "Yang Shao",
+        "Raj Salwan",
+        "Teresa Cox"
+      ]
+    },
+    "area": {
+      "city": "88.46 sq mi",
+      "land": "78.31 sq mi",
+      "water": "10.14 sq mi"
+    },
+    "elevation": "56 ft",
+    "population": {
+      "city": "230504",
+      "density": "2600/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["94536–94539", "94555"],
+    "area_codes": [510, 341],
+    "FIPS code": "06-26000",
+    "GNIS feature IDs": ["277521", "2410545"],
+    "url": "https://www.fremont.gov/"
+  },
+  {
+    "city_name": "Fresno",
+    "state_name": "California",
+    "coordinates": "36°45′N 119°46′W",
+    "counties": ["Fresno"],
+    "settled_founded": null,
+    "incorporated": "1885",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Jerry Dyer",
+      "city_council": [
+        "Annalisa Perea",
+        "Mike Karbassi",
+        "Miguel Arias",
+        "Tyler Maxwell",
+        "Luis Chavez",
+        "Garry Bredefeld",
+        "Nelson Esparza"
+      ]
+    },
+    "area": {
+      "city": "116.00 sq mi",
+      "land": "114.79 sq mi",
+      "water": "1.21 sq mi"
+    },
+    "elevation": "308 ft",
+    "population": {
+      "city": "542107",
+      "density": "4722.60/sq mi",
+      "metro": "1008654"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "93650",
+      "93701–93712",
+      "93714–93718",
+      "93720–93730",
+      "93737",
+      "93740",
+      "93741",
+      "93744",
+      "93745",
+      "93747",
+      "93750",
+      "93755",
+      "93760",
+      "93761",
+      "93764",
+      "93765",
+      "93771–79",
+      "93786",
+      "93790–94",
+      "93844",
+      "93888"
+    ],
+    "area_codes": [559],
+    "FIPS code": "06-27000",
+    "GNIS feature IDs": ["2777606", "2410546"],
+    "url": "https://www.fresno.gov/"
+  },
+  {
+    "city_name": "Frisco",
+    "state_name": "Texas",
+    "coordinates": "33°8′29″N 96°48′47″W",
+    "counties": ["Collin", "Denton"],
+    "settled_founded": "1860",
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Jeff Cheney",
+      "city_council": [
+        "John Keating",
+        "Angelia Pelham",
+        "Tammy Meinershagen",
+        "Bill Woodard",
+        "Laura Rummel",
+        "Brian Livingston"
+      ]
+    },
+    "area": {
+      "city": "69.19 sq mi",
+      "land": "68.64 sq mi",
+      "water": "0.56 sq mi"
+    },
+    "elevation": "689 ft",
+    "population": {
+      "city": "200509",
+      "density": "2920.98/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["75033-75036", "75068", "75071"],
+    "area_codes": [972, 469, 214],
+    "FIPS code": "48-27684",
+    "GNIS feature IDs": ["2410549"],
+    "url": "https://www.friscotexas.gov/"
+  },
+  {
+    "city_name": "Fullerton",
+    "state_name": "California",
+    "coordinates": "33°52′48″N 117°55′43″W",
+    "counties": ["Orange"],
+    "settled_founded": null,
+    "incorporated": "1904",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Fred Jung",
+      "city_council": [
+        "Bruce Whitaker",
+        "Nick Dunlap",
+        "Shana Charles",
+        "Ahmad Zahra"
+      ]
+    },
+    "area": {
+      "city": "22.44 sq mi",
+      "land": "22.42 sq mi",
+      "water": "0.01 sq mi"
+    },
+    "elevation": "164 ft",
+    "population": {
+      "city": "143617",
+      "density": "6411/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92831-92838"],
+    "area_codes": [562, 657, 714],
+    "FIPS code": "06-28000",
+    "GNIS feature IDs": ["1660658", "2410556"],
+    "url": "https://www.cityoffullerton.com/"
   }
 ]
