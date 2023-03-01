@@ -144,10 +144,10 @@ x Joliet Illinois
 x Jurupa Valley California
 x Kansas City Missouri
 x Kansas City Kansas
-Kent Washington
-Killeen Texas
-Knoxville Tennessee
-Lafayette[z] Louisiana
+x Kent Washington
+x Killeen Texas
+x Knoxville Tennessee
+x Lafayette Louisiana
 Lakeland Florida
 Lakewood Colorado
 Lakewood New

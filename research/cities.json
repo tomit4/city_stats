@@ -6211,5 +6211,174 @@
     "FIPS code": "20-36000",
     "GNIS feature IDs": ["478635"],
     "url": "https://www.wycokck.org/"
+  },
+  {
+    "city_name": "Kent",
+    "state_name": "Washington",
+    "coordinates": "47°22′58″N 122°13′37″W",
+    "counties": ["King"],
+    "settled_founded": null,
+    "incorporated": "1890",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Dana Ralph",
+      "city_council": [
+        "Bill Boyce",
+        "Brenda Fincher",
+        "Satwinder Kaur",
+        "Marli Larimer",
+        "Zandria Michaud",
+        "Les Thomas",
+        "Toni Troutner"
+      ]
+    },
+    "area": {
+      "city": "34.42 sq mi",
+      "land": "33.75 sq mi",
+      "water": "0.67 sq mi"
+    },
+    "elevation": "500 ft",
+    "population": {
+      "city": "136588",
+      "density": "4000/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "98030",
+      "98031",
+      "98032",
+      "98035",
+      "98042",
+      "98064",
+      "98089"
+    ],
+    "area_codes": [253],
+    "FIPS code": "53-35415",
+    "GNIS feature IDs": ["1530952"],
+    "url": "https://www.kentwa.gov/"
+  },
+  {
+    "city_name": "Killeen",
+    "state_name": "Texas",
+    "coordinates": "31°6′20″N 97°43′36″W",
+    "counties": ["Bell"],
+    "settled_founded": "1881",
+    "incorporated": "1893",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Debbie Nash-King",
+      "city_council": [
+        "Ken Wilkerson",
+        "Jose L. Segarra",
+        "Ramon Alvarez",
+        "Jessica Gonzalez",
+        "Riakos Adams",
+        "Nina Cobb",
+        "Michael Boyd"
+      ]
+    },
+    "area": {
+      "city": "55.50 sq mi",
+      "land": "54.85 sq mi",
+      "water": "0.65 sq mi"
+    },
+    "elevation": "890 ft",
+    "population": {
+      "city": "153095",
+      "density": "2765.16/sq mi",
+      "metro": "475367"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["76540", "76541", "76542", "76543", "76548", "76549"],
+    "area_codes": [254],
+    "FIPS code": "48-29148",
+    "GNIS feature IDs": ["1360642"],
+    "url": "https://www.killeentexas.gov/"
+  },
+  {
+    "city_name": "Knoxville",
+    "state_name": "Tennessee",
+    "coordinates": "35.9617°N 83.9232°W",
+    "counties": ["Knox"],
+    "settled_founded": "1791",
+    "incorporated": "1815",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Indya Kincannon",
+      "city_council": [
+        "Andrew Roberto",
+        "Tommy Smith",
+        "Seema Singh",
+        "Lauren Rider",
+        "Charles Thomas",
+        "Gwen McKenzie",
+        "Lynne Fugate",
+        "Janet Testerman",
+        "Amelia Parker"
+      ]
+    },
+    "area": {
+      "city": "104.25 sq mi",
+      "land": "98.73 sq mi",
+      "water": "5.52 sq mi"
+    },
+    "elevation": "886 ft",
+    "population": {
+      "city": "190740",
+      "density": "1931.90/sq mi",
+      "metro": "868546"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "37901-37902",
+      "37909",
+      "37912",
+      "37914-37920-37924",
+      "37927-37934",
+      "37938-37940",
+      "37950",
+      "37995-37998"
+    ],
+    "area_codes": [865],
+    "FIPS code": "47-40000",
+    "GNIS feature IDs": ["1648562"],
+    "url": "https://www.knoxvilletn.gov/"
+  },
+  {
+    "city_name": "Lafayette",
+    "state_name": "Louisiana",
+    "coordinates": "30°13′N 92°2′W",
+    "counties": ["Layfayette Parish"],
+    "settled_founded": "1821",
+    "incorporated": "1836",
+    "government": {
+      "type": "Consolidated City-Parish",
+      "mayor": "Josh Guillory",
+      "city_council": [
+        "Pat Lewis",
+        "Andy Naquin",
+        "Liz W. Hebert",
+        "Nanette Cook",
+        "Glenn Lazard"
+      ]
+    },
+    "area": {
+      "city": "56.00 sq mi",
+      "land": "55.92 sq mi",
+      "water": "0.08 sq mi"
+    },
+    "elevation": "49 ft",
+    "population": {
+      "city": "121374",
+      "density": "2170.57/sq mi",
+      "metro": "478384"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["70501–70509", "70593", "70596", "70598"],
+    "area_codes": [337],
+    "FIPS code": "22-40735",
+    "GNIS feature IDs": ["557334"],
+    "url": "https://www.lafayettela.gov/"
   }
 ]
