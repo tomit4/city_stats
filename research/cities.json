@@ -4635,5 +4635,1036 @@
     "FIPS code": "06-28000",
     "GNIS feature IDs": ["1660658", "2410556"],
     "url": "https://www.cityoffullerton.com/"
+  },
+  {
+    "city_name": "Gainesville",
+    "state_name": "Florida",
+    "coordinates": "29°39′7.19″N 82°19′29.97″W",
+    "counties": ["Alachua"],
+    "settled_founded": "1854",
+    "incorporated": "1869",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Harvey Ward",
+      "city_council": [
+        "Desmon Duncan-Walker",
+        "Reina Saco",
+        "Cynthia Chestnut",
+        "Ed Book",
+        "Casey Willits",
+        "Bryan Eastman"
+      ]
+    },
+    "area": {
+      "city": "64.54 sq mi",
+      "land": "63.36 sq mi",
+      "water": "1.17 sq mi"
+    },
+    "elevation": "152 ft",
+    "population": {
+      "city": "141085",
+      "density": "2226.61/sq mi",
+      "metro": "332317"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["32601–32614", "32627", "32635", "32641", "32653"],
+    "area_codes": [352],
+    "FIPS code": "12-25175",
+    "GNIS feature IDs": ["12-25175"],
+    "url": "https://www.gainesvillefl.gov/"
+  },
+  {
+    "city_name": "Garden Grove",
+    "state_name": "California",
+    "coordinates": "33°46′44″N 117°57′37″W",
+    "counties": ["Orange"],
+    "settled_founded": "1874",
+    "incorporated": "1956",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Steven R. Jones",
+      "city_council": [
+        "George S. Brietigam III",
+        "John R. O'Neill",
+        "Cindy Ngoc Tran",
+        "Joe DoVinh",
+        "Stephanie Klopfenstein",
+        "Kim B. Nguyen"
+      ]
+    },
+    "area": {
+      "city": "17.98 sq mi",
+      "land": "17.96 sq mi",
+      "water": "0.02 sq mi"
+    },
+    "elevation": "89 ft",
+    "population": {
+      "city": "171949",
+      "density": "9558.08/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92840-92846"],
+    "area_codes": [657, 714],
+    "FIPS code": "06-29000",
+    "GNIS feature IDs": ["1660662", "2410568"],
+    "url": "https://ggcity.org/"
+  },
+  {
+    "city_name": "Garland",
+    "state_name": "Texas",
+    "coordinates": "32°54′26″N 96°38′7″W",
+    "counties": ["Dallas", "Collin", "Rockwall"],
+    "settled_founded": null,
+    "incorporated": "1891",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Scott LeMay",
+      "city_council": [
+        "Jeff Bass",
+        "Deborah Morris",
+        "Ed Moore",
+        "B.J. Williams",
+        "Margaret Lucht",
+        "Robert Vera",
+        "Dylan Hedrick",
+        "Robert John Smith"
+      ]
+    },
+    "area": {
+      "city": "57.25 sq mi",
+      "land": "56.13 sq mi",
+      "water": "0.12 sq mi"
+    },
+    "elevation": "551 ft",
+    "population": {
+      "city": "226876",
+      "density": "4199.54/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["75040-75049"],
+    "area_codes": [214, 469, 945, 972],
+    "FIPS code": "48-29000",
+    "GNIS feature IDs": ["1388185"],
+    "url": "https://www.garlandtx.gov/"
+  },
+  {
+    "city_name": "Gilbert",
+    "state_name": "Arizona",
+    "coordinates": "33°21′10″N 111°47′20″W",
+    "counties": ["Maricopa"],
+    "settled_founded": "1912",
+    "incorporated": "1920",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Brigette Peterson",
+      "city_council": [
+        "Kathy Tilque",
+        "Scott Anderson",
+        "Chuck Bongiovanni",
+        "Yung Koprowski",
+        "Bobbi Buchli",
+        "Jim Torgeson"
+      ]
+    },
+    "area": {
+      "city": "68.79 sq mi",
+      "land": "68.59 sq mi",
+      "water": "0.20 sq mi"
+    },
+    "elevation": "1237 ft",
+    "population": {
+      "city": "267918",
+      "density": "3906.25/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["85233", "85234", "85295", "85296", "85297", "85298"],
+    "area_codes": [480],
+    "FIPS code": "04-27400",
+    "GNIS feature IDs": ["2412682"],
+    "url": "https://www.gilbertaz.gov/"
+  },
+  {
+    "city_name": "Glendale",
+    "state_name": "Arizona",
+    "coordinates": "33°32′19″N 112°11′11″W",
+    "counties": ["Maricopa"],
+    "settled_founded": "1887",
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Jerry P. Weiers",
+      "city_council": [
+        "Joyce Clark",
+        "Jamie Aldama",
+        "Ian Hugh",
+        "Ray Malnar",
+        "Lauren Tolmachoff",
+        "Bart Turner"
+      ]
+    },
+    "area": {
+      "city": "65.09 sq mi",
+      "land": "64.68 sq mi",
+      "water": "0.41 sq mi"
+    },
+    "elevation": "1152 ft",
+    "population": {
+      "city": "248325",
+      "density": "3839.17/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["85301-85318"],
+    "area_codes": [623, 602],
+    "FIPS code": "04-27820",
+    "GNIS feature IDs": ["5060"],
+    "url": "https://www.glendaleaz.com/"
+  },
+  {
+    "city_name": "Glendale",
+    "state_name": "California",
+    "coordinates": "34°08′46″N 118°15′18″W",
+    "counties": ["Los Angeles"],
+    "settled_founded": "1884",
+    "incorporated": "1906",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Ardy Kassakhian",
+      "city_council": ["Elen Asatryan", "Ara Najarian", "Paula Devine"]
+    },
+    "area": {
+      "city": "30.60 sq mi",
+      "land": "30.47 sq mi",
+      "water": "0.13 sq mi"
+    },
+    "elevation": "522 ft",
+    "population": {
+      "city": "196543",
+      "density": "6450.4/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["91201–91210", "91214", "91221", "91222", "91224–91226"],
+    "area_codes": [747, 818],
+    "FIPS code": "06-30000",
+    "GNIS feature IDs": ["1660679", "2410597"],
+    "url": "https://www.glendaleca.gov/"
+  },
+  {
+    "city_name": "Goodyear",
+    "state_name": "Arizona",
+    "coordinates": "33°27′00″N 112°21′30″W",
+    "counties": ["Maricopa"],
+    "settled_founded": null,
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Joe Pizzillo",
+      "city_council": [
+        "Laura Kaino",
+        "Sheri Lauritano",
+        "Wally Campbell",
+        "Bill Stipp",
+        "Brannon Hampton",
+        "Vicki Gillis"
+      ]
+    },
+    "area": {
+      "city": "191.33 sq mi",
+      "land": "191.30 sq mi",
+      "water": "0.03 sq mi"
+    },
+    "elevation": "968 ft",
+    "population": {
+      "city": "95294",
+      "density": "498.14/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["85338", "85395"],
+    "area_codes": [623],
+    "FIPS code": "04-28380",
+    "GNIS feature IDs": ["5172"],
+    "url": "https://www.goodyearaz.gov/"
+  },
+  {
+    "city_name": "Grand Prairie",
+    "state_name": "Texas",
+    "coordinates": "32°42′55″N 97°1′1″W",
+    "counties": ["Dallas", "Tarrant", "Ellis"],
+    "settled_founded": "1863",
+    "incorporated": "1909",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Ron Jensen",
+      "city_council": [
+        "Jorja Clemson",
+        "Jacquin Headen",
+        "Mike Del Bosque",
+        "John Lopez",
+        "Cole Humphreys",
+        "Kurt Johnson",
+        "Jeff Copeland",
+        "Junior Ezeonu"
+      ]
+    },
+    "area": {
+      "city": "81.47 sq mi",
+      "land": "72.57 sq mi",
+      "water": "8.90 sq mi"
+    },
+    "elevation": "515 ft",
+    "population": {
+      "city": "175396",
+      "density": "2680.91/sq mi",
+      "metro": "6810913"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["75050-75054"],
+    "area_codes": [682, 817, 214, 469, 945, 972],
+    "FIPS code": "48-30464",
+    "GNIS feature IDs": ["1336802"],
+    "url": "https://www.gptx.org/"
+  },
+  {
+    "city_name": "Grand Rapids",
+    "state_name": "Michigan",
+    "coordinates": "42°57′40″N 85°39′20″W",
+    "counties": ["Kent"],
+    "settled_founded": "1826",
+    "incorporated": "1850",
+    "government": {
+      "type": "City Commission",
+      "mayor": "Rosalynn Bliss",
+      "city_council": [
+        "Jon O'Connor",
+        "Drew Robbins",
+        "Milinda Ysasi",
+        "Lisa Knight",
+        "Nathaniel Moody",
+        "Kelsey Perdue",
+        "Max Frantz"
+      ]
+    },
+    "area": {
+      "city": "45.63 sq mi",
+      "land": "44.78 sq mi",
+      "water": "0.86 sq mi"
+    },
+    "elevation": "640 ft",
+    "population": {
+      "city": "202181",
+      "density": "4442.49/sq mi",
+      "metro": "1077370"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "49501–49508",
+      "49510",
+      "49514–49516",
+      "49518",
+      "49523",
+      "49525",
+      "49534",
+      "49546",
+      "49548",
+      "49555",
+      "49560",
+      "49588",
+      "49594"
+    ],
+    "area_codes": [616],
+    "FIPS code": "26-34000",
+    "GNIS feature IDs": ["0627105"],
+    "url": "https://www.grandrapidsmi.gov/"
+  },
+  {
+    "city_name": "Greeley",
+    "state_name": "Colorado",
+    "coordinates": "40°25′24″N 104°42′33″W",
+    "counties": ["Weld"],
+    "settled_founded": "1869",
+    "incorporated": "1885",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "John Gates",
+      "city_council": [
+        "Tommy Butler",
+        "Deb Deboutez",
+        "Johnny Olson",
+        "Dale Hall",
+        "Brett Payton",
+        "Ed Clark"
+      ]
+    },
+    "area": {
+      "city": "49.09 sq mi",
+      "land": "48.93 sq mi",
+      "water": "0.16 sq mi"
+    },
+    "elevation": "4675 ft",
+    "population": {
+      "city": "108795",
+      "density": "2223/sq mi",
+      "metro": "328981"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["80631-80634", "80638-80639"],
+    "area_codes": [970],
+    "FIPS code": "08-32155",
+    "GNIS feature IDs": ["0180649"],
+    "url": "https://greeleygov.com/"
+  },
+  {
+    "city_name": "Green Bay",
+    "state_name": "Wisconsin",
+    "coordinates": "44°30′48″N 88°0′57″W",
+    "counties": ["Brown"],
+    "settled_founded": "1634",
+    "incorporated": "1854",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Eric Genrich",
+      "city_council": [
+        "Jennifer Grant",
+        "Jim Hutchison",
+        "Wililam Morgan",
+        "William Gavin",
+        "Craig Stevens",
+        "Steven Campbell",
+        "Randy Scannell",
+        "Chris Wery",
+        "Brian Johnson",
+        "Mark Steuer",
+        "Melinda Eck",
+        "Jesse Brunette"
+      ]
+    },
+    "area": {
+      "city": "55.76 sq mi",
+      "land": "45.48 sq mi",
+      "water": "10.28 sq mi"
+    },
+    "elevation": "581 ft",
+    "population": {
+      "city": "107395",
+      "density": "2299.38/sq mi",
+      "metro": "320050"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["54301-08", "54311", "54313", "54324", "54344"],
+    "area_codes": [920],
+    "FIPS code": "55-31000",
+    "GNIS feature IDs": ["1565801"],
+    "url": "https://greenbaywi.gov/"
+  },
+  {
+    "city_name": "Greensboro",
+    "state_name": "North Carolina",
+    "coordinates": "36°4′48″N 79°49′10″W",
+    "counties": ["Guilford"],
+    "settled_founded": "1808",
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Nancy B. Vaughan",
+      "city_council": [
+        "Hugh Holston",
+        "Dr. Goldie Wells",
+        "Tammi Thurm",
+        "Zack Matheny",
+        "Yvonne Johnson",
+        "Nancy Hoffmann",
+        "Marikay Abuzuaiter",
+        "Sharon Hightower"
+      ]
+    },
+    "area": {
+      "city": "136.65 sq mi",
+      "land": "131.41 sq mi",
+      "water": "5.24 sq mi"
+    },
+    "elevation": "897 ft",
+    "population": {
+      "city": "299035",
+      "density": "2275.59/sq mi",
+      "metro": "776566"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "27401-27413",
+      "27415",
+      "27420",
+      "27429",
+      "27435",
+      "27438",
+      "27455",
+      "27495",
+      "27497",
+      "27498",
+      "27499"
+    ],
+    "area_codes": [336, 743],
+    "FIPS code": "37-28000",
+    "GNIS feature IDs": ["1020557"],
+    "url": "https://www.greensboro-nc.gov/"
+  },
+  {
+    "city_name": "Gresham",
+    "state_name": "Oregon",
+    "coordinates": "45°30′13″N 122°26′22″W",
+    "counties": ["Multnomah"],
+    "settled_founded": "1851",
+    "incorporated": "1905",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Travis Stovall",
+      "city_council": [
+        "Dina DiNucci",
+        "Eddy Morales",
+        "Vince Jones-Dixon",
+        "Jerry Hinton",
+        "Sue Piazza",
+        "Janine Gladfelter"
+      ]
+    },
+    "area": {
+      "city": "23.65 sq mi",
+      "land": "23.52 sq mi",
+      "water": "0.13 sq mi"
+    },
+    "elevation": "325 ft",
+    "population": {
+      "city": "114247",
+      "density": "4857.65/sq mi",
+      "metro": "2314554"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["97030", "97080", "97233"],
+    "area_codes": [503, 971],
+    "FIPS code": "41-31250",
+    "GNIS feature IDs": ["1121424"],
+    "url": "https://greshamoregon.gov/"
+  },
+  {
+    "city_name": "Hampton",
+    "state_name": "Virginia",
+    "coordinates": "37.034946°N 76.360126°W",
+    "counties": null,
+    "settled_founded": "1610",
+    "incorporated": "1849",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Donnie Tuck",
+      "city_council": [
+        "Jimmy Gray",
+        "Chris Bowman",
+        "Steven L. Brown",
+        "Hope L. Harper",
+        "W.H. Hobbs Jr.",
+        "Martha Mugler"
+      ]
+    },
+    "area": {
+      "city": "136.27 sq mi",
+      "land": "51.46 sq mi",
+      "water": "84.81 sq mi"
+    },
+    "elevation": "10 ft",
+    "population": {
+      "city": "137148",
+      "density": "2665.14/sq mi",
+      "metro": "1799674"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["23661", "23663-23669"],
+    "area_codes": [757, 948],
+    "FIPS code": "51-35000",
+    "GNIS feature IDs": ["1495650"],
+    "url": "https://www.hampton.gov/"
+  },
+  {
+    "city_name": "Hartford",
+    "state_name": "Connecticut",
+    "coordinates": "41°45′45″N 72°40′27″W",
+    "counties": ["Hartford"],
+    "settled_founded": "1635",
+    "incorporated": "1784",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Luke Bronin",
+      "city_council": [
+        "Maly Rosado",
+        "Thomas Clarke II",
+        "Tiana Hercules",
+        "John Gale",
+        "Nick Lebron",
+        "Joshua Michtom",
+        "Marilyn Rossetti",
+        "James Sanchez",
+        "SHirley Surgeon"
+      ]
+    },
+    "area": {
+      "city": "18.05 sq mi",
+      "land": "17.38 sq mi",
+      "water": "0.68 sq mi"
+    },
+    "elevation": "49 ft",
+    "population": {
+      "city": "121054",
+      "density": "6965.1/sq mi",
+      "metro": "1214295"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["061xx"],
+    "area_codes": [860, 959],
+    "FIPS code": "09-37000",
+    "GNIS feature IDs": ["2378277"],
+    "url": "https://www.hartfordct.gov/"
+  },
+  {
+    "city_name": "Hayward",
+    "state_name": "California",
+    "coordinates": "37°40′08″N 122°04′51″W",
+    "counties": ["Alameda"],
+    "settled_founded": null,
+    "incorporated": "1876",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Mark Salinas",
+      "city_council": [
+        "Angela Andrews",
+        "Dan Goldstein",
+        "Elisa Márquez",
+        "Julie Roche",
+        "George Syrop",
+        "Francisco Zermeño"
+      ]
+    },
+    "area": {
+      "city": "64.06 sq mi",
+      "land": "45.77 sq mi",
+      "water": "18.29 sq mi"
+    },
+    "elevation": "105 ft",
+    "population": {
+      "city": "162954",
+      "density": "2500/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["94540–94546", "94552", "94557"],
+    "area_codes": [510, 341],
+    "FIPS code": "06-33000",
+    "GNIS feature IDs": ["277607", "2410724"],
+    "url": "https://www.hayward-ca.gov/"
+  },
+  {
+    "city_name": "Henderson",
+    "state_name": "Nevada",
+    "coordinates": "36°2′N 114°59′W",
+    "counties": ["Clark"],
+    "settled_founded": "1941",
+    "incorporated": "1953",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Michelle Romero",
+      "city_council": ["Dan Shaw", "Carrie Cox", "Dan H. Stewart"]
+    },
+    "area": {
+      "city": "106.92 sq mi",
+      "land": "106.43 sq mi",
+      "water": "0.49 sq mi"
+    },
+    "elevation": "1864 ft",
+    "population": {
+      "city": "317610",
+      "density": "2984.10/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "89002",
+      "89009",
+      "89011",
+      "89012",
+      "89014-89016",
+      "89044",
+      "89052",
+      "89053",
+      "89074",
+      "89077"
+    ],
+    "area_codes": [702, 725],
+    "FIPS code": "32-31900",
+    "GNIS feature IDs": ["2410741"],
+    "url": "https://www.cityofhenderson.com/"
+  },
+  {
+    "city_name": "Hesperia",
+    "state_name": "California",
+    "coordinates": "34°24′46″N 117°18′22″W",
+    "counties": ["San Bernardino"],
+    "settled_founded": null,
+    "incorporated": "1988",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Cameron Gregg",
+      "city_council": [
+        "Rebekah Swanson",
+        "Allison Lee",
+        "Cameron Gregg",
+        "Brigit Bennington",
+        "Larry Bird"
+      ]
+    },
+    "area": {
+      "city": "72.78 sq mi",
+      "land": "72.69 sq mi",
+      "water": "0.10 sq mi"
+    },
+    "elevation": "3186 ft",
+    "population": {
+      "city": "90173",
+      "density": "1317.31/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92340", "92344", "92345"],
+    "area_codes": [442, 760],
+    "FIPS code": "06-33434",
+    "GNIS feature IDs": ["1652720", "2410751"],
+    "url": "https://www.cityofhesperia.us/"
+  },
+  {
+    "city_name": "Hialeah",
+    "state_name": "Florida",
+    "coordinates": "25°51′38″N 80°17′38″W",
+    "counties": ["Miami-Dade"],
+    "settled_founded": "1921",
+    "incorporated": "1925",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Esteban Bovo",
+      "city_council": [
+        "Monica Perez",
+        "Jacqueline Garcia-Roves",
+        "Bryan Calvo",
+        "Vivian Casals-Muñoz",
+        "Luis Rodriguez",
+        "Jesus Tundidor",
+        "Carl Zogby"
+      ]
+    },
+    "area": {
+      "city": "22.82 sq mi",
+      "land": "21.58 sq mi",
+      "water": "1.24 sq mi"
+    },
+    "elevation": "7 ft",
+    "population": {
+      "city": "223109",
+      "density": "10338.21/sq mi",
+      "metro": "6166488"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["33002", "33010-33018"],
+    "area_codes": [305, 786],
+    "FIPS code": "12-30000",
+    "GNIS feature IDs": ["0305059"],
+    "url": "https://www.hialeahfl.gov/"
+  },
+  {
+    "city_name": "High Point",
+    "state_name": "North Carolina",
+    "coordinates": "35°58′14″N 79°59′51″W",
+    "counties": ["Guilford", "Davidson", "Randolph", "Rosyth"],
+    "settled_founded": null,
+    "incorporated": "1859",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Jay W. Wagner",
+      "city_council": [
+        "Britt W. Moore",
+        "Tyrone E. Johnson",
+        "Cyril Jefferson",
+        "Chris Williams",
+        "Monica Peters",
+        "Wesley Hudson",
+        "Victor Jones",
+        "Michael Holmes"
+      ]
+    },
+    "area": {
+      "city": "58.43 sq mi",
+      "land": "56.91 sq mi",
+      "water": "1.52 sq mi"
+    },
+    "elevation": "922 ft",
+    "population": {
+      "city": "114059",
+      "density": "2004.31/sq mi",
+      "metro": "776566"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["27260-27265"],
+    "area_codes": [336],
+    "FIPS code": "37-31400",
+    "GNIS feature IDs": ["0986755"],
+    "url": "https://www.highpointnc.gov/"
+  },
+  {
+    "city_name": "Hillsboro",
+    "state_name": "Oregon",
+    "coordinates": "45°31′22″N 122°59′23″W",
+    "counties": ["Washington"],
+    "settled_founded": null,
+    "incorporated": "1876",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Steve Callaway",
+      "city_council": [
+        "Anthony Martin",
+        "Olivia Alcaire",
+        "Rick Van Beveren",
+        "Beach Pace",
+        "Gina Roletto",
+        "Kipperlyn Sinclair"
+      ]
+    },
+    "area": {
+      "city": "25.86 sq mi",
+      "land": "25.84 sq mi",
+      "water": "0.01 sq mi"
+    },
+    "elevation": "194 ft",
+    "population": {
+      "city": "106447",
+      "density": "4118.99/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["97123", "97124", "97006"],
+    "area_codes": [503, 971],
+    "FIPS code": "41-34100",
+    "GNIS feature IDs": ["1163049"],
+    "url": "https://www.hillsboro-oregon.gov/"
+  },
+  {
+    "city_name": "Hollywood",
+    "state_name": "Florida",
+    "coordinates": "26°1′17″N 80°10′30″W",
+    "counties": ["Broward"],
+    "settled_founded": "1921",
+    "incorporated": "1925",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Josh Levy",
+      "city_council": [
+        "Caryl S. Shuham",
+        "Linda Hill Anderson",
+        "Traci L. Callari",
+        "Adam Gruber",
+        "Kevin D. Biederman",
+        "Idelma Quintana"
+      ]
+    },
+    "area": {
+      "city": "30.78 sq mi",
+      "land": "27.25 sq mi",
+      "water": "3.52 sq mi"
+    },
+    "elevation": "9 ft",
+    "population": {
+      "city": "153067",
+      "density": "5616.93/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "33004",
+      "33009",
+      "33019-33021",
+      "33023",
+      "33024",
+      "33312",
+      "33314",
+      "33316"
+    ],
+    "area_codes": [954, 754],
+    "FIPS code": "12-32000",
+    "GNIS feature IDs": ["0284176"],
+    "url": "https://www.hollywoodfl.org/"
+  },
+  {
+    "city_name": "Honolulu",
+    "state_name": "Hawaii",
+    "coordinates": "21°18′25″N 157°51′30″W",
+    "counties": ["Honolulu"],
+    "settled_founded": null,
+    "incorporated": "1907",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Rick Blangiardi",
+      "city_council": [
+        "Tommy Waters",
+        "Esther Kiaʻāina",
+        "Radiant Cordero",
+        "Andria Tupola",
+        "Matt Weyer",
+        "Calvin Say",
+        "Tyler Dos Santos-Tam",
+        "Val Okimoto",
+        "Augie Tulba"
+      ]
+    },
+    "area": {
+      "city": "68.40 sq mi",
+      "land": "60.50 sq mi",
+      "water": "7.9 sq mi"
+    },
+    "elevation": "19 ft",
+    "population": {
+      "city": "350964",
+      "density": "853252/sq mi",
+      "metro": "1016508"
+    },
+    "time_zone": "UTC-10(HST)",
+    "zip_codes": ["96801-96850"],
+    "area_codes": [808],
+    "FIPS code": "366212",
+    "GNIS feature IDs": ["366212"],
+    "url": "https://www.honolulu.gov/"
+  },
+  {
+    "city_name": "Houston",
+    "state_name": "Texas",
+    "coordinates": "29°45′46″N 95°22′59″W",
+    "counties": ["Harris", "Fort Bend", "Montgomery"],
+    "settled_founded": null,
+    "incorporated": "1837",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Sylvester Turner",
+      "city_council": [
+        "Amy Peck",
+        "Tarsha Jackson",
+        "Abbie Kamin",
+        "Carolyn Evans-Shabazz",
+        "Dave Martin",
+        "Tiffany D. Thomas",
+        "Mary Nan Huffman",
+        "Karla Cisneros"
+      ]
+    },
+    "area": {
+      "city": "671.67 sq mi",
+      "land": "640.44 sq mi",
+      "water": "31.23 sq mi"
+    },
+    "elevation": "80 ft",
+    "population": {
+      "city": "2304580",
+      "density": "3598.43/sq mi",
+      "metro": "7122240"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["770xx", "772xx"],
+    "area_codes": [713, 281, 832, 346],
+    "FIPS code": "48-35000",
+    "GNIS feature IDs": ["1380948"],
+    "url": "https://www.houstontx.gov/"
+  },
+  {
+    "city_name": "Huntington Beach",
+    "state_name": "California",
+    "coordinates": "33°41′34″N 118°0′1″W",
+    "counties": ["Orange"],
+    "settled_founded": null,
+    "incorporated": "1909",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Tony Strickland",
+      "city_council": [
+        "Gracey Van Der Mark",
+        "Pat Burns",
+        "Casey McKeon",
+        "Dan Kalmick",
+        "Natalie Moser",
+        "Rhonda Bolton"
+      ]
+    },
+    "area": {
+      "city": "28.33 sq mi",
+      "land": "27.00 sq mi",
+      "water": "1.33 sq mi"
+    },
+    "elevation": "39 ft",
+    "population": {
+      "city": "198711",
+      "density": "7000/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92605", "92615", "92646–92649"],
+    "area_codes": [562, 657, 714],
+    "FIPS code": "06-36000",
+    "GNIS feature IDs": ["1652724", "2410811"],
+    "url": "https://huntingtonbeachca.gov/"
+  },
+  {
+    "city_name": "Huntsville",
+    "state_name": "Alabama",
+    "coordinates": "34°43′48″N 86°35′6″W",
+    "counties": ["Madison", "Limestone", "Morgan"],
+    "settled_founded": "1809",
+    "incorporated": "1860",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Tommy Battle",
+      "city_council": [
+        "Devyn S. Keith",
+        "David Little",
+        "Jennie Robinson",
+        "Bill Kling",
+        "John Meredith"
+      ]
+    },
+    "area": {
+      "city": "220.83 sq mi",
+      "land": "219.34 sq mi",
+      "water": "1.49 sq mi"
+    },
+    "elevation": "581 ft",
+    "population": {
+      "city": "215006",
+      "density": "980/sq mi",
+      "metro": "491723"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "35649",
+      "35749",
+      "35748",
+      "35754",
+      "35756",
+      "35757",
+      "35671",
+      "35741",
+      "35762",
+      "35763",
+      "35773",
+      "35801–35816",
+      "35824",
+      "35893-35899"
+    ],
+    "area_codes": [256, 938],
+    "FIPS code": "01-37000",
+    "GNIS feature IDs": ["2404746"],
+    "url": "https://www.huntsvilleal.gov/"
   }
 ]

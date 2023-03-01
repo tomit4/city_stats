@@ -106,32 +106,32 @@ x Fremont California
 x Fresno California
 x Frisco Texas
 x Fullerton California
-Gainesville Florida
-Garden Grove
-Garland Texas
-Gilbert[r] Arizona
-Glendale Arizona
-Glendale California
-Goodyear Arizona
-Grand Prairie
-Grand Rapids
-Greeley Colorado
-Green Bay
-Greensboro North
-Gresham Oregon
-Hampton[m] Virginia
-Hartford Connecticut
-Hayward California
-Henderson Nevada
-Hesperia California
-Hialeah Florida
-High Point
-Hillsboro Oregon
-Hollywood Florida
-Honolulu[o] Hawaii
-Houston Texas
-Huntington Beach
-Huntsville Alabama
+x Gainesville Florida
+x Garden Grove California
+x Garland Texas
+x Gilbert[r] Arizona
+x Glendale Arizona
+x Glendale California
+x Goodyear Arizona
+x Grand Prairie
+x Grand Rapids Michigan
+x Greeley Colorado
+x Green Bay Wisconsin
+x Greensboro North
+x Gresham Oregon
+x Hampton Virginia
+x Hartford Connecticut
+x Hayward California
+x Henderson Nevada
+x Hesperia California
+x Hialeah Florida
+x High Point North Carolina
+x Hillsboro Oregon
+x Hollywood Florida
+x Honolulu Hawaii
+x Houston Texas
+x Huntington Beach California
+x Huntsville Alabama
 Independence Missouri
 Indianapolis[g] Indiana
 Inglewood California
