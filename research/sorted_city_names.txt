@@ -132,19 +132,18 @@ x Honolulu Hawaii
 x Houston Texas
 x Huntington Beach California
 x Huntsville Alabama
-Independence Missouri
-Indianapolis[g] Indiana
-Inglewood California
-Irvine California
-Irving Texas
-Jackson Mississippi
-Jacksonville[f] Florida
-Jersey City
-Joliet Illinois
-Jurupa Valley
-Kansas 125,963
-Kansas City
-Kansas City[x]
+x Independence Missouri
+x Indianapolis Indiana
+x Inglewood California
+x Irvine California
+x Irving Texas
+x Jackson Mississippi
+x Jacksonville Florida
+x Jersey City New Jersey
+x Joliet Illinois
+x Jurupa Valley California
+x Kansas City Missouri
+x Kansas City Kansas
 Kent Washington
 Killeen Texas
 Knoxville Tennessee

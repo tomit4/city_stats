@@ -5666,5 +5666,550 @@
     "FIPS code": "01-37000",
     "GNIS feature IDs": ["2404746"],
     "url": "https://www.huntsvilleal.gov/"
+  },
+  {
+    "city_name": "Independence",
+    "state_name": "Missouri",
+    "coordinates": "39°4′47″N 94°24′24″W",
+    "counties": ["Jackson"],
+    "settled_founded": "1827",
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Rory Rowland",
+      "city_council": [
+        "John Perkins",
+        "Brice Stewart",
+        "Michael Steinmeyer",
+        "Dan Hobart",
+        "Jared Fears",
+        "Dr. Bridget McCandless"
+      ]
+    },
+    "area": {
+      "city": "78.42 sq mi",
+      "land": "77.97 sq mi",
+      "water": "0.45 sq mi"
+    },
+    "elevation": "1033 ft",
+    "population": {
+      "city": "123011",
+      "density": "1577.75/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["64050-64057"],
+    "area_codes": [816],
+    "FIPS code": "29-35000",
+    "GNIS feature IDs": ["0735664"],
+    "url": "https://www.ci.independence.mo.us/"
+  },
+  {
+    "city_name": "Indianapolis",
+    "state_name": "Indiana",
+    "coordinates": "39°46′07″N 86°09′29″W",
+    "counties": ["Marion"],
+    "settled_founded": "1821",
+    "incorporated": "1847",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Joe Hogsett",
+      "city_council": [
+        "Vop Osili",
+        "Zach Adamson",
+        "Maggie A. Lewis",
+        "Brian Mowery",
+        "Leroy Robinson",
+        "Keith Potts",
+        "Dan Boots",
+        "Ethan Evans",
+        "Alison Brown",
+        "Crista Carlino",
+        "John Barth",
+        "Monroe Gray, Jr.",
+        "William Oliver",
+        "Jason Larrison",
+        "Keith L. Graves",
+        "La Keisha Jackson",
+        "Jessica McCormick",
+        "Kristin Jones",
+        "Michael Paul Hart",
+        "David Ray",
+        "Joshua Bain",
+        "Frank Mascari",
+        "Jared Evans",
+        "Paul Annee",
+        "Michael Dilk"
+      ]
+    },
+    "area": {
+      "city": "367.93 sq mi",
+      "land": "361.64 sq mi",
+      "water": "6.29 sq mi"
+    },
+    "elevation": "718 ft",
+    "population": {
+      "city": "887642",
+      "density": "2454.50/sq mi",
+      "metro": "2111040"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "46201–46209",
+      "46211",
+      "46214",
+      "46216–46231",
+      "46234–46237",
+      "46239–46242",
+      "46244",
+      "46247",
+      "46249–46251",
+      "46253–46256",
+      "46259–46260",
+      "46266",
+      "46268",
+      "46274–46275",
+      "46277–46278",
+      "46280",
+      "46282–46283",
+      "46285",
+      "46290–46291",
+      "46295–46296",
+      "46298"
+    ],
+    "area_codes": [317, 463],
+    "FIPS code": "18-36003",
+    "GNIS feature IDs": ["2395423"],
+    "url": "https://www.indy.gov/"
+  },
+  {
+    "city_name": "Inglewood",
+    "state_name": "California",
+    "coordinates": "33°57′27″N 118°20′46″W",
+    "counties": ["Los Angeles"],
+    "settled_founded": "1888",
+    "incorporated": "1908",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "James T. Butts Jr.",
+      "city_council": [
+        "George Dotson",
+        "Alex Padilla",
+        "Eloy Morales, Jr.",
+        "Dionne Faulk"
+      ]
+    },
+    "area": {
+      "city": "9.09 sq mi",
+      "land": "9.07 sq mi",
+      "water": "0.03 sq mi"
+    },
+    "elevation": "131 ft",
+    "population": {
+      "city": "107762",
+      "density": "12000/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["90301-90312"],
+    "area_codes": [310, 424, 213, 323],
+    "FIPS code": "06-36546",
+    "GNIS feature IDs": ["1660799", "2410106"],
+    "url": "https://www.cityofinglewood.org/"
+  },
+  {
+    "city_name": "Irvine",
+    "state_name": "California",
+    "coordinates": "33°40′10″N 117°49′23″W",
+    "counties": ["Orange"],
+    "settled_founded": null,
+    "incorporated": "1971",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Farrah N. Khan",
+      "city_council": [
+        "Tammy Kim",
+        "Larry Agran",
+        "Mike Carroll",
+        "Kathleen Treseder"
+      ]
+    },
+    "area": {
+      "city": "65.92 sq mi",
+      "land": "65.61 sq mi",
+      "water": "0.31 sq mi"
+    },
+    "elevation": "56 ft",
+    "population": {
+      "city": "307670",
+      "density": "4689.1/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "92602–92604",
+      "92606",
+      "92612",
+      "92614",
+      "92616–92620",
+      "92623",
+      "92650",
+      "92697"
+    ],
+    "area_codes": [949, 657, 714],
+    "FIPS code": "06-36770",
+    "GNIS feature IDs": ["1660804", "2410116"],
+    "url": "https://www.cityofirvine.org/"
+  },
+  {
+    "city_name": "Irving",
+    "state_name": "Texas",
+    "coordinates": "32°49′N 96°57′W",
+    "counties": ["Dallas"],
+    "settled_founded": null,
+    "incorporated": "1914",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Rick Stopfer",
+      "city_council": [
+        "John Bloch",
+        "Brad M. LaMorgese",
+        "Mark Zeske",
+        "Phil Riddle",
+        "J. Oscar Ward",
+        "Al Zapanta",
+        "Kyle Taylor",
+        "Dennis Webb"
+      ]
+    },
+    "area": {
+      "city": "67.97 sq mi",
+      "land": "66.98 sq mi",
+      "water": "0.99 sq mi"
+    },
+    "elevation": "482 ft",
+    "population": {
+      "city": "256684",
+      "density": "3589.20/sq mi",
+      "metro": "6810913"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["75000-75099"],
+    "area_codes": [214, 469, 945, 972, 682, 817],
+    "FIPS code": "48-37000",
+    "GNIS feature IDs": ["1338507"],
+    "url": "https://www.cityofirving.org/"
+  },
+  {
+    "city_name": "Jackson",
+    "state_name": "Mississippi",
+    "coordinates": "32°17′56″N 90°11′05″W",
+    "counties": ["Hinds", "Madison", "Rankin"],
+    "settled_founded": "1820",
+    "incorporated": "1822",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Chokwe Anttar Lumumba",
+      "city_council": [
+        "Ashby Foote",
+        "Angelique C. Lee",
+        "Kenneth I. Stokes",
+        "Brian C. Grizzell",
+        "Vernon W. Hartley Sr. Ward",
+        "Aaron Banks",
+        "Virgi Lindsay"
+      ]
+    },
+    "area": {
+      "city": "113.85 sq mi",
+      "land": "111.72 sq mi",
+      "water": "2.14 sq mi"
+    },
+    "elevation": "279 ft",
+    "population": {
+      "city": "153701",
+      "density": "1375.82/sq mi",
+      "metro": "591978"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["39200-39299"],
+    "area_codes": [601, 769],
+    "FIPS code": "28-36000",
+    "GNIS feature IDs": ["0711543"],
+    "url": "https://www.jacksonms.gov/"
+  },
+  {
+    "city_name": "Jacksonville",
+    "state_name": "Florida",
+    "coordinates": "30°20′13″N 81°39′41″W",
+    "counties": ["Duval"],
+    "settled_founded": "1822",
+    "incorporated": "1832",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Lenny Curry",
+      "city_council": [
+        "Joyce Morgan",
+        "Al Ferraro",
+        "Aaron L. Bowman",
+        "Kevin Carrico",
+        "LeAnna Cumber",
+        "Michael Boylan",
+        "Reggie Gaffney, Jr.",
+        "Ju'Coby Pittman",
+        "Tyrona Clark-Murray",
+        "Brenda Priestly Jackson",
+        "Danny Becton",
+        "Randy White",
+        "Rory Diamond",
+        "Randy DeFoor"
+      ]
+    },
+    "area": {
+      "city": "874.46 sq mi",
+      "land": "747.30 sq mi",
+      "water": "127.16 sq mi"
+    },
+    "elevation": "16 ft",
+    "population": {
+      "city": "949611",
+      "density": "1270.73/sq mi",
+      "metro": "1733937"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "32099",
+      "32201–32212",
+      "32214–32241",
+      "32244–32247",
+      "32250",
+      "32254–32260",
+      "32266",
+      "32267",
+      "32277",
+      "32290",
+      "32246"
+    ],
+    "area_codes": [904],
+    "FIPS code": "12-35000",
+    "GNIS feature IDs": ["0295003"],
+    "url": "https://www.coj.net/"
+  },
+  {
+    "city_name": "Jersey City",
+    "state_name": "New Jersey",
+    "coordinates": "40°42′36″N 74°03′36″W",
+    "counties": ["Duval"],
+    "settled_founded": "1630",
+    "incorporated": "1838",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Steven Fulop",
+      "city_council": [
+        "Joyce E. Watterman",
+        "Daniel Rivera",
+        "Amy M. DeGise",
+        "Denise Ridley",
+        "Mira Prinz-Arey",
+        "Richard Boggiano",
+        "Yousef J. Saleh",
+        "James Solomon",
+        "Frank E. Gilmore"
+      ]
+    },
+    "area": {
+      "city": "21.03 sq mi",
+      "land": "14.75 sq mi",
+      "water": "6.29 sq mi"
+    },
+    "elevation": "20 ft",
+    "population": {
+      "city": "292449",
+      "density": "19835.1/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["07097", "07302-07308", "07310-07311"],
+    "area_codes": [201, 551],
+    "FIPS code": "3401736000",
+    "GNIS feature IDs": ["0885264"],
+    "url": "https://www.jerseycitynj.gov/"
+  },
+  {
+    "city_name": "Joliet",
+    "state_name": "Illinois",
+    "coordinates": "41°31′14″N 88°09′02″W",
+    "counties": ["Will", "Kendall"],
+    "settled_founded": "1833",
+    "incorporated": "1852",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Bob O'Dekirk",
+      "city_council": [
+        "Larry E. Hug",
+        "Pat Mudron",
+        "Sherri Reardon",
+        "Bettye Gavin",
+        "Terry Morris",
+        "Cesar Guerrero",
+        "Jan Hallums Quillman",
+        "Joe Clement"
+      ]
+    },
+    "area": {
+      "city": "65.82 sq mi",
+      "land": "65.08 sq mi",
+      "water": "0.74 sq mi"
+    },
+    "elevation": "614 ft",
+    "population": {
+      "city": "150362",
+      "density": "2310.31/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["60431–60436", "60586"],
+    "area_codes": [815, 779],
+    "FIPS code": "17-38570",
+    "GNIS feature IDs": ["2395477"],
+    "url": "https://www.joliet.gov/"
+  },
+  {
+    "city_name": "Jurupa Valley",
+    "state_name": "California",
+    "coordinates": "34°00′N 117°29′W",
+    "counties": ["Riverside"],
+    "settled_founded": null,
+    "incorporated": "2011",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Chris Barajas",
+      "city_council": [
+        "Guillermo Silva",
+        "Brian Berkson",
+        "Leslie Altamirano",
+        "Armando Carmona"
+      ]
+    },
+    "area": {
+      "city": "43.68 sq mi",
+      "land": "42.94 sq mi",
+      "water": "0.74 sq mi"
+    },
+    "elevation": "725 ft",
+    "population": {
+      "city": "105053",
+      "density": "2446.51/sq mi",
+      "metro": "4527837"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["91752", "92509"],
+    "area_codes": [951],
+    "FIPS code": "06-37692",
+    "GNIS feature IDs": ["2702867"],
+    "url": "https://jurupavalley.org/"
+  },
+  {
+    "city_name": "Kansas City",
+    "state_name": "Missouri",
+    "coordinates": "39°05′59″N 94°34′42″W",
+    "counties": ["Jackson", "Clay", "Platte", "Cass"],
+    "settled_founded": null,
+    "incorporated": "1853",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Quinton Lucas",
+      "city_council": [
+        "Heather Hall",
+        "Kevin O'Neill",
+        "Teresa Loar",
+        "Dan Fowler",
+        "Brandon Ellington",
+        "Melissa Robinson",
+        "Katheryn Shields",
+        "Eric Bunch",
+        "Lee Barnes, Jr.",
+        "Ryana Parks-Shaw",
+        "Andrea Bough",
+        "Kevin McManus"
+      ]
+    },
+    "area": {
+      "city": "318.80 sq mi",
+      "land": "314.73 sq mi",
+      "water": "4.07 sq mi"
+    },
+    "elevation": "910 ft",
+    "population": {
+      "city": "508090",
+      "density": "1614.38/sq mi",
+      "metro": "2392035"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "64101-64102",
+      "64105-64106",
+      "64108-64114",
+      "64116-64121",
+      "64123-64134",
+      "64136-64139",
+      "64141",
+      "64144-64149",
+      "64151-64158",
+      "64161",
+      "64163-64168",
+      "64170-64172",
+      "64179-64180",
+      "64183-64184",
+      "64187-64188",
+      "64190-64193",
+      "64195-64199",
+      "64999"
+    ],
+    "area_codes": [816, 975],
+    "FIPS code": "29000-38000",
+    "GNIS feature IDs": ["748198"],
+    "url": "https://www.kcmo.gov/"
+  },
+  {
+    "city_name": "Kansas City",
+    "state_name": "Kansas",
+    "coordinates": "39°6′24″N 94°40′35″W",
+    "counties": ["Wyandotte"],
+    "settled_founded": null,
+    "incorporated": "1886",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Tyrone Garner",
+      "city_council": [
+        "Melissa Bynum",
+        "Tom Burroughs",
+        "Gayle E. Townsend",
+        "Brian McKiernan",
+        "Christian Ramirez",
+        "Harold L. Johnson, Jr.",
+        "Mike Kane",
+        "Angela Markley",
+        "Chuck Sites",
+        "Andrew Davis"
+      ]
+    },
+    "area": {
+      "city": "128.30 sq mi",
+      "land": "124.74 sq mi",
+      "water": "3.57 sq mi"
+    },
+    "elevation": "869 ft",
+    "population": {
+      "city": "156607",
+      "density": "1200/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["66101-66113", "66115", "66117-66119", "66160"],
+    "area_codes": [913],
+    "FIPS code": "20-36000",
+    "GNIS feature IDs": ["478635"],
+    "url": "https://www.wycokck.org/"
   }
 ]
