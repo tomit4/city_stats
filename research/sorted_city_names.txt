@@ -148,12 +148,12 @@ x Kent Washington
 x Killeen Texas
 x Knoxville Tennessee
 x Lafayette Louisiana
-Lakeland Florida
-Lakewood Colorado
-Lakewood New
-Lancaster California
-Lansing Michigan
-Laredo Texas
+x Lakeland Florida
+x Lakewood Colorado
+x Lakewood New Jersey
+x Lancaster California
+x Lansing Michigan
+x Laredo Texas
 Las Cruces
 Las Vegas
 League City

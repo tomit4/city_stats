@@ -6380,5 +6380,254 @@
     "FIPS code": "22-40735",
     "GNIS feature IDs": ["557334"],
     "url": "https://www.lafayettela.gov/"
+  },
+  {
+    "city_name": "Lakeland",
+    "state_name": "Florida",
+    "coordinates": "28°2′28″N 81°57′32″W",
+    "counties": ["Polk"],
+    "settled_founded": "1875",
+    "incorporated": "1885",
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "William Mutz",
+      "city_council": [
+        "Stephanie Madden",
+        "Sara Roberts McCarley",
+        "Chad McLeod",
+        "Mike Musick",
+        "Bill Read",
+        "Sam Simmons"
+      ]
+    },
+    "area": {
+      "city": "75.30 sq mi",
+      "land": "66.29 sq mi",
+      "water": "9.01 sq mi"
+    },
+    "elevation": "194 ft",
+    "population": {
+      "city": "112641",
+      "density": "1699.27/sq mi",
+      "metro": "725046"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["33801-33815"],
+    "area_codes": [863],
+    "FIPS code": "12-38250",
+    "GNIS feature IDs": ["0294459"],
+    "url": "https://www.lakelandgov.net/"
+  },
+  {
+    "city_name": "Lakewood",
+    "state_name": "Colorado",
+    "coordinates": "39°42′17″N 105°04′53″W",
+    "counties": ["Jefferson"],
+    "settled_founded": "1889",
+    "incorporated": "1969",
+    "government": {
+      "type": "Municipality",
+      "mayor": "Adam Paul",
+      "city_council": [
+        "Charley Able",
+        "Jeslin Shahrezaei",
+        "Sharon Vincent",
+        "Sophia Mayott-Guerrero",
+        "Anita Springsteen",
+        "Rebekah Stewart",
+        "Barb Franks",
+        "Rich Olver",
+        "Wendi Strom",
+        "Mary Janssen"
+      ]
+    },
+    "area": {
+      "city": "44.65 sq mi",
+      "land": "43.47 sq mi",
+      "water": "1.17 sq mi"
+    },
+    "elevation": "5518 ft",
+    "population": {
+      "city": "155984",
+      "density": "3588/sq mi",
+      "metro": "2963821"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": [
+      "80214-80215",
+      "80227",
+      "80226-80228",
+      "80232",
+      "80235-80236",
+      "80401",
+      "80123"
+    ],
+    "area_codes": [303, 720],
+    "FIPS code": "08-43000",
+    "GNIS feature IDs": ["0181620"],
+    "url": "https://www.lakewood.org/"
+  },
+  {
+    "city_name": "Lakewood",
+    "state_name": "New Jersey",
+    "coordinates": "40.077069°N 74.19851°W",
+    "counties": ["Ocean"],
+    "settled_founded": null,
+    "incorporated": "1892",
+    "government": {
+      "type": "Township",
+      "mayor": "Raymond G. Coles",
+      "city_council": [
+        "Albert Akerman",
+        "Michael D'Elia",
+        "Meir Lichtenstein",
+        "Menashe Miller"
+      ]
+    },
+    "area": {
+      "city": "25.08 sq mi",
+      "land": "24.68 sq mi",
+      "water": "0.40 sq mi"
+    },
+    "elevation": "49 ft",
+    "population": {
+      "city": "135158",
+      "density": "5476.2/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["08701"],
+    "area_codes": [732, 848],
+    "FIPS code": "34-38550",
+    "GNIS feature IDs": ["882076"],
+    "url": "https://www.lakewoodnj.gov/"
+  },
+  {
+    "city_name": "Lancaster",
+    "state_name": "California",
+    "coordinates": "34°41′N 118°9′W",
+    "counties": ["Los Angeles"],
+    "settled_founded": null,
+    "incorporated": "1977",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "R. Rex Parris",
+      "city_council": [
+        "Marvin Christ",
+        "Ken Mann",
+        "Raj Malhi",
+        "Darrell Dorris"
+      ]
+    },
+    "area": {
+      "city": "94.54 sq mi",
+      "land": "94.28 sq mi",
+      "water": "0.26 sq mi"
+    },
+    "elevation": "2359 ft",
+    "population": {
+      "city": "173516",
+      "density": "1835/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["93534–93536", "93539", "93584"],
+    "area_codes": [661],
+    "FIPS code": "06-40130",
+    "GNIS feature IDs": ["1652741", "2411620"],
+    "url": "https://www.cityoflancasterca.org/"
+  },
+  {
+    "city_name": "Lansing",
+    "state_name": "Michigan",
+    "coordinates": "42°44′01″N 84°32′48″W",
+    "counties": ["Clinton", "Eaton", "Ingham"],
+    "settled_founded": "1835",
+    "incorporated": "1859",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Andy Schor",
+      "city_council": [
+        "Jeremy A. Garza",
+        "Adam Hussain",
+        "Brian T. Jackson",
+        "Patricia Spitzley",
+        "Carol Wood",
+        "Peter Spadafore",
+        "Jeffrey Brown",
+        "Ryan Kost"
+      ]
+    },
+    "area": {
+      "city": "39.78 sq mi",
+      "land": "39.14 sq mi",
+      "water": "0.64 sq mi"
+    },
+    "elevation": "860 ft",
+    "population": {
+      "city": "112644",
+      "density": "2877.68/sq mi",
+      "metro": "541297"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "48901",
+      "48906",
+      "48908–48913",
+      "48915–48919",
+      "48921",
+      "48922",
+      "48924",
+      "48929",
+      "48930",
+      "48933",
+      "48937",
+      "48950",
+      "48951",
+      "48956"
+    ],
+    "area_codes": [517],
+    "FIPS code": "26-46000",
+    "GNIS feature IDs": ["1625035"],
+    "url": "https://www.lansingmi.gov/"
+  },
+  {
+    "city_name": "Laredo",
+    "state_name": "Texas",
+    "coordinates": "27°31′25″N 99°29′25″W",
+    "counties": ["Webb"],
+    "settled_founded": "1755",
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Dr. Victor D. Treviño",
+      "city_council": [
+        "Gilbert Gonzalez",
+        "Daisy Campos Rodriguez",
+        "Melissa R. Cigarroa",
+        "Alberto Torres, Jr.",
+        "Ruben Gutierrez, Jr.",
+        "Dr. David Tyler King",
+        "Vanessa Perez",
+        "Alyssa Cigarroa"
+      ]
+    },
+    "area": {
+      "city": "107.96 sq mi",
+      "land": "106.49 sq mi",
+      "water": "1.47 sq mi"
+    },
+    "elevation": "438 ft",
+    "population": {
+      "city": "255205",
+      "density": "2396.5/sq mi",
+      "metro": "161.76"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["78040–78046", "78049"],
+    "area_codes": [956],
+    "FIPS code": "48-41464",
+    "GNIS feature IDs": ["1339633"],
+    "url": "https://www.cityoflaredo.com/"
   }
 ]
