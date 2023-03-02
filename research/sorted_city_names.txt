@@ -154,17 +154,17 @@ x Lakewood New Jersey
 x Lancaster California
 x Lansing Michigan
 x Laredo Texas
-Las Cruces
-Las Vegas
-League City
-Lee's Summit
-Lewisville Texas
-Lexington[p] Kentucky
-Lincoln Nebraska
-Little Rock
-Long Beach
-Longmont Colorado
-Los Angeles
+x Las Cruces New Mexico
+x Las Vegas Nevada
+x League City Texas
+x Lee's Summit Missouri
+x Lewisville Texas
+x Lexington Kentucky
+x Lincoln Nebraska
+x Little Rock Arkansas
+x Long Beach California
+x Longmont Colorado
+x Los Angeles California
 Louisville[l] Kentucky
 Lowell Massachusetts
 Lubbock Texas

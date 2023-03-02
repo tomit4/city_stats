@@ -6629,5 +6629,528 @@
     "FIPS code": "48-41464",
     "GNIS feature IDs": ["1339633"],
     "url": "https://www.cityoflaredo.com/"
+  },
+  {
+    "city_name": "Las Cruces",
+    "state_name": "New Mexico",
+    "coordinates": "32°18′52″N 106°46′44″W",
+    "counties": ["Doña Ana"],
+    "settled_founded": "1849",
+    "incorporated": "1907",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Ken Miyagishima",
+      "city_council": [
+        "Kasandra Gandara",
+        "Tessa Abeyta",
+        "Becki Graham",
+        "Johana Bencomo",
+        "Becky Corran",
+        "Yvonne Flores"
+      ]
+    },
+    "area": {
+      "city": "77.03 sq mi",
+      "land": "76.93 sq mi",
+      "water": "0.10 sq mi"
+    },
+    "elevation": "3900 ft",
+    "population": {
+      "city": "111385",
+      "density": "1447.82/sq mi",
+      "metro": "217522"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["88001", "88003-88007", "88011-88013"],
+    "area_codes": [575],
+    "FIPS code": "35-39380",
+    "GNIS feature IDs": ["0899715"],
+    "url": "https://www.lascruces.gov/"
+  },
+  {
+    "city_name": "Las Vegas",
+    "state_name": "Nevada",
+    "coordinates": "36°10′30″N 115°08′11″W",
+    "counties": ["Clark"],
+    "settled_founded": "1905",
+    "incorporated": "1911",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Carolyn Goodman",
+      "city_council": [
+        "Brian Knudsen",
+        "Victoria Seaman",
+        "Olivia Diaz",
+        "Francis Allen-Palenske",
+        "Cedric Crear",
+        "Nancy E. Brune"
+      ]
+    },
+    "area": {
+      "city": "141.91 sq mi",
+      "land": "141.85 sq mi",
+      "water": "0.05 sq mi"
+    },
+    "elevation": "2001 ft",
+    "population": {
+      "city": "641903",
+      "density": "4525.16/sq mi",
+      "metro": "2265461"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["89044", "89054", "891xx"],
+    "area_codes": [702, 725],
+    "FIPS code": "32-40000",
+    "GNIS feature IDs": ["847388"],
+    "url": "https://www.lasvegasnevada.gov/"
+  },
+  {
+    "city_name": "League City",
+    "state_name": "Texas",
+    "coordinates": "29°29′59″N 95°5′23″W",
+    "counties": ["Galveston", "Harris"],
+    "settled_founded": null,
+    "incorporated": "1961",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Nick Long",
+      "city_council": [
+        "Andy Mann",
+        "Tommy Cones",
+        "Tom Crews",
+        "John Bowen",
+        "Justin Hicks",
+        "Chad Tressler",
+        "Sean Saunders"
+      ]
+    },
+    "area": {
+      "city": "53.06 sq mi",
+      "land": "51.26 sq mi",
+      "water": "1.80 sq mi"
+    },
+    "elevation": "20 ft",
+    "population": {
+      "city": "112129",
+      "density": "2100/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(CST)",
+    "zip_codes": ["77573-77574"],
+    "area_codes": [281, 346, 713, 832],
+    "FIPS code": "48-41980",
+    "GNIS feature IDs": ["1339753"],
+    "url": "https://www.leaguecitytx.gov/"
+  },
+  {
+    "city_name": "Lee's Summit",
+    "state_name": "Missouri",
+    "coordinates": "38°55′21″N 94°22′27″W",
+    "counties": ["Jackson", "Cass"],
+    "settled_founded": "1868",
+    "incorporated": "1868",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Bill Baird",
+      "city_council": [
+        "Mia Prier",
+        "Hillary Shields",
+        "John Lovell",
+        "Andrew S. Felker",
+        "Phyllis Q. Edson",
+        "Beto Lopez",
+        "Fred DeMoro",
+        "Faith Hodges"
+      ]
+    },
+    "area": {
+      "city": "65.91 sq mi",
+      "land": "63.90 sq mi",
+      "water": "2.02 sq mi"
+    },
+    "elevation": "1037 ft",
+    "population": {
+      "city": "101108",
+      "density": "1582.41/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "64015",
+      "64063",
+      "64064",
+      "64081",
+      "64082",
+      "64083",
+      "64086",
+      "64134",
+      "64139",
+      "64149"
+    ],
+    "area_codes": [816],
+    "FIPS code": "29-41348",
+    "GNIS feature IDs": ["0735684"],
+    "url": "https://cityofls.net/"
+  },
+  {
+    "city_name": "Lewisville",
+    "state_name": "Texas",
+    "coordinates": "33°2′18″N 97°0′22″W",
+    "counties": ["Denton", "Dallas"],
+    "settled_founded": null,
+    "incorporated": "1925",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "TJ Gilmore",
+      "city_council": [
+        "Bob Troyer",
+        "William J. Meredith",
+        "Ronni Cade",
+        "Brandon Jones",
+        "Kristin Green",
+        "Patrick Kelly"
+      ]
+    },
+    "area": {
+      "city": "43.22 sq mi",
+      "land": "37.01 sq mi",
+      "water": "6.21 sq mi"
+    },
+    "elevation": "469 ft",
+    "population": {
+      "city": "113760",
+      "density": "2951.04/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["75029", "75057", "75067", "75077"],
+    "area_codes": [214, 469, 972],
+    "FIPS code": "42508",
+    "GNIS feature IDs": ["2410829"],
+    "url": "https://www.cityoflewisville.com/"
+  },
+  {
+    "city_name": "Lexington",
+    "state_name": "Kentucky",
+    "coordinates": "38°01′47″N 84°29′41″W",
+    "counties": ["Fayette"],
+    "settled_founded": "1782",
+    "incorporated": "1831",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Linda Gorton",
+      "city_council": [
+        "Dan Wu",
+        "James Brown",
+        "Chuck Ellinger II",
+        "Tayna Fogle",
+        "Shayla Lynch, J.D.",
+        "Hannah LeGris",
+        "Brenda Monarrez",
+        "Liz Sheehan",
+        "Denise Gray",
+        "Preston Worley",
+        "Fred Brown",
+        "Whitney Elliott Baxter",
+        "Dave Sevigny",
+        "Jennifer Reynolds",
+        "Kathy Plomin"
+      ]
+    },
+    "area": {
+      "city": "285.54 sq mi",
+      "land": "283.64 sq mi",
+      "water": "1.90 sq mi"
+    },
+    "elevation": "978 ft",
+    "population": {
+      "city": "322570",
+      "density": "1137.26/sq mi",
+      "metro": "517056"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "40502–40517",
+      "40522–40524",
+      "40526",
+      "40533",
+      "40536",
+      "40544",
+      "40546",
+      "40550",
+      "40555",
+      "40574–40583",
+      "40588",
+      "40591",
+      "40598"
+    ],
+    "area_codes": [859],
+    "FIPS code": "21-46027",
+    "GNIS feature IDs": ["496343"],
+    "url": "https://www.lexingtonky.gov/"
+  },
+  {
+    "city_name": "Lincoln",
+    "state_name": "Nebraska",
+    "coordinates": "40°48′32″N 96°40′44″W",
+    "counties": ["Lancaster"],
+    "settled_founded": "1856",
+    "incorporated": "1869",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Leirion Gaylor Baird",
+      "city_council": [
+        "James Michael Bowers",
+        "Richard Meginnis",
+        "Michelle Suarez",
+        "Tammy Ward",
+        "Tom Beckius",
+        "Sändra Washington",
+        "Bennie Shobe"
+      ]
+    },
+    "area": {
+      "city": "100.45 sq mi",
+      "land": "99.09 sq mi",
+      "water": "1.36 sq mi"
+    },
+    "elevation": "1176 ft",
+    "population": {
+      "city": "291082",
+      "density": "2397.67/sq mi",
+      "metro": "342117"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "68501-68510",
+      "68512",
+      "68514",
+      "68516-68517",
+      "68520-68524",
+      "68526-68529",
+      "68531",
+      "68542",
+      "68544",
+      "68583",
+      "68588"
+    ],
+    "area_codes": [402, 531],
+    "FIPS code": "31-28000",
+    "GNIS feature IDs": ["0837279"],
+    "url": "https://www.lincoln.ne.gov/"
+  },
+  {
+    "city_name": "Little Rock",
+    "state_name": "Arkansas",
+    "coordinates": "34°44′10″N 92°19′52″W",
+    "counties": ["Pulaski"],
+    "settled_founded": "1821",
+    "incorporated": "1835",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Frank Scott Jr.",
+      "city_council": [
+        "Virgil Miller Jr.",
+        "Ken Richardson",
+        "Kathy Webb",
+        "Capi Peck",
+        "Lance Hines",
+        "Andrea Hogan Lewis",
+        "Brenda Wyrick",
+        "Dr. Dean Kumpuris",
+        "Antwan Phillips",
+        "Joan Adcock"
+      ]
+    },
+    "area": {
+      "city": "123.00 sq mi",
+      "land": "120.05 sq mi",
+      "water": "2.96 sq mi"
+    },
+    "elevation": "335 ft",
+    "population": {
+      "city": "204405",
+      "density": "1687.60/sq mi",
+      "metro": "748031"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "72201-72207",
+      "72209-72212",
+      "72214-72217",
+      "72219",
+      "72221-72223",
+      "72225",
+      "72227",
+      "72231",
+      "72255",
+      "72260",
+      "72295"
+    ],
+    "area_codes": [501],
+    "FIPS code": "05-41000",
+    "GNIS feature IDs": ["83350"],
+    "url": "https://www.littlerock.gov/"
+  },
+  {
+    "city_name": "Long Beach",
+    "state_name": "California",
+    "coordinates": "33°46′6″N 118°11′44″W",
+    "counties": ["Los Angeles"],
+    "settled_founded": null,
+    "incorporated": "1897",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Rex Richardson",
+      "city_council": [
+        "Mary Zendejas",
+        "Cindy Allen",
+        "Kristina Duggan",
+        "Daryl Supernaw",
+        "Megan Kerr",
+        "Suely Saro",
+        "Robeto Uranga",
+        "Al Austin",
+        "Dr. Joni Ricks-Oddie"
+      ]
+    },
+    "area": {
+      "city": "80.35 sq mi",
+      "land": "50.70 sq mi",
+      "water": "29.64 sq mi"
+    },
+    "elevation": "52 ft",
+    "population": {
+      "city": "466742",
+      "density": "9205.96/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "90801–90810",
+      "90813–90815",
+      "90822",
+      "90831–90835",
+      "90840",
+      "90842",
+      "90844",
+      "90846–90848",
+      "90853",
+      "90895",
+      "90899"
+    ],
+    "area_codes": [562],
+    "FIPS code": "06-43000",
+    "GNIS feature IDs": ["1652747"],
+    "url": "https://www.longbeach.gov/"
+  },
+  {
+    "city_name": "Longmont",
+    "state_name": "Colorado",
+    "coordinates": "40°10′18″N 105°6′33″W",
+    "counties": ["Boulder", "Weld"],
+    "settled_founded": "1871",
+    "incorporated": "1885",
+    "government": {
+      "type": "Municipality",
+      "mayor": "Joan Peck",
+      "city_council": [
+        "Tim Waters",
+        "Marcia Martin",
+        "Susie Hidalgo-Fahring",
+        "Sean McCoy",
+        "Aren Rodriguez",
+        "Shiquita Yarbrough"
+      ]
+    },
+    "area": {
+      "city": "30.40 sq mi",
+      "land": "28.76 sq mi",
+      "water": "1.64 sq mi"
+    },
+    "elevation": "4984 ft",
+    "population": {
+      "city": "98885",
+      "density": "3381.70/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["80501-80504"],
+    "area_codes": [303, 720],
+    "FIPS code": "08-45970",
+    "GNIS feature IDs": ["0202560"],
+    "url": "https://www.longmontcolorado.gov/"
+  },
+  {
+    "city_name": "Los Angeles",
+    "state_name": "California",
+    "coordinates": "34°03′N 118°15′W",
+    "counties": ["Los Angeles"],
+    "settled_founded": "1781",
+    "incorporated": "1850",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Karen Bass",
+      "city_council": [
+          "Eunisses Hernandez",
+          "Paul Krekorian",
+          "Bob Blumenfield",
+          "Nithya Raman",
+          "Katy Yaroslavsky",
+          "Monica Rodriguez",
+          "Marqueece Harris-Dawson",
+          "Curren D. Price, Jr.",
+          "Heather Hutt",
+          "Traci Park",
+          "John Lee",
+          "Hugo Soto-Martinez",
+          "Kevin de León",
+          "Tim McOsker"
+      ]
+    },
+    "area": {
+      "city": "501.55 sq mi",
+      "land": "469.49 sq mi",
+      "water": "32.06 sq mi"
+    },
+    "elevation": "305 ft",
+    "population": {
+      "city": "3898747",
+      "density": "8304.22/sq mi",
+      "metro": "13200998"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "90001–90084",
+      "90086–90089",
+      "90091",
+      "90093–90097",
+      "90099",
+      "90101–90103",
+      "90174",
+      "90185",
+      "90189",
+      "90291–90293",
+      "91040–91043",
+      "91303–91308",
+      "91311",
+      "91316",
+      "91324–91328",
+      "91330",
+      "91331",
+      "91335",
+      "91340",
+      "91342–91349",
+      "91352–91353",
+      "91356–91357",
+      "91364–91367",
+      "91401–91499",
+      "91504–91505",
+      "91601–91609"
+    ],
+    "area_codes": [213, 323, 310, 424, 747, 818],
+    "FIPS code": "06-44000",
+    "GNIS feature IDs": ["1662328", "2410877"],
+    "url": "https://lacity.gov/"
   }
 ]
