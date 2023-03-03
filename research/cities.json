@@ -7775,5 +7775,862 @@
     "FIPS code": "48-47892",
     "GNIS feature IDs": ["1341400"],
     "url": "https://cityofmesquite.com/"
+  },
+  {
+    "city_name": "Miami",
+    "state_name": "Florida",
+    "coordinates": "25.775163°N 80.208615°W",
+    "counties": ["Miami-Dade"],
+    "settled_founded": "1858",
+    "incorporated": "1896",
+    "government": {
+      "type": "Mayor-Commission",
+      "mayor": "Francis X. Suarez",
+      "city_council": [
+        "Alex Diaz de la Portilla",
+        "Sabina Covo",
+        "Joe Carollo",
+        "Manolo Reyes",
+        "Christine King",
+        "Arthur Noriega",
+        "Victoria Méndez",
+        "Todd B. Hannon"
+      ]
+    },
+    "area": {
+      "city": "56.07 sq mi",
+      "land": "36.00 sq mi",
+      "water": "20.08 sq mi"
+    },
+    "elevation": "6 ft",
+    "population": {
+      "city": "442241",
+      "density": "12284.47/sq mi",
+      "metro": "6091747"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "33101-33102",
+      "33106",
+      "33109",
+      "33111-33112",
+      "33114",
+      "33116",
+      "33119",
+      "33122",
+      "33124-33138",
+      "33140-33147",
+      "33149-33158",
+      "33160-33170",
+      "33172-33199",
+      "33206",
+      "33222",
+      "33231",
+      "33233-33234",
+      "33238-33239",
+      "33242-33243",
+      "33245",
+      "33247",
+      "33255-33257",
+      "33261",
+      "33265-33266",
+      "33269",
+      "33280",
+      "33283",
+      "33296",
+      "33299"
+    ],
+    "area_codes": [305, 786],
+    "FIPS code": "12-45000",
+    "GNIS feature IDs": ["277593", "2411786"],
+    "url": "https://www.miamigov.com/"
+  },
+  {
+    "city_name": "Miami Gardens",
+    "state_name": "Florida",
+    "coordinates": "25°56′28″N 80°14′43″W",
+    "counties": ["Miami-Dade"],
+    "settled_founded": null,
+    "incorporated": "2003",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Rodney Harris",
+      "city_council": [
+        "Katrina Wilson",
+        "Shannon Campbell",
+        "Reggie Leon",
+        "Shannan Ighodaro",
+        "Linda Julien",
+        "Robert L. Stephens III"
+      ]
+    },
+    "area": {
+      "city": "19.00 sq mi",
+      "land": "18.23 sq mi",
+      "water": "0.77 sq mi"
+    },
+    "elevation": "7 ft",
+    "population": {
+      "city": "111640",
+      "density": "5900/sq mi",
+      "metro": "5564635"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["33014", "33054", "33055", "33056", "33152", "33169"],
+    "area_codes": [305, 786],
+    "FIPS code": "12-45050",
+    "GNIS feature IDs": ["1989951"],
+    "url": "https://www.miamigardens-fl.gov/"
+  },
+  {
+    "city_name": "Midland",
+    "state_name": "Texas",
+    "coordinates": "32°0′N 102°6′W",
+    "counties": ["Midland", "Martin"],
+    "settled_founded": "1881",
+    "incorporated": "1906",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Lori Blong",
+      "city_council": [
+        "Dan Corrales",
+        "Robin Poole",
+        "Scott Dufford",
+        "John Norman",
+        "Jack Ladd",
+        "Amy Stretcher Burkes"
+      ]
+    },
+    "area": {
+      "city": "75.62 sq mi",
+      "land": "75.45 sq mi",
+      "water": "0.17 sq mi"
+    },
+    "elevation": "2782 ft",
+    "population": {
+      "city": "132524",
+      "density": "1935.56/sq mi",
+      "metro": "295987"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["79701-12"],
+    "area_codes": [432],
+    "FIPS code": "48-48072",
+    "GNIS feature IDs": ["1341547"],
+    "url": "https://www.midlandtexas.gov/"
+  },
+  {
+    "city_name": "Milwaukee",
+    "state_name": "Wisconsin",
+    "coordinates": "43.05°N 87.95°W",
+    "counties": ["Milwaukee", "Washington", "Waukesha", "Ozaukee"],
+    "settled_founded": null,
+    "incorporated": "1846",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Cavalier Johnson",
+      "city_council": [
+        "Mark Chambers Jr.",
+        "Jonathan Brostoff",
+        "Robert Bauman",
+        "Milele A. Coggs",
+        "Khalif J. Rainey",
+        "JoCasta Zamarripa",
+        "Michael J. Murphy",
+        "Mark A. Borkowski",
+        "José G. Pérez",
+        "Scott Spiker",
+        "Marina Dimitrijevic",
+        "Russell W. Stamper, II"
+      ]
+    },
+    "area": {
+      "city": "96.81 sq mi",
+      "land": "96.18 sq mi",
+      "water": "0.63 sq mi"
+    },
+    "elevation": "617 ft",
+    "population": {
+      "city": "577222",
+      "density": "6001.48/sq mi",
+      "metro": "1574731"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["53172", "532XX"],
+    "area_codes": [414],
+    "FIPS code": "55-53000",
+    "GNIS feature IDs": ["1577901"],
+    "url": "https://city.milwaukee.gov/"
+  },
+  {
+    "city_name": "Minneapolis",
+    "state_name": "Minnesota",
+    "coordinates": "44°58′55″N 93°16′09″W",
+    "counties": ["Hennepin"],
+    "settled_founded": null,
+    "incorporated": "1867",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Jacob Frey",
+      "city_council": [
+        "Elliott Payne",
+        "Robin Wonsley",
+        "Michael Rainville",
+        "LaTrisha Vetaw",
+        "Jeremiah Ellison",
+        "Jamal Osman",
+        "Lisa Goodman",
+        "Andrea Jenkins",
+        "Jason Chavez",
+        "Aisha Chughtai",
+        "Emily Koski",
+        "Andrew Johnson",
+        "Linea Palmisano"
+      ]
+    },
+    "area": {
+      "city": "57.51 sq mi",
+      "land": "54.00 sq mi",
+      "water": "3.51 sq mi"
+    },
+    "elevation": "830 ft",
+    "population": {
+      "city": "429954",
+      "density": "7962.11/sq mi",
+      "metro": "3690512"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "55401-55419",
+      "55423",
+      "55429-55430",
+      "55450",
+      "55454-55455",
+      "55484-55488"
+    ],
+    "area_codes": [612],
+    "FIPS code": "27-43000",
+    "GNIS feature IDs": ["655030"],
+    "url": "https://www.minneapolismn.gov/"
+  },
+  {
+    "city_name": "Miramar",
+    "state_name": "Florida",
+    "coordinates": "25°58′44″N 80°16′57″W",
+    "counties": ["Broward"],
+    "settled_founded": null,
+    "incorporated": "1955",
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "Wayne Messam",
+      "city_council": [
+        "Winston F. Barnes",
+        "Maxwell B. Chambers",
+        "Alexandra P. Davis"
+      ]
+    },
+    "area": {
+      "city": "31.08 sq mi",
+      "land": "28.85 sq mi",
+      "water": "2.23 sq mi"
+    },
+    "elevation": "9 ft",
+    "population": {
+      "city": "134721",
+      "density": "4669.22/sq mi",
+      "metro": "5762717"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["33023", "33025", "33027", "33029"],
+    "area_codes": [754, 954],
+    "FIPS code": "12-45975",
+    "GNIS feature IDs": ["0286974"],
+    "url": "https://www.miramarfl.gov/"
+  },
+  {
+    "city_name": "Mobile",
+    "state_name": "Alabama",
+    "coordinates": "30°41′40″N 88°02′35″W",
+    "counties": ["Mobile"],
+    "settled_founded": "1702",
+    "incorporated": "1819",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Sandy Stimpson",
+      "city_council": [
+        "Cory Penn",
+        "William Carroll",
+        "C.J. Small",
+        "Ben Reynolds",
+        "Joel Daves",
+        "Scott Jones",
+        "Gina Gregory"
+      ]
+    },
+    "area": {
+      "city": "180.07 sq mi",
+      "land": "139.48 sq mi",
+      "water": "40.59 sq mi"
+    },
+    "elevation": "33 ft",
+    "population": {
+      "city": "187041",
+      "density": "1340.97/sq mi",
+      "metro": "430197"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "36601-36612",
+      "36615-36619",
+      "36628",
+      "36633",
+      "36640",
+      "36641",
+      "36644",
+      "36652",
+      "36660",
+      "36663",
+      "36670",
+      "36671",
+      "36675",
+      "36685",
+      "36688",
+      "36689",
+      "36691",
+      "36693",
+      "36695"
+    ],
+    "area_codes": [251],
+    "FIPS code": "01-50000",
+    "GNIS feature IDs": ["24004278"],
+    "url": "https://www.cityofmobile.org/"
+  },
+  {
+    "city_name": "Modesto",
+    "state_name": "California",
+    "coordinates": "37°39′41″N 120°59′40″W",
+    "counties": ["Stanislaus"],
+    "settled_founded": "1870",
+    "incorporated": "1884",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Sue Zwahlen",
+      "city_council": [
+        "Rosa Escutia-Braaton",
+        "Eric E. Alvarez",
+        "Chris Ricci",
+        "Nick Bavaro",
+        "Jeremiah Williams",
+        "David Wright"
+      ]
+    },
+    "area": {
+      "city": "44.80 sq mi",
+      "land": "42.97 sq mi",
+      "water": "1.83 sq mi"
+    },
+    "elevation": "89 ft",
+    "population": {
+      "city": "218464",
+      "density": "5007.59/sq mi",
+      "metro": "552878"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["95350–95358", "95397"],
+    "area_codes": [209],
+    "FIPS code": "06-48354",
+    "GNIS feature IDs": ["277609", "2411130"],
+    "url": "https://www.modestogov.com/"
+  },
+  {
+    "city_name": "Montgomery",
+    "state_name": "Alabama",
+    "coordinates": "32°21′42″N 86°16′45″W",
+    "counties": ["Montgomery"],
+    "settled_founded": null,
+    "incorporated": "1819",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Steven Reed",
+      "city_council": [
+        "Ed Grimes",
+        "Brantley W. Lyons",
+        "Marche Johnson",
+        "Audrey Graham",
+        "Cornelius Calhoun",
+        "Oronde Mitchell",
+        "Clay McInnis",
+        "Glen O. Pruitt, Jr.",
+        "Charles W. Jinright"
+      ]
+    },
+    "area": {
+      "city": "162.27 sq mi",
+      "land": "159.86 sq mi",
+      "water": "2.41 sq mi"
+    },
+    "elevation": "240 ft",
+    "population": {
+      "city": "200603",
+      "density": "1254.89/sq mi",
+      "metro": "386047"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "36013",
+      "36043",
+      "36064",
+      "36104",
+      "36105",
+      "36106",
+      "36107",
+      "36108",
+      "36109",
+      "36110",
+      "36111",
+      "36112",
+      "36113",
+      "36115",
+      "36116",
+      "36117"
+    ],
+    "area_codes": [334],
+    "FIPS code": "01-51000",
+    "GNIS feature IDs": ["165344"],
+    "url": "https://www.montgomeryal.gov/"
+  },
+  {
+    "city_name": "Moreno Valley",
+    "state_name": "California",
+    "coordinates": "33°56′35″N 117°13′42″W",
+    "counties": ["Riverside"],
+    "settled_founded": null,
+    "incorporated": "1984",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Ulises Cabrera",
+      "city_council": [
+        "Elena Baca-Santa Cruz",
+        "Ed A. Delgado",
+        "David Marquez",
+        "Cheylynda Barnard"
+      ]
+    },
+    "area": {
+      "city": "51.51 sq mi",
+      "land": "51.30 sq mi",
+      "water": "0.21 sq mi"
+    },
+    "elevation": "1631 ft",
+    "population": {
+      "city": "208634",
+      "density": "4153.36/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92551–92557"],
+    "area_codes": [909, 951],
+    "FIPS code": "06-49270",
+    "GNIS feature IDs": ["1668251"],
+    "url": "https://moval.gov/"
+  },
+  {
+    "city_name": "Murfreesboro",
+    "state_name": "Tennessee",
+    "coordinates": "35°50′46″N 86°23′31″W",
+    "counties": ["Rutherford"],
+    "settled_founded": "1811",
+    "incorporated": "1817",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Shane McFarland",
+      "city_council": [
+        "Bill Shacklett",
+        "Jami Averwater",
+        "Madelyn Scales Harris",
+        "Austin Maxwell",
+        "Kirt Wade",
+        "Shawn Wright"
+      ]
+    },
+    "area": {
+      "city": "64.13 sq mi",
+      "land": "63.99 sq mi",
+      "water": "0.14 sq mi"
+    },
+    "elevation": "610 ft",
+    "population": {
+      "city": "152769",
+      "density": "2387.43/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["37127-37133"],
+    "area_codes": [615, 629],
+    "FIPS code": "47-51560",
+    "GNIS feature IDs": ["1295105"],
+    "url": "https://www.murfreesborotn.gov/"
+  },
+  {
+    "city_name": "Murrieta",
+    "state_name": "California",
+    "coordinates": "33°34′10″N 117°12′09″W",
+    "counties": ["Riverside"],
+    "settled_founded": null,
+    "incorporated": "1991",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Lisa DeForest",
+      "city_council": [
+        "Lori Stone",
+        "Jon Levell",
+        "Ron Holiday",
+        "Cindy Warren"
+      ]
+    },
+    "area": {
+      "city": "33.65 sq mi",
+      "land": "33.61 sq mi",
+      "water": "0.04 sq mi"
+    },
+    "elevation": "1175 ft",
+    "population": {
+      "city": "110949",
+      "density": "3301.07/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92562-92564"],
+    "area_codes": [951],
+    "FIPS code": "06-50076",
+    "GNIS feature IDs": ["1667919", "2411199"],
+    "url": "https://www.murrietaca.gov/"
+  },
+  {
+    "city_name": "Nampa",
+    "state_name": "Idaho",
+    "coordinates": "43°34′29″N 116°33′49″W",
+    "counties": ["Canyon"],
+    "settled_founded": "1886",
+    "incorporated": "1891",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Debbie Kling",
+      "city_council": [
+        "Victor Rodriguez",
+        "Darl Bruner",
+        "Natalie Jangula",
+        "Dale Reynolds",
+        "Randy Haverfield",
+        "Jacob Bower"
+      ]
+    },
+    "area": {
+      "city": "32.97 sq mi",
+      "land": "32.82 sq mi",
+      "water": "0.15 sq mi"
+    },
+    "elevation": "2517 ft",
+    "population": {
+      "city": "100200",
+      "density": "3024.89/sq mi",
+      "metro": "770353"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["83651-83686-83687"],
+    "area_codes": [208],
+    "FIPS code": "16-56260",
+    "GNIS feature IDs": ["0396943"],
+    "url": "https://www.cityofnampa.us/"
+  },
+  {
+    "city_name": "Naperville",
+    "state_name": "Illinois",
+    "coordinates": "41°44′54″N 88°09′57″W",
+    "counties": ["DuPage", "Will"],
+    "settled_founded": "1831",
+    "incorporated": "1857",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Steve Chirico",
+      "city_council": [
+        "Paul Hinterlong",
+        "Ian Holzhauer",
+        "Patrick Kelly",
+        "Paul Leong",
+        "Theresa Sullivan",
+        "Jennifer Bruzan",
+        "Benjamin M. White"
+      ]
+    },
+    "area": {
+      "city": "39.70 sq mi",
+      "land": "39.11 sq mi",
+      "water": "0.59 sq mi"
+    },
+    "elevation": "705 ft",
+    "population": {
+      "city": "149540",
+      "density": "3823.57/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["60540", "60563–60565", "60566–60567"],
+    "area_codes": [630, 331],
+    "FIPS code": "17-51622",
+    "GNIS feature IDs": ["2395147"],
+    "url": "https://www.naperville.il.us/"
+  },
+  {
+    "city_name": "Nashville",
+    "state_name": "Tennessee",
+    "coordinates": "36°09′44″N 86°46′28″W",
+    "counties": ["Davidson"],
+    "settled_founded": "1779",
+    "incorporated": "1806",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "John Cooper",
+      "city_council": [
+        "Jim Schulman",
+        "Burkley Allen",
+        "Steve Glover",
+        "Sharon Hurt",
+        "Bob Mendes",
+        "Zulfat Suara",
+        "Jonathan B. Hall",
+        "Kyonzté Toombs",
+        "Jennifer Gamble",
+        "Robert Swope",
+        "Sean Parker",
+        "Brett A. Withers",
+        "Emily Benedict",
+        "Nancy VanReece"
+      ]
+    },
+    "area": {
+      "city": "525.94 sq mi",
+      "land": "504.03 sq mi",
+      "water": "21.91 sq mi"
+    },
+    "elevation": "597 ft",
+    "population": {
+      "city": "715884",
+      "density": "1420.32/sq mi",
+      "metro": "1989519"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "37201-37222",
+      "37224",
+      "37227-37230",
+      "37232",
+      "37234-37236",
+      "37238",
+      "37240-37244",
+      "37246",
+      "37250"
+    ],
+    "area_codes": [615, 629],
+    "FIPS code": "47037",
+    "GNIS feature IDs": ["1652484"],
+    "url": "https://www.nashville.gov/"
+  },
+  {
+    "city_name": "Newark",
+    "state_name": "New Jersey",
+    "coordinates": "40.72422°N 74.172574°W",
+    "counties": ["Essex"],
+    "settled_founded": "1663",
+    "incorporated": "1836",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Ras Baraka",
+      "city_council": [
+        "Michael J. Silva",
+        "Dupre L. Kelly",
+        "Louise Scott-Rountree",
+        "Luis A. Quintana",
+        "C. Lawrence Crump",
+        "LaMonica McIver",
+        "Patrick O. Council",
+        "Anibal Ramos Jr.",
+        "Carlos M. Gonzalez"
+      ]
+    },
+    "area": {
+      "city": "25.88 sq mi",
+      "land": "24.14 sq mi",
+      "water": "1.74 sq mi"
+    },
+    "elevation": "13 ft",
+    "population": {
+      "city": "311549",
+      "density": "12903.8/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["07101-07108", "07112", "07114"],
+    "area_codes": [862, 973],
+    "FIPS code": "3401351000",
+    "GNIS feature IDs": ["0885317"],
+    "url": "https://www.newarknj.gov/"
+  },
+  {
+    "city_name": "New Bedford",
+    "state_name": "Massachusetts",
+    "coordinates": "41°38′10″N 70°56′05″W",
+    "counties": ["Bristol"],
+    "settled_founded": "1652",
+    "incorporated": "1847",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Jon Mitchell",
+      "city_council": [
+        "Ian Abreu",
+        "William Brad Markey",
+        "Naomi R.A. Carney",
+        "Maria E. Giesta",
+        "Shane Burgo",
+        "Brian K. Gomes",
+        "Derek Baptiste",
+        "Linda M. Morad",
+        "Scott J. Lima",
+        "Ryan Pereira"
+      ]
+    },
+    "area": {
+      "city": "24.13 sq mi",
+      "land": "20.00 sq mi",
+      "water": "4.13 sq mi"
+    },
+    "elevation": "50 ft",
+    "population": {
+      "city": "102882",
+      "density": "5053.70/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["02740", "02744", "02745", "02746"],
+    "area_codes": [508, 774],
+    "FIPS code": "25-45000",
+    "GNIS feature IDs": ["0613714"],
+    "url": "https://www.newbedford-ma.gov/"
+  },
+  {
+    "city_name": "New Haven",
+    "state_name": "Connecticut",
+    "coordinates": "41°18′36″N 72°55′25″W",
+    "counties": ["New Haven"],
+    "settled_founded": "1638",
+    "incorporated": "1784",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Justin Elicker",
+      "city_council": [
+        "Alex Guzhnay",
+        "Frank E. Douglass, Jr.",
+        "Ron Hurt",
+        "Evelyn Rodriguez",
+        "Kampton Singh",
+        "Carmen Rodriguez",
+        "Eli Sabin",
+        "Ellen Cupo",
+        "Claudia Herrera",
+        "Anna M. Festa",
+        "Renee Haywood",
+        "Gerald M. Antunes",
+        "Rosa Santana",
+        "Sarah Miller",
+        "Ernie G. Santiago",
+        "José Crespo",
+        "Sal Punzo",
+        "Salvatore E. DeCola",
+        "Kimberly R. Edwards",
+        "Devin Avshalom-Smith",
+        "Troy Streater",
+        "Jeanette L. Morrison",
+        "Tyisha Walkers-Myers",
+        "Evette Hamilton",
+        "Adam J. Marchand",
+        "Darryl J. Brackeen, Jr.",
+        "Richard Furlow",
+        "Thomas R. Finklin, Jr.",
+        "Brian Wingate",
+        "Honda Smith"
+      ]
+    },
+    "area": {
+      "city": "20.13 sq mi",
+      "land": "18.69 sq mi",
+      "water": "1.44 sq mi"
+    },
+    "elevation": "59 ft",
+    "population": {
+      "city": "134023",
+      "density": "7170/sq mi",
+      "metro": "862477"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["06501-06540"],
+    "area_codes": [203, 475],
+    "FIPS code": "09-52000",
+    "GNIS feature IDs": ["0209231"],
+    "url": "https://www.newhavenct.gov/"
+  },
+  {
+    "city_name": "New Orleans",
+    "state_name": "Louisiana",
+    "coordinates": "29°58′00″N 90°04′50″W",
+    "counties": ["Orleans"],
+    "settled_founded": "1718",
+    "incorporated": null,
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "LaToya Cantrell",
+      "city_council": [
+        "Helena N. Moreno",
+        "Joseph I. Giarrusso III",
+        "Jean Paul Morrell",
+        "Freddie King III",
+        "Eugene J. Green",
+        "Lesli Harris",
+        "Oliver Thomas"
+      ]
+    },
+    "area": {
+      "city": "349.85 sq mi",
+      "land": "169.42 sq mi",
+      "water": "180.43 sq mi"
+    },
+    "elevation": "20 ft",
+    "population": {
+      "city": "383997",
+      "density": "3819/sq mi",
+      "metro": "1270530"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "70112-70119",
+      "70121-70131",
+      "70139",
+      "70141-70143",
+      "70145",
+      "70146",
+      "70148",
+      "70150-70154",
+      "70156-70167",
+      "70170",
+      "70172",
+      "70174-70179",
+      "70181-70187",
+      "70189",
+      "70190",
+      "70195"
+    ],
+    "area_codes": [504],
+    "FIPS code": "22-55000",
+    "GNIS feature IDs": ["1629985"],
+    "url": "https://council.nola.gov/"
   }
 ]

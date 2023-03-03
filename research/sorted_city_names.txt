@@ -179,25 +179,25 @@ x Menifee California
 x Meridian Idaho
 x Mesa Arizona
 x Mesquite Texas
-Miami Florida
-Miami Gardens
-Midland Texas
-Milwaukee Wisconsin
-Minneapolis Minnesota
-Miramar Florida
-Mobile Alabama
-Modesto California
-Montgomery Alabama
-Moreno Valley
-Murfreesboro Tennessee
-Murrieta California
-Nampa Idaho
-Naperville Illinois
-Nashville[j] Tennessee
-Newark New
-New Bedford
-New Haven
-New Orleans[n]
+x Miami Florida
+x Miami Gardens Florida
+x Midland Texas
+x Milwaukee Wisconsin
+x Minneapolis Minnesota
+x Miramar Florida
+x Mobile Alabama
+x Modesto California
+x Montgomery Alabama
+x Moreno Valley California
+x Murfreesboro Tennessee
+x Murrieta California
+x Nampa Idaho
+x Naperville Illinois
+x Nashville Tennessee
+x Newark New Jersey
+x New Bedford Massachusetts
+x New Haven Connecticut
+x New Orleans Louisiana
 Newport News[m]
 New York[d]
 Norfolk[m] Virginia
