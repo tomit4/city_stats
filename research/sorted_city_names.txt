@@ -165,20 +165,20 @@ x Little Rock Arkansas
 x Long Beach California
 x Longmont Colorado
 x Los Angeles California
-Louisville[l] Kentucky
-Lowell Massachusetts
-Lubbock Texas
-Lynn Massachusetts
-Macon[w] Georgia
-Madison Wisconsin
-Manchester New
-McAllen Texas
-McKinney Texas
-Memphis Tennessee
-Menifee California
-Meridian Idaho
-Mesa Arizona
-Mesquite Texas
+x Louisville Kentucky
+x Lowell Massachusetts
+x Lubbock Texas
+x Lynn Massachusetts
+x Macon Georgia
+x Madison Wisconsin
+x Manchester New Hampshire
+x McAllen Texas
+x McKinney Texas
+x Memphis Tennessee
+x Menifee California
+x Meridian Idaho
+x Mesa Arizona
+x Mesquite Texas
 Miami Florida
 Miami Gardens
 Midland Texas

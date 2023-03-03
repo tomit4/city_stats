@@ -7092,20 +7092,20 @@
       "type": "Strong-Mayor",
       "mayor": "Karen Bass",
       "city_council": [
-          "Eunisses Hernandez",
-          "Paul Krekorian",
-          "Bob Blumenfield",
-          "Nithya Raman",
-          "Katy Yaroslavsky",
-          "Monica Rodriguez",
-          "Marqueece Harris-Dawson",
-          "Curren D. Price, Jr.",
-          "Heather Hutt",
-          "Traci Park",
-          "John Lee",
-          "Hugo Soto-Martinez",
-          "Kevin de León",
-          "Tim McOsker"
+        "Eunisses Hernandez",
+        "Paul Krekorian",
+        "Bob Blumenfield",
+        "Nithya Raman",
+        "Katy Yaroslavsky",
+        "Monica Rodriguez",
+        "Marqueece Harris-Dawson",
+        "Curren D. Price, Jr.",
+        "Heather Hutt",
+        "Traci Park",
+        "John Lee",
+        "Hugo Soto-Martinez",
+        "Kevin de León",
+        "Tim McOsker"
       ]
     },
     "area": {
@@ -7152,5 +7152,628 @@
     "FIPS code": "06-44000",
     "GNIS feature IDs": ["1662328", "2410877"],
     "url": "https://lacity.gov/"
+  },
+  {
+    "city_name": "Louisville",
+    "state_name": "Kentucky",
+    "coordinates": "38°15′22″N 85°45′05″W",
+    "counties": ["Jefferson"],
+    "settled_founded": "1778",
+    "incorporated": "1828",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Craig Greenberg",
+      "city_council": [
+        "Tammy Hawkins",
+        "Barbara Shanklin",
+        "Kumar Rashad",
+        "Jecorey Arthur",
+        "Donna Purvis",
+        "Phillip Baker",
+        "Paula McCraney",
+        "Andrew Owen",
+        "Pat Mulvihill",
+        "Kevin Kramer",
+        "Rick Blackwell",
+        "Dan Seum, Jr.",
+        "Cindi Fowler",
+        "Jennifer Chappell",
+        "Scott Reed",
+        "Markus Winkler",
+        "Marilyn Parker",
+        "Anthony Piagentini",
+        "Stuart Benson",
+        "Betsy Ruhe",
+        "Robin Engel",
+        "Jeff Hudson",
+        "Madonna Flood",
+        "Khalil Batshon",
+        "Brent Ackerson"
+      ]
+    },
+    "area": {
+      "city": "341.44 sq mi",
+      "land": "324.94 sq mi",
+      "water": "16.50 sq mi"
+    },
+    "elevation": "466 ft",
+    "population": {
+      "city": "633045",
+      "density": "1900/sq mi",
+      "metro": "1395634"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["400xx", "401xx", "402xx"],
+    "area_codes": [502],
+    "FIPS code": "21-48000",
+    "GNIS feature IDs": ["0509453"],
+    "url": "https://louisvilleky.gov/"
+  },
+  {
+    "city_name": "Lowell",
+    "state_name": "Massachusetts",
+    "coordinates": "42°38′22″N 71°18′53″W",
+    "counties": ["Middlesex"],
+    "settled_founded": "1652",
+    "incorporated": "1836",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Sokhary Chau",
+      "city_council": [
+        "John Drinkwater",
+        "Erik Gitschier",
+        "Wayne Jenness",
+        "John J. Leahy",
+        "Rita Mercier",
+        "Vesna Nuon",
+        "Corey Robinson",
+        "Daniel Rourke",
+        "Kimberly Scott",
+        "Paul Ratha"
+      ]
+    },
+    "area": {
+      "city": "14.53 sq mi",
+      "land": "13.61 sq mi",
+      "water": "0.92 sq mi"
+    },
+    "elevation": "102 ft",
+    "population": {
+      "city": "115554",
+      "density": "8489.75/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["01850", "01851", "01852", "01853", "01854"],
+    "area_codes": [978, 351],
+    "FIPS code": "25-37000",
+    "GNIS feature IDs": ["0611832"],
+    "url": "https://www.lowellma.gov/533/"
+  },
+  {
+    "city_name": "Lubbock",
+    "state_name": "Texas",
+    "coordinates": "33°34′40″N 101°53′24″W",
+    "counties": ["Lubbock"],
+    "settled_founded": "1889",
+    "incorporated": "1909",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Tray Payne",
+      "city_council": [
+        "Christy Martinez-Garcia",
+        "Shelia Patterson Harris",
+        "Mark W. McBrayer",
+        "Steve Massengale",
+        "Dr. Jennifer Wilson",
+        "Latrelle Joy"
+      ]
+    },
+    "area": {
+      "city": "135.85 sq mi",
+      "land": "134.60 sq mi",
+      "water": "1.24 sq mi"
+    },
+    "elevation": "3202 ft",
+    "population": {
+      "city": "260993",
+      "density": "1900/sq mi",
+      "metro": "325245"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "79401-79416",
+      "79423",
+      "79424",
+      "79430",
+      "79452",
+      "79453",
+      "79457",
+      "79464",
+      "79490",
+      "79491",
+      "79493",
+      "79499"
+    ],
+    "area_codes": [806],
+    "FIPS code": "48-45000",
+    "GNIS feature IDs": ["1374760"],
+    "url": "https://ci.lubbock.tx.us/"
+  },
+  {
+    "city_name": "Lynn",
+    "state_name": "Massachusetts",
+    "coordinates": "42°28′N 70°57′W",
+    "counties": ["Essex"],
+    "settled_founded": "1629",
+    "incorporated": "1629",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Jared C. Nicholson",
+      "city_council": [
+        "Buzzy Barton",
+        "Brian M. Field",
+        "Brian P. LaPierre",
+        "Hong L. Net",
+        "Wayne A. Lozzi",
+        "Richard B. Starbard",
+        "Constantino Alinsug",
+        "Richard C. Colucci",
+        "Dianna M. Chakoutis",
+        "Frederick W. Hogan",
+        "John M. Walsh Jr."
+      ]
+    },
+    "area": {
+      "city": "13.52 sq mi",
+      "land": "10.74 sq mi",
+      "water": "2.78 sq mi"
+    },
+    "elevation": "30 ft",
+    "population": {
+      "city": "101253",
+      "density": "9428.53/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["01901-01905"],
+    "area_codes": [339, 781],
+    "FIPS code": "25-37490",
+    "GNIS feature IDs": ["0613376"],
+    "url": "https://www.lynnma.gov/"
+  },
+  {
+    "city_name": "Macon",
+    "state_name": "Georgia",
+    "coordinates": "32°50′5″N 83°39′6″W",
+    "counties": ["Bibb"],
+    "settled_founded": "1809",
+    "incorporated": "1823",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Lester Miller",
+      "city_council": [
+        "Valerie Wynn",
+        "Paul Bronson",
+        "Elaine Lucas",
+        "Mallory Jones, III",
+        "Raymond Wilder",
+        "Bill Howell",
+        "Virgil Watkins, Jr.",
+        "Al Tillman",
+        "Seth Clark"
+      ]
+    },
+    "area": {
+      "city": "254.90 sq mi",
+      "land": "249.38 sq mi",
+      "water": "5.52 sq mi"
+    },
+    "elevation": "381 ft",
+    "population": {
+      "city": "157346",
+      "density": "630.95/sq mi",
+      "metro": "233802"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["31200-31299"],
+    "area_codes": [478],
+    "FIPS code": "13-49000",
+    "GNIS feature IDs": ["0332301"],
+    "url": "https://www.maconbibb.us/"
+  },
+  {
+    "city_name": "Madison",
+    "state_name": "Wisconsin",
+    "coordinates": "43°04′29″N 89°23′03″W",
+    "counties": ["Dane"],
+    "settled_founded": "1836",
+    "incorporated": "1856",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Satya Rhodes-Conway",
+      "city_council": [
+        "Barbara Harrington-McKinney",
+        "Patrick Heck",
+        "Erik Paulson",
+        "Michael Verveer",
+        "Regina Vidaver",
+        "Brian Benford",
+        "Nasra Wehelie",
+        "Juliana Bennett",
+        "Nikki Conklin",
+        "Yannette Figueroa Cole",
+        "Bill Tishler",
+        "Barbara Vedder",
+        "Tag Evers",
+        "Sheri Carter",
+        "Grant Foster",
+        "Jael Currie",
+        "Sabrina Madison",
+        "Charles Myadze",
+        "Keith Furman",
+        "Matt Phair"
+      ]
+    },
+    "area": {
+      "city": "101.53 sq mi",
+      "land": "79.57 sq mi",
+      "water": "21.96 sq mi"
+    },
+    "elevation": "873 ft",
+    "population": {
+      "city": "269840",
+      "density": "3391.23/sq mi",
+      "metro": "680796"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "53701-53708",
+      "53711",
+      "53713-53719",
+      "53725",
+      "53726",
+      "53744",
+      "53774",
+      "53777",
+      "53782-53786",
+      "53788",
+      "53790-53794"
+    ],
+    "area_codes": [608],
+    "FIPS code": "55-48000",
+    "GNIS feature IDs": ["1581834"],
+    "url": "https://cityofmadison.com/"
+  },
+  {
+    "city_name": "Manchester",
+    "state_name": "New Hampshire",
+    "coordinates": "42°59′27″N 71°27′49″W",
+    "counties": ["Hillsborough"],
+    "settled_founded": "1751",
+    "incorporated": "1846",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Joyce Craig",
+      "city_council": [
+        "Kevin J. Cavanaugh",
+        "Will Stewart",
+        "Pat Long",
+        "Christine Fajardo",
+        "Anthony Sapienza",
+        "Mary Sullivan Heath",
+        "Edward Sapienza",
+        "Jim Burkush",
+        "Bill Barry",
+        "Normand Gamache",
+        "Erin George-Kelly",
+        "Joseph Kelly Levasseur",
+        "June Trisciani"
+      ]
+    },
+    "area": {
+      "city": "34.94 sq mi",
+      "land": "33.07 sq mi",
+      "water": "1.87 sq mi"
+    },
+    "elevation": "210 ft",
+    "population": {
+      "city": "115644",
+      "density": "3497.05/sq mi",
+      "metro": "422937"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["03101–03105", "03108-03109", "03111"],
+    "area_codes": [603],
+    "FIPS code": "33-45140",
+    "GNIS feature IDs": ["868243"],
+    "url": "https://www.manchesternh.gov/"
+  },
+  {
+    "city_name": "McAllen",
+    "state_name": "Texas",
+    "coordinates": "26°12′59″N 98°14′11″W",
+    "counties": ["Hidalgo"],
+    "settled_founded": "1904",
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Javier Villalobos",
+      "city_council": null
+    },
+    "area": {
+      "city": "62.73 sq mi",
+      "land": "62.31 sq mi",
+      "water": "0.43 sq mi"
+    },
+    "elevation": "121.4 ft",
+    "population": {
+      "city": "142210",
+      "density": "2283/sq mi",
+      "metro": "870781"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["78501-78504"],
+    "area_codes": [956],
+    "FIPS code": null,
+    "GNIS feature IDs": ["1374829"],
+    "url": "https://www.mcallen.net/"
+  },
+  {
+    "city_name": "McKinney",
+    "state_name": "Texas",
+    "coordinates": "33°11′50″N 96°38′23″W",
+    "counties": ["Collin"],
+    "settled_founded": null,
+    "incorporated": "1848",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "George Fuller",
+      "city_council": [
+        "Rainey Rogers",
+        "Justin Beller",
+        "Geré Feltus",
+        "Rick Franklin",
+        "Charlie Philips",
+        "Patrick Cloutier"
+      ]
+    },
+    "area": {
+      "city": "67.70 sq mi",
+      "land": "66.96 sq mi",
+      "water": "0.74 sq mi"
+    },
+    "elevation": "630 ft",
+    "population": {
+      "city": "195308",
+      "density": "2974.43/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["75069-75072"],
+    "area_codes": [214, 469, 945, 972],
+    "FIPS code": "48-45744",
+    "GNIS feature IDs": ["1341241"],
+    "url": "https://www.mckinneytexas.org/"
+  },
+  {
+    "city_name": "Memphis",
+    "state_name": "Tennessee",
+    "coordinates": "35°07′03″N 89°58′16″W",
+    "counties": ["Shelby"],
+    "settled_founded": "1819",
+    "incorporated": "1826",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Jim Strickland",
+      "city_council": [
+        "Martavius Jones",
+        "Rhonda Logan",
+        "Frank Colvett",
+        "Patrice J. Robinson",
+        "Jana Swearengen-Washington",
+        "Worth Morgan",
+        "Edmund Ford, Sr.",
+        "Michalyn Easter-Thomas",
+        "JB Smiley, Jr.",
+        "Cheyenne Johnson",
+        "Chase Carlisle",
+        "J. Ford Canale",
+        "Dr. Jeff Warren"
+      ]
+    },
+    "area": {
+      "city": "302.55 sq mi",
+      "land": "294.92 sq mi",
+      "water": "7.63 sq mi"
+    },
+    "elevation": "337 ft",
+    "population": {
+      "city": "633104",
+      "density": "2146.71/sq mi",
+      "metro": "1337779"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "37501",
+      "37544",
+      "38101",
+      "38103-38109",
+      "38111-38120",
+      "38122",
+      "38124-38128",
+      "38130-38137",
+      "38141",
+      "38145",
+      "38148",
+      "38150-38152",
+      "38157",
+      "38159",
+      "38161",
+      "38163",
+      "38166-38168",
+      "38173-38175",
+      "38177",
+      "38181",
+      "38182",
+      "38184",
+      "38186",
+      "38187",
+      "38188",
+      "38190",
+      "38193",
+      "38194",
+      "38197"
+    ],
+    "area_codes": [901],
+    "FIPS code": "47-48000",
+    "GNIS feature IDs": ["1326388"],
+    "url": "https://www.memphistn.gov/"
+  },
+  {
+    "city_name": "Menifee",
+    "state_name": "California",
+    "coordinates": "33°41′27″N 117°11′06″W",
+    "counties": ["Riverside"],
+    "settled_founded": null,
+    "incorporated": "2008",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Bill Zimmerman",
+      "city_council": [
+        "Bob Karwin",
+        "Ricky Estrada",
+        "Lesa Sobek",
+        "Dean Deines"
+      ]
+    },
+    "area": {
+      "city": "46.62 sq mi",
+      "land": "46.48 sq mi",
+      "water": "0.15 sq mi"
+    },
+    "elevation": "1424 ft",
+    "population": {
+      "city": "102527",
+      "density": "2205.83/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92584–92587", "92596"],
+    "area_codes": [951],
+    "FIPS code": "06-46842",
+    "GNIS feature IDs": ["252936", "2497157"],
+    "url": "https://www.cityofmenifee.us/"
+  },
+  {
+    "city_name": "Meridian",
+    "state_name": "Idaho",
+    "coordinates": "43°36′51″N 116°23′56″W",
+    "counties": ["Ada"],
+    "settled_founded": "1893",
+    "incorporated": "1903",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Robert Simison",
+      "city_council": [
+        "Brad Hoaglun",
+        "Joe Borton",
+        "Liz Strader",
+        "John Overton",
+        "Jessica Perreault",
+        "Luke Cavener"
+      ]
+    },
+    "area": {
+      "city": "34.03 sq mi",
+      "land": "33.97 sq mi",
+      "water": "0.06 sq mi"
+    },
+    "elevation": "2605 ft",
+    "population": {
+      "city": "117635",
+      "density": "3462.9/sq mi",
+      "metro": "770353"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["83642", "83646", "83680"],
+    "area_codes": [208, 986],
+    "FIPS code": "0396879",
+    "GNIS feature IDs": ["0396879"],
+    "url": "https://meridiancity.org/"
+  },
+  {
+    "city_name": "Mesa",
+    "state_name": "Arizona",
+    "coordinates": "33°25′20″N 111°49′22″W",
+    "counties": ["Maricopa"],
+    "settled_founded": "1878",
+    "incorporated": "1883",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "John Giles",
+      "city_council": [
+        "Mark Freeman",
+        "Julie Siplsbury",
+        "Fransisco Heredia",
+        "Jenn Duff",
+        "Alicia Goforth",
+        "Scott Somers"
+      ]
+    },
+    "area": {
+      "city": "139.42 sq mi",
+      "land": "138.79 sq mi",
+      "water": "0.62 sq mi"
+    },
+    "elevation": "1326 ft",
+    "population": {
+      "city": "504258",
+      "density": "3633.14/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["85200-85299"],
+    "area_codes": [480, 602],
+    "FIPS code": "04-46000",
+    "GNIS feature IDs": ["2411087"],
+    "url": "https://www.mesaaz.gov/"
+  },
+  {
+    "city_name": "Mesquite",
+    "state_name": "Texas",
+    "coordinates": "32°46′58″N 96°36′36″W",
+    "counties": ["Dallas", "Kaufman"],
+    "settled_founded": "1878",
+    "incorporated": "1887",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Daniel Alemán Jr.",
+      "city_council": [
+        "Jeff Casper",
+        "Kenny Green",
+        "Jennifer Vidler",
+        "Tandy Boroughs",
+        "B.W. Smith",
+        "Debbie Anderson"
+      ]
+    },
+    "area": {
+      "city": "47.22 sq mi",
+      "land": "47.06 sq mi",
+      "water": "0.16 sq mi"
+    },
+    "elevation": "495 ft",
+    "population": {
+      "city": "139824",
+      "density": "2994.77/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["75149", "75150", "75181"],
+    "area_codes": [214, 469, 945, 972],
+    "FIPS code": "48-47892",
+    "GNIS feature IDs": ["1341400"],
+    "url": "https://cityofmesquite.com/"
   }
 ]
