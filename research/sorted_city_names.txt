@@ -220,11 +220,11 @@ x Palm Bay Florida
 x Palmdale California
 x Pasadena California
 x Pasadena Texas
-Paterson New
-Pearland Texas
-Pembroke Pines
-Peoria Arizona
-Peoria Illinois
+x Paterson New Jersey
+x Pearland Texas
+x Pembroke Pines Florida
+x Peoria Arizona
+x Peoria Illinois
 Philadelphia[e] Pennsylvania
 Phoenix Arizona
 Pittsburgh Pennsylvania

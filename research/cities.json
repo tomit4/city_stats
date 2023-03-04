@@ -9591,5 +9591,217 @@
     "FIPS code": "48-56000",
     "GNIS feature IDs": ["1343631"],
     "url": "https://www.pasadenatx.gov/"
+  },
+  {
+    "city_name": "Paterson",
+    "state_name": "New Jersey",
+    "coordinates": "40.914746°N 74.162826°W",
+    "counties": ["Passaic"],
+    "settled_founded": "1791",
+    "incorporated": "1851",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Andre Sayegh",
+      "city_council": [
+        "Michael Jackson",
+        "Shahin Khalique",
+        "Alex Mendez",
+        "Ruby Cotton",
+        "Luis Velez",
+        "Alaa Abdelaziz",
+        "Maritza Davila",
+        "Dr. Lilisa Mimms",
+        "MD Forid Uddin"
+      ]
+    },
+    "area": {
+      "city": "8.71 sq mi",
+      "land": "8.41 sq mi",
+      "water": "0.29 sq mi"
+    },
+    "elevation": "112 ft",
+    "population": {
+      "city": "159732",
+      "density": "18986.3/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "07501-07505",
+      "07508-07514",
+      "07522",
+      "07524",
+      "07533",
+      "07538",
+      "07543",
+      "07544"
+    ],
+    "area_codes": [201, 973],
+    "FIPS code": "3403157000",
+    "GNIS feature IDs": ["0885343"],
+    "url": "https://www.patersonnj.gov/"
+  },
+  {
+    "city_name": "Pearland",
+    "state_name": "Texas",
+    "coordinates": "29°33′16″N 95°17′45″W",
+    "counties": ["Brazoria", "Fort Bend", "Harris"],
+    "settled_founded": null,
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Kevin Cole",
+      "city_council": [
+        "Tony Carbone",
+        "Joseph Koza",
+        "Alex kamkar",
+        "Adrian Hernandez",
+        "Layni Cade",
+        "Jeffrey Barry",
+        "Woody Owens"
+      ]
+    },
+    "area": {
+      "city": "48.84 sq mi",
+      "land": "48.66 sq mi",
+      "water": "0.17 sq mi"
+    },
+    "elevation": "49 ft",
+    "population": {
+      "city": "125828",
+      "density": "2516.54/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["77581", "77584", "77588", "77089"],
+    "area_codes": [713, 281, 832, 346],
+    "FIPS code": "48-56348",
+    "GNIS feature IDs": ["1343734"],
+    "url": "https://www.pearlandtx.gov/"
+  },
+  {
+    "city_name": "Pembroke Pines",
+    "state_name": "Florida",
+    "coordinates": "26°0′45″N 80°18′49″W",
+    "counties": ["Broward"],
+    "settled_founded": null,
+    "incorporated": "1961",
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "Frank C. Ortis",
+      "city_council": [
+        "Thomas Good, Jr.",
+        "Jay D. Schwartz",
+        "Angelo Castillo",
+        "Iris A. Siple"
+      ]
+    },
+    "area": {
+      "city": "34.76 sq mi",
+      "land": "32.68 sq mi",
+      "water": "2.08 sq mi"
+    },
+    "elevation": "7 ft",
+    "population": {
+      "city": "171178",
+      "density": "5237.84/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["33023-33029", "33330-33332"],
+    "area_codes": [954, 754],
+    "FIPS code": "12-55775",
+    "GNIS feature IDs": ["0288686"],
+    "url": "https://www.ppines.com/"
+  },
+  {
+    "city_name": "Peoria",
+    "state_name": "Arizona",
+    "coordinates": "33°34′57″N 112°14′19″W",
+    "counties": ["Maricopa", "Yavapai"],
+    "settled_founded": "1886",
+    "incorporated": "1954",
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "Jason Beck",
+      "city_council": [
+        "Jennifer Crawford",
+        "Bill Patena",
+        "Brad Shafer",
+        "Michael Finn",
+        "Denette Dunn",
+        "Jon Edwards"
+      ]
+    },
+    "area": {
+      "city": "179.25 sq mi",
+      "land": "176.08 sq mi",
+      "water": "3.17 sq mi"
+    },
+    "elevation": "1581 ft",
+    "population": {
+      "city": "190985",
+      "density": "1084.64/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["85345", "85381–85383", "85373", "85387"],
+    "area_codes": [623, 928],
+    "FIPS code": "04-54050",
+    "GNIS feature IDs": ["2411401"],
+    "url": "https://www.peoriaaz.gov/"
+  },
+  {
+    "city_name": "Peoria",
+    "state_name": "Illinois",
+    "coordinates": "40°41′37″N 89°35′20″W",
+    "counties": ["Peoria"],
+    "settled_founded": "1691",
+    "incorporated": "1845",
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "Rita Ali",
+      "city_council": [
+        "Denise Jackson",
+        "Chuck Grayeb",
+        "Timothy Riggenbach",
+        "Andrew W. Allen",
+        "Denis Cyr",
+        "Elizabeth Jensen",
+        "John L. Kelly",
+        "Zachary M. Oyler",
+        "Sid Ruckriegel",
+        "Kiran Velupla, PhD"
+      ]
+    },
+    "area": {
+      "city": "50.55 sq mi",
+      "land": "47.97 sq mi",
+      "water": "2.58 sq mi"
+    },
+    "elevation": "502 ft",
+    "population": {
+      "city": "113150",
+      "density": "2358.72/sq mi",
+      "metro": "402391"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "61601-61607",
+      "61612-61615",
+      "61625",
+      "61629",
+      "61630",
+      "61633",
+      "61634",
+      "61636-61639",
+      "61641",
+      "61643",
+      "61650-61656"
+    ],
+    "area_codes": [309],
+    "FIPS code": "17-59000",
+    "GNIS feature IDs": ["2396178"],
+    "url": "https://www.peoriagov.org/"
   }
 ]
