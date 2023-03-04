@@ -204,8 +204,8 @@ x Norfolk Virginia
 x Norman Oklahoma
 x North Charleston South Carolina
 x North Las Vegas Nevada
-Norwalk California
-Oakland California
+x Norwalk California
+x Oakland California
 Oceanside California
 Odessa Texas
 Oklahoma City

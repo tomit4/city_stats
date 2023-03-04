@@ -8927,5 +8927,86 @@
     "FIPS code": "32-51800",
     "GNIS feature IDs": ["0847435"],
     "url": "https://www.cityofnorthlasvegas.com/"
+  },
+  {
+    "city_name": "Norwalk",
+    "state_name": "California",
+    "coordinates": "33°54′25″N 118°05′00″W",
+    "counties": ["Los Angeles"],
+    "settled_founded": null,
+    "incorporated": "1957",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Jennifer Perez",
+      "city_council": [
+        "Ana Valencia",
+        "Margarita L. Rios",
+        "Tony Ayala",
+        "Jennifer Perez",
+        "Rick Ramirez"
+      ]
+    },
+    "area": {
+      "city": "9.75 sq mi",
+      "land": "9.71 sq mi",
+      "water": "0.04 sq mi"
+    },
+    "elevation": "92 ft",
+    "population": {
+      "city": "105549",
+      "density": "10708.66/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["90650–90652", "90659"],
+    "area_codes": [562],
+    "FIPS code": "06-52526",
+    "GNIS feature IDs": ["1661123", "2411281"],
+    "url": "https://www.norwalk.org/"
+  },
+  {
+    "city_name": "Oakland",
+    "state_name": "California",
+    "coordinates": "37°48′16″N 122°16′15″W",
+    "counties": ["Alameda"],
+    "settled_founded": "1772",
+    "incorporated": "1852",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Sheng Thao",
+      "city_council": [
+        "Rebecca Kaplan",
+        "Dan Kalb",
+        "Nikki Fortunato Bas",
+        "Carroll Fife",
+        "Janani Ramachandran",
+        "Noel Gallo",
+        "Kevin Jenkins",
+        "Treva Reid"
+      ]
+    },
+    "area": {
+      "city": "78.03 sq mi",
+      "land": "55.93 sq mi",
+      "water": "22.10 sq mi"
+    },
+    "elevation": "43 ft",
+    "population": {
+      "city": "440646",
+      "density": "7878.53/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "94601–94615",
+      "94617-94624",
+      "94649",
+      "94659–94662",
+      "94666"
+    ],
+    "area_codes": [510, 341],
+    "FIPS code": "06-53000",
+    "GNIS feature IDs": ["277566", "2411292"],
+    "url": "https://www.oaklandca.gov/"
   }
 ]
