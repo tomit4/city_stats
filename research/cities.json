@@ -8841,39 +8841,91 @@
     "state_name": "South Carolina",
     "coordinates": "32°53′7″N 80°1′1″W",
     "counties": ["Berkeley", "Charleston", "Dorchester"],
-    //LEFT OFF HERE
-    "settled_founded": "",
-    "incorporated": "1891",
+    "settled_founded": null,
+    "incorporated": "1972",
     "government": {
-      "type": "Council-Manager",
-      "mayor": "Larry Heikkila",
+      "type": "Mayor-Council",
+      "mayor": "R. Keith Summey",
       "city_council": [
-        "Austin Ball",
-        "Lauren Schueler",
-        "Kelly Lynn",
-        "Helen Grant",
-        "Rarchar Tortorello",
-        "Elizabeth Foreman",
-        "Stephen Tyler Holman",
-        "Matthew Peacock"
+        "Mike A. Brown",
+        "Rhonda Jerome",
+        "Virginia Jamison",
+        "Ron Brinson",
+        "Jerome Heyward",
+        "Dorothy Williams",
+        "Sam Hart",
+        "Bob King",
+        "Kenny Skipper",
+        "Michael Brown"
       ]
     },
     "area": {
-      "city": "189.19 sq mi",
-      "land": "178.65 sq mi",
-      "water": "10.54 sq mi"
+      "city": "81.06 sq mi",
+      "land": "77.63 sq mi",
+      "water": "3.43 sq mi"
     },
-    "elevation": "1171 ft",
+    "elevation": "25 ft",
     "population": {
-      "city": "128026",
-      "density": "716.64/sq mi",
-      "metro": "1425695"
+      "city": "114852",
+      "density": "1479.50/sq mi",
+      "metro": "799636"
     },
-    "time_zone": "UTC-6(CST)",
-    "zip_codes": ["73019", "73026", "73069", "73070", "73071", "73072"],
-    "area_codes": [405],
-    "FIPS code": "40-52500",
-    "GNIS feature IDs": ["1095903"],
-    "url": "https://www.normanok.gov/"
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "29401",
+      "29402",
+      "29403",
+      "29406",
+      "29407",
+      "29409",
+      "29412",
+      "29413",
+      "29414",
+      "29416",
+      "29417",
+      "29422",
+      "29423",
+      "29424",
+      "29425"
+    ],
+    "area_codes": [843, 854],
+    "FIPS code": "45-50875",
+    "GNIS feature IDs": ["1225072"],
+    "url": "https://www.northcharleston.org/"
+  },
+  {
+    "city_name": "North Las Vegas",
+    "state_name": "Nevada",
+    "coordinates": "36°13′43″N 115°8′48″W",
+    "counties": ["Clark"],
+    "settled_founded": "1919",
+    "incorporated": "1946",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Pamela Goynes-Brown",
+      "city_council": [
+        "Isaac Barron",
+        "Ruth Garcia-Anderson",
+        "Scott Black",
+        "Ricahrd Cherchio"
+      ]
+    },
+    "area": {
+      "city": "102.37 sq mi",
+      "land": "102.32 sq mi",
+      "water": "0.04 sq mi"
+    },
+    "elevation": "2205 ft",
+    "population": {
+      "city": "262527",
+      "density": "2565.64/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["89030–89033", "89036", "89081", "89084–89087"],
+    "area_codes": [702, 725],
+    "FIPS code": "32-51800",
+    "GNIS feature IDs": ["0847435"],
+    "url": "https://www.cityofnorthlasvegas.com/"
   }
 ]
