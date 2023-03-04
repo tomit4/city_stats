@@ -209,12 +209,12 @@ x Oakland California
 x Oceanside California
 x Odessa Texas
 x Oklahoma City
-Olathe Kansas
-Omaha Nebraska
-Ontario California
-Orange California
-Orlando Florida
-Overland Park
+x Olathe Kansas
+x Omaha Nebraska
+x Ontario California
+x Orange California
+x Orlando Florida
+x Overland Park Kansas
 Oxnard California
 Palm Bay
 Palmdale California

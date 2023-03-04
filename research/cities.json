@@ -9138,5 +9138,268 @@
     "FIPS code": "40-55000",
     "GNIS feature IDs": ["1102140"],
     "url": "https://www.okc.gov/"
+  },
+  {
+    "city_name": "Olathe",
+    "state_name": "Kansas",
+    "coordinates": "38°52′53″N 94°49′9″W",
+    "counties": ["Johnson"],
+    "settled_founded": "1857",
+    "incorporated": "1868",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "John Bacon",
+      "city_council": [
+        "Kevin Gilmore",
+        "Robyn Essex",
+        "LeEtta Felter",
+        "Wes McCoy",
+        "Adam Mickelson",
+        "Marge Vogt"
+      ]
+    },
+    "area": {
+      "city": "62.39 sq mi",
+      "land": "61.63 sq mi",
+      "water": "0.76 sq mi"
+    },
+    "elevation": "1037 ft",
+    "population": {
+      "city": "141290",
+      "density": "2300/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["66051", "66061", "66062", "66063"],
+    "area_codes": [913],
+    "FIPS code": "20-52575",
+    "GNIS feature IDs": ["479198"],
+    "url": "https://www.olatheks.gov/"
+  },
+  {
+    "city_name": "Omaha",
+    "state_name": "Nebraska",
+    "coordinates": "41°15′31″N 95°56′15″W",
+    "counties": ["Douglas"],
+    "settled_founded": "1854",
+    "incorporated": "1857",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Jean Stothert",
+      "city_council": [
+        "Pete Festersen",
+        "Juanita Johnson",
+        "Danny Begley",
+        "Vinny Palermo",
+        "Dan Rowe",
+        "Brinker Harding",
+        "Aimee Melton"
+      ]
+    },
+    "area": {
+      "city": "146.28 sq mi",
+      "land": "142.67 sq mi",
+      "water": "3.61 sq mi"
+    },
+    "elevation": "1060 ft",
+    "population": {
+      "city": "486051",
+      "density": "3658.41/sq mi",
+      "metro": "967604"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["68022", "68101–68164"],
+    "area_codes": [402, 531],
+    "FIPS code": "31-37000",
+    "GNIS feature IDs": ["0835483"],
+    "url": "https://www.cityofomaha.org/"
+  },
+  {
+    "city_name": "Ontario",
+    "state_name": "California",
+    "coordinates": "34°03′10″N 117°37′40″W",
+    "counties": ["San Bernardino"],
+    "settled_founded": null,
+    "incorporated": "1891",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Paul S. Leon",
+      "city_council": [
+        "Debra Porada",
+        "Alan D. Wapner",
+        "Jim W. Bowman",
+        "Ruben Valencia"
+      ]
+    },
+    "area": {
+      "city": "50.00 sq mi",
+      "land": "49.97 sq mi",
+      "water": "0.03 sq mi"
+    },
+    "elevation": "1004 ft",
+    "population": {
+      "city": "175265",
+      "density": "3507/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["91758", "91761", "91762", "91764"],
+    "area_codes": [909],
+    "FIPS code": "06-53896",
+    "GNIS feature IDs": ["1652764", "2411323"],
+    "url": "https://www.ontarioca.gov/"
+  },
+  {
+    "city_name": "Orange",
+    "state_name": "California",
+    "coordinates": "33°48′11″N 117°49′57″W",
+    "counties": ["Orange"],
+    "settled_founded": "1869",
+    "incorporated": "1888",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Dan Slater",
+      "city_council": [
+        "Arianna Barrios",
+        "Jon Dumitru",
+        "Kathy Tavoularis",
+        "Denis Bilodeau",
+        "Ana Gutierrez",
+        "John Gyllenhammer"
+      ]
+    },
+    "area": {
+      "city": "25.81 sq mi",
+      "land": "25.66 sq mi",
+      "water": "0.15 sq mi"
+    },
+    "elevation": "190 ft",
+    "population": {
+      "city": "139911",
+      "density": "5452.49/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92856-92869"],
+    "area_codes": [657, 714],
+    "FIPS code": "06-53980",
+    "GNIS feature IDs": ["1652765", "2411325"],
+    "url": "https://www.cityoforange.org/"
+  },
+  {
+    "city_name": "Orlando",
+    "state_name": "Florida",
+    "coordinates": "28°32′24″N 81°22′48″W",
+    "counties": ["Orange"],
+    "settled_founded": "1843",
+    "incorporated": "1885",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Buddy Dyer",
+      "city_council": [
+        "Jim Gray",
+        "Tony Ortiz",
+        "Robert F. Stuart",
+        "Patty Sheehan",
+        "Regina I. Hill",
+        "Bakari F. Burns"
+      ]
+    },
+    "area": {
+      "city": "119.08 sq mi",
+      "land": "110.85 sq mi",
+      "water": "8.23 sq mi"
+    },
+    "elevation": "82 ft",
+    "population": {
+      "city": "307573",
+      "density": "2774.65/sq mi",
+      "metro": "4222422"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "32801-32812",
+      "32814-32822",
+      "32824-32837",
+      "32839",
+      "32853-32862",
+      "32867-32869",
+      "32872",
+      "32877-32878",
+      "32885-32887",
+      "32891",
+      "32896-32897",
+      "32899"
+    ],
+    "area_codes": [407, 689],
+    "FIPS code": "12-53000",
+    "GNIS feature IDs": ["0288240"],
+    "url": "https://www.orlando.gov/"
+  },
+  {
+    "city_name": "Overland Park",
+    "state_name": "Kansas",
+    "coordinates": "38°58′56″N 94°40′15″W",
+    "counties": ["Johnson"],
+    "settled_founded": "1905",
+    "incorporated": "1960",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Curt Skoog",
+      "city_council": [
+        "Logan Heley",
+        "Holly Grummert",
+        "Paul Lyons",
+        "Melissa Cheatham",
+        "Jim Kite",
+        "Tom Carignan",
+        "Fred Spears",
+        "Scott Mosher",
+        "Faris Farassati",
+        "Sam Passer",
+        "Scott Hamblin",
+        "Jeff Cox"
+      ]
+    },
+    "area": {
+      "city": "75.64 sq mi",
+      "land": "75.18 sq mi",
+      "water": "0.46 sq mi"
+    },
+    "elevation": "1083 ft",
+    "population": {
+      "city": "197238",
+      "density": "2600/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "66013",
+      "66085",
+      "66201",
+      "66202",
+      "66203",
+      "66204",
+      "66206",
+      "66207",
+      "66209",
+      "66210",
+      "66211",
+      "66212",
+      "66213",
+      "66214",
+      "66215",
+      "66221",
+      "66223",
+      "66224",
+      "66225",
+      "66251",
+      "66282",
+      "66283"
+    ],
+    "area_codes": [913],
+    "FIPS code": "20-53775",
+    "GNIS feature IDs": ["479210"],
+    "url": "https://www.opkansas.org/"
   }
 ]
