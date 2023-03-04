@@ -8632,5 +8632,248 @@
     "FIPS code": "22-55000",
     "GNIS feature IDs": ["1629985"],
     "url": "https://council.nola.gov/"
+  },
+  {
+    "city_name": "Newport News",
+    "state_name": "Virginia",
+    "coordinates": "37°4′15″N 76°29′4″W",
+    "counties": null,
+    "settled_founded": "1691",
+    "incorporated": "1896",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Phillip Jones",
+      "city_council": [
+        "Curtis D. Bethany, III",
+        "John R. Eley, III",
+        "Marcellus L. Harris, III",
+        "Cleon M. Long, P.E.",
+        "Tina L. Vick",
+        "Dr. Patricia P. Woodbury"
+      ]
+    },
+    "area": {
+      "city": "119.62 sq mi",
+      "land": "68.99 sq mi",
+      "water": "50.63 sq mi"
+    },
+    "elevation": "15 ft",
+    "population": {
+      "city": "186247",
+      "density": "2699.62/sq mi",
+      "metro": "1672319"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["23601-23609"],
+    "area_codes": [757, 948],
+    "FIPS code": "51-56000",
+    "GNIS feature IDs": ["1497043"],
+    "url": "https://www.nnva.gov/"
+  },
+  {
+    "city_name": "New York",
+    "state_name": "New York",
+    "coordinates": "40°42′46″N 74°00′22″W",
+    "counties": ["Bronx", "Kings", "New York", "Queens", "Richmond"],
+    "settled_founded": "1624",
+    "incorporated": "1898",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Eric Adams",
+      "city_council": [
+        "Christopher Marte",
+        "Carlina Rivera",
+        "Erik Bottcher",
+        "Keith Powers",
+        "Julie Menin",
+        "Gale A. Brewer",
+        "Shaun Abreu",
+        "Diana Ayala",
+        "Kristin Richardson Jordan",
+        "Carmen De La Rosa",
+        "Eric Dinowitz",
+        "Kevin C. Riley",
+        "Majorie Velázquez",
+        "Plerina Ana Sanchez",
+        "Oswald Feliz",
+        "Althea Stevens",
+        "Rafael Salamanca, Jr.",
+        "Amanda Farías",
+        "Vickie Paladino",
+        "Sandra Ung",
+        "Francisco Moya",
+        "Tiffany Cabán",
+        "Linda Lee",
+        "James F. Gennaro",
+        "Shekar Krishnan",
+        "Julie Won",
+        "Nantasha Williams",
+        "Adrienne E. Adams",
+        "Lynn Schulman",
+        "Robert F. Holden",
+        "Selvena N. Brooks-Powers",
+        "Joann Ariola",
+        "Lincoln Restler",
+        "Jennifer Gutiérrez",
+        "Crystal Hudson",
+        "Chi Ossé",
+        "Sandy Nurse",
+        "Alexa Avilés",
+        "Shahana Hanif",
+        "Rita Joseph",
+        "Darlene Mealy",
+        "Charles Barron",
+        "Justin Brannan",
+        "Kalman Yeger",
+        "Farah N. Louis",
+        "Mercedes Narcisse",
+        "Ari Kagan",
+        "Inna Vernikov",
+        "Kamillah Hanks",
+        "David Carr",
+        "Joseph C. Borelli"
+      ]
+    },
+    "area": {
+      "city": "473.43 sq mi",
+      "land": "300.46 sq mi",
+      "water": "171.97 sq mi"
+    },
+    "elevation": "33 ft",
+    "population": {
+      "city": "8804190",
+      "density": "29302.66/sq mi",
+      "metro": "20140470"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["100xx–104xx", "11004–05", "111xx–114xx", "116xx"],
+    "area_codes": [212, 646, 332, 718, 347, 929, 917],
+    "FIPS code": "36-51000",
+    "GNIS feature IDs": ["975772"],
+    "url": "https://nyc.gov/"
+  },
+  {
+    "city_name": "Norfolk",
+    "state_name": "Virginia",
+    "coordinates": "36°50′49″N 76°17′07″W",
+    "counties": null,
+    "settled_founded": "1682",
+    "incorporated": "1736",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Kenneth Cooper Alexander",
+      "city_council": [
+        "Martin A. Thomas, Jr.",
+        "Courtney R. Doyle",
+        "Mamie B. Johnson",
+        "John E. Paige",
+        "Thomas R. Smigiel, Jr.",
+        "Andria P. McClellan",
+        "Danica J. Royster"
+      ]
+    },
+    "area": {
+      "city": "96.40 sq mi",
+      "land": "53.27 sq mi",
+      "water": "43.13 sq mi"
+    },
+    "elevation": "7 ft",
+    "population": {
+      "city": "238005",
+      "density": "4468/sq mi",
+      "metro": "1725246"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "23501-23515",
+      "23517-23521",
+      "23523",
+      "23529",
+      "23541",
+      "23551"
+    ],
+    "area_codes": [757, 948],
+    "FIPS code": "51-57000",
+    "GNIS feature IDs": ["1497051"],
+    "url": "https://www.norfolk.gov/"
+  },
+  {
+    "city_name": "Norman",
+    "state_name": "Oklahoma",
+    "coordinates": "35°13′15″N 97°26′37″W",
+    "counties": ["Cleveland"],
+    "settled_founded": "1889",
+    "incorporated": "1891",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Larry Heikkila",
+      "city_council": [
+        "Austin Ball",
+        "Lauren Schueler",
+        "Kelly Lynn",
+        "Helen Grant",
+        "Rarchar Tortorello",
+        "Elizabeth Foreman",
+        "Stephen Tyler Holman",
+        "Matthew Peacock"
+      ]
+    },
+    "area": {
+      "city": "189.19 sq mi",
+      "land": "178.65 sq mi",
+      "water": "10.54 sq mi"
+    },
+    "elevation": "1171 ft",
+    "population": {
+      "city": "128026",
+      "density": "716.64/sq mi",
+      "metro": "1425695"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["73019", "73026", "73069", "73070", "73071", "73072"],
+    "area_codes": [405],
+    "FIPS code": "40-52500",
+    "GNIS feature IDs": ["1095903"],
+    "url": "https://www.normanok.gov/"
+  },
+  {
+    "city_name": "North Charleston",
+    "state_name": "South Carolina",
+    "coordinates": "32°53′7″N 80°1′1″W",
+    "counties": ["Berkeley", "Charleston", "Dorchester"],
+    //LEFT OFF HERE
+    "settled_founded": "",
+    "incorporated": "1891",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Larry Heikkila",
+      "city_council": [
+        "Austin Ball",
+        "Lauren Schueler",
+        "Kelly Lynn",
+        "Helen Grant",
+        "Rarchar Tortorello",
+        "Elizabeth Foreman",
+        "Stephen Tyler Holman",
+        "Matthew Peacock"
+      ]
+    },
+    "area": {
+      "city": "189.19 sq mi",
+      "land": "178.65 sq mi",
+      "water": "10.54 sq mi"
+    },
+    "elevation": "1171 ft",
+    "population": {
+      "city": "128026",
+      "density": "716.64/sq mi",
+      "metro": "1425695"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["73019", "73026", "73069", "73070", "73071", "73072"],
+    "area_codes": [405],
+    "FIPS code": "40-52500",
+    "GNIS feature IDs": ["1095903"],
+    "url": "https://www.normanok.gov/"
   }
 ]

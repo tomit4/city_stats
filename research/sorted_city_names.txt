@@ -198,10 +198,10 @@ x Newark New Jersey
 x New Bedford Massachusetts
 x New Haven Connecticut
 x New Orleans Louisiana
-Newport News[m]
-New York[d]
-Norfolk[m] Virginia
-Norman Oklahoma
+x Newport News Virginia
+x New York New York
+x Norfolk Virginia
+x Norman Oklahoma
 North Charleston
 North Las
 Norwalk California
