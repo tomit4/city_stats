@@ -9401,5 +9401,195 @@
     "FIPS code": "20-53775",
     "GNIS feature IDs": ["479210"],
     "url": "https://www.opkansas.org/"
+  },
+  {
+    "city_name": "Oxnard",
+    "state_name": "California",
+    "coordinates": "34°11′29″N 119°10′57″W",
+    "counties": ["Ventura"],
+    "settled_founded": null,
+    "incorporated": "1903",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "John C. Zaragoza",
+      "city_council": [
+        "Bryan A. MacDonald",
+        "Bert E. Perello",
+        "Gabe Teran",
+        "Oscar Madrigal",
+        "Gabriela Basua"
+      ]
+    },
+    "area": {
+      "city": "39.14 sq mi",
+      "land": "26.53 sq mi",
+      "water": "12.62 sq mi"
+    },
+    "elevation": "52 ft",
+    "population": {
+      "city": "202063",
+      "density": "7616.40/sq mi",
+      "metro": "843843"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["93030-93036"],
+    "area_codes": [805, 820],
+    "FIPS code": "06-54652",
+    "GNIS feature IDs": ["1652766"],
+    "url": "https://www.oxnard.org/"
+  },
+  {
+    "city_name": "Palm Bay",
+    "state_name": "Florida",
+    "coordinates": "27°59′52.52″N 80°40′12.03″W",
+    "counties": ["Brevard"],
+    "settled_founded": null,
+    "incorporated": "1960",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Rob Medina",
+      "city_council": ["Donny Felix", "Kenny Johnson", "Randy Foster"]
+    },
+    "area": {
+      "city": "89.60 sq mi",
+      "land": "86.42 sq mi",
+      "water": "3.18 sq mi"
+    },
+    "elevation": "19 ft",
+    "population": {
+      "city": "119760",
+      "density": "1385.82/sq mi",
+      "metro": "606612"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["32905-32911"],
+    "area_codes": [321],
+    "FIPS code": "12-54000",
+    "GNIS feature IDs": ["0288389"],
+    "url": "https://www.palmbayflorida.org/"
+  },
+  {
+    "city_name": "Palmdale",
+    "state_name": "California",
+    "coordinates": "34°34′52″N 118°6′2″W",
+    "counties": ["Los Angeles"],
+    "settled_founded": "1886",
+    "incorporated": "1962",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Laura Bettencourt",
+      "city_council": [
+        "Andrea Alarcón",
+        "Austin Bishop",
+        "Richard J. Loa",
+        "Eric Ohlsen"
+      ]
+    },
+    "area": {
+      "city": "106.32 sq mi",
+      "land": "106.08 sq mi",
+      "water": "0.24 sq mi"
+    },
+    "elevation": "2657 ft",
+    "population": {
+      "city": "169450",
+      "density": "1600/sq mi",
+      "metro": "13200998"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["93550–93552", "93590–93591", "93599"],
+    "area_codes": [661],
+    "FIPS code": "06-55156",
+    "GNIS feature IDs": ["1652769", "2411359"],
+    "url": "https://www.cityofpalmdaleca.gov/"
+  },
+  {
+    "city_name": "Pasadena",
+    "state_name": "California",
+    "coordinates": "34°09′22″N 118°7′55″W",
+    "counties": ["Los Angeles"],
+    "settled_founded": null,
+    "incorporated": "1886",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Victor Gordo",
+      "city_council": [
+        "Tyron Hampton",
+        "Felicia Williams",
+        "Justin Jones",
+        "Gene Masuda",
+        "Jess Rivas",
+        "Steve Madison",
+        "Jason Lyon"
+      ]
+    },
+    "area": {
+      "city": "23.11 sq mi",
+      "land": "22.96 sq mi",
+      "water": "0.14 sq mi"
+    },
+    "elevation": "863 ft",
+    "population": {
+      "city": "138699",
+      "density": "6141.5/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "91101–91110",
+      "91114–91118",
+      "91121",
+      "91123–91126",
+      "91129",
+      "91182",
+      "91184",
+      "91185",
+      "91188",
+      "91189",
+      "91199"
+    ],
+    "area_codes": [213, 323, 626, 818, 747],
+    "FIPS code": "06-56000",
+    "GNIS feature IDs": ["1664804", "2411379"],
+    "url": "https://www.cityofpasadena.net/"
+  },
+  {
+    "city_name": "Pasadena",
+    "state_name": "Texas",
+    "coordinates": "29°40′34″N 95°10′26″W",
+    "counties": ["Harris"],
+    "settled_founded": "1893",
+    "incorporated": "1928",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Jeff Wagner",
+      "city_council": [
+        "Ruben Villarreal",
+        "Bianca Valerio",
+        "Don Harrison",
+        "Pat Van Houte",
+        "Jonathan Estrada",
+        "Phil Cayten",
+        "Cary Bass",
+        "Thomas Schoenbein"
+      ]
+    },
+    "area": {
+      "city": "44.74 sq mi",
+      "land": "43.68 sq mi",
+      "water": "1.06 sq mi"
+    },
+    "elevation": "30 ft",
+    "population": {
+      "city": "151950",
+      "density": "3462/sq mi",
+      "metro": "5628101"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["77501-77508", "77059", "77586"],
+    "area_codes": [713, 281, 346, 832],
+    "FIPS code": "48-56000",
+    "GNIS feature IDs": ["1343631"],
+    "url": "https://www.pasadenatx.gov/"
   }
 ]

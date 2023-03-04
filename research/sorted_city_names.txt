@@ -215,11 +215,11 @@ x Ontario California
 x Orange California
 x Orlando Florida
 x Overland Park Kansas
-Oxnard California
-Palm Bay
-Palmdale California
-Pasadena California
-Pasadena Texas
+x Oxnard California
+x Palm Bay Florida
+x Palmdale California
+x Pasadena California
+x Pasadena Texas
 Paterson New
 Pearland Texas
 Pembroke Pines
