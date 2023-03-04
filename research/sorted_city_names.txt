@@ -206,9 +206,9 @@ x North Charleston South Carolina
 x North Las Vegas Nevada
 x Norwalk California
 x Oakland California
-Oceanside California
-Odessa Texas
-Oklahoma City
+x Oceanside California
+x Odessa Texas
+x Oklahoma City
 Olathe Kansas
 Omaha Nebraska
 Ontario California

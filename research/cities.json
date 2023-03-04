@@ -8671,7 +8671,7 @@
     "url": "https://www.nnva.gov/"
   },
   {
-    "city_name": "New York",
+    "city_name": "New York City",
     "state_name": "New York",
     "coordinates": "40°42′46″N 74°00′22″W",
     "counties": ["Bronx", "Kings", "New York", "Queens", "Richmond"],
@@ -9008,5 +9008,135 @@
     "FIPS code": "06-53000",
     "GNIS feature IDs": ["277566", "2411292"],
     "url": "https://www.oaklandca.gov/"
+  },
+  {
+    "city_name": "Oceanside",
+    "state_name": "California",
+    "coordinates": "33°12′42″N 117°19′33″W",
+    "counties": ["San Diego"],
+    "settled_founded": null,
+    "incorporated": "1888",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Esther C. Sanchez",
+      "city_council": [
+        "Ryan Keim",
+        "Eric Joyce",
+        "Rick Robinson",
+        "Peter Weiss"
+      ]
+    },
+    "area": {
+      "city": "42.16 sq mi",
+      "land": "41.26 sq mi",
+      "water": "0.90 sq mi"
+    },
+    "elevation": "66 ft",
+    "population": {
+      "city": "174068",
+      "density": "4259.79/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92049", "92051", "92052", "92054", "92056–92058"],
+    "area_codes": [442, 760],
+    "FIPS code": "06-53322",
+    "GNIS feature IDs": ["1652761", "2411301"],
+    "url": "https://www.ci.oceanside.ca.us/"
+  },
+  {
+    "city_name": "Odessa",
+    "state_name": "Texas",
+    "coordinates": "31°51′48″N 102°21′56″W",
+    "counties": ["Ector", "Midland"],
+    "settled_founded": "1881",
+    "incorporated": "1927",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Javier Joven",
+      "city_council": [
+        "Mark Matta",
+        "Steven P. Thompson",
+        "Gilbert Vasquez",
+        "Greg Connell",
+        "Chris Hanie",
+        "Denise Swanner"
+      ]
+    },
+    "area": {
+      "city": "51.36 sq mi",
+      "land": "51.08 sq mi",
+      "water": "0.28 sq mi"
+    },
+    "elevation": "2900 ft",
+    "population": {
+      "city": "114428",
+      "density": "2414.62/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["79760-79769"],
+    "area_codes": [432],
+    "FIPS code": "48-53388",
+    "GNIS feature IDs": ["1343067"],
+    "url": "https://www.odessa-tx.gov/"
+  },
+  {
+    "city_name": "Oklahoma City",
+    "state_name": "Oklahoma",
+    "coordinates": "35°28′7″N 97°31′17″W",
+    "counties": ["Oklahoma", "Canadian", "Cleveland", "Pottawatomie"],
+    "settled_founded": "1889",
+    "incorporated": "1890",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "David Holt",
+      "city_council": [
+        "Bradley Carter",
+        "James Cooper",
+        "Barbara Peck",
+        "Todd Stone",
+        "David Greenwell",
+        "JoBeth Hamon",
+        "Nikki Nice",
+        "Mark K. Stonecipher"
+      ]
+    },
+    "area": {
+      "city": "620.79 sq mi",
+      "land": "606.48 sq mi",
+      "water": "14.31 sq mi"
+    },
+    "elevation": "1198 ft",
+    "population": {
+      "city": "681054",
+      "density": "1122.96/sq mi",
+      "metro": "1441695"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "73101-73132",
+      "73134-73137",
+      "73139-73157",
+      "73159",
+      "73160",
+      "73162-73165",
+      "73167",
+      "73169",
+      "73170",
+      "73172",
+      "73173",
+      "73178",
+      "73179",
+      "73184",
+      "73185",
+      "73189",
+      "73190",
+      "73194-73196"
+    ],
+    "area_codes": [405, 572],
+    "FIPS code": "40-55000",
+    "GNIS feature IDs": ["1102140"],
+    "url": "https://www.okc.gov/"
   }
 ]
