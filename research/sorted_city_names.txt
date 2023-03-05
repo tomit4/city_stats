@@ -225,14 +225,14 @@ x Pearland Texas
 x Pembroke Pines Florida
 x Peoria Arizona
 x Peoria Illinois
-Philadelphia[e] Pennsylvania
-Phoenix Arizona
-Pittsburgh Pennsylvania
-Plano Texas
-Pomona California
-Pompano Beach
-Portland Oregon
-Port St.
+x Philadelphia Pennsylvania
+x Phoenix Arizona
+x Pittsburgh Pennsylvania
+x Plano Texas
+x Pomona California
+x Pompano Beach Florida
+x Portland Oregon
+x Port St. Lucie Florida
 Providence Rhode
 Provo Utah
 Pueblo Colorado

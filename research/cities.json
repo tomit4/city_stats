@@ -9803,5 +9803,320 @@
     "FIPS code": "17-59000",
     "GNIS feature IDs": ["2396178"],
     "url": "https://www.peoriagov.org/"
+  },
+  {
+    "city_name": "Philadelphia",
+    "state_name": "Pennsylvania",
+    "coordinates": "39°57′10″N 75°09′49″W",
+    "counties": ["Philadelphia"],
+    "settled_founded": "1682",
+    "incorporated": "1701",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Jim Kenney",
+      "city_council": [
+        "Mark Squilla",
+        "Kenyatta Johnson",
+        "Jamie Gauthier",
+        "Curtis Jones, Jr.",
+        "Darrell L. Clarke",
+        "Michael Driscoll",
+        "Quetcy Lozada",
+        "Cindy Bass",
+        "Anthony Phillips",
+        "Brian J. O'Neill"
+      ]
+    },
+    "area": {
+      "city": "142.70 sq mi",
+      "land": "134.36 sq mi",
+      "water": "8.34 sq mi"
+    },
+    "elevation": "39 ft",
+    "population": {
+      "city": "1603797",
+      "density": "11936.92/sq mi",
+      "metro": "6245051"
+    },
+    "time_zone": "UTC-5(CST)",
+    "zip_codes": ["19092–19093", "19099", "191xx"],
+    "area_codes": [215, 267, 445],
+    "FIPS code": "42-60000",
+    "GNIS feature IDs": ["1215531"],
+    "url": "https://www.phila.gov/"
+  },
+  {
+    "city_name": "Phoenix",
+    "state_name": "Arizona",
+    "coordinates": "33°26′54″N 112°04′26″W",
+    "counties": ["Maricopa"],
+    "settled_founded": "1867",
+    "incorporated": "1881",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Kate Gallego",
+      "city_council": [
+        "Ann O'Brien",
+        "Jim Waring",
+        "Debra Stark",
+        "Laura Pastor",
+        "Betty Guardado",
+        "Sal DiCiccio",
+        "Yassamin Ansari",
+        "Carlos Garcia"
+      ]
+    },
+    "area": {
+      "city": "519.28 sq mi",
+      "land": "518.27 sq mi",
+      "water": "1.02 sq mi"
+    },
+    "elevation": "1243 ft",
+    "population": {
+      "city": "1608139",
+      "density": "3102.92/sq mi",
+      "metro": "4845832"
+    },
+    "time_zone": "UTC-7(CST)",
+    "zip_codes": ["85001-85099"],
+    "area_codes": [480, 602, 623],
+    "FIPS code": "04-55000",
+    "GNIS feature IDs": ["2411414"],
+    "url": "https://www.phoenix.gov/"
+  },
+  {
+    "city_name": "Pittsburgh",
+    "state_name": "Pennsylvania",
+    "coordinates": "40°26′23″N 79°58′35″W",
+    "counties": ["Allegheny"],
+    "settled_founded": "1758",
+    "incorporated": "1816",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Ed Gainey",
+      "city_council": [
+        "Bobby Wilson",
+        "Theresa Kail-Smith",
+        "Bruce Kraus",
+        "Anthony Coghill",
+        "Barb Warwick",
+        "R. Daniel Lavelle",
+        "Deb Gross",
+        "Erika Strassburger",
+        "Ricky Burgess"
+      ]
+    },
+    "area": {
+      "city": "58.35 sq mi",
+      "land": "55.38 sq mi",
+      "water": "2.97 sq mi"
+    },
+    "elevation": "1370 ft",
+    "population": {
+      "city": "302971",
+      "density": "5471.26/sq mi",
+      "metro": "2370930"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "15106",
+      "15120–15121",
+      "15201",
+      "15203–15208",
+      "15210–15222",
+      "15224",
+      "15226–15228",
+      "15230",
+      "15232–15235",
+      "15237",
+      "15239",
+      "15289",
+      "15229"
+    ],
+    "area_codes": [412, 724, 878],
+    "FIPS code": "42-61000",
+    "GNIS feature IDs": ["1213644"],
+    "url": "https://pittsburghpa.gov/"
+  },
+  {
+    "city_name": "Plano",
+    "state_name": "Texas",
+    "coordinates": "33°01′11″N 96°41′56″W",
+    "counties": ["Collin", "Denton"],
+    "settled_founded": null,
+    "incorporated": "1873",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "John B. Muns",
+      "city_council": [
+        "Kayci Prince",
+        "Tem Maria Tu",
+        "Anthony Ricciardelli",
+        "Rick Grady",
+        "Shelby Williams",
+        "Julie Holmer",
+        "Rick Smith"
+      ]
+    },
+    "area": {
+      "city": "72.04 sq mi",
+      "land": "71.69 sq mi",
+      "water": "0.36 sq mi"
+    },
+    "elevation": "719 ft",
+    "population": {
+      "city": "285494",
+      "density": "4012.96/sq mi",
+      "metro": "7102796"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["75023-26", "75074-75", "75086", "75093-94"],
+    "area_codes": [214, 469, 945, 972],
+    "FIPS code": "48-58016",
+    "GNIS feature IDs": ["2411437"],
+    "url": "https://www.plano.gov/"
+  },
+  {
+    "city_name": "Pomona",
+    "state_name": "California",
+    "coordinates": "34°3′39″N 117°45′21″W",
+    "counties": ["Los Angeles"],
+    "settled_founded": null,
+    "incorporated": "1888",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Tim Sandoval",
+      "city_council": [
+        "John Nolte",
+        "Victor Preciado",
+        "Nora Garcia",
+        "Elizabeth Ontiveros-Cole",
+        "Steve Lustro",
+        "Robert Torres"
+      ]
+    },
+    "area": {
+      "city": "22.99 sq mi",
+      "land": "22.98 sq mi",
+      "water": "0.01 sq mi"
+    },
+    "elevation": "850 ft",
+    "population": {
+      "city": "151713",
+      "density": "6600/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["91766-91768"],
+    "area_codes": [909],
+    "FIPS code": "06-58072",
+    "GNIS feature IDs": ["1661247", "2411454"],
+    "url": "https://www.pomonaca.gov/"
+  },
+  {
+    "city_name": "Pompano Beach",
+    "state_name": "Florida",
+    "coordinates": "26°14′5″N 80°7′32″W",
+    "counties": ["Broward"],
+    "settled_founded": "1896",
+    "incorporated": "1947",
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "Rex Hardin",
+      "city_council": [
+        "Andrea McGee",
+        "Rhonda Eaton",
+        "Alison Fournier",
+        "Beverly Perkins",
+        "Barry Moss"
+      ]
+    },
+    "area": {
+      "city": "24.69 sq mi",
+      "land": "24.02 sq mi",
+      "water": "0.67 sq mi"
+    },
+    "elevation": "13 ft",
+    "population": {
+      "city": "112046",
+      "density": "4664.31/sq mi",
+      "metro": "6158824"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["33060-33077", "33093", "33097"],
+    "area_codes": [754, 954],
+    "FIPS code": "12-58050",
+    "GNIS feature IDs": ["0289162"],
+    "url": "https://www.pompanobeachfl.gov/"
+  },
+  {
+    "city_name": "Portland",
+    "state_name": "Oregon",
+    "coordinates": "45°31′12″N 122°40′55″W",
+    "counties": ["Multnomah", "Washington", "Clackamas"],
+    "settled_founded": "1845",
+    "incorporated": "1851",
+    "government": {
+      "type": "Commission-Manager",
+      "mayor": "Ted Wheeler",
+      "city_council": [
+        "Rene Gonzalez",
+        "Carmen Rubio",
+        "Mingus Mapps",
+        "Dan Ryan"
+      ]
+    },
+    "area": {
+      "city": "145.00 sq mi",
+      "land": "133.49 sq mi",
+      "water": "519.30 sq mi"
+    },
+    "elevation": "50 ft",
+    "population": {
+      "city": "652503",
+      "density": "4888.10/sq mi",
+      "metro": "2511612"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["97086-97299"],
+    "area_codes": [503, 971],
+    "FIPS code": "41-59000",
+    "GNIS feature IDs": ["1136645"],
+    "url": "https://www.portland.gov/"
+  },
+  {
+    "city_name": "Port St. Lucie",
+    "state_name": "Florida",
+    "coordinates": "27°16′33″N 80°21′18″W",
+    "counties": ["St. Lucie"],
+    "settled_founded": null,
+    "incorporated": "1961",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Shannon M.Martin",
+      "city_council": [
+        "Jolien Caraballo",
+        "Stephanie Morgan",
+        "David Pickett",
+        "Anthony Bonna"
+      ]
+    },
+    "area": {
+      "city": "120.83 sq mi",
+      "land": "119.22 sq mi",
+      "water": "1.61 sq mi"
+    },
+    "elevation": "16 ft",
+    "population": {
+      "city": "204851",
+      "density": "1718.32/sq mi",
+      "metro": "487657"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["34952-53", "34983-88"],
+    "area_codes": [772],
+    "FIPS code": "12-58715",
+    "GNIS feature IDs": ["0308089"],
+    "url": "https://www.cityofpsl.com/"
   }
 ]
