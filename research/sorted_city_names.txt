@@ -233,29 +233,29 @@ x Pomona California
 x Pompano Beach Florida
 x Portland Oregon
 x Port St. Lucie Florida
-Providence Rhode
-Provo Utah
-Pueblo Colorado
-Quincy Massachusetts
-Raleigh North
-Rancho Cucamonga
-Reno Nevada
-Renton Washington
-Rialto California
-Richardson Texas
-Richmond California
-Richmond[m] Virginia
-Rio Rancho
-Riverside California
-Rochester Minnesota
-Rochester New
-Rockford Illinois
-Roseville California
-Round Rock
-Sacramento California
-Saint Paul
-Salem Oregon
-Salinas California
+x Providence Rhode Island
+x Provo Utah
+x Pueblo Colorado
+x Quincy Massachusetts
+x Raleigh North Carolina
+x Rancho Cucamonga California
+x Reno Nevada
+x Renton Washington
+x Rialto California
+x Richardson Texas
+x Richmond California
+x Richmond Virginia
+x Rio Rancho New Mexico
+x Riverside California
+x Rochester Minnesota
+x Rochester New York
+x Rockford Illinois
+x Roseville California
+x Round Rock Texas
+x Sacramento California
+x Saint Paul Minnesota
+x Salem Oregon
+x Salinas California
 Salt Lake
 San Antonio
 San Bernardino

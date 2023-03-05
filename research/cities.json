@@ -10118,5 +10118,924 @@
     "FIPS code": "12-58715",
     "GNIS feature IDs": ["0308089"],
     "url": "https://www.cityofpsl.com/"
+  },
+  {
+    "city_name": "Providence",
+    "state_name": "Rhode Island",
+    "coordinates": "41°49′25″N 71°25′20″W",
+    "counties": ["Providence"],
+    "settled_founded": "1632",
+    "incorporated": "1832",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Brett Smiley",
+      "city_council": [
+        "John Goncalves",
+        "Helen Anthony",
+        "Sue AnderBois",
+        "Justin Roias",
+        "Jo-Ann Ryan",
+        "Miguel Sanchez",
+        "Ana Vargas",
+        "James Taylor",
+        "Juan M. Pichardo",
+        "Pedro Espinal",
+        "Mary Kay Harris",
+        "Althea Graves",
+        "Shelley Peterson",
+        "Oscar Vargas",
+        "Rachel Miller"
+      ]
+    },
+    "area": {
+      "city": "20.58 sq mi",
+      "land": "18.41 sq mi",
+      "water": "2.18 sq mi"
+    },
+    "elevation": "10 ft",
+    "population": {
+      "city": "190934",
+      "density": "10373.4/sq mi",
+      "metro": "1604291"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["02901–02912", "02918-02919", "02940"],
+    "area_codes": [401],
+    "FIPS code": "44-59000",
+    "GNIS feature IDs": ["1904021"],
+    "url": "https://council.providenceri.gov/"
+  },
+  {
+    "city_name": "Provo",
+    "state_name": "Utah",
+    "coordinates": "40°14′40″N 111°39′39″W",
+    "counties": ["Utah"],
+    "settled_founded": "1849",
+    "incorporated": "1850",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Michelle Kaufusi",
+      "city_council": [
+        "Bill Fillmore",
+        "George Handley",
+        "Shannon Ellsworth",
+        "Travis Hoban",
+        "Rachel Whipple",
+        "Katrice MacKay",
+        "David Shipley"
+      ]
+    },
+    "area": {
+      "city": "44.19 sq mi",
+      "land": "41.69 sq mi",
+      "water": "2.50 sq mi"
+    },
+    "elevation": "4551 ft",
+    "population": {
+      "city": "115162",
+      "density": "2762.34/sq mi",
+      "metro": "697141"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["84601-84606"],
+    "area_codes": [385, 801],
+    "FIPS code": "49-62470",
+    "GNIS feature IDs": ["1444661"],
+    "url": "https://www.provo.org/government/"
+  },
+  {
+    "city_name": "Pueblo",
+    "state_name": "Colorado",
+    "coordinates": "38°16′1″N 104°37′13″W",
+    "counties": ["Pueblo"],
+    "settled_founded": null,
+    "incorporated": "1885",
+    "government": {
+      "type": "Municipality",
+      "mayor": "Nick Gradisar",
+      "city_council": [
+        "Regina Maestri",
+        "Larry Atencio",
+        "Sarah Martinez",
+        "Vicente Martinez Ortega",
+        "Dennis Flores",
+        "Lori Winner",
+        "Heather Graham"
+      ]
+    },
+    "area": {
+      "city": "56.08 sq mi",
+      "land": "55.38 sq mi",
+      "water": "0.70 sq mi"
+    },
+    "elevation": "4692 ft",
+    "population": {
+      "city": "111876",
+      "density": "2020/sq mi",
+      "metro": "168162"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["81001-81012"],
+    "area_codes": [719],
+    "FIPS code": "08-62000",
+    "GNIS feature IDs": ["0204698"],
+    "url": "https://www.pueblo.us/"
+  },
+  {
+    "city_name": "Quincy",
+    "state_name": "Massachusetts",
+    "coordinates": "42°15′N 71°0′W",
+    "counties": ["Norfolk"],
+    "settled_founded": "1625",
+    "incorporated": "1888",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Thomas P. Koch",
+      "city_council": [
+        "David F. McCarthy",
+        "Anthony J. Andronico",
+        "Ian C. Cain",
+        "James K. Devine",
+        "Charles J. Phelan, Jr.",
+        "William P. Harris"
+      ]
+    },
+    "area": {
+      "city": "26.91 sq mi",
+      "land": "16.57 sq mi",
+      "water": "10.33 sq mi"
+    },
+    "elevation": "30 ft",
+    "population": {
+      "city": "101636",
+      "density": "6132.63/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["01269", "02170", "02171"],
+    "area_codes": [617, 857],
+    "FIPS code": "25-55745",
+    "GNIS feature IDs": ["0617701"],
+    "url": "https://www.quincyma.gov/"
+  },
+  {
+    "city_name": "Raleigh",
+    "state_name": "North Carolina",
+    "coordinates": "35°46′48″N 78°38′24″W",
+    "counties": ["Wake", "Durham"],
+    "settled_founded": null,
+    "incorporated": "1792",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Mary-Ann Baldwin",
+      "city_council": [
+        "Stormie D. Forte",
+        "Jonathan Melton",
+        "Mary Black",
+        "Megan Patton",
+        "Corey Branch",
+        "Jane Harrison",
+        "Christina Jones"
+      ]
+    },
+    "area": {
+      "city": "149.61 sq mi",
+      "land": "148.54 sq mi",
+      "water": "1.07 sq mi"
+    },
+    "elevation": "315 ft",
+    "population": {
+      "city": "467665",
+      "density": "3148.33/sq mi",
+      "metro": "1413982"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "27601",
+      "27603",
+      "27604",
+      "27605",
+      "27606",
+      "27607",
+      "27608",
+      "27609",
+      "27610",
+      "27612",
+      "27613",
+      "27614",
+      "27615",
+      "27616",
+      "27617"
+    ],
+    "area_codes": [919, 984],
+    "FIPS code": "37-55000",
+    "GNIS feature IDs": ["1024242"],
+    "url": "https://raleighnc.gov/"
+  },
+  {
+    "city_name": "Rancho Cucamonga",
+    "state_name": "California",
+    "coordinates": "34°7′24″N 117°34′46″W",
+    "counties": ["San Bernandino"],
+    "settled_founded": null,
+    "incorporated": "1977",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "L. Dennis Michael",
+      "city_council": [
+        "Lynne B. Kennedy",
+        "Ryan A. Hutchison",
+        "Kristine D. Scott",
+        "Ashley N. Stickler"
+      ]
+    },
+    "area": {
+      "city": "40.12 sq mi",
+      "land": "40.11 sq mi",
+      "water": "0.01 sq mi"
+    },
+    "elevation": "1207 ft",
+    "population": {
+      "city": "174453",
+      "density": "4349.36/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["91701", "91729", "91730", "91737", "91739"],
+    "area_codes": [909, 840],
+    "FIPS code": "06-59451",
+    "GNIS feature IDs": ["1667908"],
+    "url": "https://www.cityofrc.us/"
+  },
+  {
+    "city_name": "Reno",
+    "state_name": "Nevada",
+    "coordinates": "39°31′38″N 119°49′19″W",
+    "counties": ["Washoe"],
+    "settled_founded": "1868",
+    "incorporated": "1903",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Hillary Schieve",
+      "city_council": [
+        "Devon Reese",
+        "Jenny Brekhus",
+        "Naomi Duerr",
+        "Miguel Martinez",
+        "Meghan Ebert",
+        "Kathleen Taylor"
+      ]
+    },
+    "area": {
+      "city": "111.70 sq mi",
+      "land": "108.86 sq mi",
+      "water": "2.83 sq mi"
+    },
+    "elevation": "4505 ft",
+    "population": {
+      "city": "264165",
+      "density": "2426.54/sq mi",
+      "metro": "490596"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["89500-89599"],
+    "area_codes": [775],
+    "FIPS code": "32-60600",
+    "GNIS feature IDs": ["0861100"],
+    "url": "https://www.reno.gov/"
+  },
+  {
+    "city_name": "Renton",
+    "state_name": "Washington",
+    "coordinates": "47°29′12″N 122°11′43″W",
+    "counties": ["King"],
+    "settled_founded": "1875",
+    "incorporated": "1901",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Armondo Pavone",
+      "city_council": [
+        "Valerie O'Halloran",
+        "Ed Prince",
+        "James Alberson, Jr.",
+        "Ryan McIrvin",
+        "Ruth Pérez",
+        "Carmen Rivera",
+        "Kim-Khánh Văn"
+      ]
+    },
+    "area": {
+      "city": "25.23 sq mi",
+      "land": "23.47 sq mi",
+      "water": "1.76 sq mi"
+    },
+    "elevation": "410 ft",
+    "population": {
+      "city": "106785",
+      "density": "4200/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["98055-98059"],
+    "area_codes": [425],
+    "FIPS code": "53-57745",
+    "GNIS feature IDs": ["1512599"],
+    "url": "https://www.rentonwa.gov/"
+  },
+  {
+    "city_name": "Rialto",
+    "state_name": "California",
+    "coordinates": "34°6′41″N 117°22′57″W",
+    "counties": ["San Bernandino"],
+    "settled_founded": null,
+    "incorporated": "1911",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Deborah Robertson",
+      "city_council": [
+        "Andy Carrizales",
+        "Ed Scott",
+        "Rafel Trujillo",
+        "Joe Baca",
+        "Barbara McGee",
+        "Edward Carrillo"
+      ]
+    },
+    "area": {
+      "city": "4.09 sq mi",
+      "land": "24.09 sq mi",
+      "water": "0.00 sq mi"
+    },
+    "elevation": "1257 ft",
+    "population": {
+      "city": "104026",
+      "density": "4300/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92376-92377"],
+    "area_codes": [909],
+    "FIPS code": "06-60466",
+    "GNIS feature IDs": ["1661306"],
+    "url": "https://www.yourrialto.com/"
+  },
+  {
+    "city_name": "Richardson",
+    "state_name": "Texas",
+    "coordinates": "32°57′56″N 96°42′57″W",
+    "counties": ["Dallas", "Collin"],
+    "settled_founded": null,
+    "incorporated": "1925",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Paul Voelker",
+      "city_council": [
+        "Janet DePuy",
+        "Bob Dubey",
+        "Jennifer Justice",
+        "Joe Corcoran",
+        "Ken Hutchenrider",
+        "Arefin Shamsul"
+      ]
+    },
+    "area": {
+      "city": "28.66 sq mi",
+      "land": "28.57 sq mi",
+      "water": "0.09 sq mi"
+    },
+    "elevation": "630 ft",
+    "population": {
+      "city": "119469",
+      "density": "4168.49/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["75080–75083", "75085"],
+    "area_codes": [214, 469, 945, 972],
+    "FIPS code": "48-61796",
+    "GNIS feature IDs": ["1345172"],
+    "url": "https://www.cor.net/"
+  },
+  {
+    "city_name": "Richmond",
+    "state_name": "California",
+    "coordinates": "37°56′09″N 122°20′52″W",
+    "counties": ["Contra Costa"],
+    "settled_founded": null,
+    "incorporated": "1905",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Eduardo Martinez",
+      "city_council": [
+        "Melvin Willis",
+        "Cesar Zepeda",
+        "Doria Robinson",
+        "Soheila Bana",
+        "Gayle McLaughlin",
+        "Claudia Jimenez"
+      ]
+    },
+    "area": {
+      "city": "52.51 sq mi",
+      "land": "30.05 sq mi",
+      "water": "22.46 sq mi"
+    },
+    "elevation": "46 ft",
+    "population": {
+      "city": "103701",
+      "density": "3678.94/sq mi",
+      "metro": "4335391"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "94801",
+      "94802",
+      "94804",
+      "94805",
+      "94807",
+      "94808",
+      "94850"
+    ],
+    "area_codes": [510, 341],
+    "FIPS code": "06-60620",
+    "GNIS feature IDs": ["1659507", "2410939"],
+    "url": "https://www.ci.richmond.ca.us/"
+  },
+  {
+    "city_name": "Richmond",
+    "state_name": "Virginia",
+    "coordinates": "37°32′27″N 77°26′12″W",
+    "counties": null,
+    "settled_founded": null,
+    "incorporated": "1742",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Levar Stoney",
+      "city_council": [
+        "Andreas D. Addison",
+        "Katherine Jordan",
+        "Ann-Frances Lambert",
+        "Kristen M. Nye",
+        "Stephanie A. Lynch",
+        "Ellen F. Robertson",
+        "Cynthia I. Newbille",
+        "Reva M. Trammell",
+        "Michael J. Jones"
+      ]
+    },
+    "area": {
+      "city": "62.57 sq mi",
+      "land": "59.92 sq mi",
+      "water": "2.65 sq mi"
+    },
+    "elevation": "166.45 ft",
+    "population": {
+      "city": "226610",
+      "density": "3782/sq mi",
+      "metro": "1263617"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "23173",
+      "23218–23242",
+      "23249–23250",
+      "23255",
+      "23260–23261",
+      "23269",
+      "23273–23274",
+      "23276",
+      "23278–23279",
+      "23282",
+      "23284–23286",
+      "23288–23295",
+      "23297–23298"
+    ],
+    "area_codes": [804],
+    "FIPS code": "51-67000",
+    "GNIS feature IDs": ["1499957"],
+    "url": "https://rva.gov/"
+  },
+  {
+    "city_name": "Rio Rancho",
+    "state_name": "New Mexico",
+    "coordinates": "35°17′10″N 106°40′14″W",
+    "counties": ["Sandoval", "Bernalillo"],
+    "settled_founded": "1961",
+    "incorporated": "1981",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Greg Hull",
+      "city_council": [
+        "Jim Owen",
+        "Jeremy Lenentine",
+        "Bob Tyler",
+        "Paul Wymer",
+        "Karissa Culbreath",
+        "Daniel Stoddard"
+      ]
+    },
+    "area": {
+      "city": "103.62 sq mi",
+      "land": "103.36 sq mi",
+      "water": "0.26 sq mi"
+    },
+    "elevation": "5282 ft",
+    "population": {
+      "city": "104046",
+      "density": "1006.63/sq mi",
+      "metro": "907755"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["87124", "87144", "87174"],
+    "area_codes": [505],
+    "FIPS code": "35-63460",
+    "GNIS feature IDs": ["1699884"],
+    "url": "https://rrnm.gov/"
+  },
+  {
+    "city_name": "Riverside",
+    "state_name": "California",
+    "coordinates": "33°56′53″N 117°23′46″W",
+    "counties": ["Riverside"],
+    "settled_founded": null,
+    "incorporated": "1883",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Patricia Lock Dawson",
+      "city_council": [
+        "Erin Edwards",
+        "Clarissa Cervantes",
+        "Ronaldo Fierro",
+        "Chuck Conder",
+        "Gaby Plascencia",
+        "Jim Perry",
+        "Steve Hamenway"
+      ]
+    },
+    "area": {
+      "city": "81.54 sq mi",
+      "land": "81.23 sq mi",
+      "water": "0.31 sq mi"
+    },
+    "elevation": "827 ft",
+    "population": {
+      "city": "314998",
+      "density": "3877.85/sq mi",
+      "metro": "4599839"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92501–92509", "92513–92519", "92521–92522"],
+    "area_codes": [951],
+    "FIPS code": "06-62000",
+    "GNIS feature IDs": ["1661315", "2410965"],
+    "url": "https://riversideca.gov/"
+  },
+  {
+    "city_name": "Rochester",
+    "state_name": "Minnesota",
+    "coordinates": "44°1′24.24″N 92°27′46.62″W",
+    "counties": ["Olmsted"],
+    "settled_founded": "1854",
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Kim Norton",
+      "city_council": [
+        "Brooke Carlson",
+        "Patrick Keane",
+        "Mark Bransford",
+        "Norman Wahl",
+        "Kelly Rae Kirkpatrick",
+        "Shaun C. Palmer",
+        "Molly Dennis"
+      ]
+    },
+    "area": {
+      "city": "55.87 sq mi",
+      "land": "55.58 sq mi",
+      "water": "0.29 sq mi"
+    },
+    "elevation": "1030 ft",
+    "population": {
+      "city": "121395",
+      "density": "121465/sq mi",
+      "metro": "2184.07"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["55901-55906"],
+    "area_codes": [507],
+    "FIPS code": "27-54880",
+    "GNIS feature IDs": ["0650180"],
+    "url": "https://www.rochestermn.gov/"
+  },
+  {
+    "city_name": "Rochester",
+    "state_name": "New York",
+    "coordinates": "43°9′56″N 77°36′41″W",
+    "counties": ["Monroe"],
+    "settled_founded": "1788",
+    "incorporated": "1834",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Malik Evans",
+      "city_council": [
+        "Miguel A. Meléndez",
+        "Mitch Gruber",
+        "Willie J. Lightfoot",
+        "Stanley Martin",
+        "Kim Smith",
+        "LaShay D. Harris",
+        "Mary Lupien",
+        "Michael A. Patterson",
+        "Jose Peo"
+      ]
+    },
+    "area": {
+      "city": "37.17 sq mi",
+      "land": "35.76 sq mi",
+      "water": "1.41 sq mi"
+    },
+    "elevation": "702 ft",
+    "population": {
+      "city": "211328",
+      "density": "5909.45/sq mi",
+      "metro": "1067486"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["146xx"],
+    "area_codes": [585],
+    "FIPS code": "36-63000",
+    "GNIS feature IDs": ["0962684"],
+    "url": "https://www.cityofrochester.gov/"
+  },
+  {
+    "city_name": "Rockford",
+    "state_name": "Illinois",
+    "coordinates": "42°16′16″N 89°05′38″W",
+    "counties": ["Winnebago", "Ogle"],
+    "settled_founded": null,
+    "incorporated": "1852",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Tom McNamara",
+      "city_council": [
+        "Dr. Timothy J. Durkee",
+        "Jonathan Logemann",
+        "Chad Tuneberg",
+        "Kevin Frost",
+        "Gabrielle Torina",
+        "Aprel Prunty",
+        "Janessa Wilkins",
+        "Karen Hoffman",
+        "Bill Rose",
+        "Franklin Beach",
+        "Tuffy Quinonez",
+        "Gina Meeks",
+        "Linda McNeely",
+        "Mark Bonne"
+      ]
+    },
+    "area": {
+      "city": "65.92 sq mi",
+      "land": "64.91 sq mi",
+      "water": "1.01 sq mi"
+    },
+    "elevation": "728 ft",
+    "population": {
+      "city": "148655",
+      "density": "2290.24/sq mi",
+      "metro": "338798"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["61101–61110", "61112", "61114", "61125", "61126"],
+    "area_codes": [815, 779],
+    "FIPS code": "17-65000",
+    "GNIS feature IDs": ["2396405"],
+    "url": "https://rockfordil.gov/"
+  },
+  {
+    "city_name": "Roseville",
+    "state_name": "California",
+    "coordinates": "38°45′9″N 121°17′22″W",
+    "counties": ["Placer"],
+    "settled_founded": null,
+    "incorporated": "1909",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Bruce Houdesheldt",
+      "city_council": [
+        "Krista Bernasconi",
+        "Pauline Roccucci",
+        "Scott Alvord",
+        "Tracy Mendonsa"
+      ]
+    },
+    "area": {
+      "city": "44.08 sq mi",
+      "land": "44.08 sq mi",
+      "water": "0.00 sq mi"
+    },
+    "elevation": "164 ft",
+    "population": {
+      "city": "118788",
+      "density": "3210.22/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["95678", "95661", "95747"],
+    "area_codes": [916, 279],
+    "FIPS code": "06-62938",
+    "GNIS feature IDs": ["1659544", "2411000"],
+    "url": "https://www.roseville.ca.us/"
+  },
+  {
+    "city_name": "Round Rock",
+    "state_name": "Texas",
+    "coordinates": "30°30′31″N 97°40′44″W",
+    "counties": ["Williamson", "Travis"],
+    "settled_founded": "1854",
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Craig Morgan",
+      "city_council": [
+        "Michelle Ly",
+        "Rene Flores",
+        "Matthew Baker",
+        "Frank Ortega",
+        "Kristin Stevens",
+        "Hilda Montgomery"
+      ]
+    },
+    "area": {
+      "city": "38.00 sq mi",
+      "land": "37.64 sq mi",
+      "water": "0.36 sq mi"
+    },
+    "elevation": "735 ft",
+    "population": {
+      "city": "119468",
+      "density": "3174/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["78664", "78665", "78680–78683"],
+    "area_codes": [512, 737],
+    "FIPS code": "48-63500",
+    "GNIS feature IDs": ["1366966"],
+    "url": "https://www.roundrocktexas.gov/"
+  },
+  {
+    "city_name": "Sacramento",
+    "state_name": "California",
+    "coordinates": "38°34′54″N 121°29′40″W",
+    "counties": ["Sacramento"],
+    "settled_founded": null,
+    "incorporated": "1850",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Darrell Steinberg",
+      "city_council": [
+        "Lisa Kaplan",
+        "Sean Loloee",
+        "Karina Talamantes",
+        "Katie Valenzuela",
+        "Caity Maple",
+        "Eric Guerra",
+        "Rick Jennings, III",
+        "Mai Vang"
+      ]
+    },
+    "area": {
+      "city": "99.77 sq mi",
+      "land": "97.68 sq mi",
+      "water": "2.09 sq mi"
+    },
+    "elevation": "30 ft",
+    "population": {
+      "city": "524943",
+      "density": "5374.11/sq mi",
+      "metro": "2397382"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["942xx", "958xx"],
+    "area_codes": [916, 279],
+    "FIPS code": "06-64000",
+    "GNIS feature IDs": ["1659564", "2411751"],
+    "url": "http://www.cityofsacramento.org/"
+  },
+  {
+    "city_name": "Saint Paul",
+    "state_name": "Minnnesota",
+    "coordinates": "44°56′39″N 93°5′37″W",
+    "counties": ["Ramsey"],
+    "settled_founded": null,
+    "incorporated": "1854",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Melvin Carter",
+      "city_council": [
+        "Russel Balenger",
+        "Rebecca Noecker",
+        "Chris Tolbert",
+        "Mitra Jalali",
+        "Amy Brendmoen",
+        "Neslie Yang",
+        "Jane L. Prince"
+      ]
+    },
+    "area": {
+      "city": "56.10 sq mi",
+      "land": "51.97 sq mi",
+      "water": "4.13 sq mi"
+    },
+    "elevation": "795 ft",
+    "population": {
+      "city": "311527",
+      "density": "307193/sq mi",
+      "metro": "3690512"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["55101–55108", "55114", "55116", "55117", "55119", "55130"],
+    "area_codes": [651],
+    "FIPS code": "27-58000",
+    "GNIS feature IDs": ["2396511"],
+    "url": "https://www.stpaul.gov/"
+  },
+  {
+    "city_name": "Salem",
+    "state_name": "Oregon",
+    "coordinates": "44°56′21″N 123°2′22″W",
+    "counties": ["Marion", "Polk"],
+    "settled_founded": "1842",
+    "incorporated": "1857",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Chris Hoy",
+      "city_council": [
+        "Virginia Stapleton",
+        "Linda Nishioka",
+        "Trevor Phillips",
+        "Deanna Gwyn",
+        "Jose Gonzalez",
+        "Julie Hoy",
+        "Vanessa Nordyke",
+        "Micki Varney"
+      ]
+    },
+    "area": {
+      "city": "49.45 sq mi",
+      "land": "48.91 sq mi",
+      "water": "0.55 sq mi"
+    },
+    "elevation": "154 ft",
+    "population": {
+      "city": "175535",
+      "density": "3589.09/sq mi",
+      "metro": "400408"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["97301–97306", "97308–97314"],
+    "area_codes": [503, 971],
+    "FIPS code": "41-64900",
+    "GNIS feature IDs": ["1167861"],
+    "url": "https://www.cityofsalem.net/"
+  },
+  {
+    "city_name": "Salinas",
+    "state_name": "California",
+    "coordinates": "36°40′40″N 121°39′20″W",
+    "counties": ["Monterey"],
+    "settled_founded": null,
+    "incorporated": "1874",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Kimbley Craig",
+      "city_council": [
+          "Carla Viviana González",
+          "Tony Barrera",
+          "Steve McShane",
+          "Orlando Osornio",
+          "Andrew Sandoval",
+          "Anthony Rocha"
+      ]
+    },
+    "area": {
+      "city": "23.45 sq mi",
+      "land": "23.42 sq mi",
+      "water": "0.03 sq mi"
+    },
+    "elevation": "52 ft",
+    "population": {
+      "city": "163542",
+      "density": "7000/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["93901–93903", "93905–93908", "93912", "93915"],
+    "area_codes": [831],
+    "FIPS code": "06-64224",
+    "GNIS feature IDs": ["277589", "2411768"],
+    "url": "https://www.cityofsalinas.org/"
   }
 ]
