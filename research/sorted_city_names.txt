@@ -273,21 +273,21 @@ x Savannah Georgia
 x Scottsdale Arizona
 x Seattle Washington
 x Shreveport Louisiana
-Simi Valley
-Sioux Falls
-South Bend
-South Fulton
-Sparks Nevada
-Spokane Valley
-Spokane Washington
-Springfield Illinois
-Springfield Massachusetts
-Springfield Missouri
-Stamford Connecticut
-Sterling Heights
-St. Louis[m]
-Stockton California
-St. Petersburg
+x Simi Valley California
+x Sioux Falls South Dakota
+x South Bend Indiana
+x South Fulton Georgia
+x Sparks Nevada
+x Spokane Valley Washington
+x Spokane Washington
+x Springfield Illinois
+x Springfield Massachusetts
+x Springfield Missouri
+x Stamford Connecticut
+x Sterling Heights Michigan
+x St. Louis Missouri
+x Stockton California
+x St. Petersburg Florida
 Sugar Land
 Sunnyvale California
 Surprise Arizona

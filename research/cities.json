@@ -11793,13 +11793,13 @@
       "type": "Mayor-Council",
       "mayor": "Tom Arceneaux",
       "city_council": [
-          "Tabatha Taylor",
-          "Gary Brooks",
-          "Jim Taliaferro",
-          "Grayson Boucher",
-          "Dr. Alan Jackson, Jr.",
-          "James Green",
-          "Ursula Bowman"
+        "Tabatha Taylor",
+        "Gary Brooks",
+        "Jim Taliaferro",
+        "Grayson Boucher",
+        "Dr. Alan Jackson, Jr.",
+        "James Green",
+        "Ursula Bowman"
       ]
     },
     "area": {
@@ -11819,5 +11819,691 @@
     "FIPS code": "22-70000",
     "GNIS feature IDs": ["2405463"],
     "url": "https://www.shreveportla.gov"
+  },
+  {
+    "city_name": "Simi Valley",
+    "state_name": "California",
+    "coordinates": "34°16′16″N 118°44′22″W",
+    "counties": ["Ventura"],
+    "settled_founded": null,
+    "incorporated": "1969",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Fred D. Thomas",
+      "city_council": [
+        "Mike Judge",
+        "Dee Dee Cavanaugh",
+        "Elaine P. Litster",
+        "Rocky Rhodes"
+      ]
+    },
+    "area": {
+      "city": "42.25 sq mi",
+      "land": "41.54 sq mi",
+      "water": "0.71 sq mi"
+    },
+    "elevation": "768 ft",
+    "population": {
+      "city": "126356",
+      "density": "3000/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "93062",
+      "93063",
+      "93064",
+      "93065",
+      "93093",
+      "93094",
+      "93099"
+    ],
+    "area_codes": [805, 820],
+    "FIPS code": "06-72016",
+    "GNIS feature IDs": ["1661450", "2411904"],
+    "url": "https://www.simivalley.org/"
+  },
+  {
+    "city_name": "Sioux Falls",
+    "state_name": "South Dakota",
+    "coordinates": "43°32′11″N 96°43′54″W",
+    "counties": ["Minnehaha", "Lincoln"],
+    "settled_founded": null,
+    "incorporated": "1876",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Paul TenHaken",
+      "city_council": [
+        "David Barranco",
+        "Sarah Cole",
+        "Alex Jensen",
+        "Rich Merkouris",
+        "Greg Neitzert",
+        "Marshall Selberg",
+        "Curt Soehl",
+        "Pat Starr"
+      ]
+    },
+    "area": {
+      "city": "81.19 sq mi",
+      "land": "80.64 sq mi",
+      "water": "0.54 sq mi"
+    },
+    "elevation": "1470 ft",
+    "population": {
+      "city": "192517",
+      "density": "2387.25/sq mi",
+      "metro": "281958"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "57101",
+      "57103-57110",
+      "57117",
+      "57118",
+      "57186",
+      "57193",
+      "57197",
+      "57198"
+    ],
+    "area_codes": [605],
+    "FIPS code": "46-59020",
+    "GNIS feature IDs": ["1267670"],
+    "url": "https://www.siouxfalls.org/"
+  },
+  {
+    "city_name": "South Bend",
+    "state_name": "Indiana",
+    "coordinates": "41°40′35″N 86°15′01″W",
+    "counties": ["St. Joseph"],
+    "settled_founded": null,
+    "incorporated": "1865",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "James Mueller",
+      "city_council": [
+        "Canneth Lee",
+        "Henry Davis, Jr.",
+        "Sharon McBride",
+        "Troy Warner",
+        "Eli Wax",
+        "Sheila Niezgodski",
+        "Karen White",
+        "Lori K. Hamann",
+        "Rachel Tomas Morgan"
+      ]
+    },
+    "area": {
+      "city": "42.40 sq mi",
+      "land": "41.98 sq mi",
+      "water": "0.43 sq mi"
+    },
+    "elevation": "692 ft",
+    "population": {
+      "city": "103453",
+      "density": "2464.57/sq mi",
+      "metro": "324501"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "46601",
+      "46604",
+      "46612–46617",
+      "46619–46620",
+      "46624",
+      "46626",
+      "46628–46629",
+      "46634–46635",
+      "46637",
+      "46660",
+      "46680",
+      "46699"
+    ],
+    "area_codes": [574],
+    "FIPS code": "1871000",
+    "GNIS feature IDs": ["452796"],
+    "url": "https://www.southbendin.gov/"
+  },
+  {
+    "city_name": "South Fulton",
+    "state_name": "Georgia",
+    "coordinates": "33.5925899°N 84.6729381°W",
+    "counties": ["Fulton"],
+    "settled_founded": null,
+    "incorporated": "2016",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Khalid Kamau",
+      "city_council": [
+        "Catherine Foster-Rowell",
+        "Camalitha Gumbs",
+        "Helen Z. Willis",
+        "Jaceey Sebastian",
+        "Corey A. Reeves",
+        "Natasha Williams-Brown",
+        "Linda Pritchett"
+      ]
+    },
+    "area": {
+      "city": "86.25 sq mi",
+      "land": "85.22 sq mi",
+      "water": "1.04 sq mi"
+    },
+    "elevation": "1047 ft",
+    "population": {
+      "city": "107436",
+      "density": "1260.75/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["30213", "30331", "30336", "30349"],
+    "area_codes": [404],
+    "FIPS code": "13-72122",
+    "GNIS feature IDs": ["2786574"],
+    "url": "https://www.cityofsouthfultonga.gov/"
+  },
+  {
+    "city_name": "Sparks",
+    "state_name": "Nevada",
+    "coordinates": "39°33′16″N 119°44′8″W",
+    "counties": ["Washoe"],
+    "settled_founded": "1904",
+    "incorporated": "1905",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Ed Lawson",
+      "city_council": [
+        "Donald Abbott",
+        "Dian VanderWell",
+        "Paul Anderson",
+        "Charlene Bybee",
+        "Kristopher Dahir"
+      ]
+    },
+    "area": {
+      "city": "36.60 sq mi",
+      "land": "36.49 sq mi",
+      "water": "0.11 sq mi"
+    },
+    "elevation": "4413 ft",
+    "population": {
+      "city": "108445",
+      "density": "2971.83/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["89431", "89434", "89437"],
+    "area_codes": [775],
+    "FIPS code": "32-68400",
+    "GNIS feature IDs": ["0856391"],
+    "url": "https://www.cityofsparks.us/"
+  },
+  {
+    "city_name": "Spokane Valley",
+    "state_name": "Washington",
+    "coordinates": "47°40′24″N 117°14′22″W",
+    "counties": ["Spokane"],
+    "settled_founded": "1849",
+    "incorporated": "2003",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Pam Haley",
+      "city_council": [
+        "Rod Higgins",
+        "Brandi Peetz",
+        "Arne Woodard",
+        "Ben Wick",
+        "Tim Hattenburg",
+        "Laura Padden"
+      ]
+    },
+    "area": {
+      "city": "38.01 sq mi",
+      "land": "37.72 sq mi",
+      "water": "0.29 sq mi"
+    },
+    "elevation": "2002 ft",
+    "population": {
+      "city": "102976",
+      "density": "2679.22/sq mi",
+      "metro": "593466"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["99206", "99216", "99212", "99016", "99027", "99037"],
+    "area_codes": [509],
+    "FIPS code": "53-67167",
+    "GNIS feature IDs": ["1967430"],
+    "url": "https://www.spokanevalley.org/"
+  },
+  {
+    "city_name": "Spokane",
+    "state_name": "Washington",
+    "coordinates": "47°39′32″N 117°25′30″W",
+    "counties": ["Spokane"],
+    "settled_founded": "1873",
+    "incorporated": "1881",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Nadine Woodward",
+      "city_council": [
+        "Breean Beggs",
+        "Jonathan Bingle",
+        "Michael Cathcart",
+        "Betsy Wilkerson",
+        "Lori Kinnear",
+        "Zack Zappone",
+        "Karen Stratton"
+      ]
+    },
+    "area": {
+      "city": "69.50 sq mi",
+      "land": "68.76 sq mi",
+      "water": "0.74 sq mi"
+    },
+    "elevation": "1843 ft",
+    "population": {
+      "city": "229989",
+      "density": "3300/sq mi",
+      "metro": "593466"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "99201-99220",
+      "99223",
+      "99224",
+      "99228",
+      "99251",
+      "99252",
+      "99256",
+      "99258",
+      "99260"
+    ],
+    "area_codes": [509],
+    "FIPS code": "53-67000",
+    "GNIS feature IDs": ["1512683"],
+    "url": "https://my.spokanecity.org/"
+  },
+  {
+    "city_name": "Springfield",
+    "state_name": "Illinois",
+    "coordinates": "39°47′58″N 89°39′18″W",
+    "counties": ["Sangamon"],
+    "settled_founded": "1821",
+    "incorporated": "1832",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Jim Langfelder",
+      "city_council": [
+        "Chuck Redpath",
+        "Shawn Gregory",
+        "Roy Williams, Jr.",
+        "John Fulgenzi",
+        "Lakeisha Purchase",
+        "Kristin DiCenso",
+        "Joe McMenamin",
+        "Erin Conley",
+        "Jim Donelan",
+        "Ralph Hanauer"
+      ]
+    },
+    "area": {
+      "city": "67.49 sq mi",
+      "land": "61.16 sq mi",
+      "water": "6.33 sq mi"
+    },
+    "elevation": "584 ft",
+    "population": {
+      "city": "114394",
+      "density": "1870.37/sq mi",
+      "metro": "211752"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "62701-62708",
+      "62711",
+      "62712",
+      "62715",
+      "62716",
+      "62719",
+      "62722",
+      "62723",
+      "62726",
+      "62736",
+      "62739",
+      "62756",
+      "62757",
+      "62761-62767",
+      "62769",
+      "62776",
+      "62777",
+      "62781",
+      "62786",
+      "62791",
+      "62794",
+      "62796"
+    ],
+    "area_codes": [217, 447],
+    "FIPS code": "17-167-11046",
+    "GNIS feature IDs": ["426595"],
+    "url": "https://www.springfield.il.us/"
+  },
+  {
+    "city_name": "Springfield",
+    "state_name": "Massachusetts",
+    "coordinates": "42°06′05″N 72°35′25″W",
+    "counties": ["Hampden"],
+    "settled_founded": "1636",
+    "incorporated": "1852",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Domenic Sarno",
+      "city_council": [
+        "Maria Perez",
+        "Michael A. Fenton",
+        "Melvin A. Edwards",
+        "Malo L. Brown",
+        "Lavar Click-Bruce",
+        "Victor G. Davila",
+        "Tim Allen",
+        "Zaida Govan"
+      ]
+    },
+    "area": {
+      "city": "33.08 sq mi",
+      "land": "31.87 sq mi",
+      "water": "1.21 sq mi"
+    },
+    "elevation": "70 ft",
+    "population": {
+      "city": "155929",
+      "density": "4892.66/sq mi",
+      "metro": "699162"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "01101",
+      "01103–01105",
+      "01107–01109",
+      "01118–01119",
+      "01128–01129",
+      "01151"
+    ],
+    "area_codes": [413],
+    "FIPS code": "25-67000",
+    "GNIS feature IDs": ["0609092"],
+    "url": "https://www.springfield-ma.gov/cos/"
+  },
+  {
+    "city_name": "Springfield",
+    "state_name": "Missouri",
+    "coordinates": "37°12′55″N 93°17′54″W",
+    "counties": ["Greene", "Christian"],
+    "settled_founded": "1834",
+    "incorporated": "1838",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Ken McClure",
+      "city_council": [
+        "Heather Hardinger",
+        "Craig Hosmer",
+        "Andrew Lear",
+        "Richard Ollis",
+        "Monica Horton",
+        "Abe McGull",
+        "Mike Schilling",
+        "Matthew Simpson"
+      ]
+    },
+    "area": {
+      "city": "83.70 sq mi",
+      "land": "83.11 sq mi",
+      "water": "0.59 sq mi"
+    },
+    "elevation": "1299 ft",
+    "population": {
+      "city": "169176",
+      "density": "2035.49/sq mi",
+      "metro": "475432"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["65800-65899"],
+    "area_codes": [417],
+    "FIPS code": "29-70000",
+    "GNIS feature IDs": ["0735864"],
+    "url": "https://www.springfieldmo.gov/"
+  },
+  {
+    "city_name": "Stamford",
+    "state_name": "Connecticut",
+    "coordinates": "41°03′10″N 73°32′20″W",
+    "counties": ["Fairfield"],
+    "settled_founded": "1641",
+    "incorporated": "1893",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Carline Simmons",
+      "city_council": null
+    },
+    "area": {
+      "city": "52.03 sq mi",
+      "land": "37.62 sq mi",
+      "water": "14.41 sq mi"
+    },
+    "elevation": "23 ft",
+    "population": {
+      "city": "135470",
+      "density": "3601/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["069xx"],
+    "area_codes": [203, 475],
+    "FIPS code": "09-73000",
+    "GNIS feature IDs": ["0211129"],
+    "url": "https://www.stamfordct.gov/"
+  },
+  {
+    "city_name": "Sterling Heights",
+    "state_name": "Michigan",
+    "coordinates": "42°34′47″N 83°01′41″W",
+    "counties": ["Macomb"],
+    "settled_founded": null,
+    "incorporated": "1968",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Michael C. Taylor",
+      "city_council": [
+        "Liz Sierawski",
+        "Deanna Koski",
+        "Michael V. Radtke, Jr.",
+        "Maria G. Schmidt",
+        "Henry Yanez",
+        "Barbara A. Ziarko"
+      ]
+    },
+    "area": {
+      "city": "36.72 sq mi",
+      "land": "36.45 sq mi",
+      "water": "0.27 sq mi"
+    },
+    "elevation": "614 ft",
+    "population": {
+      "city": "134346",
+      "density": "3686.06/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["48310", "48311", "48312", "48313", "48314"],
+    "area_codes": [586],
+    "FIPS code": "26-76460",
+    "GNIS feature IDs": ["0638798"],
+    "url": "https://www.sterling-heights.net/"
+  },
+  {
+    "city_name": "St. Louis",
+    "state_name": "Missouri",
+    "coordinates": "38°37′38″N 90°11′52″W",
+    "counties": null,
+    "settled_founded": "1764",
+    "incorporated": "1822",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Tishaura Jones",
+      "city_council": [
+        "Megan E. Green",
+        "Sharon Tyus",
+        "Lisa Middlebrook",
+        "Brandon Bosley",
+        "Dwinderlin Evans",
+        "James Page",
+        "Jack Coatar",
+        "Annie Rice",
+        "Dan Guenther",
+        "Joseph Vollmer",
+        "James Lappe",
+        "Bill Stephens",
+        "Anne Schweitzer",
+        "Carol Howard",
+        "Tom Oldenburg",
+        "Tiny Pihl",
+        "Jesse Todd",
+        "Marlene Davis",
+        "Cara Spencer",
+        "Joseph Vaccaro",
+        "Bret Narayan",
+        "Shane Cohn",
+        "Shameem Clark Hubbard",
+        "Pam Boyd",
+        "Michael Gras"
+      ]
+    },
+    "area": {
+      "city": "66.17 sq mi",
+      "land": "61.72 sq mi",
+      "water": "4.45 sq mi"
+    },
+    "elevation": "466 ft",
+    "population": {
+      "city": "301578",
+      "density": "4886.23/sq mi",
+      "metro": "2809299"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "63101-63141",
+      "63143-63147",
+      "63150",
+      "63151",
+      "63155-63158",
+      "63160",
+      "63163",
+      "63164",
+      "63166",
+      "63167",
+      "63169",
+      "63171",
+      "63177-63179",
+      "63180",
+      "63188",
+      "63195",
+      "63197",
+      "63199"
+    ],
+    "area_codes": [314, 557],
+    "FIPS code": "29-65000",
+    "GNIS feature IDs": ["755891"],
+    "url": "https://www.stlouis-mo.gov/"
+  },
+  {
+    "city_name": "Stockton",
+    "state_name": "California",
+    "coordinates": "37°58′32″N 121°18′03″W",
+    "counties": ["San Joaquin"],
+    "settled_founded": null,
+    "incorporated": "1850",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Kevin J. Lincoln II",
+      "city_council": [
+        "Michele Padilla",
+        "Dan Wright",
+        "Michael Blower",
+        "Susan Lenz",
+        "Brando Villapudua",
+        "Kimberly Warmsley"
+      ]
+    },
+    "area": {
+      "city": "65.25 sq mi",
+      "land": "62.17 sq mi",
+      "water": "3.08 sq mi"
+    },
+    "elevation": "13 ft",
+    "population": {
+      "city": "320804",
+      "density": "4486.7/sq mi",
+      "metro": "779233"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "95201–95213",
+      "95215",
+      "95219",
+      "95267",
+      "95269",
+      "95296–95297"
+    ],
+    "area_codes": [209],
+    "FIPS code": "06-75000",
+    "GNIS feature IDs": ["1659872", "2411987"],
+    "url": "http://ww1.stocktonca.gov/"
+  },
+  {
+    "city_name": "St. Petersburg",
+    "state_name": "Florida",
+    "coordinates": "27°46′23″N 82°38′24″W",
+    "counties": ["Pinellas"],
+    "settled_founded": "1888",
+    "incorporated": "1892",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Ken Welch",
+      "city_council": [
+          "Copley Gerdes",
+          "Brandi Gabbard",
+          "Ed Montanari",
+          "Lisset Hanewicz",
+          "Deborah Figgs-Sanders",
+          "Gina Driscoll",
+          "John Muhammad",
+          "Richie Floyd"
+      ]
+    },
+    "area": {
+      "city": "135.49 sq mi",
+      "land": "61.87 sq mi",
+      "water": "73.63 sq mi"
+    },
+    "elevation": "44 ft",
+    "population": {
+      "city": "258308",
+      "density": "4175.08/sq mi",
+      "metro": "2870569"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "33701",
+      "33702",
+      "33703",
+      "33704",
+      "33705",
+      "33710",
+      "33712-33713",
+      "33715"
+    ],
+    "area_codes": [727],
+    "FIPS code": "12-63000",
+    "GNIS feature IDs": ["290375"],
+    "url": "https://www.stpete.org/"
   }
 ]
