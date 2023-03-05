@@ -11012,12 +11012,12 @@
       "type": "Council-Manager",
       "mayor": "Kimbley Craig",
       "city_council": [
-          "Carla Viviana González",
-          "Tony Barrera",
-          "Steve McShane",
-          "Orlando Osornio",
-          "Andrew Sandoval",
-          "Anthony Rocha"
+        "Carla Viviana González",
+        "Tony Barrera",
+        "Steve McShane",
+        "Orlando Osornio",
+        "Andrew Sandoval",
+        "Anthony Rocha"
       ]
     },
     "area": {
@@ -11037,5 +11037,309 @@
     "FIPS code": "06-64224",
     "GNIS feature IDs": ["277589", "2411768"],
     "url": "https://www.cityofsalinas.org/"
+  },
+  {
+    "city_name": "Salt Lake City",
+    "state_name": "Utah",
+    "coordinates": "40°45′39″N 111°53′28″W",
+    "counties": ["Salt Lake"],
+    "settled_founded": "1847",
+    "incorporated": null,
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Erin Mendenhall",
+      "city_council": [
+        "Victoria Petro",
+        "Alejandro Puy",
+        "Chris Wharton",
+        "Ana Valdemoros",
+        "Darin Mano",
+        "Dan Dugan",
+        "Amy Fowler"
+      ]
+    },
+    "area": {
+      "city": "110.81 sq mi",
+      "land": "110.34 sq mi",
+      "water": "0.47 sq mi"
+    },
+    "elevation": "4327 ft",
+    "population": {
+      "city": "200133",
+      "density": "1797.52/sq mi",
+      "metro": "1257936"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": [
+      "84101-84118",
+      "84121-84127",
+      "84129-84134",
+      "84136",
+      "84138",
+      "84139",
+      "84141",
+      "84143",
+      "84145",
+      "84147",
+      "84148",
+      "84150-84152",
+      "84157",
+      "84158",
+      "84165",
+      "84170",
+      "84171",
+      "84180",
+      "84184",
+      "84189",
+      "84190",
+      "84199"
+    ],
+    "area_codes": [801, 385],
+    "FIPS code": "49-67000",
+    "GNIS feature IDs": ["1454997"],
+    "url": "https://www.slc.gov/"
+  },
+  {
+    "city_name": "San Antonio",
+    "state_name": "Texas",
+    "coordinates": "29°25′30″N 98°29′38″W",
+    "counties": ["Bexar", "Comal", "Medina"],
+    "settled_founded": "1718",
+    "incorporated": "1837",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Ron Nirenberg",
+      "city_council": [
+        "Mario Bravo",
+        "Jalen McKee-Rodriguez",
+        "Phyllis Viagran",
+        "Dr. Adriana Rocha Garcia",
+        "Teri Castillo",
+        "Melissa Cabello Havrda",
+        "Manny Pelaez",
+        "John Courage",
+        "Clayton Perry"
+      ]
+    },
+    "area": {
+      "city": "504.64 sq mi",
+      "land": "498.85 sq mi",
+      "water": "5.79 sq mi"
+    },
+    "elevation": "650 ft",
+    "population": {
+      "city": "1434625",
+      "density": "2875.86/sq mi",
+      "metro": "2601788"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "78201-66",
+      "78268-70",
+      "78275",
+      "78278-80",
+      "78283-85",
+      "78288-89",
+      "78291-78299"
+    ],
+    "area_codes": [210, 830, 726],
+    "FIPS code": "48-65000",
+    "GNIS feature IDs": ["2411774"],
+    "url": "https://www.sanantonio.gov/"
+  },
+  {
+    "city_name": "San Bernardino",
+    "state_name": "California",
+    "coordinates": "34°6′N 117°18′W",
+    "counties": ["San Bernardino"],
+    "settled_founded": null,
+    "incorporated": "1869",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Helen Tran",
+      "city_council": [
+        "Theodore Sanchez",
+        "Sandra Ibarra",
+        "Juan Figueroa",
+        "Fred Shorett",
+        "Ben Reynoso",
+        "Kimberly Calvin",
+        "Damon L. Alexander"
+      ]
+    },
+    "area": {
+      "city": "62.45 sq mi",
+      "land": "62.12 sq mi",
+      "water": "0.34 sq mi"
+    },
+    "elevation": "1053 ft",
+    "population": {
+      "city": "222101",
+      "density": "3473.94/sq mi",
+      "metro": "4224851"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "92401–92408",
+      "92410–92415",
+      "92418",
+      "92420",
+      "92423",
+      "92424",
+      "92427"
+    ],
+    "area_codes": [909, 840, 760],
+    "FIPS code": "06-65000",
+    "GNIS feature IDs": ["1661375", "2411777"],
+    "url": "https://www.sbcity.org/"
+  },
+  {
+    "city_name": "San Diego",
+    "state_name": "California",
+    "coordinates": "32°42′54″N 117°09′45″W",
+    "counties": ["San Diego"],
+    "settled_founded": "1769",
+    "incorporated": "1850",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Todd Gloria",
+      "city_council": [
+        "Joe LaCava",
+        "Jennifer Campbell",
+        "Stephen Whitburn",
+        "Monica Montgomery Steppe",
+        "Marin von Wilpert",
+        "Kent Lee",
+        "Raul Campillo",
+        "Vivian Moreno",
+        "Sean Elo-Rivera"
+      ]
+    },
+    "area": {
+      "city": "372.42 sq mi",
+      "land": "325.88 sq mi",
+      "water": "46.54 sq mi"
+    },
+    "elevation": "62 ft",
+    "population": {
+      "city": "1386932",
+      "density": "4255.96/sq mi",
+      "metro": "3298634"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "92101–92124",
+      "92126–92132",
+      "92134–92140",
+      "92142",
+      "92143",
+      "92145",
+      "92147",
+      "92149–92155",
+      "92158–92161",
+      "92163",
+      "92165–92179",
+      "92182",
+      "92186",
+      "92187",
+      "92190–92199"
+    ],
+    "area_codes": [619, 858],
+    "FIPS code": "06-66000",
+    "GNIS feature IDs": ["1661377", "2411782"],
+    "url": "https://www.sandiego.gov/"
+  },
+  {
+    "city_name": "Sandy Springs",
+    "state_name": "Georgia",
+    "coordinates": "33°56′15″N 84°22′7″W",
+    "counties": ["Fulton"],
+    "settled_founded": null,
+    "incorporated": "2005",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Rusty Paul",
+      "city_council": [
+          "John Paulson",
+          "Melody Kelley",
+          "Melissa Mular",
+          "Jody Reichel",
+          "Tibby DeJulio",
+          "Andy Bauman"
+      ]
+    },
+    "area": {
+      "city": "38.52 sq mi",
+      "land": "37.66 sq mi",
+      "water": "0.86 sq mi"
+    },
+    "elevation": "1093 ft",
+    "population": {
+      "city": "108080",
+      "density": "2870.04/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "30319",
+      "30327",
+      "30328",
+      "30338",
+      "30342",
+      "30350",
+      "30358",
+      "30092"
+    ],
+    "area_codes": [404, 678, 770, 470],
+    "FIPS code": "13-68516",
+    "GNIS feature IDs": ["0332975"],
+    "url": "https://www.sandyspringsga.gov/"
+  },
+  {
+    "city_name": "Sandy Springs",
+    "state_name": "Georgia",
+    "coordinates": "33°56′15″N 84°22′7″W",
+    "counties": ["Fulton"],
+    "settled_founded": null,
+    "incorporated": "2005",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Rusty Paul",
+      "city_council": [
+          "John Paulson",
+          "Melody Kelley",
+          "Melissa Mular",
+          "Jody Reichel",
+          "Tibby DeJulio",
+          "Andy Bauman"
+      ]
+    },
+    "area": {
+      "city": "38.52 sq mi",
+      "land": "37.66 sq mi",
+      "water": "0.86 sq mi"
+    },
+    "elevation": "1093 ft",
+    "population": {
+      "city": "108080",
+      "density": "2870.04/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "30319",
+      "30327",
+      "30328",
+      "30338",
+      "30342",
+      "30350",
+      "30358",
+      "30092"
+    ],
+    "area_codes": [404, 678, 770, 470],
+    "FIPS code": "13-68516",
+    "GNIS feature IDs": ["0332975"],
+    "url": "https://www.sandyspringsga.gov/"
   }
+
 ]

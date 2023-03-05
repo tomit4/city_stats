@@ -256,12 +256,12 @@ x Sacramento California
 x Saint Paul Minnesota
 x Salem Oregon
 x Salinas California
-Salt Lake
-San Antonio
-San Bernardino
-San Diego
-Sandy Springs
-San Francisco[h]
+x Salt Lake City Utah
+x San Antonio Texas
+x San Bernardino California
+x San Diego California
+x Sandy Springs Georgia
+San Francisco California
 San Jose
 San Mateo
 Santa Ana
