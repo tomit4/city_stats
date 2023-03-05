@@ -261,18 +261,18 @@ x San Antonio Texas
 x San Bernardino California
 x San Diego California
 x Sandy Springs Georgia
-San Francisco California
-San Jose
-San Mateo
-Santa Ana
-Santa Clara
-Santa Clarita
-Santa Maria
-Santa Rosa
-Savannah Georgia
-Scottsdale Arizona
-Seattle Washington
-Shreveport Louisiana
+x San Francisco California
+x San Jose California
+x San Mateo California
+x Santa Ana California
+x Santa Clara California
+x Santa Clarita California
+x Santa Maria California
+x Santa Rosa California
+x Savannah Georgia
+x Scottsdale Arizona
+x Seattle Washington
+x Shreveport Louisiana
 Simi Valley
 Sioux Falls
 South Bend

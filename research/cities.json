@@ -11260,12 +11260,12 @@
       "type": "Council-Manager",
       "mayor": "Rusty Paul",
       "city_council": [
-          "John Paulson",
-          "Melody Kelley",
-          "Melissa Mular",
-          "Jody Reichel",
-          "Tibby DeJulio",
-          "Andy Bauman"
+        "John Paulson",
+        "Melody Kelley",
+        "Melissa Mular",
+        "Jody Reichel",
+        "Tibby DeJulio",
+        "Andy Bauman"
       ]
     },
     "area": {
@@ -11296,50 +11296,528 @@
     "url": "https://www.sandyspringsga.gov/"
   },
   {
-    "city_name": "Sandy Springs",
-    "state_name": "Georgia",
-    "coordinates": "33°56′15″N 84°22′7″W",
-    "counties": ["Fulton"],
+    "city_name": "San Francisco",
+    "state_name": "California",
+    "coordinates": "37°46′39″N 122°24′59″W",
+    "counties": ["San Francisco"],
     "settled_founded": null,
-    "incorporated": "2005",
+    "incorporated": "1850",
     "government": {
-      "type": "Council-Manager",
-      "mayor": "Rusty Paul",
+      "type": "Strong-Mayor",
+      "mayor": "London Breed",
       "city_council": [
-          "John Paulson",
-          "Melody Kelley",
-          "Melissa Mular",
-          "Jody Reichel",
-          "Tibby DeJulio",
-          "Andy Bauman"
+        "Connie Chan",
+        "Catherine Stefani",
+        "Aaron Peskin",
+        "Joel Engardio",
+        "Dean Preston",
+        "Matt Dorsey",
+        "Myrna Melgar",
+        "Rafael Mandelman",
+        "Hillary Ronen",
+        "Shamann Walton",
+        "Ahsha Safai"
       ]
     },
     "area": {
-      "city": "38.52 sq mi",
-      "land": "37.66 sq mi",
-      "water": "0.86 sq mi"
+      "city": "231.89 sq mi",
+      "land": "46.9 sq mi",
+      "water": "184.99 sq mi"
     },
-    "elevation": "1093 ft",
+    "elevation": "52 ft",
     "population": {
-      "city": "108080",
-      "density": "2870.04/sq mi",
+      "city": "815201",
+      "density": "18634.65/sq mi",
+      "metro": "4623264"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "94102–94105",
+      "94107–94112",
+      "94114–94134",
+      "94137",
+      "94139–94147",
+      "94151",
+      "94158–94161",
+      "94163–94164",
+      "94172",
+      "94177",
+      "94188"
+    ],
+    "area_codes": [415, 628],
+    "FIPS code": "06-67000",
+    "GNIS feature IDs": ["277593", "2411786"],
+    "url": "https://sf.gov/"
+  },
+  {
+    "city_name": "San Jose",
+    "state_name": "California",
+    "coordinates": "37°20′10″N 121°53′26″W",
+    "counties": ["Santa Clara"],
+    "settled_founded": "1777",
+    "incorporated": "1850",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Matt Mahan",
+      "city_council": [
+        "Rosemary Kamei",
+        "Sergio Jimenez",
+        "Omar Torres",
+        "David Cohen",
+        "Peter Ortiz",
+        "Devora Davis",
+        "Bien Doan",
+        "Domingo Candelas",
+        "Pam Foley",
+        "Arjun Batra"
+      ]
+    },
+    "area": {
+      "city": "181.36 sq mi",
+      "land": "178.24 sq mi",
+      "water": "3.12 sq mi"
+    },
+    "elevation": "82 ft",
+    "population": {
+      "city": "1013240",
+      "density": "5684.69/sq mi",
+      "metro": "2000468"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "95002",
+      "95008",
+      "95101",
+      "95103",
+      "95106",
+      "95108–95113",
+      "95115–95141",
+      "95148",
+      "95150–95161",
+      "95164",
+      "95170",
+      "95172",
+      "95173",
+      "95190–95194",
+      "95196"
+    ],
+    "area_codes": [408, 669],
+    "FIPS code": "06-68000",
+    "GNIS feature IDs": ["1654952", "2411790"],
+    "url": "https://www.sanjoseca.gov/"
+  },
+  {
+    "city_name": "San Mateo",
+    "state_name": "California",
+    "coordinates": "37°33′15″N 122°18′47″W",
+    "counties": ["San Mateo"],
+    "settled_founded": null,
+    "incorporated": "1894",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Amourence Lee",
+      "city_council": [
+        "Lisa Diaz Nash",
+        "Adam Loraine",
+        "Rob Newsom, Jr.",
+        "Rich Hedges"
+      ]
+    },
+    "area": {
+      "city": "15.85 sq mi",
+      "land": "12.13 sq mi",
+      "water": "3.71 sq mi"
+    },
+    "elevation": "46 ft",
+    "population": {
+      "city": "105661",
+      "density": "8711/sq mi",
       "metro": null
     },
-    "time_zone": "UTC-5(EST)",
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["94401–94404", "94497"],
+    "area_codes": [650],
+    "FIPS code": "06-68252",
+    "GNIS feature IDs": ["1659584", "2411800"],
+    "url": "https://www.cityofsanmateo.org/"
+  },
+  {
+    "city_name": "Santa Ana",
+    "state_name": "California",
+    "coordinates": "33°44′27″N 117°52′53″W",
+    "counties": ["Orange"],
+    "settled_founded": "1869",
+    "incorporated": "1886",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Valerie Amezcua",
+      "city_council": [
+        "Phil Bacerra",
+        "Thai Viet Phan",
+        "David Penaloza",
+        "Jessie Lopez",
+        "Johnathan Ryan Hernandez",
+        "Benjamin Vazquez"
+      ]
+    },
+    "area": {
+      "city": "27.37 sq mi",
+      "land": "27.34 sq mi",
+      "water": "0.03 sq mi"
+    },
+    "elevation": "115 ft",
+    "population": {
+      "city": "310227",
+      "density": "11000/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92701–92708", "92711", "92712", "92728", "92735", "92799"],
+    "area_codes": [657, 714, 949],
+    "FIPS code": "06-69000",
+    "GNIS feature IDs": ["1652790", "2411814"],
+    "url": "https://www.santa-ana.org/"
+  },
+  {
+    "city_name": "Santa Clara",
+    "state_name": "California",
+    "coordinates": "37°21′16″N 121°58′9″W",
+    "counties": ["Santa Clara"],
+    "settled_founded": null,
+    "incorporated": "1852",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Lisa Gillmor",
+      "city_council": [
+        "Kathy Watanabe",
+        "Raj Chah",
+        "Karen Hardy",
+        "Kevin Park",
+        "Sudhanshu Jain",
+        "Anthony J. Becker"
+      ]
+    },
+    "area": {
+      "city": "18.28 sq mi",
+      "land": "18.28 sq mi",
+      "water": "0.00 sq mi"
+    },
+    "elevation": "72 ft",
+    "population": {
+      "city": "127647",
+      "density": "6982/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["95050", "95051", "95054"],
+    "area_codes": [408, 669],
+    "FIPS code": "06-69084",
+    "GNIS feature IDs": ["1654953", "2411816"],
+    "url": "https://www.santaclaraca.gov/"
+  },
+  {
+    "city_name": "Santa Clarita",
+    "state_name": "California",
+    "coordinates": "34.42°N 118.52°W",
+    "counties": ["Los Angeles"],
+    "settled_founded": null,
+    "incorporated": "1987",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Jason Gibbs",
+      "city_council": [
+        "Cameron Smyth",
+        "Laurene Weste",
+        "Marsha McLean",
+        "Bill Miranda"
+      ]
+    },
+    "area": {
+      "city": "70.82 sq mi",
+      "land": "70.75 sq mi",
+      "water": "0.06 sq mi"
+    },
+    "elevation": "1207 ft",
+    "population": {
+      "city": "228673",
+      "density": "3232/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
     "zip_codes": [
-      "30319",
-      "30327",
-      "30328",
-      "30338",
-      "30342",
-      "30350",
-      "30358",
-      "30092"
+      "91321–91322",
+      "91350–91351",
+      "91354–91355",
+      "91380",
+      "91385–91387",
+      "91390"
     ],
-    "area_codes": [404, 678, 770, 470],
-    "FIPS code": "13-68516",
-    "GNIS feature IDs": ["0332975"],
-    "url": "https://www.sandyspringsga.gov/"
+    "area_codes": [661],
+    "FIPS code": "06-69088",
+    "GNIS feature IDs": ["1662338", "2411819"],
+    "url": "https://www.santa-clarita.com/"
+  },
+  {
+    "city_name": "Santa Maria",
+    "state_name": "California",
+    "coordinates": "34°57′5″N 120°26′0″W",
+    "counties": ["Santa Barbara"],
+    "settled_founded": "1874",
+    "incorporated": "1905",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Alice Patino",
+      "city_council": [
+        "Gloria Soto",
+        "Maribel Aguilera-Hernandez",
+        "Carlos Escobedo",
+        "Mike Cordero"
+      ]
+    },
+    "area": {
+      "city": "23.42 sq mi",
+      "land": "22.81 sq mi",
+      "water": "0.61 sq mi"
+    },
+    "elevation": "217 ft",
+    "population": {
+      "city": "109707",
+      "density": "109711/sq mi",
+      "metro": "448229"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["93454–93458"],
+    "area_codes": [805],
+    "FIPS code": "06-69196",
+    "GNIS feature IDs": ["1652791", "2411824"],
+    "url": "https://www.cityofsantamaria.org/"
+  },
+  {
+    "city_name": "Santa Rosa",
+    "state_name": "California",
+    "coordinates": "38°26′55″N 122°42′17″W",
+    "counties": ["Sonoma"],
+    "settled_founded": null,
+    "incorporated": "1868",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Natalie Rogers",
+      "city_council": [
+        "Eddie Alvarez",
+        "Mark Stapp",
+        "Dianna MacDonald",
+        "Victoria Fleming",
+        "Chris Rogers",
+        "Jeff Okrepkie"
+      ]
+    },
+    "area": {
+      "city": "42.70 sq mi",
+      "land": "42.52 sq mi",
+      "water": "0.17 sq mi"
+    },
+    "elevation": "164 ft",
+    "population": {
+      "city": "178127",
+      "density": "4200/sq mi",
+      "metro": "488863"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["95401–95407", "95409"],
+    "area_codes": [707],
+    "FIPS code": "06-70098",
+    "GNIS feature IDs": ["249105", "1659601"],
+    "url": "https://www.srcity.org/"
+  },
+  {
+    "city_name": "Savannah",
+    "state_name": "Georgia",
+    "coordinates": "32°04′52″N 81°05′28″W",
+    "counties": ["Chatham"],
+    "settled_founded": "1733",
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Van R. Johnson",
+      "city_council": [
+        "Kesha Gibson-Carter",
+        "Alicia Miller Blakely",
+        "Bernetta B. Lanier",
+        "Detric Leggett",
+        "Linda Wilder-Bryan",
+        "Nick Palumbo",
+        "Dr. Estrella Edwards Shabazz",
+        "Kurtis Purtee"
+      ]
+    },
+    "area": {
+      "city": "113.27 sq mi",
+      "land": "108.50 sq mi",
+      "water": "4.77 sq mi"
+    },
+    "elevation": "20 ft",
+    "population": {
+      "city": "147780",
+      "density": "1300/sq mi",
+      "metro": "404798"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["31401–31499"],
+    "area_codes": [912],
+    "FIPS code": "13-69000",
+    "GNIS feature IDs": ["0322590"],
+    "url": "https://www.savannahga.gov/"
+  },
+  {
+    "city_name": "Scottsdale",
+    "state_name": "Arizona",
+    "coordinates": "33°29′35″N 111°55′34″W",
+    "counties": ["Maricopa"],
+    "settled_founded": null,
+    "incorporated": "1951",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "David Ortega",
+      "city_council": [
+        "Tammy Caputi",
+        "Tom Durham",
+        "Barry Graham",
+        "Betty Janik",
+        "Kathy Littlefield",
+        "Solange Whitehead"
+      ]
+    },
+    "area": {
+      "city": "184.44 sq mi",
+      "land": "184.00 sq mi",
+      "water": "0.44 sq mi"
+    },
+    "elevation": "2165 ft",
+    "population": {
+      "city": "241361",
+      "density": "1311.72/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["85250-85271"],
+    "area_codes": [480],
+    "FIPS code": "04-65000",
+    "GNIS feature IDs": ["2411845"],
+    "url": "https://www.scottsdaleaz.gov/"
+  },
+  {
+    "city_name": "Seattle",
+    "state_name": "Washington",
+    "coordinates": "47°36′35″N 122°19′59″W",
+    "counties": ["King"],
+    "settled_founded": "1851",
+    "incorporated": "1869",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Bruce Harrell",
+      "city_council": [
+        "Debora Juarez",
+        "Lisa Herbold",
+        "Andrew J. Lewis",
+        "Tammy J. Morales",
+        "Teresa Mosqueda",
+        "Sara Nelson",
+        "Alex Pedersen",
+        "Kshama Sawant",
+        "Dan Strauss"
+      ]
+    },
+    "area": {
+      "city": "142.07 sq mi",
+      "land": "83.99 sq mi",
+      "water": "58.08 sq mi"
+    },
+    "elevation": "175 ft",
+    "population": {
+      "city": "737015",
+      "density": "8775.03/sq mi",
+      "metro": "4018762"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "98101-98109",
+      "98111-98119",
+      "98121",
+      "98122",
+      "98124-98127",
+      "98129",
+      "98131",
+      "98133",
+      "98134",
+      "98136",
+      "98138",
+      "98139",
+      "98141",
+      "98144-98146",
+      "98148",
+      "98154",
+      "98155",
+      "98158",
+      "98160",
+      "98161",
+      "98164-98166",
+      "98168",
+      "98170",
+      "98174",
+      "98175",
+      "98177",
+      "98178",
+      "98181",
+      "98185",
+      "98188",
+      "98190",
+      "98191",
+      "98194",
+      "98195",
+      "98198",
+      "98199"
+    ],
+    "area_codes": [206],
+    "FIPS code": "53-63000",
+    "GNIS feature IDs": ["1512650"],
+    "url": "https://www.seattle.gov/"
+  },
+  {
+    "city_name": "Shreveport",
+    "state_name": "Louisiana",
+    "coordinates": "32°30′53″N 93°44′50″W",
+    "counties": ["Caddo", "Bossier"],
+    "settled_founded": "1836",
+    "incorporated": "1839",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Tom Arceneaux",
+      "city_council": [
+          "Tabatha Taylor",
+          "Gary Brooks",
+          "Jim Taliaferro",
+          "Grayson Boucher",
+          "Dr. Alan Jackson, Jr.",
+          "James Green",
+          "Ursula Bowman"
+      ]
+    },
+    "area": {
+      "city": "123.84 sq mi",
+      "land": "108.14 sq mi",
+      "water": "15.69 sq mi"
+    },
+    "elevation": "253 ft",
+    "population": {
+      "city": "187593",
+      "density": "1734.64/sq mi",
+      "metro": "393406"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["71101-71109", "71115-71166"],
+    "area_codes": [318],
+    "FIPS code": "22-70000",
+    "GNIS feature IDs": ["2405463"],
+    "url": "https://www.shreveportla.gov"
   }
-
 ]
