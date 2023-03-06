@@ -288,23 +288,23 @@ x Sterling Heights Michigan
 x St. Louis Missouri
 x Stockton California
 x St. Petersburg Florida
-Sugar Land
-Sunnyvale California
-Surprise Arizona
-Syracuse New
-Tacoma Washington
-Tallahassee Florida
-Tampa Florida
-Temecula California
-Tempe Arizona
-Thornton Colorado
-Thousand Oaks
-Toledo Ohio
-Torrance California
-Tucson Arizona
-Tulsa Oklahoma
-Tuscaloosa Alabama
-Tyler Texas
+x Sugar Land Texas
+x Sunnyvale California
+x Surprise Arizona
+x Syracuse New York
+x Tacoma Washington
+x Tallahassee Florida
+x Tampa Florida
+x Temecula California
+x Tempe Arizona
+x Thornton Colorado
+x Thousand Oaks
+x Toledo Ohio
+x Torrance California
+x Tucson Arizona
+x Tulsa Oklahoma
+x Tuscaloosa Alabama
+x Tyler Texas
 Vacaville California
 Vallejo California
 Vancouver Washington

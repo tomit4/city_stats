@@ -12469,14 +12469,14 @@
       "type": "Strong-Mayor",
       "mayor": "Ken Welch",
       "city_council": [
-          "Copley Gerdes",
-          "Brandi Gabbard",
-          "Ed Montanari",
-          "Lisset Hanewicz",
-          "Deborah Figgs-Sanders",
-          "Gina Driscoll",
-          "John Muhammad",
-          "Richie Floyd"
+        "Copley Gerdes",
+        "Brandi Gabbard",
+        "Ed Montanari",
+        "Lisset Hanewicz",
+        "Deborah Figgs-Sanders",
+        "Gina Driscoll",
+        "John Muhammad",
+        "Richie Floyd"
       ]
     },
     "area": {
@@ -12505,5 +12505,716 @@
     "FIPS code": "12-63000",
     "GNIS feature IDs": ["290375"],
     "url": "https://www.stpete.org/"
+  },
+  {
+    "city_name": "Sugar Land",
+    "state_name": "Texas",
+    "coordinates": "29°35′58″N 95°36′51″W",
+    "counties": ["Fort Bend"],
+    "settled_founded": "1838",
+    "incorporated": "1959",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Joe R. Zimmerman",
+      "city_council": [
+        "William Ferguson",
+        "Jennifer J. Lane",
+        "Suzanne Whatley",
+        "Naushad Kermally",
+        "Stewart Jacobson",
+        "Carol K. McCutcheon"
+      ]
+    },
+    "area": {
+      "city": "42.90 sq mi",
+      "land": "40.47 sq mi",
+      "water": "2.44 sq mi"
+    },
+    "elevation": "100 ft",
+    "population": {
+      "city": "111026",
+      "density": "2927.94/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["77478-79", "77487", "77496", "77498"],
+    "area_codes": [281, 713, 832, 346],
+    "FIPS code": "48-00157",
+    "GNIS feature IDs": ["1348034"],
+    "url": "https://www.sugarlandtx.gov/"
+  },
+  {
+    "city_name": "Sunnyvale",
+    "state_name": "California",
+    "coordinates": "37°22′16″N 122°2′15″W",
+    "counties": ["Santa Clara"],
+    "settled_founded": null,
+    "incorporated": "1912",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Larry Klein",
+      "city_council": [
+        "Omar Din",
+        "Russ Melton",
+        "Alysa Cisneros",
+        "Richard Mehlinger",
+        "Murali Srinivasan",
+        "Linda Sell"
+      ]
+    },
+    "area": {
+      "city": "22.78 sq mi",
+      "land": "22.06 sq mi",
+      "water": "0.72 sq mi"
+    },
+    "elevation": "125 ft",
+    "population": {
+      "city": "155805",
+      "density": "6800/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["94085-94090"],
+    "area_codes": [408, 669, 650],
+    "FIPS code": "06-77000",
+    "GNIS feature IDs": ["1656344", "2412009"],
+    "url": "https://www.sunnyvale.ca.gov/"
+  },
+  {
+    "city_name": "Surprise",
+    "state_name": "Arizona",
+    "coordinates": "33°37′50″N 112°22′00″W",
+    "counties": ["Maricopa"],
+    "settled_founded": "1938",
+    "incorporated": "1960",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Skip Hall",
+      "city_council": [
+        "Nick Haney",
+        "Aly Cline",
+        "Patrick Duffy",
+        "Ken Remley",
+        "Jack Hastings",
+        "Chris Judd"
+      ]
+    },
+    "area": {
+      "city": "110.52 sq mi",
+      "land": "110.30 sq mi",
+      "water": "0.22 sq mi"
+    },
+    "elevation": "1385 ft",
+    "population": {
+      "city": "143148",
+      "density": "1297.78/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["85374", "85378–85379", "85387–85388"],
+    "area_codes": [623],
+    "FIPS code": "04-71510",
+    "GNIS feature IDs": ["2412016"],
+    "url": "https://surpriseaz.gov/"
+  },
+  {
+    "city_name": "Syracuse",
+    "state_name": "New York",
+    "coordinates": "43°02′49″N 76°08′40″W",
+    "counties": ["Onondaga"],
+    "settled_founded": "1825",
+    "incorporated": "1847",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Ben Walsh",
+      "city_council": [
+        "Helen Hudson",
+        "Michael Greene",
+        "Rasheada Caldwell",
+        "Rita M. Paniagua",
+        "Amir Gethers",
+        "Jennifer Schultz",
+        "Patrick J. Hogan",
+        "Dr. Chol Majok",
+        "Latoya Allen",
+        "Jimmy Monto"
+      ]
+    },
+    "area": {
+      "city": "25.64 sq mi",
+      "land": "25.06 sq mi",
+      "water": "0.58 sq mi"
+    },
+    "elevation": "440 ft",
+    "population": {
+      "city": "148620",
+      "density": "5930.80/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["132xx"],
+    "area_codes": [315, 680],
+    "FIPS code": "36-73000",
+    "GNIS feature IDs": ["0966966"],
+    "url": "https://www.syr.gov/"
+  },
+  {
+    "city_name": "Tacoma",
+    "state_name": "Washington",
+    "coordinates": "47°14′29″N 122°27′34″W",
+    "counties": ["Pierce"],
+    "settled_founded": null,
+    "incorporated": "1875",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Victoria Woodards",
+      "city_council": [
+        "John Hines",
+        "Sarah Rumbaugh",
+        "Keith Blocker",
+        "Catherine Ushka",
+        "Joe Bushnell",
+        "Kiara Daniels",
+        "Olgy Diaz",
+        "Kristina Walkers"
+      ]
+    },
+    "area": {
+      "city": "62.42 sq mi",
+      "land": "49.71 sq mi",
+      "water": "12.71 sq mi"
+    },
+    "elevation": "243 ft",
+    "population": {
+      "city": "219346",
+      "density": "4412.51/sq mi",
+      "metro": "4011553"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": [
+      "98401-98409",
+      "98411-98413",
+      "98415-98419",
+      "98421",
+      "98422",
+      "98424",
+      "98430",
+      "98431",
+      "98433",
+      "98438",
+      "98439",
+      "98443-98448",
+      "98464-98467",
+      "98471",
+      "98481",
+      "98490",
+      "98493",
+      "98496-98499"
+    ],
+    "area_codes": [253],
+    "FIPS code": "53-70000",
+    "GNIS feature IDs": ["1512713"],
+    "url": "https://www.cityoftacoma.org/"
+  },
+  {
+    "city_name": "Tallahassee",
+    "state_name": "Florida",
+    "coordinates": "30°27′18″N 84°15′12″W",
+    "counties": ["Leon"],
+    "settled_founded": "1824",
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "John Dailey",
+      "city_council": [
+        "Jeremy Matlow",
+        "Jacqueline Porter",
+        "Curtis Richardson",
+        "Dianne Williams-Cox"
+      ]
+    },
+    "area": {
+      "city": "104.74 sq mi",
+      "land": "101.85 sq mi",
+      "water": "2.89 sq mi"
+    },
+    "elevation": "203 ft",
+    "population": {
+      "city": "196169",
+      "density": "1926.00/sq mi",
+      "metro": "385145"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["32300-32399"],
+    "area_codes": [850],
+    "FIPS code": "12-70600",
+    "GNIS feature IDs": ["308416"],
+    "url": "https://www.talgov.com/"
+  },
+  {
+    "city_name": "Tampa",
+    "state_name": "Florida",
+    "coordinates": "27°56′51″N 82°27′31″W",
+    "counties": ["Tampa"],
+    "settled_founded": "1823",
+    "incorporated": "1887",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Jane Castor",
+      "city_council": [
+        "Joe Citro",
+        "Charlie Miranda",
+        "Lynn Hurtak",
+        "Bill Carlson",
+        "Orlando Gudes",
+        "Guido Maniscalco",
+        "Luis Viera"
+      ]
+    },
+    "area": {
+      "city": "175.83 sq mi",
+      "land": "114.02 sq mi",
+      "water": "61.82 sq mi"
+    },
+    "elevation": "48 ft",
+    "population": {
+      "city": "384959",
+      "density": "3376.4/sq mi",
+      "metro": "3175275"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "33601–33626",
+      "33629–33631",
+      "33633–33635",
+      "33637",
+      "33646",
+      "33647",
+      "33650",
+      "33655",
+      "33660–33664",
+      "33672–33675",
+      "33677",
+      "33679–33682",
+      "33684–33689",
+      "33694"
+    ],
+    "area_codes": [813, 656],
+    "FIPS code": "12-71000",
+    "GNIS feature IDs": ["0292005"],
+    "url": "https://www.tampa.gov/"
+  },
+  {
+    "city_name": "Temecula",
+    "state_name": "California",
+    "coordinates": "33°30′12″N 117°7′25″W",
+    "counties": ["Riverside"],
+    "settled_founded": "1859",
+    "incorporated": "1989",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Zak Schwank",
+      "city_council": [
+        "James Stewart",
+        "Brenden Kalfus",
+        "Curtis Brown",
+        "Jessica Alexander"
+      ]
+    },
+    "area": {
+      "city": "37.19 sq mi",
+      "land": "37.18 sq mi",
+      "water": "0.01 sq mi"
+    },
+    "elevation": "1017 ft",
+    "population": {
+      "city": "110003",
+      "density": "2958.66/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92589-92593"],
+    "area_codes": [951],
+    "FIPS code": "06-78120",
+    "GNIS feature IDs": ["1652799", "2412044"],
+    "url": "https://temeculaca.gov/"
+  },
+  {
+    "city_name": "Tempe",
+    "state_name": "Arizona",
+    "coordinates": "33°24′46″N 111°56′35″W",
+    "counties": ["Maricopa"],
+    "settled_founded": null,
+    "incorporated": "1892",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Corey Woods",
+      "city_council": [
+        "Jennifer Adams",
+        "Arlene Chin",
+        "Doreen Garlid",
+        "Berdetta Hodge",
+        "Randy Keating",
+        "Joel Navarro"
+      ]
+    },
+    "area": {
+      "city": "40.15 sq mi",
+      "land": "39.94 sq mi",
+      "water": "0.21 sq mi"
+    },
+    "elevation": "1181 ft",
+    "population": {
+      "city": "180587",
+      "density": "4521.34/sq mi",
+      "metro": "4574531"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["85281–85285", "85287-85288"],
+    "area_codes": [480, 602],
+    "FIPS code": "04-73000",
+    "GNIS feature IDs": ["2412045"],
+    "url": "https://www.tempe.gov/"
+  },
+  {
+    "city_name": "Thornton",
+    "state_name": "Colorado",
+    "coordinates": "39°54′11″N 104°57′16″W",
+    "counties": ["Adams", "Weld"],
+    "settled_founded": "1953",
+    "incorporated": "1956",
+    "government": {
+      "type": "Municipality",
+      "mayor": "Janifer Kulmann",
+      "city_council": [
+        "Eric Garcia",
+        "Julie Marvin",
+        "David Acunto",
+        "Adam matkowsky",
+        "Kathy Henson",
+        "Jessica Sandgren",
+        "Tony Unrein",
+        "Karen Bigelow"
+      ]
+    },
+    "area": {
+      "city": "37.95 sq mi",
+      "land": "35.92  sq mi",
+      "water": "2.02 sq mi"
+    },
+    "elevation": "5351 ft",
+    "population": {
+      "city": "141867",
+      "density": "3949/sq mi",
+      "metro": "2963821"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["80221", "80229", "80233", "80241", "80260", "80602"],
+    "area_codes": [303, 720],
+    "FIPS code": "08-77290",
+    "GNIS feature IDs": ["0181265"],
+    "url": "https://www.thorntonco.gov/"
+  },
+  {
+    "city_name": "Thousand Oaks",
+    "state_name": "California",
+    "coordinates": "34°11′22″N 118°52′30″W",
+    "counties": ["Ventura"],
+    "settled_founded": null,
+    "incorporated": "1964",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Kevin McNamee",
+      "city_council": ["Al Adam", "Bob Engler", "David Newman", "Mikey Taylor"]
+    },
+    "area": {
+      "city": "55.41 sq mi",
+      "land": "55.26 sq mi",
+      "water": "0.14 sq mi"
+    },
+    "elevation": "886 ft",
+    "population": {
+      "city": "126966",
+      "density": "2300/sq mi",
+      "metro": "843843"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["91320", "91359-91362"],
+    "area_codes": [805, 820],
+    "FIPS code": "06-78582",
+    "GNIS feature IDs": ["1661567", "2412065"],
+    "url": "https://www.toaks.org/"
+  },
+  {
+    "city_name": "Toledo",
+    "state_name": "Ohio",
+    "coordinates": "41°39′56″N 83°34′31″W",
+    "counties": ["Lucas"],
+    "settled_founded": "1833",
+    "incorporated": "1837",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Wade Kapszukiewicz",
+      "city_council": [
+        "John Hobbs III",
+        "Matt Cherry",
+        "Theresa Gadus",
+        "Vanice S. Williams",
+        "Sam Melden",
+        "Theresa Morris",
+        "Carrie Hartman",
+        "Nick Komives",
+        "Cerssandra McPherson",
+        "Katie Moline",
+        "George Sarantou",
+        "Dr. Tiffany M. Preston Whitman"
+      ]
+    },
+    "area": {
+      "city": "83.83 sq mi",
+      "land": "80.49 sq mi",
+      "water": "3.34 sq mi"
+    },
+    "elevation": "614 ft",
+    "population": {
+      "city": "268508",
+      "density": "3365.36/sq mi",
+      "metro": "608145"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "43601",
+      "43603-43615",
+      "43617",
+      "43620",
+      "43623",
+      "43635",
+      "43652",
+      "43654",
+      "43656",
+      "43657",
+      "43659-43661",
+      "43666",
+      "43667",
+      "43681",
+      "43682",
+      "43697",
+      "43699"
+    ],
+    "area_codes": [419, 567],
+    "FIPS code": "39-77000",
+    "GNIS feature IDs": ["1067015"],
+    "url": "https://toledo.oh.gov/"
+  },
+  {
+    "city_name": "Torrance",
+    "state_name": "California",
+    "coordinates": "33°50′05″N 118°20′29″W",
+    "counties": ["Los Angeles"],
+    "settled_founded": null,
+    "incorporated": "1921",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "George K. Chen",
+      "city_council": [
+        "Jon Kaji",
+        "Bridgett Lewis",
+        "Asam Sheikh",
+        "Sharon Kalani",
+        "Aurelio Mattucci",
+        "Mike Griffiths",
+        "Rebecca Poirier",
+        "Tim Goodrich"
+      ]
+    },
+    "area": {
+      "city": "20.53 sq mi",
+      "land": "20.50 sq mi",
+      "water": "0.03 sq mi"
+    },
+    "elevation": "89 ft",
+    "population": {
+      "city": "147067",
+      "density": "7200/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["90277", "90501–90510"],
+    "area_codes": [310, 424],
+    "FIPS code": "06-80000",
+    "GNIS feature IDs": ["1652802"],
+    "url": "https://www.torranceca.gov/"
+  },
+  {
+    "city_name": "Tucson",
+    "state_name": "Arizona",
+    "coordinates": "32°13′18″N 110°55′35″W",
+    "counties": ["Pima"],
+    "settled_founded": "1775",
+    "incorporated": "1877",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Regina Romero",
+      "city_council": [
+        "Lane Santa Cruz",
+        "Paul Cunningham",
+        "Kevin Dahl",
+        "Nikki Lee",
+        "Richard Fimbres",
+        "Steve Kozachik",
+        "Michael Ortega"
+      ]
+    },
+    "area": {
+      "city": "241.33 sq mi",
+      "land": "241.01 sq mi",
+      "water": "0.32 sq mi"
+    },
+    "elevation": "2389 ft",
+    "population": {
+      "city": "542629",
+      "density": "2251.44/sq mi",
+      "metro": "1043433"
+    },
+    "time_zone": "UTC-7(PST)",
+    "zip_codes": ["85701-85775"],
+    "area_codes": [520],
+    "FIPS code": "04-77000",
+    "GNIS feature IDs": ["43534"],
+    "url": "https://www.tucsonaz.gov/"
+  },
+  {
+    "city_name": "Tulsa",
+    "state_name": "Oklahoma",
+    "coordinates": "36°07′53″N 95°56′14″W",
+    "counties": ["Osage", "Rogers", "Tulsa", "Wagoner"],
+    "settled_founded": null,
+    "incorporated": "1899",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "G.T. Bynum",
+      "city_council": [
+        "Vanessa Hall-Harper",
+        "Jeannie Cue",
+        "Crista Patrick",
+        "Laura Bellis",
+        "Grant Miller",
+        "Christian Bengel",
+        "Lori Decter Wright",
+        "Phil Lakin, Jr.",
+        "Jayme Fowler"
+      ]
+    },
+    "area": {
+      "city": "201.85 sq mi",
+      "land": "197.76 sq mi",
+      "water": "4.09 sq mi"
+    },
+    "elevation": "722 ft",
+    "population": {
+      "city": "413066",
+      "density": "2136.5/sq mi",
+      "metro": "1023988"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "74101-74108",
+      "74110",
+      "74112",
+      "74114-74117",
+      "74119-74121",
+      "74126-74137",
+      "74141",
+      "74145-74150",
+      "74152",
+      "74153",
+      "74155-74159",
+      "74169-74172",
+      "74182",
+      "74186",
+      "74187",
+      "74192",
+      "74193"
+    ],
+    "area_codes": [539, 918],
+    "FIPS code": "40-75000",
+    "GNIS feature IDs": ["1100962"],
+    "url": "https://www.tulsacouncil.org/"
+  },
+  {
+    "city_name": "Tuscaloosa",
+    "state_name": "Alabama",
+    "coordinates": "33°12′24″N 87°32′5″W",
+    "counties": ["Tuscaloosa"],
+    "settled_founded": null,
+    "incorporated": "1819",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Walt Maddox",
+      "city_council": [
+        "Matthew Wilson",
+        "Raevan Howard",
+        "Norman Crow",
+        "Lee Busby",
+        "Kip Tyner",
+        "John Faile",
+        "Cassius Lanier"
+      ]
+    },
+    "area": {
+      "city": "72.02 sq mi",
+      "land": "61.94 sq mi",
+      "water": "10.07 sq mi"
+    },
+    "elevation": "222 ft",
+    "population": {
+      "city": "100618",
+      "density": "1607.93/sq mi",
+      "metro": "235628"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["35401-35407", "35485-35487"],
+    "area_codes": [205, 659],
+    "FIPS code": "01-77256",
+    "GNIS feature IDs": ["0153742"],
+    "url": "https://www.tuscaloosa.com/"
+  },
+  {
+    "city_name": "Tyler",
+    "state_name": "Texas",
+    "coordinates": "32°21′03″N 95°18′02″W",
+    "counties": ["Smith"],
+    "settled_founded": "1846",
+    "incorporated": "1850",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Don Warren",
+      "city_council": [
+          "Stuart Hene",
+          "Broderick McGee",
+          "Shirley McKellar",
+          "James Wynne",
+          "Bob Westbrook",
+          "Brad Curtis"
+      ]
+    },
+    "area": {
+      "city": "57.97 sq mi",
+      "land": "56.45 sq mi",
+      "water": "0.52 sq mi"
+    },
+    "elevation": "544 ft",
+    "population": {
+      "city": "105995",
+      "density": "1862.10/sq mi",
+      "metro": "233479"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["757xx"],
+    "area_codes": [430, 903],
+    "FIPS code": "48-74144",
+    "GNIS feature IDs": ["1348998"],
+    "url": "https://www.cityoftyler.org/"
   }
+
 ]
