@@ -305,26 +305,26 @@ x Tucson Arizona
 x Tulsa Oklahoma
 x Tuscaloosa Alabama
 x Tyler Texas
-Vacaville California
-Vallejo California
-Vancouver Washington
-Ventura[aa] California
-Victorville California
-Virginia Beach[m]
-Visalia California
-Waco Texas
-Warren Michigan
-Washington[k] District
-Waterbury Connecticut
-West Covina
-West Jordan
-Westminster Colorado
-West Palm
-West Valley
-Wichita Falls
-Wichita Kansas
-Wilmington North
-Winston–Salem North
-Woodbridge New
-Worcester Massachusetts
-Yonkers New
+x Vacaville California
+x Vallejo California
+x Vancouver Washington
+x Ventura California
+x Victorville California
+x Virginia Beach Virginia
+x Visalia California
+x Waco Texas
+x Warren Michigan
+x Washington District of Columbia
+x Waterbury Connecticut
+x West Covina
+x West Jordan Utah
+x Westminster Colorado
+x West Palm Beach Florida
+x West Valley City Utah
+x Wichita Falls Texas
+x Wichita Kansas
+x Wilmington North Carolina
+x Winston–Salem North Carolina
+x Woodbridge New Jersey
+x Worcester Massachusetts
+x Yonkers New York

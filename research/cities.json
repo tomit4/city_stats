@@ -10336,7 +10336,7 @@
     "city_name": "Rancho Cucamonga",
     "state_name": "California",
     "coordinates": "34°7′24″N 117°34′46″W",
-    "counties": ["San Bernandino"],
+    "counties": ["San Bernardino"],
     "settled_founded": null,
     "incorporated": "1977",
     "government": {
@@ -10446,7 +10446,7 @@
     "city_name": "Rialto",
     "state_name": "California",
     "coordinates": "34°6′41″N 117°22′57″W",
-    "counties": ["San Bernandino"],
+    "counties": ["San Bernardino"],
     "settled_founded": null,
     "incorporated": "1911",
     "government": {
@@ -13190,12 +13190,12 @@
       "type": "Council-Manager",
       "mayor": "Don Warren",
       "city_council": [
-          "Stuart Hene",
-          "Broderick McGee",
-          "Shirley McKellar",
-          "James Wynne",
-          "Bob Westbrook",
-          "Brad Curtis"
+        "Stuart Hene",
+        "Broderick McGee",
+        "Shirley McKellar",
+        "James Wynne",
+        "Bob Westbrook",
+        "Brad Curtis"
       ]
     },
     "area": {
@@ -13215,6 +13215,921 @@
     "FIPS code": "48-74144",
     "GNIS feature IDs": ["1348998"],
     "url": "https://www.cityoftyler.org/"
+  },
+  {
+    "city_name": "Vacaville",
+    "state_name": "California",
+    "coordinates": "38°21′14″N 121°58′22″W",
+    "counties": ["Solano"],
+    "settled_founded": null,
+    "incorporated": "1892",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "John Carli",
+      "city_council": [
+        "Roy Stockton",
+        "Gregory Ritchie II",
+        "Michael Silva",
+        "Sarah Chapman",
+        "Jason Roberts",
+        "Jeanette Wylie"
+      ]
+    },
+    "area": {
+      "city": "29.42 sq mi",
+      "land": "29.19 sq mi",
+      "water": "0.23 sq mi"
+    },
+    "elevation": "174 ft",
+    "population": {
+      "city": "102386",
+      "density": "3449.14/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["95687", "95688", "95696"],
+    "area_codes": [707],
+    "FIPS code": "06-81554",
+    "GNIS feature IDs": ["277624", "2412139"],
+    "url": "https://www.ci.vacaville.ca.us/"
+  },
+  {
+    "city_name": "Vallejo",
+    "state_name": "California",
+    "coordinates": "38°6′47″N 122°14′9″W",
+    "counties": ["Solano"],
+    "settled_founded": "1851",
+    "incorporated": "1868",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Robert H. McConnell",
+      "city_council": [
+        "Rozzana Verder-Aliga",
+        "Diosdado Matulac",
+        "Mina Loera-Diaz",
+        "Charles Palmares",
+        "Peter Bregenzer",
+        "Cristina Arriola"
+      ]
+    },
+    "area": {
+      "city": "48.78 sq mi",
+      "land": "30.50 sq mi",
+      "water": "18.27 sq mi"
+    },
+    "elevation": "69 ft",
+    "population": {
+      "city": "126090",
+      "density": "2600/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["94589–94592"],
+    "area_codes": [707],
+    "FIPS code": "06-81666",
+    "GNIS feature IDs": ["1661612", "2412142"],
+    "url": "https://www.ci.vallejo.ca.us/"
+  },
+  {
+    "city_name": "Vancouver",
+    "state_name": "Washington",
+    "coordinates": "45°37′52″N 122°40′18″W",
+    "counties": ["Clark"],
+    "settled_founded": "1825",
+    "incorporated": "1857",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Anne McEnerny-Ogle",
+      "city_council": [
+        "Bart Hansen",
+        "Ty Stober",
+        "Erik Paulsen",
+        "Sarah J. Fox",
+        "Diana H. Perez",
+        "Kim D. Harless"
+      ]
+    },
+    "area": {
+      "city": "52.45 sq mi",
+      "land": "48.74 sq mi",
+      "water": "3.70 sq mi"
+    },
+    "elevation": "171 ft",
+    "population": {
+      "city": "190915",
+      "density": "3784.32/sq mi",
+      "metro": "2511612"
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["98660-98666", "98668", "98682-98687"],
+    "area_codes": [360, 564],
+    "FIPS code": "53-74060",
+    "GNIS feature IDs": ["1531916"],
+    "url": "https://www.cityofvancouver.us/"
+  },
+  {
+    "city_name": "Ventura",
+    "state_name": "California",
+    "coordinates": "34°16′30″N 119°13′40″W",
+    "counties": ["Ventura"],
+    "settled_founded": "1782",
+    "incorporated": "1866",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Joe Schroeder",
+      "city_council": [
+        "Jeannette Sanchez-Palacios",
+        "Liz campos",
+        "Doug Halter",
+        "Mike Johnson",
+        "Bill McReynolds",
+        "Jim Duran"
+      ]
+    },
+    "area": {
+      "city": "32.29 sq mi",
+      "land": "21.89 sq mi",
+      "water": "10.41 sq mi"
+    },
+    "elevation": "36 ft",
+    "population": {
+      "city": "110763",
+      "density": "3400/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["93001–93007", "93009"],
+    "area_codes": [805],
+    "FIPS code": "06-65042",
+    "GNIS feature IDs": ["1667934", "2411779"],
+    "url": "https://www.cityofventura.ca.gov"
+  },
+  {
+    "city_name": "Victorville",
+    "state_name": "California",
+    "coordinates": "34°32′10″N 117°17′28″W",
+    "counties": ["San Bernardino"],
+    "settled_founded": null,
+    "incorporated": "1962",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Debra Jones",
+      "city_council": [
+        "Elizabeth Becerra",
+        "Blanca Gomez",
+        "Bob Harriman",
+        "Leslie Irving"
+      ]
+    },
+    "area": {
+      "city": "74.01 sq mi",
+      "land": "73.72 sq mi",
+      "water": "0.29 sq mi"
+    },
+    "elevation": "2959 ft",
+    "population": {
+      "city": "134810",
+      "density": "1800/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["92392–92395"],
+    "area_codes": [442, 760],
+    "FIPS code": "06-82590",
+    "GNIS feature IDs": ["2412156"],
+    "url": "https://www.victorvilleca.gov/"
+  },
+  {
+    "city_name": "Virginia Beach",
+    "state_name": "Virginia",
+    "coordinates": "36°51′00″N 75°58′40″W",
+    "counties": null,
+    "settled_founded": null,
+    "incorporated": "1952",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Robert M. Dyer",
+      "city_council": [
+        "Michael Berlucchi",
+        "Barbara Henley",
+        "N.D. Holcomb",
+        "Robert W. Remick",
+        "Dr. Amelia Ross-Hammond",
+        "Jennifer V. Rouse",
+        "Joashua F. Schulman",
+        "Chris Taylor",
+        "Rosemary Wilson",
+        "Sabrina D. Wooten"
+      ]
+    },
+    "area": {
+      "city": "497.50 sq mi",
+      "land": "244.72 sq mi",
+      "water": "252.78 sq mi"
+    },
+    "elevation": "10 ft",
+    "population": {
+      "city": "457672",
+      "density": "1877.53/sq mi",
+      "metro": "1799674"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["23450-23467", "23471", "23479"],
+    "area_codes": [757, 948],
+    "FIPS code": "51-82000",
+    "GNIS feature IDs": ["1500261"],
+    "url": "https://www.vbgov.com/"
+  },
+  {
+    "city_name": "Visalia",
+    "state_name": "California",
+    "coordinates": "36°19′49″N 119°17′33″W",
+    "counties": ["Tulare"],
+    "settled_founded": null,
+    "incorporated": "1874",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Brian Poochigian",
+      "city_council": [
+        "Liz Wynn",
+        "Brett Taylor",
+        "Emmanuel Hernandez Soto",
+        "Steve Nelson"
+      ]
+    },
+    "area": {
+      "city": "37.94 sq mi",
+      "land": "37.91 sq mi",
+      "water": "0.02 sq mi"
+    },
+    "elevation": "331 ft",
+    "population": {
+      "city": "141384",
+      "density": "3726.52/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["93277-93279", "93290-93292"],
+    "area_codes": [559],
+    "FIPS code": "06-82954",
+    "GNIS feature IDs": ["1652807", "2412160"],
+    "url": "https://www.visalia.city/"
+  },
+  {
+    "city_name": "Waco",
+    "state_name": "Texas",
+    "coordinates": "31°33′5″N 97°9′21″W",
+    "counties": ["McLennan"],
+    "settled_founded": "1849",
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Dillon Meek",
+      "city_council": [
+        "Andrea J. Barefield",
+        "Alice Rodriguez",
+        "Josh Borderud",
+        "David Horner",
+        "Jim Holmes"
+      ]
+    },
+    "area": {
+      "city": "101.15 sq mi",
+      "land": "88.73 sq mi",
+      "water": "12.42 sq mi"
+    },
+    "elevation": "470 ft",
+    "population": {
+      "city": "138486",
+      "density": "1569.16/sq mi",
+      "metro": "280428"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["76700-76799"],
+    "area_codes": [254],
+    "FIPS code": "48-76000",
+    "GNIS feature IDs": ["1370701"],
+    "url": "https://www.waco-texas.com/"
+  },
+  {
+    "city_name": "Warren",
+    "state_name": "Michigan",
+    "coordinates": "42°29′31″N 83°01′26″W",
+    "counties": ["Macomb"],
+    "settled_founded": "1830",
+    "incorporated": "1957",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "James R. Fouts",
+      "city_council": [
+        "Patrick Green",
+        "Garry Watts",
+        "Mindy Moore",
+        "Jonathan Lafferty",
+        "Angela Rogensues",
+        "Ron Papandrea",
+        "Eddie Kabacinski"
+      ]
+    },
+    "area": {
+      "city": "34.43 sq mi",
+      "land": "34.38 sq mi",
+      "water": "0.06 sq mi"
+    },
+    "elevation": "627 ft",
+    "population": {
+      "city": "139387",
+      "density": "4054.66/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "48088",
+      "48089",
+      "48090",
+      "48091",
+      "48092",
+      "48093",
+      "48397"
+    ],
+    "area_codes": [586],
+    "FIPS code": "26-84000",
+    "GNIS feature IDs": ["1615781"],
+    "url": "https://www.cityofwarren.org/"
+  },
+  {
+    "city_name": "Washington, D.C.",
+    "state_name": null,
+    "coordinates": "38°54′17″N 77°00′59″W",
+    "counties": null,
+    "settled_founded": null,
+    "incorporated": "1800",
+    "government": {
+      "type": null,
+      "mayor": "Muriel Bowser",
+      "city_council": [
+        "Phil Mendelson",
+        "Kenyan R. McDuffie",
+        "Anita Bonds",
+        "Robert C. White, Jr.",
+        "Christina Henderson"
+      ]
+    },
+    "area": {
+      "city": "68.35 sq mi",
+      "land": "61.13 sq mi",
+      "water": "7.22 sq mi"
+    },
+    "elevation": "409 ft",
+    "population": {
+      "city": "689545",
+      "density": "11380.71/sq mi",
+      "metro": "6385162"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["20001–20098", "20201–20599", "56901–56999"],
+    "area_codes": [202, 771],
+    "FIPS code": "11001",
+    "GNIS feature IDs": ["1999082", "2390665"],
+    "url": "https://dc.gov/"
+  },
+  {
+    "city_name": "Waterbury",
+    "state_name": "Connecticut",
+    "coordinates": "41°33′22″N 73°2′29″W",
+    "counties": ["New Haven"],
+    "settled_founded": null,
+    "incorporated": "1853",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Neil O'Leary",
+      "city_council": [
+        "Paul Pernerewski, Jr.",
+        "Ernest M. Brunelli",
+        "Christian D'Orso",
+        "Belinda Weaver",
+        "Victor Lopez, Jr.",
+        "Michael R. Salvio",
+        "Jeffrey A. Hunter",
+        "Michael DiGiovancarlo",
+        "Ivan Roman",
+        "Sandra Martinez-McCarthy"
+      ]
+    },
+    "area": {
+      "city": "28.94 sq mi",
+      "land": "28.52 sq mi",
+      "water": "0.42 sq mi"
+    },
+    "elevation": "270 ft",
+    "population": {
+      "city": "114403",
+      "density": "4000/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["06701-06720"],
+    "area_codes": [203, 475],
+    "FIPS code": "09-80000",
+    "GNIS feature IDs": ["0211851"],
+    "url": "https://www.waterburyct.org/"
+  },
+  {
+    "city_name": "West Covina",
+    "state_name": "California",
+    "coordinates": "34°03′24″N 117°55′07″W",
+    "counties": ["Los Angeles"],
+    "settled_founded": null,
+    "incorporated": "1923",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Rosario Diaz",
+      "city_council": [
+        "Letty Lopez-Viado",
+        "Brian Tabtabai",
+        "Tony Wu",
+        "Ollie Cantos"
+      ]
+    },
+    "area": {
+      "city": "16.09 sq mi",
+      "land": "16.04 sq mi",
+      "water": "0.05 sq mi"
+    },
+    "elevation": "384 ft",
+    "population": {
+      "city": "109501",
+      "density": "6800/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-8(PST)",
+    "zip_codes": ["91790-91793"],
+    "area_codes": [626, 909],
+    "FIPS code": "06-84200",
+    "GNIS feature IDs": ["1652809", "2412219"],
+    "url": "https://www.westcovina.org/"
+  },
+  {
+    "city_name": "West Jordan",
+    "state_name": "Utah",
+    "coordinates": "40°36′23″N 111°58′34″W",
+    "counties": ["Salt Lake"],
+    "settled_founded": "1848",
+    "incorporated": "1941",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "Dirk Burton",
+      "city_council": [
+        "Pamela Bloom",
+        "Kelvin Green",
+        "Kayleen Whitelock",
+        "CHris McConnehey",
+        "Melissa Worthen",
+        "Zach Jacob",
+        "David Pack"
+      ]
+    },
+    "area": {
+      "city": "32.33 sq mi",
+      "land": "32.33 sq mi",
+      "water": "0.00 sq mi"
+    },
+    "elevation": "4373 ft",
+    "population": {
+      "city": "116961",
+      "density": "3617.72/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["84081", "84084", "84088"],
+    "area_codes": [385, 801],
+    "FIPS code": "49-82950",
+    "GNIS feature IDs": ["1434086"],
+    "url": "https://www.westjordan.utah.gov/"
+  },
+  {
+    "city_name": "Westminster",
+    "state_name": "Colorado",
+    "coordinates": "39°50′10″N 105°2′14″W",
+    "counties": ["Jefferson County", "Adams County"],
+    "settled_founded": "1859",
+    "incorporated": "1911",
+    "government": {
+      "type": "Municipality",
+      "mayor": "Nancy McNally",
+      "city_council": [
+        "David Demott",
+        "Bruce Baker",
+        "Lindsey Emmons",
+        "Obi Ezeadi",
+        "Sarah Nurmela",
+        "Rich Seymour"
+      ]
+    },
+    "area": {
+      "city": "33.89 sq mi",
+      "land": "31.59 sq mi",
+      "water": "2.31 sq mi"
+    },
+    "elevation": "5384 ft",
+    "population": {
+      "city": "116317",
+      "density": "3683/sq mi",
+      "metro": "2963821"
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": [
+      "80003",
+      "80005",
+      "80020-80021",
+      "80023",
+      "80030-80031",
+      "80035-80036",
+      "80221",
+      "80234",
+      "80241",
+      "80260"
+    ],
+    "area_codes": [303, 720],
+    "FIPS code": "08-83835",
+    "GNIS feature IDs": ["0204703"],
+    "url": "https://www.cityofwestminster.us/"
+  },
+  {
+    "city_name": "West Palm Beach",
+    "state_name": "Florida",
+    "coordinates": "26°42′35″N 80°03′51″W",
+    "counties": ["Palm Beach"],
+    "settled_founded": "1884",
+    "incorporated": "1903",
+    "government": {
+      "type": "Mayor-Commission",
+      "mayor": "Keith James",
+      "city_council": [
+        "Cathleen Ward",
+        "Shalonda Warren",
+        "Christy Fox",
+        "Joseph Peduzzi",
+        "Christina Lambert"
+      ]
+    },
+    "area": {
+      "city": "57.98 sq mi",
+      "land": "53.82 sq mi",
+      "water": "4.17 sq mi"
+    },
+    "elevation": "13 ft",
+    "population": {
+      "city": "117415",
+      "density": "2181.66/sq mi",
+      "metro": "6138333"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["33401-33422"],
+    "area_codes": [561],
+    "FIPS code": "12-76600",
+    "GNIS feature IDs": ["0293097"],
+    "url": "https://www.wpb.org/"
+  },
+  {
+    "city_name": "West Valley City",
+    "state_name": "Utah",
+    "coordinates": "40°41′21″N 111°59′38″W",
+    "counties": ["Salt Lake"],
+    "settled_founded": "1847",
+    "incorporated": "1980",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Karen Lang",
+      "city_council": [
+        "Tom Huynh",
+        "Scott Harmon",
+        "Wililam Whetstone",
+        "Jake Fitisemanu",
+        "Don Christensen",
+        "Lars Nordfelt"
+      ]
+    },
+    "area": {
+      "city": "35.88 sq mi",
+      "land": "35.83 sq mi",
+      "water": "0.05 sq mi"
+    },
+    "elevation": "4304 ft",
+    "population": {
+      "city": "140230",
+      "density": "3913.76/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-7(MST)",
+    "zip_codes": ["84081", "84118-84120", "84128"],
+    "area_codes": [385, 801],
+    "FIPS code": "49-83470",
+    "GNIS feature IDs": ["1437843"],
+    "url": "https://www.wvc-ut.gov/"
+  },
+  {
+    "city_name": "Wichita Falls",
+    "state_name": "Texas",
+    "coordinates": "33°54′34″N 98°29′58″W",
+    "counties": ["Wichita"],
+    "settled_founded": null,
+    "incorporated": null,
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Stephen Santellana",
+      "city_council": [
+        "Michael Smith",
+        "Larry Nelson",
+        "Jeff Browning",
+        "Tim Brewer",
+        "Steve Jackson",
+        "Bobby Whiteley"
+      ]
+    },
+    "area": {
+      "city": "72.03 sq mi",
+      "land": "72.01 sq mi",
+      "water": "0.02 sq mi"
+    },
+    "elevation": "948 ft",
+    "population": {
+      "city": "104553",
+      "density": "1453.73/sq mi",
+      "metro": "151201"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": ["76301-76311"],
+    "area_codes": [940],
+    "FIPS code": "48-79000",
+    "GNIS feature IDs": ["2412261"],
+    "url": "http://www.wichitafallstx.gov/"
+  },
+  {
+    "city_name": "Wichita",
+    "state_name": "Kansas",
+    "coordinates": "37°41′20″N 97°20′10″W",
+    "counties": ["Sedgwick"],
+    "settled_founded": "1868",
+    "incorporated": "1870",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Dr. Brandon Whipple",
+      "city_council": [
+        "Brandon Johnson",
+        "Becky Tuttle",
+        "Mike Hoheisel",
+        "Jeff Blubaugh",
+        "Bryan Frye",
+        "Maggie Ballard"
+      ]
+    },
+    "area": {
+      "city": "166.52 sq mi",
+      "land": "161.99 sq mi",
+      "water": "4.53 sq mi"
+    },
+    "elevation": "1303 ft",
+    "population": {
+      "city": "397532",
+      "density": "2454.05/sq mi",
+      "metro": "647919"
+    },
+    "time_zone": "UTC-6(CST)",
+    "zip_codes": [
+      "67201–67221",
+      "67223",
+      "67226–67228",
+      "67230",
+      "67232",
+      "67235",
+      "67260",
+      "67275–67278"
+    ],
+    "area_codes": [316],
+    "FIPS code": "20-79000",
+    "GNIS feature IDs": ["473862"],
+    "url": "https://www.wichita.gov/"
+  },
+  {
+    "city_name": "Wilmington",
+    "state_name": "North Carolina",
+    "coordinates": "34°13′24″N 77°54′44″W",
+    "counties": ["New Hanover"],
+    "settled_founded": null,
+    "incorporated": "1739",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Bill Saffo",
+      "city_council": [
+        "Margaret Haynes",
+        "Charles H. Rivenbark",
+        "Neil Anderson",
+        "Clifford D. barnett, Sr.",
+        "Kevin Spears",
+        "Luke Waddell"
+      ]
+    },
+    "area": {
+      "city": "52.97 sq mi",
+      "land": "51.41 sq mi",
+      "water": "1.56 sq mi"
+    },
+    "elevation": "36 ft",
+    "population": {
+      "city": "115451",
+      "density": "2245.91/sq mi",
+      "metro": "282573"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["28401-28412"],
+    "area_codes": [910],
+    "FIPS code": "37-74440",
+    "GNIS feature IDs": ["1023269"],
+    "url": "https://www.wilmingtonnc.gov/"
+  },
+  {
+    "city_name": "Winston–Salem",
+    "state_name": "North Carolina",
+    "coordinates": "36°6′9.95″N 80°15′37.77″W",
+    "counties": ["Forsyth"],
+    "settled_founded": "1849",
+    "incorporated": "1913",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Allen Joines",
+      "city_council": [
+        "Annette Scippio",
+        "Denise D. Adams",
+        "Barbara H. Burke",
+        "Jeff MacIntosh",
+        "John C. Larson",
+        "James Taylor, Jr.",
+        "Kevin Mundy",
+        "Robert C. Clark"
+      ]
+    },
+    "area": {
+      "city": "134.74 sq mi",
+      "land": "133.53 sq mi",
+      "water": "1.21 sq mi"
+    },
+    "elevation": "970 ft",
+    "population": {
+      "city": "249545",
+      "density": "1868.82/sq mi",
+      "metro": "675966"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "27023",
+      "27040",
+      "27045",
+      "27101-27110",
+      "27113-27117",
+      "27120",
+      "27127",
+      "27130",
+      "27150",
+      "27152",
+      "27155",
+      "27157",
+      "27198-27199",
+      "27284"
+    ],
+    "area_codes": [336, 743],
+    "FIPS code": "37-75000",
+    "GNIS feature IDs": ["2405771"],
+    "url": "https://www.cityofws.org/"
+  },
+  {
+    "city_name": "Woodbridge",
+    "state_name": "New Jersey",
+    "coordinates": "40.56°N 74.29°W",
+    "counties": ["Middlesex"],
+    "settled_founded": "1664",
+    "incorporated": "1798",
+    "government": {
+      "type": "Mayor-Council",
+      "mayor": "John McCormac",
+      "city_council": [
+        "Gregg M. Ficarra",
+        "Kyle Anderson",
+        "Sharon McAuliffe",
+        "Howie Bauer",
+        "Cory Spillar",
+        "Virbhadra N. Patel",
+        "Debbie Meehan",
+        "Lizbeth DeJesus",
+        "Brian Small"
+      ]
+    },
+    "area": {
+      "city": "24.61 sq mi",
+      "land": "23.26 sq mi",
+      "water": "1.35 sq mi"
+    },
+    "elevation": "59 ft",
+    "population": {
+      "city": "103639",
+      "density": "4456.1/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": [
+      "07001",
+      "07064",
+      "07067",
+      "07077",
+      "07095",
+      "08830",
+      "08832",
+      "08840",
+      "08861",
+      "08863"
+    ],
+    "area_codes": [732],
+    "FIPS code": "34-82000",
+    "GNIS feature IDs": ["882165"],
+    "url": "https://www.twp.woodbridge.nj.us/"
+  },
+  {
+    "city_name": "Worcester",
+    "state_name": "Massachusetts",
+    "coordinates": "42°16′17″N 71°47′56″W",
+    "counties": ["Worcester"],
+    "settled_founded": "1673",
+    "incorporated": "1848",
+    "government": {
+      "type": "Council-Manager",
+      "mayor": "Joseph M. Petty",
+      "city_council": [
+        "Morris A. Bergman",
+        "Donna M. Colorio",
+        "Khrystian E. King",
+        "Thu Nguyen",
+        "Kathleen M. Toomey",
+        "Sean M. Rose",
+        "Candy F. Mero-Carlson",
+        "George J. Russell",
+        "Sarai Rivera",
+        "Etel Haxhiaj"
+      ]
+    },
+    "area": {
+      "city": "38.44 sq mi",
+      "land": "37.36 sq mi",
+      "water": "1.08 sq mi"
+    },
+    "elevation": "480 ft",
+    "population": {
+      "city": "206518",
+      "density": "5527.78/sq mi",
+      "metro": "978529"
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["01601–01610", "01612–01615", "01653–01655"],
+    "area_codes": [508, 774],
+    "FIPS code": "25-82000",
+    "GNIS feature IDs": ["0617867"],
+    "url": "https://www.worcesterma.gov/"
+  },
+  {
+    "city_name": "Yonkers",
+    "state_name": "New York",
+    "coordinates": "40°56′29″N 73°51′52″W",
+    "counties": ["Westchester"],
+    "settled_founded": "1646",
+    "incorporated": "1872",
+    "government": {
+      "type": "Strong-Mayor",
+      "mayor": "Mike Spano",
+      "city_council": [
+        "Lakisha Collins-Bellamy",
+        "Shanae V. Williams",
+        "Corazon Pineda Isaac",
+        "Tasha Diaz",
+        "John Rubbo",
+        "Mike Breen",
+        "Anthony J. Merante"
+      ]
+    },
+    "area": {
+      "city": "20.27 sq mi",
+      "land": "18.01 sq mi",
+      "water": "2.26 sq mi"
+    },
+    "elevation": "82 ft",
+    "population": {
+      "city": "211569",
+      "density": "11749.92/sq mi",
+      "metro": null
+    },
+    "time_zone": "UTC-5(EST)",
+    "zip_codes": ["10701", "10702", "10703–10705", "10707", "10708", "10710"],
+    "area_codes": [914],
+    "FIPS code": "36-84000",
+    "GNIS feature IDs": ["0971828"],
+    "url": "https://www.yonkersny.gov/"
   }
-
 ]
