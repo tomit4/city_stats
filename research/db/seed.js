@@ -46,17 +46,12 @@ const populateStates = (db, data) => {
 }
 
 const populateCongress = (db, data, house) => {
-    let key
-    if (house === 'senators')
-        key = 'senator_list'
-    else
-        key = 'house_delegates'
+    let key = house === 'senators' ? 'senator_list' : 'house_delegates'
     data.forEach(item => {
-        let representatives
-        if (house === 'senators')
-            representatives = `${JSON.stringify(item.senators)}`
-        else
-            representatives = `${JSON.stringify(item.house_delegation)}`
+        let representatives =
+            house === 'senators'
+                ? `${JSON.stringify(item.senators)}`
+                : `${JSON.stringify(item.house_delegation)}`
         db.run(
             `INSERT OR IGNORE INTO ${house} (
             ${key},
