@@ -1,6 +1,6 @@
 const sqlite3 = require('sqlite3').verbose()
 const data = require('../states.json')
-const { createTables, populateStates, populateCongress } = require('./utils.js')
+const { createTables, populateStates, populateCongress } = require('./seed.js')
 
 const db = new sqlite3.Database(
     './states.db',

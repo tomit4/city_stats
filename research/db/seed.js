@@ -1,6 +1,4 @@
-const { createTableStmts, insertStmts } = require('./migrations.js')
-const data = require('../states.json')
-const { warn } = require('vue')
+const { createTableStmts, insertStmts } = require('./migrate.js')
 
 const createTables = db => {
     createTableStmts.forEach(statement => {
