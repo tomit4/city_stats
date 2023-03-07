@@ -1,4 +1,4 @@
-const sqlStatements = [
+const createTableStmts = [
     `CREATE TABLE IF NOT EXISTS states(
     primary_key INTEGER NOT NULL PRIMARY KEY,
     state_name TEXT NOT NULL,
@@ -13,6 +13,7 @@ const sqlStatements = [
     elevation TEXT NOT NULL,
     population_total TEXT NOT NULL,
     population_density TEXT NOT NULL,
+    population_median_household_income TEXT NOT NULL,
     time_zone TEXT NOT NULL,
     latitude TEXT NOT NULL,
     longitude TEXT NOT NULL,
@@ -29,13 +30,32 @@ const sqlStatements = [
     primary_key INTEGER NOT NULL PRIMARY KEY,
     house_delegates TEXT NOT NULL,
     state_state_name TEXT NOT NULL
-    )`
-];
+    )`,
+]
 
-const createTables = (db) => {
-  sqlStatements.forEach((statement) => {
-    db.run(statement);
-  });
-};
+const insertStmts = [
+    `INSERT OR IGNORE INTO states (
+    state_name,
+    state_abbreviation,
+    date_admitted,
+    capital,
+    largest_city,
+    govenor,
+    area_total,
+    area_land,
+    area_water,
+    elevation,
+    population_total,
+    population_density,
+    population_median_household_income,
+    time_zone,
+    latitude,
+    longitude,
+    url,
+    flag_url,
+    insignia_url)
+    VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+    `,
+]
 
-module.exports = { createTables };
+module.exports = { createTableStmts, insertStmts }
