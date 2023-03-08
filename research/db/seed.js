@@ -1,5 +1,6 @@
 const { createTableStmts, insertStmts } = require('./migrate.js')
 
+// TODO: separate out create funcs and populate funcs
 const createTables = db => {
     createTableStmts.forEach(statement => {
         db.run(statement)
