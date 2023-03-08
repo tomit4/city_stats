@@ -31,6 +31,51 @@ const createTableStmts = [
     house_delegates TEXT NOT NULL,
     state_state_name TEXT NOT NULL
     )`,
+    `CREATE TABLE IF NOT EXISTS cities(
+    primary_key INTEGER NOT NULL PRIMARY KEY,
+    city_name TEXT NOT NULL,
+    state_name TEXT NOT NULL,
+    coordinates TEXT NOT NULL,
+    settled_founded TEXT NOT NULL,
+    incorporated TEXT NOT NULL,
+    government_type TEXT NOT NULL,
+    government_mayor TEXT NOT NULL,
+    area_city TEXT NOT NULL,
+    area_land TEXT NOT NULL,
+    area_water TEXT NOT NULL,
+    elevation TEXT NOT NULL,
+    population_city TEXT NOT NULL,
+    population_density TEXT NOT NULL,
+    population_metro TEXT NOT NULL,
+    time_zone TEXT NOT NULL,
+    fips_code TEXT NOT NULL,
+    url TEXT NOT NULL
+    )`,
+    `CREATE TABLE IF NOT EXISTS city_counties (
+    primary_key INTEGER NOT NULL PRIMARY KEY,
+    city_counties TEXT NOT NULL,
+    city_city_name TEXT NOT NULL
+    )`,
+    `CREATE TABLE IF NOT EXISTS city_council (
+    primary_key INTEGER NOT NULL PRIMARY KEY,
+    city_council TEXT NOT NULL,
+    city_city_name TEXT NOT NULL
+    )`,
+    `CREATE TABLE IF NOT EXISTS zip_codes (
+    primary_key INTEGER NOT NULL PRIMARY KEY,
+    zip_codes TEXT NOT NULL,
+    city_city_name TEXT NOT NULL
+    )`,
+    `CREATE TABLE IF NOT EXISTS area_codes (
+    primary_key INTEGER NOT NULL PRIMARY KEY,
+    area_codes TEXT NOT NULL,
+    city_city_name TEXT NOT NULL
+    )`,
+    `CREATE TABLE IF NOT EXISTS gnis_feature_ids (
+    primary_key INTEGER NOT NULL PRIMARY KEY,
+    gnis_feature_ids TEXT NOT NULL,
+    city_city_name TEXT NOT NULL
+    )`
 ]
 
 const insertStmts = [
@@ -55,7 +100,7 @@ const insertStmts = [
     flag_url,
     insignia_url)
     VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
-    `,
+    `
 ]
 
 module.exports = { createTableStmts, insertStmts }
