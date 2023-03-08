@@ -72,4 +72,29 @@ const populateCongress = (db, data, house) => {
     )
 }
 
-module.exports = { createTables, populateStates, populateCongress }
+const populateCities = (db, data) => {
+    data.forEach((item) => {
+        const sqlStmt = db.prepare(insertStmts[1])
+        sqlStmt.run(
+            `${item.city_name}`,
+            `${item.state_name}`,
+            `${item.coordinates}`,
+            `${item.settled_founded}`,
+            `${item.incorporated}`,
+            `${item.government.type}`,
+            `${item.government.mayor}`,
+            `${item.area.city}`,
+            `${item.area.land}`,
+            `${item.area.water}`,
+            `${item.elevation}`,
+            `${item.population.city}`,
+            `${item.population.density}`,
+            `${item.population.metro}`,
+            `${item.time_zone}`,
+            `${item.FIPS_code}`,
+            `${item.url}`
+        )
+    })
+}
+
+module.exports = { createTables, populateStates, populateCongress, populateCities }

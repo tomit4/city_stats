@@ -1,21 +1,23 @@
 const sqlite3 = require('sqlite3').verbose()
-const data = require('../states.json')
-const { createTables, populateStates, populateCongress } = require('./seed.js')
+const statesData = require('../states.json')
+const citiesData = require('../cities.json')
+const { createTables, populateStates, populateCongress, populateCities } = require('./seed.js')
 
 const db = new sqlite3.Database(
     './states.db',
     sqlite3.OPEN_READWRITE | sqlite3.OPEN_CREATE,
     err => {
         if (err) return console.error(err.message)
-        console.log('Connected to the in-memory SQlite database.')
+        console.log('Connected to the in-memory SQlite statesDatabase.')
     },
 )
 
 db.serialize(() => {
     createTables(db)
-    populateStates(db, data)
-    populateCongress(db, data, 'senators')
-    populateCongress(db, data, 'house_delegation')
+    populateStates(db, statesData)
+    populateCongress(db, statesData, 'senators')
+    populateCongress(db, statesData, 'house_delegation')
+    populateCities(db, citiesData)
 })
 
 module.exports = db
@@ -23,5 +25,5 @@ module.exports = db
 // comment out when running with express
 // db.close((err) => {
 // if (err) return console.error(err.message)
-// console.log('Closing the database connection...')
+// console.log('Closing the statesDatabase connection...')
 // });

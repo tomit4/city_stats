@@ -35,40 +35,40 @@ const createTableStmts = [
     primary_key INTEGER NOT NULL PRIMARY KEY,
     city_name TEXT NOT NULL,
     state_name TEXT NOT NULL,
-    coordinates TEXT NOT NULL,
-    settled_founded TEXT NOT NULL,
-    incorporated TEXT NOT NULL,
-    government_type TEXT NOT NULL,
-    government_mayor TEXT NOT NULL,
-    area_city TEXT NOT NULL,
-    area_land TEXT NOT NULL,
-    area_water TEXT NOT NULL,
-    elevation TEXT NOT NULL,
-    population_city TEXT NOT NULL,
-    population_density TEXT NOT NULL,
-    population_metro TEXT NOT NULL,
-    time_zone TEXT NOT NULL,
-    fips_code TEXT NOT NULL,
-    url TEXT NOT NULL
+    coordinates TEXT,
+    settled_founded TEXT,
+    incorporated TEXT,
+    government_type TEXT,
+    government_mayor TEXT,
+    area_city TEXT,
+    area_land TEXT,
+    area_water TEXT,
+    elevation TEXT,
+    population_city TEXT,
+    population_density TEXT,
+    population_metro TEXT,
+    time_zone TEXT,
+    fips_code TEXT,
+    url TEXT
     )`,
     `CREATE TABLE IF NOT EXISTS city_counties (
     primary_key INTEGER NOT NULL PRIMARY KEY,
-    city_counties TEXT NOT NULL,
+    city_counties TEXT,
     city_city_name TEXT NOT NULL
     )`,
     `CREATE TABLE IF NOT EXISTS city_council (
     primary_key INTEGER NOT NULL PRIMARY KEY,
-    city_council TEXT NOT NULL,
+    city_council TEXT,
     city_city_name TEXT NOT NULL
     )`,
     `CREATE TABLE IF NOT EXISTS zip_codes (
     primary_key INTEGER NOT NULL PRIMARY KEY,
-    zip_codes TEXT NOT NULL,
+    zip_codes TEXT,
     city_city_name TEXT NOT NULL
     )`,
     `CREATE TABLE IF NOT EXISTS area_codes (
     primary_key INTEGER NOT NULL PRIMARY KEY,
-    area_codes TEXT NOT NULL,
+    area_codes TEXT,
     city_city_name TEXT NOT NULL
     )`,
     `CREATE TABLE IF NOT EXISTS gnis_feature_ids (
@@ -100,6 +100,26 @@ const insertStmts = [
     flag_url,
     insignia_url)
     VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+    `,
+    `INSERT OR IGNORE INTO cities (
+    city_name,
+    state_name,
+    coordinates,
+    settled_founded,
+    incorporated,
+    government_type,
+    government_mayor,
+    area_city,
+    area_land,
+    area_water,
+    elevation,
+    population_city,
+    population_density,
+    population_metro,
+    time_zone,
+    fips_code,
+    url)
+    VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
     `
 ]
 
