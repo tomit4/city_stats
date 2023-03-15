@@ -1,7 +1,13 @@
 const sqlite3 = require('sqlite3').verbose()
 const statesData = require('../states.json')
 const citiesData = require('../cities.json')
-const { createTables, populateStates, populateCongress, populateCities } = require('./seed.js')
+const {
+    createTables,
+    populateStates,
+    populateCongress,
+    populateCities,
+    populateCityCouncils,
+} = require('./seed.js')
 
 const db = new sqlite3.Database(
     './states.db',
@@ -18,6 +24,7 @@ db.serialize(() => {
     populateCongress(db, statesData, 'senators')
     populateCongress(db, statesData, 'house_delegation')
     populateCities(db, citiesData)
+    populateCityCouncils(db, citiesData)
 })
 
 module.exports = db

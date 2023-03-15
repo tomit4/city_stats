@@ -97,4 +97,27 @@ const populateCities = (db, data) => {
     })
 }
 
-module.exports = { createTables, populateStates, populateCongress, populateCities }
+const populateCityCouncils = (db, data) => {
+    data.forEach((item) => {
+        db.run(
+            `INSERT OR IGNORE INTO city_council (
+            city_council, city_city_name)
+            VALUES(
+                json('${JSON.stringify(item.government.city_council)}'),
+                '${item.city_name}'
+            )
+            `
+        )
+    })
+    db.run(`ALTER TABLE cities ADD COLUMN city_council TEXT;`)
+    db.each(
+        `UPDATE cities
+        SET city_council = (SELECT city_council FROM city_council WHERE city_city_name = cities.city_name)`,
+        err => {
+            if (err) console.log(err.message)
+        }
+
+    )
+}
+
+module.exports = { createTables, populateStates, populateCongress, populateCities, populateCityCouncils }
