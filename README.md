@@ -33,3 +33,8 @@ __Notes:__
 
 There might be a better way to create the database using bash, the sqlite-cli,
 and sqlite's native json parser. See [this stackoverflow](https://stackoverflow.com/questions/46407770/how-to-convert-a-json-file-to-an-sqlite-database) article regarding how to "quickly" insert json into an sqlite database.
+
+On the other hand, using JavaScript's native, Object.keys() method and
+Object.values() might be able to check if there's a nested object within a JSON
+file and use an iterator for even the CREATE and/or INSERT statements we have
+written currently.
