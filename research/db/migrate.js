@@ -73,7 +73,7 @@ const createTableStmts = [
     )`,
     `CREATE TABLE IF NOT EXISTS gnis_feature_ids (
     primary_key INTEGER NOT NULL PRIMARY KEY,
-    gnis_feature_ids TEXT NOT NULL,
+    gnis_feature_ids TEXT,
     city_city_name TEXT NOT NULL
     )`
 ]
