@@ -36,6 +36,7 @@ function handle404Error(res) {
     return res.send({ ['msg']: '404: data not found!'})
 }
 
+// Immediately populate states keys for easier parsing
 const keysArrFill = async (res) => {
     await db.all(
         `SELECT * FROM states`,
@@ -49,6 +50,9 @@ const keysArrFill = async (res) => {
     )
 }
 
+/**********************
+* STATES QUERIES
+**********************/
 async function returnAllStates(res) {
     await db.all(
         `SELECT * FROM states`,
@@ -150,8 +154,23 @@ async function parseQuery(res, query, field, index) {
     }
 }
 
+/**********************
+* CITIES QUERIES
+**********************/
+async function returnAllCities(res) {
+    await db.all(
+        `SELECT * FROM cities`,
+        [], (err, rows) => {
+        if (err) {
+            return handle500Error(res, err)
+        } else {
+            return res.send(rows)
+        }
+    })
+}
+
 /***********************
-* MAIN PATH ROUTINE
+* MAIN PATH ROUTINES
 ***********************/
 app.get('/states/:query?/:field?/:index?', async (req, res) => {
     keysArrFill(res)
@@ -161,6 +180,11 @@ app.get('/states/:query?/:field?/:index?', async (req, res) => {
     } else {
         parseQuery(res, query, field, index)
     }
+})
+
+// TODO: add parsing queries for cities table as well
+app.get('/cities', async (req, res) => {
+    returnAllCities(res)
 })
 
 app.listen(port, () => {
