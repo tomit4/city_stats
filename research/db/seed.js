@@ -8,7 +8,11 @@ const createTables = db => {
 }
 
 const populateStates = (db, data) => {
-    let valuesToInsert = []
+    const insertStates = insertStmts.generateGenericInsert(
+        'states',
+        insertStmts.state_props,
+    )
+    const valuesToInsert = []
     Object.keys(data[0]).forEach(key => {
         if (key == 'area' || key == 'population') {
             Object.keys(data[0][key]).forEach(k => {
@@ -20,7 +24,7 @@ const populateStates = (db, data) => {
         }
     })
     data.forEach(item => {
-        const sqlStmt = db.prepare(insertStmts.states)
+        const sqlStmt = db.prepare(insertStates)
         const itemToInsert = parseValues(valuesToInsert, item)
         sqlStmt.run(itemToInsert)
         sqlStmt.finalize()
@@ -60,18 +64,18 @@ const populateCongress = (db, data, house) => {
         ['state_state_name', 'states.state_name'],
     ]
     data.forEach(item => {
-        let representatives =
+        const representatives =
             house === 'senators'
                 ? `${JSON.stringify(item.senators)}`
                 : `${JSON.stringify(item.house_delegation)}`
-        db.run(
-            insertStmts.populateCongress(
-                house,
-                key,
-                representatives,
-                item.state_name,
-            ),
-        )
+        const populateArgs = [
+            house,
+            key,
+            representatives,
+            item.state_name,
+            true,
+        ]
+        db.run(insertStmts.populate(...populateArgs))
     })
     db.run(alter('states', house))
     db.each(update(...updateArgs), err => {
@@ -80,27 +84,14 @@ const populateCongress = (db, data, house) => {
 }
 
 const populateCities = (db, data) => {
+    const insertCities = insertStmts.generateGenericInsert(
+        'cities',
+        insertStmts.city_props,
+    )
     data.forEach(item => {
-        const sqlStmt = db.prepare(insertStmts.cities)
-        sqlStmt.run(
-            `${item.city_name}`,
-            `${item.state_name}`,
-            `${item.coordinates}`,
-            `${item.settled_founded}`,
-            `${item.incorporated}`,
-            `${item.government.type}`,
-            `${item.government.mayor}`,
-            `${item.area.city}`,
-            `${item.area.land}`,
-            `${item.area.water}`,
-            `${item.elevation}`,
-            `${item.population.city}`,
-            `${item.population.density}`,
-            `${item.population.metro}`,
-            `${item.time_zone}`,
-            `${item.FIPS_code}`,
-            `${item.url}`,
-        )
+        const sqlStmt = db.prepare(insertCities)
+        const items = Object.values(item)
+        sqlStmt.run(items)
     })
 }
 
@@ -114,14 +105,14 @@ const populateCityCouncils = (db, data) => {
     ]
     data.forEach(item => {
         const stringifiedCouncil = JSON.stringify(item.government.city_council)
-        db.run(
-            insertStmts.populateCityCouncils(
-                'city_council',
-                ['city_council', 'city_city_name'],
-                [stringifiedCouncil],
-                item.city_name,
-            ),
-        )
+        const populateArgs = [
+            'city_council',
+            ['city_council', 'city_city_name'],
+            stringifiedCouncil,
+            item.city_name,
+            false,
+        ]
+        db.run(insertStmts.populate(...populateArgs))
     })
     db.run(alter('cities', 'city_council'))
     db.each(update(...updateArgs), err => {
