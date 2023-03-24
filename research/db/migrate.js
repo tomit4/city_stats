@@ -119,26 +119,25 @@ const insertStmts = {
         'fips_code',
         'url',
     ],
+    _generateStmt: function (values = []) {
+        let stmt = '('
+        values.forEach((value, i) => {
+            stmt =
+                i === values.length - 1
+                    ? `${stmt}${value}`
+                    : `${stmt}${value}, `
+        })
+        stmt = `${stmt})`
+        return stmt
+    },
     generateInsert: function (table, rows = [], values = []) {
         let sqlStmt = `INSERT OR IGNORE INTO ${table}`
-        let rowStmt = this.generateStmt(rows)
-        if (!values.length)
-            rows.forEach(() => values.push('?'))
-        const valueStmt = this.generateStmt(values)
+        let rowStmt = this._generateStmt(rows)
+        if (!values.length) rows.forEach(() => values.push('?'))
+        const valueStmt = this._generateStmt(values)
         rowStmt = `${rowStmt} VALUES`
         sqlStmt = `${sqlStmt}${rowStmt}${valueStmt}`
         return sqlStmt
-    },
-    generateStmt: function (values = []) {
-        let returnStmt = '('
-        values.forEach((value, i) => {
-            returnStmt =
-                i === values.length - 1
-                ? `${returnStmt}${value}`
-                : `${returnStmt}${value}, `
-        })
-        returnStmt = `${returnStmt})`
-        return returnStmt
     },
     populate: function (table, rows, values, name, isState) {
         rows = isState ? [`${rows}`, 'state_state_name'] : rows
