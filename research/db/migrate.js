@@ -75,11 +75,11 @@ const createTableStmts = [
     primary_key INTEGER NOT NULL PRIMARY KEY,
     gnis_feature_ids TEXT,
     city_city_name TEXT NOT NULL
-    )`
+    )`,
 ]
 
-const insertStmts = [
-    `INSERT OR IGNORE INTO states (
+const insertStmts = {
+    states: `INSERT OR IGNORE INTO states (
     state_name,
     state_abbreviation,
     date_admitted,
@@ -101,7 +101,7 @@ const insertStmts = [
     insignia_url)
     VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
     `,
-    `INSERT OR IGNORE INTO cities (
+    cities: `INSERT OR IGNORE INTO cities (
     city_name,
     state_name,
     coordinates,
@@ -120,7 +120,38 @@ const insertStmts = [
     fips_code,
     url)
     VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
-    `
-]
+    `,
+    generateStmt: function (values = []) {
+        let returnStmt = '('
+        values.forEach((value, i) => {
+            returnStmt =
+                i === values.length - 1
+                    ? `${returnStmt}${value}`
+                    : `${returnStmt}${value}, `
+        })
+        returnStmt = `${returnStmt})`
+        return returnStmt
+    },
+    populate: function (table, rows = [], values = []) {
+        let sqlStmt = `INSERT OR IGNORE INTO ${table}`
+        let rowStmt = this.generateStmt(rows)
+        let valueStmt = this.generateStmt(values)
+        rowStmt = `${rowStmt} VALUES`
+        sqlStmt = `${sqlStmt}${rowStmt}${valueStmt}`
+        return sqlStmt
+    },
+    populateCongress: function (table, rows, values, stateName) {
+        rows = [`${rows}`, 'state_state_name']
+        values = [`json('${values}')`, `'${stateName}'`]
+        return this.populate(table, rows, values)
+    },
+    populateCityCouncils: function (table, rows, values, cityName) {
+        values = [`json('${values}')`, `'${cityName}'`]
+        return this.populate(table, rows, values)
+    },
+}
 
-module.exports = { createTableStmts, insertStmts }
+module.exports = {
+    createTableStmts,
+    insertStmts,
+}

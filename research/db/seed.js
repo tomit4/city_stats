@@ -21,7 +21,7 @@ const populateStates = (db, data) => {
     })
 
     data.forEach(item => {
-        const sqlStmt = db.prepare(insertStmts[0])
+        const sqlStmt = db.prepare(insertStmts.states)
         const itemToInsert = []
         valuesToInsert.forEach(value => {
             if (value === 'area.total') {
@@ -54,12 +54,12 @@ const populateCongress = (db, data, house) => {
                 ? `${JSON.stringify(item.senators)}`
                 : `${JSON.stringify(item.house_delegation)}`
         db.run(
-            `INSERT OR IGNORE INTO ${house} (
-            ${key},
-            state_state_name)
-            VALUES(
-            json('${representatives}'),
-            '${item.state_name}')`,
+            insertStmts.populateCongress(
+                house,
+                key,
+                representatives,
+                item.state_name,
+            ),
         )
     })
     db.run(`ALTER TABLE states ADD COLUMN ${house} TEXT;`)
@@ -73,8 +73,8 @@ const populateCongress = (db, data, house) => {
 }
 
 const populateCities = (db, data) => {
-    data.forEach((item) => {
-        const sqlStmt = db.prepare(insertStmts[1])
+    data.forEach(item => {
+        const sqlStmt = db.prepare(insertStmts.cities)
         sqlStmt.run(
             `${item.city_name}`,
             `${item.state_name}`,
@@ -92,21 +92,21 @@ const populateCities = (db, data) => {
             `${item.population.metro}`,
             `${item.time_zone}`,
             `${item.FIPS_code}`,
-            `${item.url}`
+            `${item.url}`,
         )
     })
 }
 
 const populateCityCouncils = (db, data) => {
-    data.forEach((item) => {
+    data.forEach(item => {
+        const stringifiedCouncil = JSON.stringify(item.government.city_council)
         db.run(
-            `INSERT OR IGNORE INTO city_council (
-            city_council, city_city_name)
-            VALUES(
-                json('${JSON.stringify(item.government.city_council)}'),
-                '${item.city_name}'
-            )
-            `
+            insertStmts.populateCityCouncils(
+                'city_council',
+                ['city_council', 'city_city_name'],
+                [stringifiedCouncil],
+                item.city_name,
+            ),
         )
     })
     db.run(`ALTER TABLE cities ADD COLUMN city_council TEXT;`)
@@ -115,9 +115,14 @@ const populateCityCouncils = (db, data) => {
         SET city_council = (SELECT city_council FROM city_council WHERE city_city_name = cities.city_name)`,
         err => {
             if (err) console.log(err.message)
-        }
-
+        },
     )
 }
 
-module.exports = { createTables, populateStates, populateCongress, populateCities, populateCityCouncils }
+module.exports = {
+    createTables,
+    populateStates,
+    populateCongress,
+    populateCities,
+    populateCityCouncils,
+}
