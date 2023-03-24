@@ -19,35 +19,46 @@ const populateStates = (db, data) => {
             valuesToInsert.push(key)
         }
     })
-
     data.forEach(item => {
         const sqlStmt = db.prepare(insertStmts.states)
-        const itemToInsert = []
-        valuesToInsert.forEach(value => {
-            if (value === 'area.total') {
-                itemToInsert.push(`${item.area.total}`)
-            } else if (value === 'area.land') {
-                itemToInsert.push(`${item.area.land}`)
-            } else if (value === 'area.water') {
-                itemToInsert.push(`${item.area.water}`)
-            } else if (value === 'population.total') {
-                itemToInsert.push(`${item.population.total}`)
-            } else if (value === 'population.density') {
-                itemToInsert.push(`${item.population.density}`)
-            } else if (value === 'population.median_household_income') {
-                itemToInsert.push(`${item.population.median_household_income}`)
-            } else if (!item[value]) {
-            } else {
-                itemToInsert.push(item[value])
-            }
-        })
+        const itemToInsert = parseValues(valuesToInsert, item)
         sqlStmt.run(itemToInsert)
         sqlStmt.finalize()
     })
 }
 
+const parseValues = (valuesToInsert, item) => {
+    const itemToInsert = []
+    valuesToInsert.forEach(value => {
+        if (value === 'area.total') {
+            itemToInsert.push(`${item.area.total}`)
+        } else if (value === 'area.land') {
+            itemToInsert.push(`${item.area.land}`)
+        } else if (value === 'area.water') {
+            itemToInsert.push(`${item.area.water}`)
+        } else if (value === 'population.total') {
+            itemToInsert.push(`${item.population.total}`)
+        } else if (value === 'population.density') {
+            itemToInsert.push(`${item.population.density}`)
+        } else if (value === 'population.median_household_income') {
+            itemToInsert.push(`${item.population.median_household_income}`)
+        } else if (!item[value]) {
+        } else {
+            itemToInsert.push(item[value])
+        }
+    })
+    return itemToInsert
+}
+
 const populateCongress = (db, data, house) => {
     let key = house === 'senators' ? 'senator_list' : 'house_delegates'
+    const updateArgs = [
+        'states',
+        house,
+        key,
+        house,
+        ['state_state_name', 'states.state_name'],
+    ]
     data.forEach(item => {
         let representatives =
             house === 'senators'
@@ -63,13 +74,6 @@ const populateCongress = (db, data, house) => {
         )
     })
     db.run(alter('states', house))
-    const updateArgs = [
-        'states',
-        house,
-        key,
-        house,
-        ['state_state_name', 'states.state_name'],
-    ]
     db.each(update(...updateArgs), err => {
         if (err) console.error(err.message)
     })
@@ -101,6 +105,13 @@ const populateCities = (db, data) => {
 }
 
 const populateCityCouncils = (db, data) => {
+    const updateArgs = [
+        'cities',
+        'city_council',
+        'city_council',
+        'city_council',
+        ['city_city_name', 'cities.city_name'],
+    ]
     data.forEach(item => {
         const stringifiedCouncil = JSON.stringify(item.government.city_council)
         db.run(
@@ -113,13 +124,6 @@ const populateCityCouncils = (db, data) => {
         )
     })
     db.run(alter('cities', 'city_council'))
-    const updateArgs = [
-        'cities',
-        'city_council',
-        'city_council',
-        'city_council',
-        ['city_city_name', 'cities.city_name'],
-    ]
     db.each(update(...updateArgs), err => {
         if (err) console.log(err.message)
     })
