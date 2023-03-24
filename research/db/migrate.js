@@ -124,7 +124,7 @@ const insertStmts = {
         let rowStmt = this.generateStmt(rows)
         if (!values.length)
             rows.forEach(() => values.push('?'))
-        let valueStmt = this.generateStmt(values)
+        const valueStmt = this.generateStmt(values)
         rowStmt = `${rowStmt} VALUES`
         sqlStmt = `${sqlStmt}${rowStmt}${valueStmt}`
         return sqlStmt
