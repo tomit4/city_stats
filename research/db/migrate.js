@@ -1,5 +1,3 @@
-// TODO: change into object
-// create function that generates these statements
 const createTableStmts = [
     `CREATE TABLE IF NOT EXISTS states(
     primary_key INTEGER NOT NULL PRIMARY KEY,
@@ -80,7 +78,6 @@ const createTableStmts = [
     )`,
 ]
 
-// TODO: create function that generates these statements
 const insertStmts = {
     state_props: [
         'state_name',
@@ -122,12 +119,11 @@ const insertStmts = {
         'fips_code',
         'url',
     ],
-    generateGenericInsert: function (table, rows = [], values = []) {
+    generateInsert: function (table, rows = [], values = []) {
         let sqlStmt = `INSERT OR IGNORE INTO ${table}`
         let rowStmt = this.generateStmt(rows)
-        rows.forEach(() => {
-            values.push('?')
-        })
+        if (!values.length)
+            rows.forEach(() => values.push('?'))
         let valueStmt = this.generateStmt(values)
         rowStmt = `${rowStmt} VALUES`
         sqlStmt = `${sqlStmt}${rowStmt}${valueStmt}`
@@ -138,19 +134,11 @@ const insertStmts = {
         values.forEach((value, i) => {
             returnStmt =
                 i === values.length - 1
-                    ? `${returnStmt}${value}`
-                    : `${returnStmt}${value}, `
+                ? `${returnStmt}${value}`
+                : `${returnStmt}${value}, `
         })
         returnStmt = `${returnStmt})`
         return returnStmt
-    },
-    generateInsert: function (table, rows = [], values = []) {
-        let sqlStmt = `INSERT OR IGNORE INTO ${table}`
-        let rowStmt = this.generateStmt(rows)
-        let valueStmt = this.generateStmt(values)
-        rowStmt = `${rowStmt} VALUES`
-        sqlStmt = `${sqlStmt}${rowStmt}${valueStmt}`
-        return sqlStmt
     },
     populate: function (table, rows, values, name, isState) {
         rows = isState ? [`${rows}`, 'state_state_name'] : rows

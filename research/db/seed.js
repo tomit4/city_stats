@@ -1,24 +1,21 @@
 const { createTableStmts, insertStmts, alter, update } = require('./migrate.js')
 
-// TODO: separate out create funcs and populate funcs
-const createTables = db => {
-    createTableStmts.forEach(statement => {
-        db.run(statement)
-    })
-}
+const createTables = db => 
+    createTableStmts.forEach(statement => db.run(statement))
 
 const populateStates = (db, data) => {
-    const insertStates = insertStmts.generateGenericInsert(
+    const branches = ['senators', 'house_delegation']
+    const valuesToInsert = []
+    const insertStates = insertStmts.generateInsert(
         'states',
         insertStmts.state_props,
     )
-    const valuesToInsert = []
     Object.keys(data[0]).forEach(key => {
         if (key == 'area' || key == 'population') {
             Object.keys(data[0][key]).forEach(k => {
                 valuesToInsert.push(`${key}.${k}`)
             })
-        } else if (key == 'senators' || key == 'house_delegation') {
+        } else if (branches.includes(key)) {
         } else {
             valuesToInsert.push(key)
         }
@@ -28,6 +25,9 @@ const populateStates = (db, data) => {
         const itemToInsert = parseValues(valuesToInsert, item)
         sqlStmt.run(itemToInsert)
         sqlStmt.finalize()
+    })
+    branches.forEach(branch => {
+        populateCongress(db, data, branch)
     })
 }
 
@@ -84,7 +84,7 @@ const populateCongress = (db, data, house) => {
 }
 
 const populateCities = (db, data) => {
-    const insertCities = insertStmts.generateGenericInsert(
+    const insertCities = insertStmts.generateInsert(
         'cities',
         insertStmts.city_props,
     )
@@ -93,6 +93,7 @@ const populateCities = (db, data) => {
         const items = Object.values(item)
         sqlStmt.run(items)
     })
+    populateCityCouncils(db, data)
 }
 
 const populateCityCouncils = (db, data) => {
@@ -123,7 +124,5 @@ const populateCityCouncils = (db, data) => {
 module.exports = {
     createTables,
     populateStates,
-    populateCongress,
     populateCities,
-    populateCityCouncils,
 }
