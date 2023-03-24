@@ -151,7 +151,17 @@ const insertStmts = {
     },
 }
 
+const alter = (tableName, columnName) => {
+    return `ALTER TABLE ${tableName} ADD COLUMN ${columnName} TEXT;`
+}
+
+const update = (table, newRow, foreignRow, foreignTable, compVars = []) => {
+    return `UPDATE ${table} SET ${newRow} = (SELECT ${foreignRow} FROM ${foreignTable} WHERE ${compVars[0]} = ${compVars[1]})`
+}
+
 module.exports = {
     createTableStmts,
     insertStmts,
+    alter,
+    update,
 }

@@ -1,4 +1,4 @@
-const { createTableStmts, insertStmts } = require('./migrate.js')
+const { createTableStmts, insertStmts, alter, update } = require('./migrate.js')
 
 // TODO: separate out create funcs and populate funcs
 const createTables = db => {
@@ -62,14 +62,17 @@ const populateCongress = (db, data, house) => {
             ),
         )
     })
-    db.run(`ALTER TABLE states ADD COLUMN ${house} TEXT;`)
-    db.each(
-        `UPDATE states
-        SET ${house} = (SELECT ${key} FROM ${house} WHERE state_state_name = states.state_name)`,
-        err => {
-            if (err) console.error(err.message)
-        },
-    )
+    db.run(alter('states', house))
+    const updateArgs = [
+        'states',
+        house,
+        key,
+        house,
+        ['state_state_name', 'states.state_name'],
+    ]
+    db.each(update(...updateArgs), err => {
+        if (err) console.error(err.message)
+    })
 }
 
 const populateCities = (db, data) => {
@@ -109,14 +112,17 @@ const populateCityCouncils = (db, data) => {
             ),
         )
     })
-    db.run(`ALTER TABLE cities ADD COLUMN city_council TEXT;`)
-    db.each(
-        `UPDATE cities
-        SET city_council = (SELECT city_council FROM city_council WHERE city_city_name = cities.city_name)`,
-        err => {
-            if (err) console.log(err.message)
-        },
-    )
+    db.run(alter('cities', 'city_council'))
+    const updateArgs = [
+        'cities',
+        'city_council',
+        'city_council',
+        'city_council',
+        ['city_city_name', 'cities.city_name'],
+    ]
+    db.each(update(...updateArgs), err => {
+        if (err) console.log(err.message)
+    })
 }
 
 module.exports = {
