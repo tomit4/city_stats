@@ -1,3 +1,4 @@
+// TODO: Look over this and see if you can refactor...
 const express = require('express')
 const path = require('path')
 const cors = require('cors')
@@ -108,12 +109,9 @@ function returnLegislature(legislature, res, index, err, rows) {
     } else {
         const state_name = rows[0].state_name
         const indexInt = index ? parseInt(index) : null
-        let legislators
-        if (legislature === "senators") {
-            legislators = JSON.parse(rows[0].senators)
-        } else if (legislature === "house_delegates") {
-            legislators = JSON.parse(rows[0].house_delegates)
-        }
+        let legislators = legislature === 'senators' ?
+            JSON.parse(rows[0].senators) :
+            JSON.parse(rows[0].house_delegates)
         const legislator = legislators[index - 1]
         if (!legislator) {
             return handle404Error(res)
