@@ -1,10 +1,10 @@
 const sqlite3 = require('sqlite3').verbose()
-const statesData = require('../states.json')
-const citiesData = require('../cities.json')
+const statesData = require('./states.json')
+const citiesData = require('./cities.json')
 const { createTables, populateStates, populateCities } = require('./seed.js')
 
 const db = new sqlite3.Database(
-    './states.db',
+    './db/states.db',
     sqlite3.OPEN_READWRITE | sqlite3.OPEN_CREATE,
     err => {
         if (err) return console.error(err.message)

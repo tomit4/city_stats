@@ -5,10 +5,9 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 const db = require('./db/sqlite')
 
-// these are a bit repetetive, querying the database and pushing the values
-// might be more efficient...
+// TODO: Refactor statesArr to not reference file, but instead populate
+// like keysArr
 const statesArr = require('./states_array.js')
-// const keysArr = require('./keys_array.js')
 let keysArr = []
 
 const app = express()
@@ -92,7 +91,7 @@ async function returnFieldData(res, query, field) {
 
 async function returnCongressData(res, state, legislature, index) {
     await db.all(
-        `Select state_name, ${legislature} FROM states WHERE state_name = ?`,
+        `SELECT state_name, ${legislature} FROM states WHERE state_name = ?`,
         [state], (err, rows) => {
             if (err) {
                 return handle500Error(res, err)
@@ -111,7 +110,7 @@ function returnLegislature(legislature, res, index, err, rows) {
         const indexInt = index ? parseInt(index) : null
         let legislators = legislature === 'senators' ?
             JSON.parse(rows[0].senators) :
-            JSON.parse(rows[0].house_delegates)
+            JSON.parse(rows[0].house_delegation)
         const legislator = legislators[index - 1]
         if (!legislator) {
             return handle404Error(res)
@@ -141,7 +140,7 @@ async function parseQuery(res, query, field, index) {
         if (!index && keysArr.includes(field)) {
             returnFieldData(res, query, field)
         } else if (index && keysArr.includes(field)) {
-            if (field === "senators" || field === "house_delegates") {
+            if (field === "senators" || field === "house_delegation") {
                 returnCongressData(res, query, field, index)
             } else {
                 return handle404Error(res)
