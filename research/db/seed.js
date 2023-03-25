@@ -22,16 +22,16 @@ const populateStates = (db, data) => {
     })
     data.forEach(item => {
         const sqlStmt = db.prepare(insertStates)
-        const itemToInsert = parseValues(valuesToInsert, item)
+        const itemToInsert = _parseValues(valuesToInsert, item)
         sqlStmt.run(itemToInsert)
         sqlStmt.finalize()
     })
     branches.forEach(branch => {
-        populateCongress(db, data, branch)
+        _populateCongress(db, data, branch)
     })
 }
 
-const parseValues = (valuesToInsert, item) => {
+const _parseValues = (valuesToInsert, item) => {
     const itemToInsert = []
     valuesToInsert.forEach(value => {
         if (value === 'area.total') {
@@ -54,7 +54,7 @@ const parseValues = (valuesToInsert, item) => {
     return itemToInsert
 }
 
-const populateCongress = (db, data, house) => {
+const _populateCongress = (db, data, house) => {
     let key = house === 'senators' ? 'senator_list' : 'house_delegates'
     const updateArgs = [
         'states',
@@ -93,10 +93,10 @@ const populateCities = (db, data) => {
         const items = Object.values(item)
         sqlStmt.run(items)
     })
-    populateCityCouncils(db, data)
+    _populateCityCouncils(db, data)
 }
 
-const populateCityCouncils = (db, data) => {
+const _populateCityCouncils = (db, data) => {
     const updateArgs = [
         'cities',
         'city_council',
