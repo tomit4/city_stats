@@ -1,7 +1,9 @@
 const db = require('../db/sqlite')
-const json = require('../db/states.json')
+const statesData = require('../db/states.json')
+const citiesData = require('../db/cities.json')
 const keysArr = []
 const statesArr = []
+const citiesArr = []
 
 const handle500Error = (res, err) => {
     console.error(err)
@@ -12,25 +14,36 @@ const handle404Error = res => {
     return res.send({ ['msg']: '404: data not found!' })
 }
 
-// TODO: since cities will follow similar logic,
-// condense these fills down into a single function, i.e. populate()
+// TODO: Refactor the following, is too repetitive...
 const keysArrFill = () => {
-    Object.keys(json[0]).forEach(k => {
+    Object.keys(statesData[0]).forEach(k => {
         keysArr.push(k)
     })
 }
 
 const statesArrFill = () => {
-    json.forEach(js => {
-        statesArr.push(js.state_name)
+    statesData.forEach(state => {
+        statesArr.push(state.state_name)
     })
+}
+
+const citiesArrFill = () => {
+    citiesData.forEach(city => {
+        citiesArr.push(city.city_name)
+    })
+}
+
+const populateLocalData = () => {
+    keysArrFill()
+    statesArrFill()
+    citiesArrFill()
 }
 
 module.exports = {
     keysArr,
     statesArr,
+    citiesArr,
     handle500Error,
     handle404Error,
-    keysArrFill,
-    statesArrFill,
+    populateLocalData,
 }

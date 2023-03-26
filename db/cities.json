@@ -76,7 +76,7 @@
   },
   {
     "city_name": "Albuquerque",
-    "state_name": "New Mexico",
+    "state_name": "New_Mexico",
     "coordinates": "35°06′39″N 106°36′36″W",
     "counties": ["Bernalillo"],
     "settled_founded": "1706",
@@ -370,7 +370,7 @@
     "url": "https://www.muni.org/"
   },
   {
-    "city_name": "Ann Arbor",
+    "city_name": "Ann_Arbor",
     "state_name": "Michigan",
     "coordinates": "42°16′53″N 83°44′54″W",
     "counties": ["Washtenaw"],
@@ -922,7 +922,7 @@
     "url": "https://www.baltimorecity.gov/"
   },
   {
-    "city_name": "Baton Rouge",
+    "city_name": "Baton_Rouge",
     "state_name": "Louisiana",
     "coordinates": "30°26′51″N 91°10′43″W",
     "counties": null,
@@ -1170,7 +1170,7 @@
     "url": "https://www.billingsmt.gov/"
   },
   {
-    "city_name": "Birmingham ",
+    "city_name": "Birmingham",
     "state_name": "Alabama",
     "coordinates": "33°31′03″N 86°48′34″W",
     "counties": ["Jefferson", "Shelby"],
@@ -1479,7 +1479,7 @@
     "url": "https://brockton.ma.us/"
   },
   {
-    "city_name": "Broken Arrow",
+    "city_name": "Broken_Arrow",
     "state_name": "Oklahoma",
     "coordinates": "36°2′11″N 95°47′1″W",
     "counties": ["Tulsa", "Wagoner"],
@@ -1589,7 +1589,7 @@
   },
   {
     "city_name": "Buffalo",
-    "state_name": "New York",
+    "state_name": "New_York",
     "coordinates": "42°53′11″N 78°52′41″W",
     "counties": ["Erie"],
     "settled_founded": "1789",
@@ -1702,7 +1702,7 @@
     "url": "https://www.cambridgema.gov/"
   },
   {
-    "city_name": "Cape Coral",
+    "city_name": "Cape_Coral",
     "state_name": "Florida",
     "coordinates": "26°38′23″N 81°58′57″W",
     "counties": ["Lee"],
@@ -1854,7 +1854,7 @@
   },
   {
     "city_name": "Cary",
-    "state_name": "North Carolina",
+    "state_name": "North_Carolina",
     "coordinates": "35°47′30″N 78°46′52″W",
     "counties": ["Chatham", "Wake"],
     "settled_founded": "1750",
@@ -1890,7 +1890,7 @@
     "url": "https://www.carync.gov/"
   },
   {
-    "city_name": "Cedar Rapids",
+    "city_name": "Cedar_Rapids",
     "state_name": "Iowa",
     "coordinates": "41°58′59″N 91°40′7″W",
     "counties": ["Linn"],
@@ -2010,7 +2010,7 @@
   },
   {
     "city_name": "Charleston",
-    "state_name": "South Carolina",
+    "state_name": "South_Carolina",
     "coordinates": "32°47′00″N 79°55′55″W",
     "counties": ["Charleston", "Berkeley"],
     "settled_founded": "1680",
@@ -2065,7 +2065,7 @@
   },
   {
     "city_name": "Charlotte",
-    "state_name": "North Carolina",
+    "state_name": "North_Carolina",
     "coordinates": "35°13′38″N 80°50′35″W",
     "counties": ["Mecklenburg"],
     "settled_founded": "1755",
@@ -2325,7 +2325,7 @@
     "url": "https://chico.ca.us/"
   },
   {
-    "city_name": "Chula Vista",
+    "city_name": "Chula_Vista",
     "state_name": "California",
     "coordinates": "32°37′40″N 117°2′53″W",
     "counties": ["San Diego"],
@@ -2572,7 +2572,7 @@
     "url": "https://cityofclovis.com/"
   },
   {
-    "city_name": "College Station",
+    "city_name": "College_Station",
     "state_name": "Texas",
     "coordinates": "30°36′05″N 96°18′52″W",
     "counties": ["Brazos"],
@@ -2609,7 +2609,7 @@
     "url": "https://www.cstx.gov/"
   },
   {
-    "city_name": "Colorado Springs",
+    "city_name": "Colorado_Springs",
     "state_name": "Colorado",
     "coordinates": "38°50′02″N 104°49′31″W",
     "counties": ["El Paso County"],
@@ -2695,7 +2695,7 @@
   },
   {
     "city_name": "Columbia",
-    "state_name": "South Carolina",
+    "state_name": "South_Carolina",
     "coordinates": "34°0′2″N 81°2′5″W",
     "counties": ["Richland", "Lexington"],
     "settled_founded": "1786",
@@ -2888,7 +2888,7 @@
   },
   {
     "city_name": "Concord",
-    "state_name": "North Carolina",
+    "state_name": "North_Carolina",
     "coordinates": "35°24′16″N 80°36′2″W",
     "counties": ["Cabarrus"],
     "settled_founded": "1796",
@@ -2925,7 +2925,7 @@
     "url": "https://concordnc.gov/"
   },
   {
-    "city_name": "Coral Springs",
+    "city_name": "Coral_Springs",
     "state_name": "Florida",
     "coordinates": "26°16′14″N 80°15′33″W",
     "counties": ["Broward"],
@@ -3004,7 +3004,7 @@
     "url": "https://www.coronaca.gov/"
   },
   {
-    "city_name": "Corpus Christi",
+    "city_name": "Corpus_Christi",
     "state_name": "Texas",
     "coordinates": "27°44′34″N 97°24′7″W",
     "counties": ["Neuces", "Kleberg", "San Patricio", "Aransas"],
@@ -3043,7 +3043,7 @@
     "url": "https://www.cctexas.com/"
   },
   {
-    "city_name": "Costa Mesa",
+    "city_name": "Costa_Mesa",
     "state_name": "California",
     "coordinates": "33°39′54″N 117°54′44″W",
     "counties": ["Orange"],
@@ -3154,7 +3154,7 @@
     "url": "https://dallascityhall.com/"
   },
   {
-    "city_name": "Daly City",
+    "city_name": "Daly_City",
     "state_name": "California",
     "coordinates": "37°41′11″N 122°28′06″W",
     "counties": ["San Mateo"],
@@ -3460,7 +3460,7 @@
     "url": "https://www.denvergov.org/"
   },
   {
-    "city_name": "Des Moines",
+    "city_name": "Des_Moines",
     "state_name": "Iowa",
     "coordinates": "41°35′27″N 93°37′15″W",
     "counties": ["Polk", "Warren"],
@@ -3573,7 +3573,7 @@
   },
   {
     "city_name": "Durham",
-    "state_name": "North Carolina",
+    "state_name": "North_Carolina",
     "coordinates": "35°59′19″N 78°54′26″W",
     "counties": ["Durham", "Wake"],
     "settled_founded": null,
@@ -3662,7 +3662,7 @@
   },
   {
     "city_name": "Edison",
-    "state_name": "New Jersey",
+    "state_name": "New_Jersey",
     "coordinates": "40.5274°N 74.3933°W",
     "counties": ["Middlesex"],
     "settled_founded": "1651",
@@ -3699,7 +3699,7 @@
     "url": "https://www.edisonnj.org/"
   },
   {
-    "city_name": "El Cajon",
+    "city_name": "El_Cajon",
     "state_name": "California",
     "coordinates": "32°47′54″N 116°57′36″W",
     "counties": ["San Diego"],
@@ -3774,7 +3774,7 @@
   },
   {
     "city_name": "Elizabeth",
-    "state_name": "New Jersey",
+    "state_name": "New_Jersey",
     "coordinates": "40.663°N 74.214°W",
     "counties": ["Union"],
     "settled_founded": "1664",
@@ -3813,7 +3813,7 @@
     "url": "https://www.elizabethnj.org/"
   },
   {
-    "city_name": "Elk Grove",
+    "city_name": "Elk_Grove",
     "state_name": "California",
     "coordinates": "38°26′18″N 121°22′55″W",
     "counties": ["Sacramento"],
@@ -3848,7 +3848,7 @@
     "url": "https://www.elkgrovecity.org/"
   },
   {
-    "city_name": "El Monte",
+    "city_name": "El_Monte",
     "state_name": "California",
     "coordinates": "34°4′24″N 118°1′39″W",
     "counties": ["Los Angeles"],
@@ -3882,7 +3882,7 @@
     "url": "https://ci.el-monte.ca.us/"
   },
   {
-    "city_name": "El Paso",
+    "city_name": "El_Paso",
     "state_name": "Texas",
     "coordinates": "31°45′33″N 106°29′19″W",
     "counties": ["El Paso"],
@@ -4134,7 +4134,7 @@
   },
   {
     "city_name": "Fargo",
-    "state_name": "North Dakota",
+    "state_name": "North_Dakota",
     "coordinates": "46°52′38″N 96°47′22″W",
     "counties": ["Cass"],
     "settled_founded": "1871",
@@ -4169,7 +4169,7 @@
   },
   {
     "city_name": "Fayetteville",
-    "state_name": "North Carolina",
+    "state_name": "North_Carolina",
     "coordinates": "35°3′9″N 78°52′41″W",
     "counties": ["Cumberland"],
     "settled_founded": "1783",
@@ -4297,7 +4297,7 @@
     "url": "https://www.fontana.org/"
   },
   {
-    "city_name": "Fort Collins",
+    "city_name": "Fort_Collins",
     "state_name": "Colorado",
     "coordinates": "40°33′N 105°4′41″W",
     "counties": ["Larimer"],
@@ -4334,7 +4334,7 @@
     "url": "https://www.fcgov.com/"
   },
   {
-    "city_name": "Fort Lauderdale",
+    "city_name": "Fort_Lauderdale",
     "state_name": "Florida",
     "coordinates": "26°8′N 80°4W",
     "counties": ["Broward"],
@@ -4379,7 +4379,7 @@
     "url": "https://www.fortlauderdale.gov/"
   },
   {
-    "city_name": "Fort Wayne",
+    "city_name": "Fort_Wayne",
     "state_name": "Indiana",
     "coordinates": "41°04′50″N 85°08'21″W",
     "counties": ["Allen"],
@@ -4429,7 +4429,7 @@
     "url": "https://www.cityoffortwayne.org/"
   },
   {
-    "city_name": "Fort Worth",
+    "city_name": "Fort_Worth",
     "state_name": "Texas",
     "coordinates": "32°45′N 97°20′W",
     "counties": ["Tarrant", "Denton", "Johnson", "Parker", "Wise"],
@@ -4674,7 +4674,7 @@
     "url": "https://www.gainesvillefl.gov/"
   },
   {
-    "city_name": "Garden Grove",
+    "city_name": "Garden_Grove",
     "state_name": "California",
     "coordinates": "33°46′44″N 117°57′37″W",
     "counties": ["Orange"],
@@ -4891,7 +4891,7 @@
     "url": "https://www.goodyearaz.gov/"
   },
   {
-    "city_name": "Grand Prairie",
+    "city_name": "Grand_Prairie",
     "state_name": "Texas",
     "coordinates": "32°42′55″N 97°1′1″W",
     "counties": ["Dallas", "Tarrant", "Ellis"],
@@ -4930,7 +4930,7 @@
     "url": "https://www.gptx.org/"
   },
   {
-    "city_name": "Grand Rapids",
+    "city_name": "Grand_Rapids",
     "state_name": "Michigan",
     "coordinates": "42°57′40″N 85°39′20″W",
     "counties": ["Kent"],
@@ -5019,7 +5019,7 @@
     "url": "https://greeleygov.com/"
   },
   {
-    "city_name": "Green Bay",
+    "city_name": "Green_Bay",
     "state_name": "Wisconsin",
     "coordinates": "44°30′48″N 88°0′57″W",
     "counties": ["Brown"],
@@ -5063,7 +5063,7 @@
   },
   {
     "city_name": "Greensboro",
-    "state_name": "North Carolina",
+    "state_name": "North_Carolina",
     "coordinates": "36°4′48″N 79°49′10″W",
     "counties": ["Guilford"],
     "settled_founded": "1808",
@@ -5379,8 +5379,8 @@
     "url": "https://www.hialeahfl.gov/"
   },
   {
-    "city_name": "High Point",
-    "state_name": "North Carolina",
+    "city_name": "High_Point",
+    "state_name": "North_Carolina",
     "coordinates": "35°58′14″N 79°59′51″W",
     "counties": ["Guilford", "Davidson", "Randolph", "Rosyth"],
     "settled_founded": null,
@@ -5580,7 +5580,7 @@
     "url": "https://www.houstontx.gov/"
   },
   {
-    "city_name": "Huntington Beach",
+    "city_name": "Huntington_Beach",
     "state_name": "California",
     "coordinates": "33°41′34″N 118°0′1″W",
     "counties": ["Orange"],
@@ -5996,8 +5996,8 @@
     "url": "https://www.coj.net/"
   },
   {
-    "city_name": "Jersey City",
-    "state_name": "New Jersey",
+    "city_name": "Jersey_City",
+    "state_name": "New_Jersey",
     "coordinates": "40°42′36″N 74°03′36″W",
     "counties": ["Duval"],
     "settled_founded": "1630",
@@ -6075,7 +6075,7 @@
     "url": "https://www.joliet.gov/"
   },
   {
-    "city_name": "Jurupa Valley",
+    "city_name": "Jurupa_Valley",
     "state_name": "California",
     "coordinates": "34°00′N 117°29′W",
     "counties": ["Riverside"],
@@ -6110,7 +6110,7 @@
     "url": "https://jurupavalley.org/"
   },
   {
-    "city_name": "Kansas City",
+    "city_name": "Kansas_City",
     "state_name": "Missouri",
     "coordinates": "39°05′59″N 94°34′42″W",
     "counties": ["Jackson", "Clay", "Platte", "Cass"],
@@ -6172,7 +6172,7 @@
     "url": "https://www.kcmo.gov/"
   },
   {
-    "city_name": "Kansas City",
+    "city_name": "Kansas_City",
     "state_name": "Kansas",
     "coordinates": "39°6′24″N 94°40′35″W",
     "counties": ["Wyandotte"],
@@ -6469,7 +6469,7 @@
   },
   {
     "city_name": "Lakewood",
-    "state_name": "New Jersey",
+    "state_name": "New_Jersey",
     "coordinates": "40.077069°N 74.19851°W",
     "counties": ["Ocean"],
     "settled_founded": null,
@@ -6631,8 +6631,8 @@
     "url": "https://www.cityoflaredo.com/"
   },
   {
-    "city_name": "Las Cruces",
-    "state_name": "New Mexico",
+    "city_name": "Las_Cruces",
+    "state_name": "New_Mexico",
     "coordinates": "32°18′52″N 106°46′44″W",
     "counties": ["Doña Ana"],
     "settled_founded": "1849",
@@ -6668,7 +6668,7 @@
     "url": "https://www.lascruces.gov/"
   },
   {
-    "city_name": "Las Vegas",
+    "city_name": "Las_Vegas",
     "state_name": "Nevada",
     "coordinates": "36°10′30″N 115°08′11″W",
     "counties": ["Clark"],
@@ -6705,7 +6705,7 @@
     "url": "https://www.lasvegasnevada.gov/"
   },
   {
-    "city_name": "League City",
+    "city_name": "League_City",
     "state_name": "Texas",
     "coordinates": "29°29′59″N 95°5′23″W",
     "counties": ["Galveston", "Harris"],
@@ -6743,7 +6743,7 @@
     "url": "https://www.leaguecitytx.gov/"
   },
   {
-    "city_name": "Lees Summit",
+    "city_name": "Lees_Summit",
     "state_name": "Missouri",
     "coordinates": "38°55′21″N 94°22′27″W",
     "counties": ["Jackson", "Cass"],
@@ -6940,7 +6940,7 @@
     "url": "https://www.lincoln.ne.gov/"
   },
   {
-    "city_name": "Little Rock",
+    "city_name": "Little_Rock",
     "state_name": "Arkansas",
     "coordinates": "34°44′10″N 92°19′52″W",
     "counties": ["Pulaski"],
@@ -6993,7 +6993,7 @@
     "url": "https://www.littlerock.gov/"
   },
   {
-    "city_name": "Long Beach",
+    "city_name": "Long_Beach",
     "state_name": "California",
     "coordinates": "33°46′6″N 118°11′44″W",
     "counties": ["Los Angeles"],
@@ -7082,7 +7082,7 @@
     "url": "https://www.longmontcolorado.gov/"
   },
   {
-    "city_name": "Los Angeles",
+    "city_name": "Los_Angeles",
     "state_name": "California",
     "coordinates": "34°03′N 118°15′W",
     "counties": ["Los Angeles"],
@@ -7447,7 +7447,7 @@
   },
   {
     "city_name": "Manchester",
-    "state_name": "New Hampshire",
+    "state_name": "New_Hampshire",
     "coordinates": "42°59′27″N 71°27′49″W",
     "counties": ["Hillsborough"],
     "settled_founded": "1751",
@@ -7846,7 +7846,7 @@
     "url": "https://www.miamigov.com/"
   },
   {
-    "city_name": "Miami Gardens",
+    "city_name": "Miami_Gardens",
     "state_name": "Florida",
     "coordinates": "25°56′28″N 80°14′43″W",
     "counties": ["Miami-Dade"],
@@ -8200,7 +8200,7 @@
     "url": "https://www.montgomeryal.gov/"
   },
   {
-    "city_name": "Moreno Valley",
+    "city_name": "Moreno_Valley",
     "state_name": "California",
     "coordinates": "33°56′35″N 117°13′42″W",
     "counties": ["Riverside"],
@@ -8438,7 +8438,7 @@
   },
   {
     "city_name": "Newark",
-    "state_name": "New Jersey",
+    "state_name": "New_Jersey",
     "coordinates": "40.72422°N 74.172574°W",
     "counties": ["Essex"],
     "settled_founded": "1663",
@@ -8477,7 +8477,7 @@
     "url": "https://www.newarknj.gov/"
   },
   {
-    "city_name": "New Bedford",
+    "city_name": "New_Bedford",
     "state_name": "Massachusetts",
     "coordinates": "41°38′10″N 70°56′05″W",
     "counties": ["Bristol"],
@@ -8518,7 +8518,7 @@
     "url": "https://www.newbedford-ma.gov/"
   },
   {
-    "city_name": "New Haven",
+    "city_name": "New_Haven",
     "state_name": "Connecticut",
     "coordinates": "41°18′36″N 72°55′25″W",
     "counties": ["New Haven"],
@@ -8579,7 +8579,7 @@
     "url": "https://www.newhavenct.gov/"
   },
   {
-    "city_name": "New Orleans",
+    "city_name": "New_Orleans",
     "state_name": "Louisiana",
     "coordinates": "29°58′00″N 90°04′50″W",
     "counties": ["Orleans"],
@@ -8634,7 +8634,7 @@
     "url": "https://council.nola.gov/"
   },
   {
-    "city_name": "Newport News",
+    "city_name": "Newport_News",
     "state_name": "Virginia",
     "coordinates": "37°4′15″N 76°29′4″W",
     "counties": null,
@@ -8671,8 +8671,8 @@
     "url": "https://www.nnva.gov/"
   },
   {
-    "city_name": "New York City",
-    "state_name": "New York",
+    "city_name": "New_York_City",
+    "state_name": "New_York",
     "coordinates": "40°42′46″N 74°00′22″W",
     "counties": ["Bronx", "Kings", "New York", "Queens", "Richmond"],
     "settled_founded": "1624",
@@ -8837,8 +8837,8 @@
     "url": "https://www.normanok.gov/"
   },
   {
-    "city_name": "North Charleston",
-    "state_name": "South Carolina",
+    "city_name": "North_Charleston",
+    "state_name": "South_Carolina",
     "coordinates": "32°53′7″N 80°1′1″W",
     "counties": ["Berkeley", "Charleston", "Dorchester"],
     "settled_founded": null,
@@ -8894,7 +8894,7 @@
     "url": "https://www.northcharleston.org/"
   },
   {
-    "city_name": "North Las Vegas",
+    "city_name": "North_Las_Vegas",
     "state_name": "Nevada",
     "coordinates": "36°13′43″N 115°8′48″W",
     "counties": ["Clark"],
@@ -9082,7 +9082,7 @@
     "url": "https://www.odessa-tx.gov/"
   },
   {
-    "city_name": "Oklahoma City",
+    "city_name": "Oklahoma_City",
     "state_name": "Oklahoma",
     "coordinates": "35°28′7″N 97°31′17″W",
     "counties": ["Oklahoma", "Canadian", "Cleveland", "Pottawatomie"],
@@ -9337,7 +9337,7 @@
     "url": "https://www.orlando.gov/"
   },
   {
-    "city_name": "Overland Park",
+    "city_name": "Overland_Park",
     "state_name": "Kansas",
     "coordinates": "38°58′56″N 94°40′15″W",
     "counties": ["Johnson"],
@@ -9439,7 +9439,7 @@
     "url": "https://www.oxnard.org/"
   },
   {
-    "city_name": "Palm Bay",
+    "city_name": "Palm_Bay",
     "state_name": "Florida",
     "coordinates": "27°59′52.52″N 80°40′12.03″W",
     "counties": ["Brevard"],
@@ -9594,7 +9594,7 @@
   },
   {
     "city_name": "Paterson",
-    "state_name": "New Jersey",
+    "state_name": "New_Jersey",
     "coordinates": "40.914746°N 74.162826°W",
     "counties": ["Passaic"],
     "settled_founded": "1791",
@@ -9680,7 +9680,7 @@
     "url": "https://www.pearlandtx.gov/"
   },
   {
-    "city_name": "Pembroke Pines",
+    "city_name": "Pembroke_Pines",
     "state_name": "Florida",
     "coordinates": "26°0′45″N 80°18′49″W",
     "counties": ["Broward"],
@@ -10014,7 +10014,7 @@
     "url": "https://www.pomonaca.gov/"
   },
   {
-    "city_name": "Pompano Beach",
+    "city_name": "Pompano_Beach",
     "state_name": "Florida",
     "coordinates": "26°14′5″N 80°7′32″W",
     "counties": ["Broward"],
@@ -10085,7 +10085,7 @@
     "url": "https://www.portland.gov/"
   },
   {
-    "city_name": "Port St. Lucie",
+    "city_name": "Port_St._Lucie",
     "state_name": "Florida",
     "coordinates": "27°16′33″N 80°21′18″W",
     "counties": ["St. Lucie"],
@@ -10121,7 +10121,7 @@
   },
   {
     "city_name": "Providence",
-    "state_name": "Rhode Island",
+    "state_name": "Rhode_Island",
     "coordinates": "41°49′25″N 71°25′20″W",
     "counties": ["Providence"],
     "settled_founded": "1632",
@@ -10280,7 +10280,7 @@
   },
   {
     "city_name": "Raleigh",
-    "state_name": "North Carolina",
+    "state_name": "North_Carolina",
     "coordinates": "35°46′48″N 78°38′24″W",
     "counties": ["Wake", "Durham"],
     "settled_founded": null,
@@ -10333,7 +10333,7 @@
     "url": "https://raleighnc.gov/"
   },
   {
-    "city_name": "Rancho Cucamonga",
+    "city_name": "Rancho_Cucamonga",
     "state_name": "California",
     "coordinates": "34°7′24″N 117°34′46″W",
     "counties": ["San Bernardino"],
@@ -10616,8 +10616,8 @@
     "url": "https://rva.gov/"
   },
   {
-    "city_name": "Rio Rancho",
-    "state_name": "New Mexico",
+    "city_name": "Rio_Rancho",
+    "state_name": "New_Mexico",
     "coordinates": "35°17′10″N 106°40′14″W",
     "counties": ["Sandoval", "Bernalillo"],
     "settled_founded": "1961",
@@ -10730,7 +10730,7 @@
   },
   {
     "city_name": "Rochester",
-    "state_name": "New York",
+    "state_name": "New_York",
     "coordinates": "43°9′56″N 77°36′41″W",
     "counties": ["Monroe"],
     "settled_founded": "1788",
@@ -10849,7 +10849,7 @@
     "url": "https://www.roseville.ca.us/"
   },
   {
-    "city_name": "Round Rock",
+    "city_name": "Round_Rock",
     "state_name": "Texas",
     "coordinates": "30°30′31″N 97°40′44″W",
     "counties": ["Williamson", "Travis"],
@@ -10925,7 +10925,7 @@
     "url": "http://www.cityofsacramento.org/"
   },
   {
-    "city_name": "Saint Paul",
+    "city_name": "Saint_Paul",
     "state_name": "Minnnesota",
     "coordinates": "44°56′39″N 93°5′37″W",
     "counties": ["Ramsey"],
@@ -11039,7 +11039,7 @@
     "url": "https://www.cityofsalinas.org/"
   },
   {
-    "city_name": "Salt Lake City",
+    "city_name": "Salt_Lake_City",
     "state_name": "Utah",
     "coordinates": "40°45′39″N 111°53′28″W",
     "counties": ["Salt Lake"],
@@ -11100,7 +11100,7 @@
     "url": "https://www.slc.gov/"
   },
   {
-    "city_name": "San Antonio",
+    "city_name": "San_Antonio",
     "state_name": "Texas",
     "coordinates": "29°25′30″N 98°29′38″W",
     "counties": ["Bexar", "Comal", "Medina"],
@@ -11148,7 +11148,7 @@
     "url": "https://www.sanantonio.gov/"
   },
   {
-    "city_name": "San Bernardino",
+    "city_name": "San_Bernardino",
     "state_name": "California",
     "coordinates": "34°6′N 117°18′W",
     "counties": ["San Bernardino"],
@@ -11194,7 +11194,7 @@
     "url": "https://www.sbcity.org/"
   },
   {
-    "city_name": "San Diego",
+    "city_name": "San_Diego",
     "state_name": "California",
     "coordinates": "32°42′54″N 117°09′45″W",
     "counties": ["San Diego"],
@@ -11250,7 +11250,7 @@
     "url": "https://www.sandiego.gov/"
   },
   {
-    "city_name": "Sandy Springs",
+    "city_name": "Sandy_Springs",
     "state_name": "Georgia",
     "coordinates": "33°56′15″N 84°22′7″W",
     "counties": ["Fulton"],
@@ -11296,7 +11296,7 @@
     "url": "https://www.sandyspringsga.gov/"
   },
   {
-    "city_name": "San Francisco",
+    "city_name": "San_Francisco",
     "state_name": "California",
     "coordinates": "37°46′39″N 122°24′59″W",
     "counties": ["San Francisco"],
@@ -11350,7 +11350,7 @@
     "url": "https://sf.gov/"
   },
   {
-    "city_name": "San Jose",
+    "city_name": "San_Jose",
     "state_name": "California",
     "coordinates": "37°20′10″N 121°53′26″W",
     "counties": ["Santa Clara"],
@@ -11407,7 +11407,7 @@
     "url": "https://www.sanjoseca.gov/"
   },
   {
-    "city_name": "San Mateo",
+    "city_name": "San_Mateo",
     "state_name": "California",
     "coordinates": "37°33′15″N 122°18′47″W",
     "counties": ["San Mateo"],
@@ -11442,7 +11442,7 @@
     "url": "https://www.cityofsanmateo.org/"
   },
   {
-    "city_name": "Santa Ana",
+    "city_name": "Santa_Ana",
     "state_name": "California",
     "coordinates": "33°44′27″N 117°52′53″W",
     "counties": ["Orange"],
@@ -11479,7 +11479,7 @@
     "url": "https://www.santa-ana.org/"
   },
   {
-    "city_name": "Santa Clara",
+    "city_name": "Santa_Clara",
     "state_name": "California",
     "coordinates": "37°21′16″N 121°58′9″W",
     "counties": ["Santa Clara"],
@@ -11516,7 +11516,7 @@
     "url": "https://www.santaclaraca.gov/"
   },
   {
-    "city_name": "Santa Clarita",
+    "city_name": "Santa_Clarita",
     "state_name": "California",
     "coordinates": "34.42°N 118.52°W",
     "counties": ["Los Angeles"],
@@ -11558,7 +11558,7 @@
     "url": "https://www.santa-clarita.com/"
   },
   {
-    "city_name": "Santa Maria",
+    "city_name": "Santa_Maria",
     "state_name": "California",
     "coordinates": "34°57′5″N 120°26′0″W",
     "counties": ["Santa Barbara"],
@@ -11593,7 +11593,7 @@
     "url": "https://www.cityofsantamaria.org/"
   },
   {
-    "city_name": "Santa Rosa",
+    "city_name": "Santa_Rosa",
     "state_name": "California",
     "coordinates": "38°26′55″N 122°42′17″W",
     "counties": ["Sonoma"],
@@ -11821,7 +11821,7 @@
     "url": "https://www.shreveportla.gov"
   },
   {
-    "city_name": "Simi Valley",
+    "city_name": "Simi_Valley",
     "state_name": "California",
     "coordinates": "34°16′16″N 118°44′22″W",
     "counties": ["Ventura"],
@@ -11864,8 +11864,8 @@
     "url": "https://www.simivalley.org/"
   },
   {
-    "city_name": "Sioux Falls",
-    "state_name": "South Dakota",
+    "city_name": "Sioux_Falls",
+    "state_name": "South_Dakota",
     "coordinates": "43°32′11″N 96°43′54″W",
     "counties": ["Minnehaha", "Lincoln"],
     "settled_founded": null,
@@ -11912,7 +11912,7 @@
     "url": "https://www.siouxfalls.org/"
   },
   {
-    "city_name": "South Bend",
+    "city_name": "South_Bend",
     "state_name": "Indiana",
     "coordinates": "41°40′35″N 86°15′01″W",
     "counties": ["St. Joseph"],
@@ -11965,7 +11965,7 @@
     "url": "https://www.southbendin.gov/"
   },
   {
-    "city_name": "South Fulton",
+    "city_name": "South_Fulton",
     "state_name": "Georgia",
     "coordinates": "33.5925899°N 84.6729381°W",
     "counties": ["Fulton"],
@@ -12039,7 +12039,7 @@
     "url": "https://www.cityofsparks.us/"
   },
   {
-    "city_name": "Spokane Valley",
+    "city_name": "Spokane_Valley",
     "state_name": "Washington",
     "coordinates": "47°40′24″N 117°14′22″W",
     "counties": ["Spokane"],
@@ -12303,7 +12303,7 @@
     "url": "https://www.stamfordct.gov/"
   },
   {
-    "city_name": "Sterling Heights",
+    "city_name": "Sterling_Heights",
     "state_name": "Michigan",
     "coordinates": "42°34′47″N 83°01′41″W",
     "counties": ["Macomb"],
@@ -12340,7 +12340,7 @@
     "url": "https://www.sterling-heights.net/"
   },
   {
-    "city_name": "St. Louis",
+    "city_name": "St._Louis",
     "state_name": "Missouri",
     "coordinates": "38°37′38″N 90°11′52″W",
     "counties": null,
@@ -12459,7 +12459,7 @@
     "url": "http://ww1.stocktonca.gov/"
   },
   {
-    "city_name": "St. Petersburg",
+    "city_name": "St._Petersburg",
     "state_name": "Florida",
     "coordinates": "27°46′23″N 82°38′24″W",
     "counties": ["Pinellas"],
@@ -12507,7 +12507,7 @@
     "url": "https://www.stpete.org/"
   },
   {
-    "city_name": "Sugar Land",
+    "city_name": "Sugar_Land",
     "state_name": "Texas",
     "coordinates": "29°35′58″N 95°36′51″W",
     "counties": ["Fort Bend"],
@@ -12619,7 +12619,7 @@
   },
   {
     "city_name": "Syracuse",
-    "state_name": "New York",
+    "state_name": "New_York",
     "coordinates": "43°02′49″N 76°08′40″W",
     "counties": ["Onondaga"],
     "settled_founded": "1825",
@@ -12916,7 +12916,7 @@
     "url": "https://www.thorntonco.gov/"
   },
   {
-    "city_name": "Thousand Oaks",
+    "city_name": "Thousand_Oaks",
     "state_name": "California",
     "coordinates": "34°11′22″N 118°52′30″W",
     "counties": ["Ventura"],
@@ -13400,7 +13400,7 @@
     "url": "https://www.victorvilleca.gov/"
   },
   {
-    "city_name": "Virginia Beach",
+    "city_name": "Virginia_Beach",
     "state_name": "Virginia",
     "coordinates": "36°51′00″N 75°58′40″W",
     "counties": null,
@@ -13558,7 +13558,7 @@
     "url": "https://www.cityofwarren.org/"
   },
   {
-    "city_name": "Washington, D.C.",
+    "city_name": "Washington,_D.C.",
     "state_name": null,
     "coordinates": "38°54′17″N 77°00′59″W",
     "counties": null,
@@ -13635,7 +13635,7 @@
     "url": "https://www.waterburyct.org/"
   },
   {
-    "city_name": "West Covina",
+    "city_name": "West_Covina",
     "state_name": "California",
     "coordinates": "34°03′24″N 117°55′07″W",
     "counties": ["Los Angeles"],
@@ -13670,7 +13670,7 @@
     "url": "https://www.westcovina.org/"
   },
   {
-    "city_name": "West Jordan",
+    "city_name": "West_Jordan",
     "state_name": "Utah",
     "coordinates": "40°36′23″N 111°58′34″W",
     "counties": ["Salt Lake"],
@@ -13756,7 +13756,7 @@
     "url": "https://www.cityofwestminster.us/"
   },
   {
-    "city_name": "West Palm Beach",
+    "city_name": "West_Palm_Beach",
     "state_name": "Florida",
     "coordinates": "26°42′35″N 80°03′51″W",
     "counties": ["Palm Beach"],
@@ -13792,7 +13792,7 @@
     "url": "https://www.wpb.org/"
   },
   {
-    "city_name": "West Valley City",
+    "city_name": "West_Valley_City",
     "state_name": "Utah",
     "coordinates": "40°41′21″N 111°59′38″W",
     "counties": ["Salt Lake"],
@@ -13829,7 +13829,7 @@
     "url": "https://www.wvc-ut.gov/"
   },
   {
-    "city_name": "Wichita Falls",
+    "city_name": "Wichita_Falls",
     "state_name": "Texas",
     "coordinates": "33°54′34″N 98°29′58″W",
     "counties": ["Wichita"],
@@ -13913,7 +13913,7 @@
   },
   {
     "city_name": "Wilmington",
-    "state_name": "North Carolina",
+    "state_name": "North_Carolina",
     "coordinates": "34°13′24″N 77°54′44″W",
     "counties": ["New Hanover"],
     "settled_founded": null,
@@ -13950,7 +13950,7 @@
   },
   {
     "city_name": "Winston–Salem",
-    "state_name": "North Carolina",
+    "state_name": "North_Carolina",
     "coordinates": "36°6′9.95″N 80°15′37.77″W",
     "counties": ["Forsyth"],
     "settled_founded": "1849",
@@ -14004,7 +14004,7 @@
   },
   {
     "city_name": "Woodbridge",
-    "state_name": "New Jersey",
+    "state_name": "New_Jersey",
     "coordinates": "40.56°N 74.29°W",
     "counties": ["Middlesex"],
     "settled_founded": "1664",
@@ -14096,7 +14096,7 @@
   },
   {
     "city_name": "Yonkers",
-    "state_name": "New York",
+    "state_name": "New_York",
     "coordinates": "40°56′29″N 73°51′52″W",
     "counties": ["Westchester"],
     "settled_founded": "1646",

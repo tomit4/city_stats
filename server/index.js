@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 // const path = require('path')
 // const route = express.Router()
 const { statesRouter, citiesRouter } = require('../routes/server.js')
-const { keysArrFill, statesArrFill } = require('../utils/server.js')
+const { populateLocalData } = require('../utils/server.js')
 
 // Server configuration
 const port = process.env.PORT || 8000
@@ -23,14 +23,12 @@ app.use(json())
 app.get('/states/:query?/:field?/:index?', async (req, res) => {
     statesRouter(req, res)
 })
-app.get('/cities', async (req, res) => {
+app.get('/cities/:query?', async (req, res) => {
     citiesRouter(req, res)
 })
 
 // Starts Server...
 app.listen(port, () => {
-    // Populate server side lookup tables
-    keysArrFill()
-    statesArrFill()
+    populateLocalData()
     console.log(`Serving sqlite database as JSON on port: ${port}`)
 })

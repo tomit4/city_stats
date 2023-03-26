@@ -1,4 +1,4 @@
-const { returnAllStates, returnAllCities, parseQuery } = require('../utils/queries.js')
+const { returnAllStates, returnAllCities, parseQuery, parseCityQuery } = require('../utils/queries.js')
 
 const routes = {
     async statesRouter(req, res) {
@@ -10,7 +10,14 @@ const routes = {
         }
     },
     async citiesRouter(req, res) {
-        returnAllCities(res)
+        // TODO: Refactor for more advanced queries
+        // const { query, field , index } = req.params;
+        const { query } = req.params;
+        if (!query) {
+            returnAllCities(res)
+        } else {
+            parseCityQuery(res, query)
+        }
     }
 }
 
