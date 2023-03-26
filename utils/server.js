@@ -1,6 +1,7 @@
 const db = require('../db/sqlite')
 const statesData = require('../db/states.json')
 const citiesData = require('../db/cities.json')
+// TODO: consider putting these arrays into an object
 const keysArr = []
 const statesArr = []
 const citiesArr = []
