@@ -4,15 +4,17 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 // const path = require('path')
 // const route = express.Router()
-const { statesRouter, citiesRouter }  = require('../routes/server.js')
+const { statesRouter, citiesRouter } = require('../routes/server.js')
 const { keysArrFill, statesArrFill } = require('../utils/server.js')
 
 // Server configuration
 const port = process.env.PORT || 8000
-app.use(cors({
-    origin: true,
-    credentials: true
-}))
+app.use(
+    cors({
+        origin: true,
+        credentials: true,
+    }),
+)
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(json())
 // app.use(express.static(path.join(__dirstate_name, "public")))

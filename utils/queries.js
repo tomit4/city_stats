@@ -117,5 +117,5 @@ module.exports = {
     returnCongressData,
     returnLegislature,
     parseQuery,
-    returnAllCities
+    returnAllCities,
 }

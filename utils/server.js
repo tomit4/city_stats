@@ -5,13 +5,15 @@ const statesArr = []
 
 const handle500Error = (res, err) => {
     console.error(err)
-    return res.send({ ['msg']: `500: ERROR: ${err}`})
+    return res.send({ ['msg']: `500: ERROR: ${err}` })
 }
 
-const handle404Error = (res) => {
-    return res.send({ ['msg']: '404: data not found!'})
+const handle404Error = res => {
+    return res.send({ ['msg']: '404: data not found!' })
 }
 
+// TODO: since cities will follow similar logic,
+// condense these fills down into a single function, i.e. populate()
 const keysArrFill = () => {
     Object.keys(json[0]).forEach(k => {
         keysArr.push(k)
