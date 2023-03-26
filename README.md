@@ -30,11 +30,20 @@ __To Do:__
 - [ ] Remove private status of this repo, and clean up using .gitignore and git rm -r
 
 __Notes:__
+The user should be able to do interesting url queries with their url strings
+here. For example, if they wish to find out about the cities that exist in their
+state they should be able to go to:
+```
+https://citystats.com/api/states/cities
+```
+And receive a list of all the major metropolitan cities in their area.
+Conversely, if they wish to find out more about state specific government
+officials, they should be able to input:
+```
+https://citystats.com/api/cities/`city_name`/senators
+```
+And Find out who the senators for the state that `city_name` is within.
 
+OF NOTE, BUT DEPRECATED:
 There might be a better way to create the database using bash, the sqlite-cli,
 and sqlite's native json parser. See [this stackoverflow](https://stackoverflow.com/questions/46407770/how-to-convert-a-json-file-to-an-sqlite-database) article regarding how to "quickly" insert json into an sqlite database.
-
-On the other hand, using JavaScript's native, Object.keys() method and
-Object.values() might be able to check if there's a nested object within a JSON
-file and use an iterator for even the CREATE and/or INSERT statements we have
-written currently.
