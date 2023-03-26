@@ -90,8 +90,30 @@ const populateCities = (db, data) => {
     )
     data.forEach(item => {
         const sqlStmt = db.prepare(insertCities)
-        const items = Object.values(item)
-        sqlStmt.run(items)
+        // once all is done, delete below and use this
+        // const items = Object.values(item)
+        // sqlStmt.run(items)
+
+        // temp measure until all is ready
+        sqlStmt.run(
+            `${item.city_name}`,
+            `${item.state_name}`,
+            `${item.coordinates}`,
+            `${item.settled_founded}`,
+            `${item.incorporated}`,
+            `${item.government.type}`,
+            `${item.government.mayor}`,
+            `${item.area.city}`,
+            `${item.area.land}`,
+            `${item.area.water}`,
+            `${item.elevation}`,
+            `${item.population.city}`,
+            `${item.population.density}`,
+            `${item.population.metro}`,
+            `${item.time_zone}`,
+            `${item.FIPS_code}`,
+            `${item.url}`,
+        )
     })
     _populateCityCouncils(db, data)
 }
