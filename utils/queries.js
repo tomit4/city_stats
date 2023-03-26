@@ -10,7 +10,6 @@ const {
 const {
     parseCityQuery,
     returnAllCities,
-    returnSingleCityInfo,
 } = require('./cities_queries.js')
 
 module.exports = {
@@ -22,5 +21,4 @@ module.exports = {
     parseQuery,
     parseCityQuery,
     returnAllCities,
-    returnSingleCityInfo,
 }

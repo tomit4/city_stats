@@ -119,6 +119,7 @@ const populateCities = (db, data) => {
 }
 
 const _populateCityCouncils = (db, data) => {
+    // TODO: obviously this naming scheme is broken...
     const updateArgs = [
         'cities',
         'city_council',

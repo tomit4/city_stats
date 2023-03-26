@@ -15,7 +15,7 @@ const returnAllCities = async res => {
     })
 }
 
-const returnSingleCityInfo = async (res, city) => {
+const _returnSingleCityInfo = async (res, city) => {
     await db.all(
         `SELECT * FROM cities WHERE city_name = ?`,
         [city],
@@ -33,7 +33,7 @@ const returnSingleCityInfo = async (res, city) => {
 // const parseCityQuery = async (res, query, field, index) => {
 const parseCityQuery = async (res, query) => {
     if (citiesArr.includes(query)) {
-        returnSingleCityInfo(res, query)
+        _returnSingleCityInfo(res, query)
     } else {
         return handle404Error(res)
     }
@@ -42,5 +42,4 @@ const parseCityQuery = async (res, query) => {
 module.exports = {
     parseCityQuery,
     returnAllCities,
-    returnSingleCityInfo,
 }
