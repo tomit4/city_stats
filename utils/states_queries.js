@@ -2,7 +2,6 @@ const db = require('../db/sqlite')
 const {
     keysArr,
     statesArr,
-    citiesArr,
     handle500Error,
     handle404Error,
 } = require('../utils/server.js')
