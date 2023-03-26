@@ -55,7 +55,7 @@ const _parseValues = (valuesToInsert, item) => {
 }
 
 const _populateCongress = (db, data, house) => {
-    let key = house === 'senators' ? 'senator_list' : 'house_delegates'
+    const key = house === 'senators' ? 'senator_list' : 'house_delegates'
     const updateArgs = [
         'states',
         house,
