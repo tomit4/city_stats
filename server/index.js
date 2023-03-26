@@ -2,9 +2,9 @@ const app = require('express')()
 const json = require('express').json
 const cors = require('cors')
 const bodyParser = require('body-parser')
-const { statesRouter, citiesRouter }  = require('../routes/server.js')
 // const path = require('path')
 // const route = express.Router()
+const { statesRouter, citiesRouter }  = require('../routes/server.js')
 
 // Server configuration
 const port = process.env.PORT || 8000
@@ -20,7 +20,6 @@ app.use(json())
 app.get('/states/:query?/:field?/:index?', async (req, res) => {
     return statesRouter(req, res)
 })
-
 app.get('/cities', async (req, res) => {
     return citiesRouter(req, res)
 })
