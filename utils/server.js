@@ -17,13 +17,6 @@ const handle404Error = res => {
     return res.send({ ['msg']: '404: data not found!' })
 }
 
-// TODO: Refactor the following, is too repetitive...
-const keysArrFill = () => {
-    Object.keys(statesData[0]).forEach(k => {
-        keysArr.push(k)
-    })
-}
-
 const citiesKeysArrFill = () => {
     Object.keys(citiesData[0]).forEach(k => {
         cityKeysArr.push(k)
@@ -45,6 +38,14 @@ const citiesKeysArrFill = () => {
         }
     })
     cityKeysArr = cityKeysArr.map(k => k.toLowerCase())
+    cityKeysArr.push('city_council')
+}
+
+// TODO: Refactor the following, is too repetitive...
+const keysArrFill = () => {
+    Object.keys(statesData[0]).forEach(k => {
+        keysArr.push(k)
+    })
 }
 
 const statesArrFill = () => {
@@ -60,11 +61,11 @@ const citiesArrFill = () => {
 }
 
 const populateLocalData = () => {
-    keysArrFill()
-    citiesKeysArrFill()
     statesArrFill()
     citiesArrFill()
-    console.log(cityKeysArr)
+    keysArrFill()
+    citiesKeysArrFill()
+    // console.log('from server.js: cityKeysArr >>', cityKeysArr)
 }
 
 module.exports = {

@@ -11,6 +11,7 @@ const populateStates = (db, data) => {
         insertStmts.state_props,
     )
     Object.keys(data[0]).forEach(key => {
+        // TODO: nested objects need to be refactored in how we structure data
         if (key == 'area' || key == 'population') {
             Object.keys(data[0][key]).forEach(k => {
                 valuesToInsert.push(`${key}.${k}`)
@@ -90,8 +91,9 @@ const populateCities = (db, data) => {
     )
     data.forEach(item => {
         const sqlStmt = db.prepare(insertCities)
-        // once all is done, delete below and use this
+        // TODO: nested objects need to be refactored in how we structure data
         // const items = Object.values(item)
+        // const keys = Object.keys(item)
         // sqlStmt.run(items)
 
         // temp measure until all is ready
@@ -119,7 +121,6 @@ const populateCities = (db, data) => {
 }
 
 const _populateCityCouncils = (db, data) => {
-    // TODO: obviously this naming scheme is broken...
     const updateArgs = [
         'cities',
         'city_council',
@@ -131,7 +132,7 @@ const _populateCityCouncils = (db, data) => {
         const stringifiedCouncil = JSON.stringify(item.government.city_council)
         const populateArgs = [
             'city_council',
-            ['city_council', 'city_city_name'],
+            'city_council',
             stringifiedCouncil,
             item.city_name,
             false,

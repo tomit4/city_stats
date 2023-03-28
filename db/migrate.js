@@ -140,7 +140,8 @@ const insertStmts = {
         return sqlStmt
     },
     populate: function (table, rows, values, name, isState) {
-        rows = isState ? [`${rows}`, 'state_state_name'] : rows
+        const entity = isState ? 'state' : 'city'
+        rows = [`${rows}`, `${entity}_${entity}_name`]
         values = [`json('${values}')`, `'${name}'`]
         return this.generateInsert(table, rows, values)
     },

@@ -8,11 +8,8 @@ const {
 
 const returnAllStates = async res => {
     await db.all(`SELECT * FROM states`, [], (err, rows) => {
-        if (err) {
-            return handle500Error(res, err)
-        } else {
-            return res.send(rows)
-        }
+        if (err) return handle500Error(res, err)
+        return res.send(rows)
     })
 }
 const returnSingleStateInfo = async (res, state) => {
@@ -78,7 +75,6 @@ const returnLegislature = async (legislature, res, index, err, rows) => {
 const parseQuery = async (res, query, field, index) => {
     if (!field && statesArr.includes(query)) {
         returnSingleStateInfo(res, query)
-    // TODO: check into this, keysArr.includes(query) might never happen...
     } else if (!field && keysArr.includes(query)) {
         await db.all(`SELECT state_name, ${query} FROM states`, (err, rows) => {
             if (err) return handle500Error(res, err)
