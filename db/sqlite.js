@@ -1,7 +1,8 @@
 const sqlite3 = require('sqlite3').verbose()
 const statesData = require('./states.json')
+const statesDataTest = require('./states_test.json')
 const citiesData = require('./cities.json')
-const { createTables, populateStates, populateCities } = require('./seed.js')
+const { createTables, populateStates, populateStatesTest, populateCities } = require('./seed.js')
 
 const db = new sqlite3.Database(
     './db/states.db',
@@ -15,6 +16,8 @@ const db = new sqlite3.Database(
 db.serialize(() => {
     createTables(db)
     populateStates(db, statesData)
+    populateStatesTest(db, statesDataTest)
+    // populateStatesTest(db, statesData)
     populateCities(db, citiesData)
 })
 

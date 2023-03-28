@@ -24,12 +24,73 @@ const populateStates = (db, data) => {
     data.forEach(item => {
         const sqlStmt = db.prepare(insertStates)
         const itemToInsert = _parseValues(valuesToInsert, item)
+        // itemToInsert is Array of Arrays
+        // console.log(itemToInsert)
         sqlStmt.run(itemToInsert)
         sqlStmt.finalize()
     })
     branches.forEach(branch => {
         _populateCongress(db, data, branch)
     })
+}
+
+// HEAVY REFACTOR
+const populateStatesTest = (db, data) => {
+    const nestedArrs = ['senators', 'house_delegation']
+    const nestedObjs = ['area', 'population']
+    let valuesToInsert = []
+    const insertStates = insertStmts.generateInsert(
+        'states_test',
+        insertStmts.state_props_test,
+    )
+
+    insertStmts.state_props_test.forEach(key => {
+        data.forEach(d => {
+            if (nestedArrs.includes(key)) {
+                d[key] = `json_array('${JSON.stringify(d[key])}')`
+            }
+            if (nestedObjs.includes(key)) {
+                let finalSqlIns = 'json_object('
+                Object.keys(d[key]).forEach((k, i) => {
+                    // hard coded since all objects have 3 key/value pairs
+                    if (i !== 2) {
+                        finalSqlIns = `${finalSqlIns}'${k}', '${d[key][k]}', `
+                    } else
+                        finalSqlIns = `${finalSqlIns}'${k}', '${d[key][k]}')`
+                })
+                d[key] = finalSqlIns
+                valuesToInsert.push(d)
+            }
+            // console.log('d[key]', d[key])
+            // valuesToInsert.push(d)
+        })
+    }) 
+    valuesToInsert = [...new Set(valuesToInsert)]
+    const finalArr = []
+    valuesToInsert.forEach(val => {
+        let interArr = []
+        Object.values(val).forEach(v => {
+            interArr.push(v)
+        })
+        finalArr.push(interArr)
+    })
+    // RETURNS 2
+    // console.log('finalArr length >>', finalArr.length)
+    data.forEach(() => {
+        const sqlStmt = db.prepare(insertStates)
+        // RETURNS DUPLICATES OF EACH ITEM IN ARRAY
+        finalArr.forEach(arr => {
+            sqlStmt.run(arr)
+        })
+        // RETURNS 1st ENTRY DOUBLE
+        // sqlStmt.run(...finalArr)
+        // RETURNS EMPTY TABLE
+        // sqlStmt.run(finalArr)
+        sqlStmt.finalize()
+    })
+    // valuesToInsert is Array of Objects...
+    // console.log('valuesToInsert>>', valuesToInsert)
+    // console.log('finalArr>>', ...finalArr)
 }
 
 const _parseValues = (valuesToInsert, item) => {
@@ -148,5 +209,6 @@ const _populateCityCouncils = (db, data) => {
 module.exports = {
     createTables,
     populateStates,
+    populateStatesTest,
     populateCities,
 }
