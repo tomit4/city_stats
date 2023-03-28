@@ -111,7 +111,7 @@ const populateCities = (db, data) => {
             `${item.population.density}`,
             `${item.population.metro}`,
             `${item.time_zone}`,
-            `${item.FIPS_code}`,
+            `${item.fips_code}`,
             `${item.url}`,
         )
     })

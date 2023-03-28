@@ -78,6 +78,7 @@ const returnLegislature = async (legislature, res, index, err, rows) => {
 const parseQuery = async (res, query, field, index) => {
     if (!field && statesArr.includes(query)) {
         returnSingleStateInfo(res, query)
+    // TODO: check into this, keysArr.includes(query) might never happen...
     } else if (!field && keysArr.includes(query)) {
         await db.all(`SELECT state_name, ${query} FROM states`, (err, rows) => {
             if (err) return handle500Error(res, err)
@@ -100,8 +101,6 @@ const parseQuery = async (res, query, field, index) => {
 
 module.exports = {
     returnAllStates,
-    returnSingleStateInfo,
-    returnFieldData,
     returnCongressData,
     returnLegislature,
     parseQuery,

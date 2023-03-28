@@ -1,7 +1,5 @@
 const {
     returnAllStates,
-    returnSingleStateInfo,
-    returnFieldData,
     returnCongressData,
     returnLegislature,
     parseQuery,
@@ -14,8 +12,6 @@ const {
 
 module.exports = {
     returnAllStates,
-    returnSingleStateInfo,
-    returnFieldData,
     returnCongressData,
     returnLegislature,
     parseQuery,

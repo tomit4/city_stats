@@ -32,8 +32,8 @@
     "time_zone": "UTC-6 (CST)",
     "zip_codes": ["79601-08", "79697-99"],
     "area_codes": [325],
-    "FIPS_code": "48-01000",
-    "GNIS_feature_IDs": ["1329173"],
+    "fips_code": "48-01000",
+    "gnis_feature_ids": ["1329173"],
     "url": "https://www.abilenetx.gov/"
   },
   {
@@ -70,8 +70,8 @@
       "44398"
     ],
     "area_codes": [234, 330],
-    "FIPS_code": "39-01000",
-    "GNIS_feature_IDs": ["1064305"],
+    "fips_code": "39-01000",
+    "gnis_feature_ids": ["1064305"],
     "url": "https://www.akronohio.gov/"
   },
   {
@@ -124,8 +124,8 @@
       "87190–87199"
     ],
     "area_codes": [505],
-    "FIPS_code": "35-02000",
-    "GNIS_feature_IDs": ["928679"],
+    "fips_code": "35-02000",
+    "gnis_feature_ids": ["928679"],
     "url": "https://www.cabq.gov/"
   },
   {
@@ -155,8 +155,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["22301–22315", "22320-22336"],
     "area_codes": [703, 571],
-    "FIPS_code": "51-01000",
-    "GNIS_feature_IDs": ["1492456"],
+    "fips_code": "51-01000",
+    "gnis_feature_ids": ["1492456"],
     "url": "https://www.alexandriava.gov/"
   },
   {
@@ -193,8 +193,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["75002", "75013"],
     "area_codes": [214, 469, 945, 972],
-    "FIPS_code": "48-01924",
-    "GNIS_feature_IDs": ["1329377"],
+    "fips_code": "48-01924",
+    "gnis_feature_ids": ["1329377"],
     "url": "https://www.cityofallen.org/"
   },
   {
@@ -241,8 +241,8 @@
       "18195"
     ],
     "area_codes": [610, 484],
-    "FIPS_code": "42-02000",
-    "GNIS_feature_IDs": ["1202899"],
+    "fips_code": "42-02000",
+    "gnis_feature_ids": ["1202899"],
     "url": "https://www.allentownpa.gov/"
   },
   {
@@ -291,8 +291,8 @@
       "79189"
     ],
     "area_codes": [806],
-    "FIPS_code": "48-03000",
-    "GNIS_feature_IDs": ["1351066"],
+    "fips_code": "48-03000",
+    "gnis_feature_ids": ["1351066"],
     "url": "https://www.amarillo.gov/"
   },
   {
@@ -335,8 +335,8 @@
       "92899"
     ],
     "area_codes": [657, 714],
-    "FIPS_code": "06-02000",
-    "GNIS_feature_IDs": ["1652663", "2409704"],
+    "fips_code": "06-02000",
+    "gnis_feature_ids": ["1652663", "2409704"],
     "url": "https://anaheim.net/"
   },
   {
@@ -365,8 +365,8 @@
     "time_zone": "UTC-9(AKST)",
     "zip_codes": ["99501–99524", "99529–99530", "99599"],
     "area_codes": [907],
-    "FIPS_code": "02-03000",
-    "GNIS_feature_IDs": null,
+    "fips_code": "02-03000",
+    "gnis_feature_ids": null,
     "url": "https://www.muni.org/"
   },
   {
@@ -407,8 +407,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["48103–48109", "48113"],
     "area_codes": [734],
-    "FIPS_code": "26-03000",
-    "GNIS_feature_IDs": ["0620133"],
+    "fips_code": "26-03000",
+    "gnis_feature_ids": ["0620133"],
     "url": "https://www.a2gov.org/"
   },
   {
@@ -442,8 +442,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["94509", "94531"],
     "area_codes": [925],
-    "FIPS_code": "06-02252",
-    "GNIS_feature_IDs": ["1657936", "2409715"],
+    "fips_code": "06-02252",
+    "gnis_feature_ids": ["1657936", "2409715"],
     "url": "https://www.antiochca.gov/"
   },
   {
@@ -481,8 +481,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["76001-76007", "76010-76018", "76094", "76096"],
     "area_codes": [682, 817, 214, 469, 945, 972],
-    "FIPS_code": "48-04000",
-    "GNIS_feature_IDs": ["1372320"],
+    "fips_code": "48-04000",
+    "gnis_feature_ids": ["1372320"],
     "url": "https://www.arlingtontx.gov/"
   },
   {
@@ -518,8 +518,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["80001-80007", "80403"],
     "area_codes": [303, 720, 983],
-    "FIPS_code": "08-03455",
-    "GNIS_feature_IDs": ["0204709"],
+    "fips_code": "08-03455",
+    "gnis_feature_ids": ["0204709"],
     "url": "https://arvada.org/"
   },
   {
@@ -558,8 +558,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["30601-30609", "30612"],
     "area_codes": [706],
-    "FIPS_code": "13-03440",
-    "GNIS_feature_IDs": null,
+    "fips_code": "13-03440",
+    "gnis_feature_ids": null,
     "url": "https://www.accgov.com/"
   },
   {
@@ -636,8 +636,8 @@
       "39901"
     ],
     "area_codes": [404, 678, 470, 943, 770],
-    "FIPS_code": "13-03440",
-    "GNIS_feature_IDs": ["0351615"],
+    "fips_code": "13-03440",
+    "gnis_feature_ids": ["0351615"],
     "url": "https://www.atlantaga.gov/"
   },
   {
@@ -685,8 +685,8 @@
       "30815"
     ],
     "area_codes": [706, 762],
-    "FIPS_code": "13245",
-    "GNIS_feature_IDs": ["310456"],
+    "fips_code": "13245",
+    "gnis_feature_ids": ["310456"],
     "url": "https://www.augustaga.gov/"
   },
   {
@@ -726,8 +726,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["80010-80019", "80040-80047", "80137", "80247"],
     "area_codes": [303, 720],
-    "FIPS_code": "08-04000",
-    "GNIS_feature_IDs": ["169446", "169456", "169507"],
+    "fips_code": "08-04000",
+    "gnis_feature_ids": ["169446", "169456", "169507"],
     "url": "https://www.auroragov.org"
   },
   {
@@ -769,8 +769,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["60502–60507", "60568", "60569", "60572", "60598"],
     "area_codes": [630, 331],
-    "FIPS_code": "17-03012",
-    "GNIS_feature_IDs": ["2394031"],
+    "fips_code": "17-03012",
+    "gnis_feature_ids": ["2394031"],
     "url": "https://www.aurora-il.org/"
   },
   {
@@ -822,8 +822,8 @@
       "78799"
     ],
     "area_codes": [512, 737],
-    "FIPS_code": "48-05000",
-    "GNIS_feature_IDs": ["1384879"],
+    "fips_code": "48-05000",
+    "gnis_feature_ids": ["1384879"],
     "url": "https://www.austintexas.gov/"
   },
   {
@@ -866,8 +866,8 @@
       "93399"
     ],
     "area_codes": [661],
-    "FIPS_code": "06-03526",
-    "GNIS_feature_IDs": ["1652668", "2409774"],
+    "fips_code": "06-03526",
+    "gnis_feature_ids": ["1652668", "2409774"],
     "url": "https://www.bakersfieldcity.us/"
   },
   {
@@ -917,8 +917,8 @@
       "21286"
     ],
     "area_codes": [410, 443, 667],
-    "FIPS_code": "24-04000",
-    "GNIS_feature_IDs": ["597040"],
+    "fips_code": "24-04000",
+    "gnis_feature_ids": ["597040"],
     "url": "https://www.baltimorecity.gov/"
   },
   {
@@ -973,8 +973,8 @@
       "70898"
     ],
     "area_codes": [225],
-    "FIPS_code": "22-05000",
-    "GNIS_feature_IDs": ["1629914"],
+    "fips_code": "22-05000",
+    "gnis_feature_ids": ["1629914"],
     "url": "https://www.brla.gov/"
   },
   {
@@ -1010,8 +1010,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["77701–77710", "77713", "77720", "77725", "77726"],
     "area_codes": [409],
-    "FIPS_code": "48-07000",
-    "GNIS_feature_IDs": ["1330268"],
+    "fips_code": "48-07000",
+    "gnis_feature_ids": ["1330268"],
     "url": "https://beaumonttexas.gov/"
   },
   {
@@ -1048,8 +1048,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["98004-98009"],
     "area_codes": [425],
-    "FIPS_code": "53-05210",
-    "GNIS_feature_IDs": ["1512000"],
+    "fips_code": "53-05210",
+    "gnis_feature_ids": ["1512000"],
     "url": "https://bellevuewa.gov/"
   },
   {
@@ -1085,8 +1085,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["97701–97703", "97707–97709"],
     "area_codes": [458, 541],
-    "FIPS_code": "41-05800",
-    "GNIS_feature_IDs": ["1137914"],
+    "fips_code": "41-05800",
+    "gnis_feature_ids": ["1137914"],
     "url": "https://www.bendoregon.gov/"
   },
   {
@@ -1124,8 +1124,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["94701–94710", "94712", "94720"],
     "area_codes": [510, 341],
-    "FIPS_code": "06-06000",
-    "GNIS_feature_IDs": ["1658037", "2409837"],
+    "fips_code": "06-06000",
+    "gnis_feature_ids": ["1658037", "2409837"],
     "url": "https://berkeleyca.gov/"
   },
   {
@@ -1165,8 +1165,8 @@
     "time_zone": "UTC-7(PST)",
     "zip_codes": ["59101-59117"],
     "area_codes": [406],
-    "FIPS_code": "30-06550",
-    "GNIS_feature_IDs": ["802034"],
+    "fips_code": "30-06550",
+    "gnis_feature_ids": ["802034"],
     "url": "https://www.billingsmt.gov/"
   },
   {
@@ -1221,8 +1221,8 @@
       "35290-35298"
     ],
     "area_codes": [205, 659],
-    "FIPS_code": "01-07000",
-    "GNIS_feature_IDs": ["2403868"],
+    "fips_code": "01-07000",
+    "gnis_feature_ids": ["2403868"],
     "url": "https://www.birminghamal.gov/"
   },
   {
@@ -1273,8 +1273,8 @@
       "35290-35298"
     ],
     "area_codes": [205, 659],
-    "FIPS_code": "01-07000",
-    "GNIS_feature_IDs": ["2403868"],
+    "fips_code": "01-07000",
+    "gnis_feature_ids": ["2403868"],
     "url": "https://www.birminghamal.gov/"
   },
   {
@@ -1336,8 +1336,8 @@
       "02467"
     ],
     "area_codes": [617, 857],
-    "FIPS_code": "25-07000",
-    "GNIS_feature_IDs": ["617565"],
+    "fips_code": "25-07000",
+    "gnis_feature_ids": ["617565"],
     "url": "https://www.boston.gov/"
   },
   {
@@ -1375,8 +1375,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["80301-80310", "80314", "80321-80323", "80328", "80329"],
     "area_codes": [303, 720],
-    "FIPS_code": "08-07850",
-    "GNIS_feature_IDs": ["178680"],
+    "fips_code": "08-07850",
+    "gnis_feature_ids": ["178680"],
     "url": "https://bouldercolorado.gov/"
   },
   {
@@ -1432,8 +1432,8 @@
       "06699"
     ],
     "area_codes": [203, 475],
-    "FIPS_code": "09-08000",
-    "GNIS_feature_IDs": ["205720"],
+    "fips_code": "09-08000",
+    "gnis_feature_ids": ["205720"],
     "url": "https://bridgeportct.gov/"
   },
   {
@@ -1474,8 +1474,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["02301-02305"],
     "area_codes": [508, 774],
-    "FIPS_code": "25-09000",
-    "GNIS_feature_IDs": ["0617571"],
+    "fips_code": "25-09000",
+    "gnis_feature_ids": ["0617571"],
     "url": "https://brockton.ma.us/"
   },
   {
@@ -1509,8 +1509,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["74011-74014"],
     "area_codes": [508, 774],
-    "FIPS_code": "40-09050",
-    "GNIS_feature_IDs": ["1090512"],
+    "fips_code": "40-09050",
+    "gnis_feature_ids": ["1090512"],
     "url": "https://www.brokenarrowok.gov/"
   },
   {
@@ -1546,8 +1546,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["78520–78523", "78526"],
     "area_codes": [956],
-    "FIPS_code": "48-10768",
-    "GNIS_feature_IDs": ["1372749"],
+    "fips_code": "48-10768",
+    "gnis_feature_ids": ["1372749"],
     "url": "https://brownsvilletx.gov/"
   },
   {
@@ -1583,8 +1583,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["85326", "85396"],
     "area_codes": [623, 602, 480, 928],
-    "FIPS_code": "04-07940",
-    "GNIS_feature_IDs": ["2081"],
+    "fips_code": "04-07940",
+    "gnis_feature_ids": ["2081"],
     "url": "https://www.buckeyeaz.gov/"
   },
   {
@@ -1623,8 +1623,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["142XX"],
     "area_codes": [716],
-    "FIPS_code": "36-11000",
-    "GNIS_feature_IDs": ["0973345"],
+    "fips_code": "36-11000",
+    "gnis_feature_ids": ["0973345"],
     "url": "https://www.buffalony.gov/"
   },
   {
@@ -1658,8 +1658,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["91501–91508", "91510", "91521–91523", "91526"],
     "area_codes": [747, 818],
-    "FIPS_code": "06-08954",
-    "GNIS_feature_IDs": ["1652677", "2409939"],
+    "fips_code": "06-08954",
+    "gnis_feature_ids": ["1652677", "2409939"],
     "url": "https://www.burbankca.gov/"
   },
   {
@@ -1697,8 +1697,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["02138-02142"],
     "area_codes": [617, 857],
-    "FIPS_code": "25-11000",
-    "GNIS_feature_IDs": ["0617365"],
+    "fips_code": "25-11000",
+    "gnis_feature_ids": ["0617365"],
     "url": "https://www.cambridgema.gov/"
   },
   {
@@ -1735,8 +1735,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["33904", "33909", "33914", "33990", "33991", "33993"],
     "area_codes": [239],
-    "FIPS_code": "12-10275",
-    "GNIS_feature_IDs": ["0279997"],
+    "fips_code": "12-10275",
+    "gnis_feature_ids": ["0279997"],
     "url": "https://www.capecoral.gov/"
   },
   {
@@ -1770,8 +1770,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92008–92011", "92018"],
     "area_codes": [442, 760],
-    "FIPS_code": "06-11194",
-    "GNIS_feature_IDs": ["1660437", "2409984"],
+    "fips_code": "06-11194",
+    "gnis_feature_ids": ["1660437", "2409984"],
     "url": "https://www.carlsbadca.gov/"
   },
   {
@@ -1810,8 +1810,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["46032", "46033", "46074", "46082", "46280", "46290"],
     "area_codes": [317, 463],
-    "FIPS_code": "18-10342",
-    "GNIS_feature_IDs": ["0432143"],
+    "fips_code": "18-10342",
+    "gnis_feature_ids": ["0432143"],
     "url": "https://www.carmel.in.gov/"
   },
   {
@@ -1848,8 +1848,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["75006", "75007", "75010", "75011"],
     "area_codes": [214, 469, 945, 972],
-    "FIPS_code": "48-13024",
-    "GNIS_feature_IDs": ["2409992"],
+    "fips_code": "48-13024",
+    "gnis_feature_ids": ["2409992"],
     "url": "https://www.cityofcarrollton.com/"
   },
   {
@@ -1885,8 +1885,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["27511–27513", "27518", "27519"],
     "area_codes": [919, 984],
-    "FIPS_code": "37-10740",
-    "GNIS_feature_IDs": ["1019552"],
+    "fips_code": "37-10740",
+    "gnis_feature_ids": ["1019552"],
     "url": "https://www.carync.gov/"
   },
   {
@@ -1932,8 +1932,8 @@
       "52497-99"
     ],
     "area_codes": [319],
-    "FIPS_code": "19-12000",
-    "GNIS_feature_IDs": ["0465941"],
+    "fips_code": "19-12000",
+    "gnis_feature_ids": ["0465941"],
     "url": "https://www.cedar-rapids.org/"
   },
   {
@@ -1967,8 +1967,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["80015-80016", "80111-80112", "80121-80122", "80161"],
     "area_codes": [303, 720],
-    "FIPS_code": "08-12815",
-    "GNIS_feature_IDs": ["2409422"],
+    "fips_code": "08-12815",
+    "gnis_feature_ids": ["2409422"],
     "url": "https://www.centennialco.gov/"
   },
   {
@@ -2004,8 +2004,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["85224–85226", "85246–85249", "85286"],
     "area_codes": [480],
-    "FIPS_code": "04-12000",
-    "GNIS_feature_IDs": ["2409433"],
+    "fips_code": "04-12000",
+    "gnis_feature_ids": ["2409433"],
     "url": "https://www.chandleraz.gov/"
   },
   {
@@ -2059,8 +2059,8 @@
       "29492"
     ],
     "area_codes": [843, 854],
-    "FIPS_code": "45-13330",
-    "GNIS_feature_IDs": ["1221516"],
+    "fips_code": "45-13330",
+    "gnis_feature_ids": ["1221516"],
     "url": "https://www.charleston-sc.gov/"
   },
   {
@@ -2101,8 +2101,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["282XX"],
     "area_codes": [704, 980],
-    "FIPS_code": "37-12000",
-    "GNIS_feature_IDs": ["2404032"],
+    "fips_code": "37-12000",
+    "gnis_feature_ids": ["2404032"],
     "url": "https://charlottenc.gov/"
   },
   {
@@ -2164,8 +2164,8 @@
       "37421"
     ],
     "area_codes": [423],
-    "FIPS_code": "47-14000",
-    "GNIS_feature_IDs": ["1307240"],
+    "fips_code": "47-14000",
+    "gnis_feature_ids": ["1307240"],
     "url": "https://chattanooga.gov/"
   },
   {
@@ -2203,8 +2203,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["23320-23328"],
     "area_codes": [757, 948],
-    "FIPS_code": "51-16000",
-    "GNIS_feature_IDs": ["1496841"],
+    "fips_code": "51-16000",
+    "gnis_feature_ids": ["1496841"],
     "url": "https://www.cityofchesapeake.net/"
   },
   {
@@ -2284,8 +2284,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["606xx", "607xx", "608xx"],
     "area_codes": [312, 773, 872],
-    "FIPS_code": "17-14000",
-    "GNIS_feature_IDs": ["0428803"],
+    "fips_code": "17-14000",
+    "gnis_feature_ids": ["0428803"],
     "url": "https://www.chicago.gov/"
   },
   {
@@ -2320,8 +2320,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["95926–95929", "95973", "95976"],
     "area_codes": [530],
-    "FIPS_code": "06-13014",
-    "GNIS_feature_IDs": ["2409447"],
+    "fips_code": "06-13014",
+    "gnis_feature_ids": ["2409447"],
     "url": "https://chico.ca.us/"
   },
   {
@@ -2355,8 +2355,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["91909–91915", "91921"],
     "area_codes": [619],
-    "FIPS_code": "06-13392",
-    "GNIS_feature_IDs": ["1660481", "2409461"],
+    "fips_code": "06-13392",
+    "gnis_feature_ids": ["1660481", "2409461"],
     "url": "https://www.chulavistaca.gov/"
   },
   {
@@ -2395,8 +2395,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["452XX", "45999"],
     "area_codes": [513],
-    "FIPS_code": "39-15000",
-    "GNIS_feature_IDs": ["1066650"],
+    "fips_code": "39-15000",
+    "gnis_feature_ids": ["1066650"],
     "url": "https://www.cincinnati-oh.gov/"
   },
   {
@@ -2438,8 +2438,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["37040-37044"],
     "area_codes": [931],
-    "FIPS_code": "47-15160",
-    "GNIS_feature_IDs": ["1269467"],
+    "fips_code": "47-15160",
+    "gnis_feature_ids": ["1269467"],
     "url": "https://www.cityofclarksville.com/"
   },
   {
@@ -2473,8 +2473,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["33755-33769"],
     "area_codes": [727],
-    "FIPS_code": "12-12875",
-    "GNIS_feature_IDs": ["0280543"],
+    "fips_code": "12-12875",
+    "gnis_feature_ids": ["0280543"],
     "url": "https://www.myclearwater.com/"
   },
   {
@@ -2532,8 +2532,8 @@
       "44197-44199"
     ],
     "area_codes": [216],
-    "FIPS_code": "12-12875",
-    "GNIS_feature_IDs": ["1066654"],
+    "fips_code": "12-12875",
+    "gnis_feature_ids": ["1066654"],
     "url": "https://www.clevelandohio.gov/"
   },
   {
@@ -2567,8 +2567,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["93611–93613", "93619"],
     "area_codes": [559],
-    "FIPS_code": "06-14218",
-    "GNIS_feature_IDs": ["1656303", "2409488"],
+    "fips_code": "06-14218",
+    "gnis_feature_ids": ["1656303", "2409488"],
     "url": "https://cityofclovis.com/"
   },
   {
@@ -2604,8 +2604,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["77840-77845"],
     "area_codes": [979],
-    "FIPS_code": "48-15976",
-    "GNIS_feature_IDs": ["2410193"],
+    "fips_code": "48-15976",
+    "gnis_feature_ids": ["2410193"],
     "url": "https://www.cstx.gov/"
   },
   {
@@ -2652,8 +2652,8 @@
       "80997"
     ],
     "area_codes": [719],
-    "FIPS_code": "08-16000",
-    "GNIS_feature_IDs": ["0204797"],
+    "fips_code": "08-16000",
+    "gnis_feature_ids": ["0204797"],
     "url": "https://coloradosprings.gov/"
   },
   {
@@ -2689,8 +2689,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["65201", "65202", "65203", "65211"],
     "area_codes": [573],
-    "FIPS_code": "29-15670",
-    "GNIS_feature_IDs": ["0716133"],
+    "fips_code": "29-15670",
+    "gnis_feature_ids": ["0716133"],
     "url": "https://www.como.gov/"
   },
   {
@@ -2735,8 +2735,8 @@
       "29292"
     ],
     "area_codes": [803, 839],
-    "FIPS_code": "45-16000",
-    "GNIS_feature_IDs": ["1245051"],
+    "fips_code": "45-16000",
+    "gnis_feature_ids": ["1245051"],
     "url": "https://columbiasc.gov/"
   },
   {
@@ -2798,8 +2798,8 @@
       "43240"
     ],
     "area_codes": [614, 380],
-    "FIPS_code": "39-18000",
-    "GNIS_feature_IDs": ["1080996"],
+    "fips_code": "39-18000",
+    "gnis_feature_ids": ["1080996"],
     "url": "https://www.columbus.gov/"
   },
   {
@@ -2847,8 +2847,8 @@
       "31997–99"
     ],
     "area_codes": [706, 762],
-    "FIPS_code": "13-19007",
-    "GNIS_feature_IDs": ["0331158"],
+    "fips_code": "13-19007",
+    "gnis_feature_ids": ["0331158"],
     "url": "https://www.columbusga.gov/"
   },
   {
@@ -2882,8 +2882,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["94518–94521"],
     "area_codes": [925],
-    "FIPS_code": "06-16000",
-    "GNIS_feature_IDs": ["1658308", "2410214"],
+    "fips_code": "06-16000",
+    "gnis_feature_ids": ["1658308", "2410214"],
     "url": "https://www.cityofconcord.org/"
   },
   {
@@ -2920,8 +2920,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["28025", "28026", "28027"],
     "area_codes": [704, 980],
-    "FIPS_code": "37-14100",
-    "GNIS_feature_IDs": ["37-14100"],
+    "fips_code": "37-14100",
+    "gnis_feature_ids": ["37-14100"],
     "url": "https://concordnc.gov/"
   },
   {
@@ -2963,8 +2963,8 @@
       "33077"
     ],
     "area_codes": [754, 954],
-    "FIPS_code": "12-14400",
-    "GNIS_feature_IDs": ["0307614"],
+    "fips_code": "12-14400",
+    "gnis_feature_ids": ["0307614"],
     "url": "https://www.coralsprings.gov/"
   },
   {
@@ -2999,8 +2999,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92877–92883"],
     "area_codes": [951],
-    "FIPS_code": "06-16350",
-    "GNIS_feature_IDs": ["1652691", "2410232"],
+    "fips_code": "06-16350",
+    "gnis_feature_ids": ["1652691", "2410232"],
     "url": "https://www.coronaca.gov/"
   },
   {
@@ -3038,8 +3038,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["78401–78402", "78404–78419"],
     "area_codes": [361],
-    "FIPS_code": "48-17000",
-    "GNIS_feature_IDs": ["1333380"],
+    "fips_code": "48-17000",
+    "gnis_feature_ids": ["1333380"],
     "url": "https://www.cctexas.com/"
   },
   {
@@ -3075,8 +3075,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92626-92628"],
     "area_codes": [714, 657, 949],
-    "FIPS_code": "06-16532",
-    "GNIS_feature_IDs": ["1652692", "2410239"],
+    "fips_code": "06-16532",
+    "gnis_feature_ids": ["1652692", "2410239"],
     "url": "https://www.costamesaca.gov/"
   },
   {
@@ -3149,8 +3149,8 @@
       "75398"
     ],
     "area_codes": [214, 469, 945, 972],
-    "FIPS_code": "48-19000",
-    "GNIS_feature_IDs": ["1380944"],
+    "fips_code": "48-19000",
+    "gnis_feature_ids": ["1380944"],
     "url": "https://dallascityhall.com/"
   },
   {
@@ -3184,8 +3184,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["94014–94017"],
     "area_codes": [415, 628, 650],
-    "FIPS_code": "06-17918",
-    "GNIS_feature_IDs": ["1658369", "2410291"],
+    "fips_code": "06-17918",
+    "gnis_feature_ids": ["1658369", "2410291"],
     "url": "https://www.dalycity.org/"
   },
   {
@@ -3225,8 +3225,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["52801-52809"],
     "area_codes": [563],
-    "FIPS_code": "19-19000",
-    "GNIS_feature_IDs": ["2394467"],
+    "fips_code": "19-19000",
+    "gnis_feature_ids": ["2394467"],
     "url": "https://www.davenportiowa.com/"
   },
   {
@@ -3260,8 +3260,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["33312", "33314", "33317", "33324–33326", "33328–33331"],
     "area_codes": [754, 954],
-    "FIPS_code": "12-16475",
-    "GNIS_feature_IDs": ["0281316"],
+    "fips_code": "12-16475",
+    "gnis_feature_ids": ["0281316"],
     "url": "https://www.davie-fl.gov/"
   },
   {
@@ -3319,8 +3319,8 @@
       "45490"
     ],
     "area_codes": [937, 326],
-    "FIPS_code": "39113",
-    "GNIS_feature_IDs": ["1064514"],
+    "fips_code": "39113",
+    "gnis_feature_ids": ["1064514"],
     "url": "https://daytonohio.gov/"
   },
   {
@@ -3357,8 +3357,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["48120", "48121", "48123", "48124", "48126", "48128"],
     "area_codes": [313],
-    "FIPS_code": "26-21000",
-    "GNIS_feature_IDs": ["0624432"],
+    "fips_code": "26-21000",
+    "gnis_feature_ids": ["0624432"],
     "url": "https://cityofdearborn.org/"
   },
   {
@@ -3393,8 +3393,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["76201-76210"],
     "area_codes": [940, 682, 817],
-    "FIPS_code": "48-19972",
-    "GNIS_feature_IDs": ["2410323"],
+    "fips_code": "48-19972",
+    "gnis_feature_ids": ["2410323"],
     "url": "https://www.cityofdenton.com/"
   },
   {
@@ -3455,8 +3455,8 @@
       "80123"
     ],
     "area_codes": [303, 720, 983],
-    "FIPS_code": "08-20000",
-    "GNIS_feature_IDs": ["201738"],
+    "fips_code": "08-20000",
+    "gnis_feature_ids": ["201738"],
     "url": "https://www.denvergov.org/"
   },
   {
@@ -3492,8 +3492,8 @@
     "time_zone": "UTC-6(MST)",
     "zip_codes": ["50301", "50340", "50310", "50316"],
     "area_codes": [515],
-    "FIPS_code": "19-21000",
-    "GNIS_feature_IDs": ["465961"],
+    "fips_code": "19-21000",
+    "gnis_feature_ids": ["465961"],
     "url": "https://www.dsm.city/"
   },
   {
@@ -3532,8 +3532,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["482XX"],
     "area_codes": [313],
-    "FIPS_code": "26-22000",
-    "GNIS_feature_IDs": ["1617959"],
+    "fips_code": "26-22000",
+    "gnis_feature_ids": ["1617959"],
     "url": "https://detroitmi.gov/"
   },
   {
@@ -3567,8 +3567,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["90239-90242"],
     "area_codes": [562],
-    "FIPS_code": "06-19766",
-    "GNIS_feature_IDs": ["1652698", "2410352"],
+    "fips_code": "06-19766",
+    "gnis_feature_ids": ["1652698", "2410352"],
     "url": "https://www.downeyca.org/"
   },
   {
@@ -3621,8 +3621,8 @@
       "27722"
     ],
     "area_codes": [919, 984],
-    "FIPS_code": "37-19000",
-    "GNIS_feature_IDs": ["1020059"],
+    "fips_code": "37-19000",
+    "gnis_feature_ids": ["1020059"],
     "url": "https://www.durhamnc.gov/"
   },
   {
@@ -3656,8 +3656,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["8539-78541"],
     "area_codes": [956],
-    "FIPS_code": "48-22660",
-    "GNIS_feature_IDs": ["48-22660"],
+    "fips_code": "48-22660",
+    "gnis_feature_ids": ["48-22660"],
     "url": "https://cityofedinburg.com/"
   },
   {
@@ -3694,8 +3694,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["08817", "08818", "08820", "08837", "08899"],
     "area_codes": [732, 908],
-    "FIPS_code": "3402320230",
-    "GNIS_feature_IDs": ["00882166"],
+    "fips_code": "3402320230",
+    "gnis_feature_ids": ["00882166"],
     "url": "https://www.edisonnj.org/"
   },
   {
@@ -3729,8 +3729,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92019–92022", "92090"],
     "area_codes": [619],
-    "FIPS_code": "06-21712",
-    "GNIS_feature_IDs": ["1652701"],
+    "fips_code": "06-21712",
+    "gnis_feature_ids": ["1652701"],
     "url": "https://www.elcajon.gov/"
   },
   {
@@ -3768,8 +3768,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["60120-60125"],
     "area_codes": [331, 847, 224],
-    "FIPS_code": "17-23074",
-    "GNIS_feature_IDs": ["407859", "407859", "418747", "2394641"],
+    "fips_code": "17-23074",
+    "gnis_feature_ids": ["407859", "407859", "418747", "2394641"],
     "url": "https://www.cityofelgin.org/"
   },
   {
@@ -3808,8 +3808,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["07201", "07206", "07207", "07208"],
     "area_codes": [908],
-    "FIPS_code": "3403921000",
-    "GNIS_feature_IDs": ["0885205"],
+    "fips_code": "3403921000",
+    "gnis_feature_ids": ["0885205"],
     "url": "https://www.elizabethnj.org/"
   },
   {
@@ -3843,8 +3843,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["95624", "95757–95759"],
     "area_codes": [916, 279],
-    "FIPS_code": "06-22020",
-    "GNIS_feature_IDs": ["277506", "2410425"],
+    "fips_code": "06-22020",
+    "gnis_feature_ids": ["277506", "2410425"],
     "url": "https://www.elkgrovecity.org/"
   },
   {
@@ -3877,8 +3877,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["91731-91735"],
     "area_codes": [626],
-    "FIPS_code": "06-22230",
-    "GNIS_feature_IDs": ["1652702", "2410413"],
+    "fips_code": "06-22230",
+    "gnis_feature_ids": ["1652702", "2410413"],
     "url": "https://ci.el-monte.ca.us/"
   },
   {
@@ -3916,8 +3916,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["79900–79999", "88500–88599"],
     "area_codes": [915],
-    "FIPS_code": "48-24000",
-    "GNIS_feature_IDs": ["1380946"],
+    "fips_code": "48-24000",
+    "gnis_feature_ids": ["1380946"],
     "url": "https://www.elpasotexas.gov/"
   },
   {
@@ -3951,8 +3951,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92025–92027", "92029"],
     "area_codes": [442, 760],
-    "FIPS_code": "06-22804",
-    "GNIS_feature_IDs": ["1652706"],
+    "fips_code": "06-22804",
+    "gnis_feature_ids": ["1652706"],
     "url": "https://www.escondido.org/"
   },
   {
@@ -3990,8 +3990,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["97401–97405", "97408", "97440"],
     "area_codes": [458, 541],
-    "FIPS_code": "41-23850",
-    "GNIS_feature_IDs": ["1120527"],
+    "fips_code": "41-23850",
+    "gnis_feature_ids": ["1120527"],
     "url": "https://www.eugene-or.gov/"
   },
   {
@@ -4044,8 +4044,8 @@
       "47777"
     ],
     "area_codes": [812, 930],
-    "FIPS_code": "18-22000",
-    "GNIS_feature_IDs": ["434258"],
+    "fips_code": "18-22000",
+    "gnis_feature_ids": ["434258"],
     "url": "https://www.evansvillegov.org/"
   },
   {
@@ -4090,8 +4090,8 @@
       "98213"
     ],
     "area_codes": [425],
-    "FIPS_code": "53-22640",
-    "GNIS_feature_IDs": ["1512198"],
+    "fips_code": "53-22640",
+    "gnis_feature_ids": ["1512198"],
     "url": "https://www.everettwa.gov/"
   },
   {
@@ -4128,8 +4128,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["94533-94535"],
     "area_codes": [707],
-    "FIPS_code": "06-23182",
-    "GNIS_feature_IDs": ["1656005", "2410474"],
+    "fips_code": "06-23182",
+    "gnis_feature_ids": ["1656005", "2410474"],
     "url": "https://www.fairfield.ca.gov/"
   },
   {
@@ -4163,8 +4163,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["58102–58109", "58121–58122", "58124–58126"],
     "area_codes": [701],
-    "FIPS_code": "38-25700",
-    "GNIS_feature_IDs": ["1028945"],
+    "fips_code": "38-25700",
+    "gnis_feature_ids": ["1028945"],
     "url": "https://www.fargond.gov/"
   },
   {
@@ -4217,8 +4217,8 @@
       "28314"
     ],
     "area_codes": [910],
-    "FIPS_code": "37-22920",
-    "GNIS_feature_IDs": ["1020226"],
+    "fips_code": "37-22920",
+    "gnis_feature_ids": ["1020226"],
     "url": "https://www.fayettevillenc.gov/"
   },
   {
@@ -4257,8 +4257,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["46038", "46037", "46040"],
     "area_codes": [317],
-    "FIPS_code": "18-23278",
-    "GNIS_feature_IDs": ["0434526"],
+    "fips_code": "18-23278",
+    "gnis_feature_ids": ["0434526"],
     "url": "https://www.fishers.in.us/"
   },
   {
@@ -4292,8 +4292,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92331", "92334-92337"],
     "area_codes": [909, 951, 840],
-    "FIPS_code": "06-24680",
-    "GNIS_feature_IDs": ["1652711", "2410517"],
+    "fips_code": "06-24680",
+    "gnis_feature_ids": ["1652711", "2410517"],
     "url": "https://www.fontana.org/"
   },
   {
@@ -4329,8 +4329,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["80521-80528"],
     "area_codes": [970],
-    "FIPS_code": "08-27425",
-    "GNIS_feature_IDs": ["0204673"],
+    "fips_code": "08-27425",
+    "gnis_feature_ids": ["0204673"],
     "url": "https://www.fcgov.com/"
   },
   {
@@ -4374,8 +4374,8 @@
       "33394"
     ],
     "area_codes": [754, 954],
-    "FIPS_code": "12-24000",
-    "GNIS_feature_IDs": ["0282693"],
+    "fips_code": "12-24000",
+    "gnis_feature_ids": ["0282693"],
     "url": "https://www.fortlauderdale.gov/"
   },
   {
@@ -4424,8 +4424,8 @@
       "46850"
     ],
     "area_codes": [260],
-    "FIPS_code": "0434689",
-    "GNIS_feature_IDs": ["0434689"],
+    "fips_code": "0434689",
+    "gnis_feature_ids": ["0434689"],
     "url": "https://www.cityoffortwayne.org/"
   },
   {
@@ -4463,8 +4463,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["760XX", "761XX", "76244"],
     "area_codes": [682, 817],
-    "FIPS_code": "48-27000",
-    "GNIS_feature_IDs": ["2410531"],
+    "fips_code": "48-27000",
+    "gnis_feature_ids": ["2410531"],
     "url": "https://www.fortworthtexas.gov/"
   },
   {
@@ -4500,8 +4500,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["94536–94539", "94555"],
     "area_codes": [510, 341],
-    "FIPS_code": "06-26000",
-    "GNIS_feature_IDs": ["277521", "2410545"],
+    "fips_code": "06-26000",
+    "gnis_feature_ids": ["277521", "2410545"],
     "url": "https://www.fremont.gov/"
   },
   {
@@ -4560,8 +4560,8 @@
       "93888"
     ],
     "area_codes": [559],
-    "FIPS_code": "06-27000",
-    "GNIS_feature_IDs": ["2777606", "2410546"],
+    "fips_code": "06-27000",
+    "gnis_feature_ids": ["2777606", "2410546"],
     "url": "https://www.fresno.gov/"
   },
   {
@@ -4597,8 +4597,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["75033-75036", "75068", "75071"],
     "area_codes": [972, 469, 214],
-    "FIPS_code": "48-27684",
-    "GNIS_feature_IDs": ["2410549"],
+    "fips_code": "48-27684",
+    "gnis_feature_ids": ["2410549"],
     "url": "https://www.friscotexas.gov/"
   },
   {
@@ -4632,8 +4632,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92831-92838"],
     "area_codes": [562, 657, 714],
-    "FIPS_code": "06-28000",
-    "GNIS_feature_IDs": ["1660658", "2410556"],
+    "fips_code": "06-28000",
+    "gnis_feature_ids": ["1660658", "2410556"],
     "url": "https://www.cityoffullerton.com/"
   },
   {
@@ -4669,8 +4669,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["32601–32614", "32627", "32635", "32641", "32653"],
     "area_codes": [352],
-    "FIPS_code": "12-25175",
-    "GNIS_feature_IDs": ["12-25175"],
+    "fips_code": "12-25175",
+    "gnis_feature_ids": ["12-25175"],
     "url": "https://www.gainesvillefl.gov/"
   },
   {
@@ -4706,8 +4706,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92840-92846"],
     "area_codes": [657, 714],
-    "FIPS_code": "06-29000",
-    "GNIS_feature_IDs": ["1660662", "2410568"],
+    "fips_code": "06-29000",
+    "gnis_feature_ids": ["1660662", "2410568"],
     "url": "https://ggcity.org/"
   },
   {
@@ -4745,8 +4745,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["75040-75049"],
     "area_codes": [214, 469, 945, 972],
-    "FIPS_code": "48-29000",
-    "GNIS_feature_IDs": ["1388185"],
+    "fips_code": "48-29000",
+    "gnis_feature_ids": ["1388185"],
     "url": "https://www.garlandtx.gov/"
   },
   {
@@ -4782,8 +4782,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["85233", "85234", "85295", "85296", "85297", "85298"],
     "area_codes": [480],
-    "FIPS_code": "04-27400",
-    "GNIS_feature_IDs": ["2412682"],
+    "fips_code": "04-27400",
+    "gnis_feature_ids": ["2412682"],
     "url": "https://www.gilbertaz.gov/"
   },
   {
@@ -4819,8 +4819,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["85301-85318"],
     "area_codes": [623, 602],
-    "FIPS_code": "04-27820",
-    "GNIS_feature_IDs": ["5060"],
+    "fips_code": "04-27820",
+    "gnis_feature_ids": ["5060"],
     "url": "https://www.glendaleaz.com/"
   },
   {
@@ -4849,8 +4849,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["91201–91210", "91214", "91221", "91222", "91224–91226"],
     "area_codes": [747, 818],
-    "FIPS_code": "06-30000",
-    "GNIS_feature_IDs": ["1660679", "2410597"],
+    "fips_code": "06-30000",
+    "gnis_feature_ids": ["1660679", "2410597"],
     "url": "https://www.glendaleca.gov/"
   },
   {
@@ -4886,8 +4886,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["85338", "85395"],
     "area_codes": [623],
-    "FIPS_code": "04-28380",
-    "GNIS_feature_IDs": ["5172"],
+    "fips_code": "04-28380",
+    "gnis_feature_ids": ["5172"],
     "url": "https://www.goodyearaz.gov/"
   },
   {
@@ -4925,8 +4925,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["75050-75054"],
     "area_codes": [682, 817, 214, 469, 945, 972],
-    "FIPS_code": "48-30464",
-    "GNIS_feature_IDs": ["1336802"],
+    "fips_code": "48-30464",
+    "gnis_feature_ids": ["1336802"],
     "url": "https://www.gptx.org/"
   },
   {
@@ -4977,8 +4977,8 @@
       "49594"
     ],
     "area_codes": [616],
-    "FIPS_code": "26-34000",
-    "GNIS_feature_IDs": ["0627105"],
+    "fips_code": "26-34000",
+    "gnis_feature_ids": ["0627105"],
     "url": "https://www.grandrapidsmi.gov/"
   },
   {
@@ -5014,8 +5014,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["80631-80634", "80638-80639"],
     "area_codes": [970],
-    "FIPS_code": "08-32155",
-    "GNIS_feature_IDs": ["0180649"],
+    "fips_code": "08-32155",
+    "gnis_feature_ids": ["0180649"],
     "url": "https://greeleygov.com/"
   },
   {
@@ -5057,8 +5057,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["54301-08", "54311", "54313", "54324", "54344"],
     "area_codes": [920],
-    "FIPS_code": "55-31000",
-    "GNIS_feature_IDs": ["1565801"],
+    "fips_code": "55-31000",
+    "gnis_feature_ids": ["1565801"],
     "url": "https://greenbaywi.gov/"
   },
   {
@@ -5108,8 +5108,8 @@
       "27499"
     ],
     "area_codes": [336, 743],
-    "FIPS_code": "37-28000",
-    "GNIS_feature_IDs": ["1020557"],
+    "fips_code": "37-28000",
+    "gnis_feature_ids": ["1020557"],
     "url": "https://www.greensboro-nc.gov/"
   },
   {
@@ -5145,8 +5145,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["97030", "97080", "97233"],
     "area_codes": [503, 971],
-    "FIPS_code": "41-31250",
-    "GNIS_feature_IDs": ["1121424"],
+    "fips_code": "41-31250",
+    "gnis_feature_ids": ["1121424"],
     "url": "https://greshamoregon.gov/"
   },
   {
@@ -5182,8 +5182,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["23661", "23663-23669"],
     "area_codes": [757, 948],
-    "FIPS_code": "51-35000",
-    "GNIS_feature_IDs": ["1495650"],
+    "fips_code": "51-35000",
+    "gnis_feature_ids": ["1495650"],
     "url": "https://www.hampton.gov/"
   },
   {
@@ -5222,8 +5222,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["061xx"],
     "area_codes": [860, 959],
-    "FIPS_code": "09-37000",
-    "GNIS_feature_IDs": ["2378277"],
+    "fips_code": "09-37000",
+    "gnis_feature_ids": ["2378277"],
     "url": "https://www.hartfordct.gov/"
   },
   {
@@ -5259,8 +5259,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["94540–94546", "94552", "94557"],
     "area_codes": [510, 341],
-    "FIPS_code": "06-33000",
-    "GNIS_feature_IDs": ["277607", "2410724"],
+    "fips_code": "06-33000",
+    "gnis_feature_ids": ["277607", "2410724"],
     "url": "https://www.hayward-ca.gov/"
   },
   {
@@ -5300,8 +5300,8 @@
       "89077"
     ],
     "area_codes": [702, 725],
-    "FIPS_code": "32-31900",
-    "GNIS_feature_IDs": ["2410741"],
+    "fips_code": "32-31900",
+    "gnis_feature_ids": ["2410741"],
     "url": "https://www.cityofhenderson.com/"
   },
   {
@@ -5336,8 +5336,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92340", "92344", "92345"],
     "area_codes": [442, 760],
-    "FIPS_code": "06-33434",
-    "GNIS_feature_IDs": ["1652720", "2410751"],
+    "fips_code": "06-33434",
+    "gnis_feature_ids": ["1652720", "2410751"],
     "url": "https://www.cityofhesperia.us/"
   },
   {
@@ -5374,8 +5374,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["33002", "33010-33018"],
     "area_codes": [305, 786],
-    "FIPS_code": "12-30000",
-    "GNIS_feature_IDs": ["0305059"],
+    "fips_code": "12-30000",
+    "gnis_feature_ids": ["0305059"],
     "url": "https://www.hialeahfl.gov/"
   },
   {
@@ -5413,8 +5413,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["27260-27265"],
     "area_codes": [336],
-    "FIPS_code": "37-31400",
-    "GNIS_feature_IDs": ["0986755"],
+    "fips_code": "37-31400",
+    "gnis_feature_ids": ["0986755"],
     "url": "https://www.highpointnc.gov/"
   },
   {
@@ -5450,8 +5450,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["97123", "97124", "97006"],
     "area_codes": [503, 971],
-    "FIPS_code": "41-34100",
-    "GNIS_feature_IDs": ["1163049"],
+    "fips_code": "41-34100",
+    "gnis_feature_ids": ["1163049"],
     "url": "https://www.hillsboro-oregon.gov/"
   },
   {
@@ -5496,8 +5496,8 @@
       "33316"
     ],
     "area_codes": [954, 754],
-    "FIPS_code": "12-32000",
-    "GNIS_feature_IDs": ["0284176"],
+    "fips_code": "12-32000",
+    "gnis_feature_ids": ["0284176"],
     "url": "https://www.hollywoodfl.org/"
   },
   {
@@ -5536,8 +5536,8 @@
     "time_zone": "UTC-10(HST)",
     "zip_codes": ["96801-96850"],
     "area_codes": [808],
-    "FIPS_code": "366212",
-    "GNIS_feature_IDs": ["366212"],
+    "fips_code": "366212",
+    "gnis_feature_ids": ["366212"],
     "url": "https://www.honolulu.gov/"
   },
   {
@@ -5575,8 +5575,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["770xx", "772xx"],
     "area_codes": [713, 281, 832, 346],
-    "FIPS_code": "48-35000",
-    "GNIS_feature_IDs": ["1380948"],
+    "fips_code": "48-35000",
+    "gnis_feature_ids": ["1380948"],
     "url": "https://www.houstontx.gov/"
   },
   {
@@ -5612,8 +5612,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92605", "92615", "92646–92649"],
     "area_codes": [562, 657, 714],
-    "FIPS_code": "06-36000",
-    "GNIS_feature_IDs": ["1652724", "2410811"],
+    "fips_code": "06-36000",
+    "gnis_feature_ids": ["1652724", "2410811"],
     "url": "https://huntingtonbeachca.gov/"
   },
   {
@@ -5663,8 +5663,8 @@
       "35893-35899"
     ],
     "area_codes": [256, 938],
-    "FIPS_code": "01-37000",
-    "GNIS_feature_IDs": ["2404746"],
+    "fips_code": "01-37000",
+    "gnis_feature_ids": ["2404746"],
     "url": "https://www.huntsvilleal.gov/"
   },
   {
@@ -5700,8 +5700,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["64050-64057"],
     "area_codes": [816],
-    "FIPS_code": "29-35000",
-    "GNIS_feature_IDs": ["0735664"],
+    "fips_code": "29-35000",
+    "gnis_feature_ids": ["0735664"],
     "url": "https://www.ci.independence.mo.us/"
   },
   {
@@ -5778,8 +5778,8 @@
       "46298"
     ],
     "area_codes": [317, 463],
-    "FIPS_code": "18-36003",
-    "GNIS_feature_IDs": ["2395423"],
+    "fips_code": "18-36003",
+    "gnis_feature_ids": ["2395423"],
     "url": "https://www.indy.gov/"
   },
   {
@@ -5813,8 +5813,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["90301-90312"],
     "area_codes": [310, 424, 213, 323],
-    "FIPS_code": "06-36546",
-    "GNIS_feature_IDs": ["1660799", "2410106"],
+    "fips_code": "06-36546",
+    "gnis_feature_ids": ["1660799", "2410106"],
     "url": "https://www.cityofinglewood.org/"
   },
   {
@@ -5857,8 +5857,8 @@
       "92697"
     ],
     "area_codes": [949, 657, 714],
-    "FIPS_code": "06-36770",
-    "GNIS_feature_IDs": ["1660804", "2410116"],
+    "fips_code": "06-36770",
+    "gnis_feature_ids": ["1660804", "2410116"],
     "url": "https://www.cityofirvine.org/"
   },
   {
@@ -5896,8 +5896,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["75000-75099"],
     "area_codes": [214, 469, 945, 972, 682, 817],
-    "FIPS_code": "48-37000",
-    "GNIS_feature_IDs": ["1338507"],
+    "fips_code": "48-37000",
+    "gnis_feature_ids": ["1338507"],
     "url": "https://www.cityofirving.org/"
   },
   {
@@ -5934,8 +5934,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["39200-39299"],
     "area_codes": [601, 769],
-    "FIPS_code": "28-36000",
-    "GNIS_feature_IDs": ["0711543"],
+    "fips_code": "28-36000",
+    "gnis_feature_ids": ["0711543"],
     "url": "https://www.jacksonms.gov/"
   },
   {
@@ -5991,8 +5991,8 @@
       "32246"
     ],
     "area_codes": [904],
-    "FIPS_code": "12-35000",
-    "GNIS_feature_IDs": ["0295003"],
+    "fips_code": "12-35000",
+    "gnis_feature_ids": ["0295003"],
     "url": "https://www.coj.net/"
   },
   {
@@ -6031,8 +6031,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["07097", "07302-07308", "07310-07311"],
     "area_codes": [201, 551],
-    "FIPS_code": "3401736000",
-    "GNIS_feature_IDs": ["0885264"],
+    "fips_code": "3401736000",
+    "gnis_feature_ids": ["0885264"],
     "url": "https://www.jerseycitynj.gov/"
   },
   {
@@ -6070,8 +6070,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["60431–60436", "60586"],
     "area_codes": [815, 779],
-    "FIPS_code": "17-38570",
-    "GNIS_feature_IDs": ["2395477"],
+    "fips_code": "17-38570",
+    "gnis_feature_ids": ["2395477"],
     "url": "https://www.joliet.gov/"
   },
   {
@@ -6105,8 +6105,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["91752", "92509"],
     "area_codes": [951],
-    "FIPS_code": "06-37692",
-    "GNIS_feature_IDs": ["2702867"],
+    "fips_code": "06-37692",
+    "gnis_feature_ids": ["2702867"],
     "url": "https://jurupavalley.org/"
   },
   {
@@ -6167,8 +6167,8 @@
       "64999"
     ],
     "area_codes": [816, 975],
-    "FIPS_code": "29000-38000",
-    "GNIS_feature_IDs": ["748198"],
+    "fips_code": "29000-38000",
+    "gnis_feature_ids": ["748198"],
     "url": "https://www.kcmo.gov/"
   },
   {
@@ -6208,8 +6208,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["66101-66113", "66115", "66117-66119", "66160"],
     "area_codes": [913],
-    "FIPS_code": "20-36000",
-    "GNIS_feature_IDs": ["478635"],
+    "fips_code": "20-36000",
+    "gnis_feature_ids": ["478635"],
     "url": "https://www.wycokck.org/"
   },
   {
@@ -6254,8 +6254,8 @@
       "98089"
     ],
     "area_codes": [253],
-    "FIPS_code": "53-35415",
-    "GNIS_feature_IDs": ["1530952"],
+    "fips_code": "53-35415",
+    "gnis_feature_ids": ["1530952"],
     "url": "https://www.kentwa.gov/"
   },
   {
@@ -6292,8 +6292,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["76540", "76541", "76542", "76543", "76548", "76549"],
     "area_codes": [254],
-    "FIPS_code": "48-29148",
-    "GNIS_feature_IDs": ["1360642"],
+    "fips_code": "48-29148",
+    "gnis_feature_ids": ["1360642"],
     "url": "https://www.killeentexas.gov/"
   },
   {
@@ -6341,8 +6341,8 @@
       "37995-37998"
     ],
     "area_codes": [865],
-    "FIPS_code": "47-40000",
-    "GNIS_feature_IDs": ["1648562"],
+    "fips_code": "47-40000",
+    "gnis_feature_ids": ["1648562"],
     "url": "https://www.knoxvilletn.gov/"
   },
   {
@@ -6377,8 +6377,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["70501–70509", "70593", "70596", "70598"],
     "area_codes": [337],
-    "FIPS_code": "22-40735",
-    "GNIS_feature_IDs": ["557334"],
+    "fips_code": "22-40735",
+    "gnis_feature_ids": ["557334"],
     "url": "https://www.lafayettela.gov/"
   },
   {
@@ -6414,8 +6414,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["33801-33815"],
     "area_codes": [863],
-    "FIPS_code": "12-38250",
-    "GNIS_feature_IDs": ["0294459"],
+    "fips_code": "12-38250",
+    "gnis_feature_ids": ["0294459"],
     "url": "https://www.lakelandgov.net/"
   },
   {
@@ -6463,8 +6463,8 @@
       "80123"
     ],
     "area_codes": [303, 720],
-    "FIPS_code": "08-43000",
-    "GNIS_feature_IDs": ["0181620"],
+    "fips_code": "08-43000",
+    "gnis_feature_ids": ["0181620"],
     "url": "https://www.lakewood.org/"
   },
   {
@@ -6498,8 +6498,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["08701"],
     "area_codes": [732, 848],
-    "FIPS_code": "34-38550",
-    "GNIS_feature_IDs": ["882076"],
+    "fips_code": "34-38550",
+    "gnis_feature_ids": ["882076"],
     "url": "https://www.lakewoodnj.gov/"
   },
   {
@@ -6533,8 +6533,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["93534–93536", "93539", "93584"],
     "area_codes": [661],
-    "FIPS_code": "06-40130",
-    "GNIS_feature_IDs": ["1652741", "2411620"],
+    "fips_code": "06-40130",
+    "gnis_feature_ids": ["1652741", "2411620"],
     "url": "https://www.cityoflancasterca.org/"
   },
   {
@@ -6587,8 +6587,8 @@
       "48956"
     ],
     "area_codes": [517],
-    "FIPS_code": "26-46000",
-    "GNIS_feature_IDs": ["1625035"],
+    "fips_code": "26-46000",
+    "gnis_feature_ids": ["1625035"],
     "url": "https://www.lansingmi.gov/"
   },
   {
@@ -6626,8 +6626,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["78040–78046", "78049"],
     "area_codes": [956],
-    "FIPS_code": "48-41464",
-    "GNIS_feature_IDs": ["1339633"],
+    "fips_code": "48-41464",
+    "gnis_feature_ids": ["1339633"],
     "url": "https://www.cityoflaredo.com/"
   },
   {
@@ -6663,8 +6663,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["88001", "88003-88007", "88011-88013"],
     "area_codes": [575],
-    "FIPS_code": "35-39380",
-    "GNIS_feature_IDs": ["0899715"],
+    "fips_code": "35-39380",
+    "gnis_feature_ids": ["0899715"],
     "url": "https://www.lascruces.gov/"
   },
   {
@@ -6700,8 +6700,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["89044", "89054", "891xx"],
     "area_codes": [702, 725],
-    "FIPS_code": "32-40000",
-    "GNIS_feature_IDs": ["847388"],
+    "fips_code": "32-40000",
+    "gnis_feature_ids": ["847388"],
     "url": "https://www.lasvegasnevada.gov/"
   },
   {
@@ -6738,8 +6738,8 @@
     "time_zone": "UTC-5(CST)",
     "zip_codes": ["77573-77574"],
     "area_codes": [281, 346, 713, 832],
-    "FIPS_code": "48-41980",
-    "GNIS_feature_IDs": ["1339753"],
+    "fips_code": "48-41980",
+    "gnis_feature_ids": ["1339753"],
     "url": "https://www.leaguecitytx.gov/"
   },
   {
@@ -6788,8 +6788,8 @@
       "64149"
     ],
     "area_codes": [816],
-    "FIPS_code": "29-41348",
-    "GNIS_feature_IDs": ["0735684"],
+    "fips_code": "29-41348",
+    "gnis_feature_ids": ["0735684"],
     "url": "https://cityofls.net/"
   },
   {
@@ -6825,8 +6825,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["75029", "75057", "75067", "75077"],
     "area_codes": [214, 469, 972],
-    "FIPS_code": "42508",
-    "GNIS_feature_IDs": ["2410829"],
+    "fips_code": "42508",
+    "gnis_feature_ids": ["2410829"],
     "url": "https://www.cityoflewisville.com/"
   },
   {
@@ -6885,8 +6885,8 @@
       "40598"
     ],
     "area_codes": [859],
-    "FIPS_code": "21-46027",
-    "GNIS_feature_IDs": ["496343"],
+    "fips_code": "21-46027",
+    "gnis_feature_ids": ["496343"],
     "url": "https://www.lexingtonky.gov/"
   },
   {
@@ -6935,8 +6935,8 @@
       "68588"
     ],
     "area_codes": [402, 531],
-    "FIPS_code": "31-28000",
-    "GNIS_feature_IDs": ["0837279"],
+    "fips_code": "31-28000",
+    "gnis_feature_ids": ["0837279"],
     "url": "https://www.lincoln.ne.gov/"
   },
   {
@@ -6988,8 +6988,8 @@
       "72295"
     ],
     "area_codes": [501],
-    "FIPS_code": "05-41000",
-    "GNIS_feature_IDs": ["83350"],
+    "fips_code": "05-41000",
+    "gnis_feature_ids": ["83350"],
     "url": "https://www.littlerock.gov/"
   },
   {
@@ -7040,8 +7040,8 @@
       "90899"
     ],
     "area_codes": [562],
-    "FIPS_code": "06-43000",
-    "GNIS_feature_IDs": ["1652747"],
+    "fips_code": "06-43000",
+    "gnis_feature_ids": ["1652747"],
     "url": "https://www.longbeach.gov/"
   },
   {
@@ -7077,8 +7077,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["80501-80504"],
     "area_codes": [303, 720],
-    "FIPS_code": "08-45970",
-    "GNIS_feature_IDs": ["0202560"],
+    "fips_code": "08-45970",
+    "gnis_feature_ids": ["0202560"],
     "url": "https://www.longmontcolorado.gov/"
   },
   {
@@ -7149,8 +7149,8 @@
       "91601–91609"
     ],
     "area_codes": [213, 323, 310, 424, 747, 818],
-    "FIPS_code": "06-44000",
-    "GNIS_feature_IDs": ["1662328", "2410877"],
+    "fips_code": "06-44000",
+    "gnis_feature_ids": ["1662328", "2410877"],
     "url": "https://lacity.gov/"
   },
   {
@@ -7205,8 +7205,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["400xx", "401xx", "402xx"],
     "area_codes": [502],
-    "FIPS_code": "21-48000",
-    "GNIS_feature_IDs": ["0509453"],
+    "fips_code": "21-48000",
+    "gnis_feature_ids": ["0509453"],
     "url": "https://louisvilleky.gov/"
   },
   {
@@ -7246,8 +7246,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["01850", "01851", "01852", "01853", "01854"],
     "area_codes": [978, 351],
-    "FIPS_code": "25-37000",
-    "GNIS_feature_IDs": ["0611832"],
+    "fips_code": "25-37000",
+    "gnis_feature_ids": ["0611832"],
     "url": "https://www.lowellma.gov/533/"
   },
   {
@@ -7296,8 +7296,8 @@
       "79499"
     ],
     "area_codes": [806],
-    "FIPS_code": "48-45000",
-    "GNIS_feature_IDs": ["1374760"],
+    "fips_code": "48-45000",
+    "gnis_feature_ids": ["1374760"],
     "url": "https://ci.lubbock.tx.us/"
   },
   {
@@ -7338,8 +7338,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["01901-01905"],
     "area_codes": [339, 781],
-    "FIPS_code": "25-37490",
-    "GNIS_feature_IDs": ["0613376"],
+    "fips_code": "25-37490",
+    "gnis_feature_ids": ["0613376"],
     "url": "https://www.lynnma.gov/"
   },
   {
@@ -7378,8 +7378,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["31200-31299"],
     "area_codes": [478],
-    "FIPS_code": "13-49000",
-    "GNIS_feature_IDs": ["0332301"],
+    "fips_code": "13-49000",
+    "gnis_feature_ids": ["0332301"],
     "url": "https://www.maconbibb.us/"
   },
   {
@@ -7441,8 +7441,8 @@
       "53790-53794"
     ],
     "area_codes": [608],
-    "FIPS_code": "55-48000",
-    "GNIS_feature_IDs": ["1581834"],
+    "fips_code": "55-48000",
+    "gnis_feature_ids": ["1581834"],
     "url": "https://cityofmadison.com/"
   },
   {
@@ -7485,8 +7485,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["03101–03105", "03108-03109", "03111"],
     "area_codes": [603],
-    "FIPS_code": "33-45140",
-    "GNIS_feature_IDs": ["868243"],
+    "fips_code": "33-45140",
+    "gnis_feature_ids": ["868243"],
     "url": "https://www.manchesternh.gov/"
   },
   {
@@ -7515,8 +7515,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["78501-78504"],
     "area_codes": [956],
-    "FIPS_code": null,
-    "GNIS_feature_IDs": ["1374829"],
+    "fips_code": null,
+    "gnis_feature_ids": ["1374829"],
     "url": "https://www.mcallen.net/"
   },
   {
@@ -7552,8 +7552,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["75069-75072"],
     "area_codes": [214, 469, 945, 972],
-    "FIPS_code": "48-45744",
-    "GNIS_feature_IDs": ["1341241"],
+    "fips_code": "48-45744",
+    "gnis_feature_ids": ["1341241"],
     "url": "https://www.mckinneytexas.org/"
   },
   {
@@ -7626,8 +7626,8 @@
       "38197"
     ],
     "area_codes": [901],
-    "FIPS_code": "47-48000",
-    "GNIS_feature_IDs": ["1326388"],
+    "fips_code": "47-48000",
+    "gnis_feature_ids": ["1326388"],
     "url": "https://www.memphistn.gov/"
   },
   {
@@ -7661,8 +7661,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92584–92587", "92596"],
     "area_codes": [951],
-    "FIPS_code": "06-46842",
-    "GNIS_feature_IDs": ["252936", "2497157"],
+    "fips_code": "06-46842",
+    "gnis_feature_ids": ["252936", "2497157"],
     "url": "https://www.cityofmenifee.us/"
   },
   {
@@ -7698,8 +7698,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["83642", "83646", "83680"],
     "area_codes": [208, 986],
-    "FIPS_code": "0396879",
-    "GNIS_feature_IDs": ["0396879"],
+    "fips_code": "0396879",
+    "gnis_feature_ids": ["0396879"],
     "url": "https://meridiancity.org/"
   },
   {
@@ -7735,8 +7735,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["85200-85299"],
     "area_codes": [480, 602],
-    "FIPS_code": "04-46000",
-    "GNIS_feature_IDs": ["2411087"],
+    "fips_code": "04-46000",
+    "gnis_feature_ids": ["2411087"],
     "url": "https://www.mesaaz.gov/"
   },
   {
@@ -7772,8 +7772,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["75149", "75150", "75181"],
     "area_codes": [214, 469, 945, 972],
-    "FIPS_code": "48-47892",
-    "GNIS_feature_IDs": ["1341400"],
+    "fips_code": "48-47892",
+    "gnis_feature_ids": ["1341400"],
     "url": "https://cityofmesquite.com/"
   },
   {
@@ -7841,8 +7841,8 @@
       "33299"
     ],
     "area_codes": [305, 786],
-    "FIPS_code": "12-45000",
-    "GNIS_feature_IDs": ["277593", "2411786"],
+    "fips_code": "12-45000",
+    "gnis_feature_ids": ["277593", "2411786"],
     "url": "https://www.miamigov.com/"
   },
   {
@@ -7878,8 +7878,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["33014", "33054", "33055", "33056", "33152", "33169"],
     "area_codes": [305, 786],
-    "FIPS_code": "12-45050",
-    "GNIS_feature_IDs": ["1989951"],
+    "fips_code": "12-45050",
+    "gnis_feature_ids": ["1989951"],
     "url": "https://www.miamigardens-fl.gov/"
   },
   {
@@ -7915,8 +7915,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["79701-12"],
     "area_codes": [432],
-    "FIPS_code": "48-48072",
-    "GNIS_feature_IDs": ["1341547"],
+    "fips_code": "48-48072",
+    "gnis_feature_ids": ["1341547"],
     "url": "https://www.midlandtexas.gov/"
   },
   {
@@ -7958,8 +7958,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["53172", "532XX"],
     "area_codes": [414],
-    "FIPS_code": "55-53000",
-    "GNIS_feature_IDs": ["1577901"],
+    "fips_code": "55-53000",
+    "gnis_feature_ids": ["1577901"],
     "url": "https://city.milwaukee.gov/"
   },
   {
@@ -8009,8 +8009,8 @@
       "55484-55488"
     ],
     "area_codes": [612],
-    "FIPS_code": "27-43000",
-    "GNIS_feature_IDs": ["655030"],
+    "fips_code": "27-43000",
+    "gnis_feature_ids": ["655030"],
     "url": "https://www.minneapolismn.gov/"
   },
   {
@@ -8043,8 +8043,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["33023", "33025", "33027", "33029"],
     "area_codes": [754, 954],
-    "FIPS_code": "12-45975",
-    "GNIS_feature_IDs": ["0286974"],
+    "fips_code": "12-45975",
+    "gnis_feature_ids": ["0286974"],
     "url": "https://www.miramarfl.gov/"
   },
   {
@@ -8101,8 +8101,8 @@
       "36695"
     ],
     "area_codes": [251],
-    "FIPS_code": "01-50000",
-    "GNIS_feature_IDs": ["24004278"],
+    "fips_code": "01-50000",
+    "gnis_feature_ids": ["24004278"],
     "url": "https://www.cityofmobile.org/"
   },
   {
@@ -8138,8 +8138,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["95350–95358", "95397"],
     "area_codes": [209],
-    "FIPS_code": "06-48354",
-    "GNIS_feature_IDs": ["277609", "2411130"],
+    "fips_code": "06-48354",
+    "gnis_feature_ids": ["277609", "2411130"],
     "url": "https://www.modestogov.com/"
   },
   {
@@ -8195,8 +8195,8 @@
       "36117"
     ],
     "area_codes": [334],
-    "FIPS_code": "01-51000",
-    "GNIS_feature_IDs": ["165344"],
+    "fips_code": "01-51000",
+    "gnis_feature_ids": ["165344"],
     "url": "https://www.montgomeryal.gov/"
   },
   {
@@ -8230,8 +8230,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92551–92557"],
     "area_codes": [909, 951],
-    "FIPS_code": "06-49270",
-    "GNIS_feature_IDs": ["1668251"],
+    "fips_code": "06-49270",
+    "gnis_feature_ids": ["1668251"],
     "url": "https://moval.gov/"
   },
   {
@@ -8267,8 +8267,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["37127-37133"],
     "area_codes": [615, 629],
-    "FIPS_code": "47-51560",
-    "GNIS_feature_IDs": ["1295105"],
+    "fips_code": "47-51560",
+    "gnis_feature_ids": ["1295105"],
     "url": "https://www.murfreesborotn.gov/"
   },
   {
@@ -8302,8 +8302,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92562-92564"],
     "area_codes": [951],
-    "FIPS_code": "06-50076",
-    "GNIS_feature_IDs": ["1667919", "2411199"],
+    "fips_code": "06-50076",
+    "gnis_feature_ids": ["1667919", "2411199"],
     "url": "https://www.murrietaca.gov/"
   },
   {
@@ -8339,8 +8339,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["83651-83686-83687"],
     "area_codes": [208],
-    "FIPS_code": "16-56260",
-    "GNIS_feature_IDs": ["0396943"],
+    "fips_code": "16-56260",
+    "gnis_feature_ids": ["0396943"],
     "url": "https://www.cityofnampa.us/"
   },
   {
@@ -8377,8 +8377,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["60540", "60563–60565", "60566–60567"],
     "area_codes": [630, 331],
-    "FIPS_code": "17-51622",
-    "GNIS_feature_IDs": ["2395147"],
+    "fips_code": "17-51622",
+    "gnis_feature_ids": ["2395147"],
     "url": "https://www.naperville.il.us/"
   },
   {
@@ -8432,8 +8432,8 @@
       "37250"
     ],
     "area_codes": [615, 629],
-    "FIPS_code": "47037",
-    "GNIS_feature_IDs": ["1652484"],
+    "fips_code": "47037",
+    "gnis_feature_ids": ["1652484"],
     "url": "https://www.nashville.gov/"
   },
   {
@@ -8472,8 +8472,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["07101-07108", "07112", "07114"],
     "area_codes": [862, 973],
-    "FIPS_code": "3401351000",
-    "GNIS_feature_IDs": ["0885317"],
+    "fips_code": "3401351000",
+    "gnis_feature_ids": ["0885317"],
     "url": "https://www.newarknj.gov/"
   },
   {
@@ -8513,8 +8513,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["02740", "02744", "02745", "02746"],
     "area_codes": [508, 774],
-    "FIPS_code": "25-45000",
-    "GNIS_feature_IDs": ["0613714"],
+    "fips_code": "25-45000",
+    "gnis_feature_ids": ["0613714"],
     "url": "https://www.newbedford-ma.gov/"
   },
   {
@@ -8574,8 +8574,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["06501-06540"],
     "area_codes": [203, 475],
-    "FIPS_code": "09-52000",
-    "GNIS_feature_IDs": ["0209231"],
+    "fips_code": "09-52000",
+    "gnis_feature_ids": ["0209231"],
     "url": "https://www.newhavenct.gov/"
   },
   {
@@ -8629,8 +8629,8 @@
       "70195"
     ],
     "area_codes": [504],
-    "FIPS_code": "22-55000",
-    "GNIS_feature_IDs": ["1629985"],
+    "fips_code": "22-55000",
+    "gnis_feature_ids": ["1629985"],
     "url": "https://council.nola.gov/"
   },
   {
@@ -8666,8 +8666,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["23601-23609"],
     "area_codes": [757, 948],
-    "FIPS_code": "51-56000",
-    "GNIS_feature_IDs": ["1497043"],
+    "fips_code": "51-56000",
+    "gnis_feature_ids": ["1497043"],
     "url": "https://www.nnva.gov/"
   },
   {
@@ -8748,8 +8748,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["100xx–104xx", "11004–05", "111xx–114xx", "116xx"],
     "area_codes": [212, 646, 332, 718, 347, 929, 917],
-    "FIPS_code": "36-51000",
-    "GNIS_feature_IDs": ["975772"],
+    "fips_code": "36-51000",
+    "gnis_feature_ids": ["975772"],
     "url": "https://nyc.gov/"
   },
   {
@@ -8793,8 +8793,8 @@
       "23551"
     ],
     "area_codes": [757, 948],
-    "FIPS_code": "51-57000",
-    "GNIS_feature_IDs": ["1497051"],
+    "fips_code": "51-57000",
+    "gnis_feature_ids": ["1497051"],
     "url": "https://www.norfolk.gov/"
   },
   {
@@ -8832,8 +8832,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["73019", "73026", "73069", "73070", "73071", "73072"],
     "area_codes": [405],
-    "FIPS_code": "40-52500",
-    "GNIS_feature_IDs": ["1095903"],
+    "fips_code": "40-52500",
+    "gnis_feature_ids": ["1095903"],
     "url": "https://www.normanok.gov/"
   },
   {
@@ -8889,8 +8889,8 @@
       "29425"
     ],
     "area_codes": [843, 854],
-    "FIPS_code": "45-50875",
-    "GNIS_feature_IDs": ["1225072"],
+    "fips_code": "45-50875",
+    "gnis_feature_ids": ["1225072"],
     "url": "https://www.northcharleston.org/"
   },
   {
@@ -8924,8 +8924,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["89030–89033", "89036", "89081", "89084–89087"],
     "area_codes": [702, 725],
-    "FIPS_code": "32-51800",
-    "GNIS_feature_IDs": ["0847435"],
+    "fips_code": "32-51800",
+    "gnis_feature_ids": ["0847435"],
     "url": "https://www.cityofnorthlasvegas.com/"
   },
   {
@@ -8960,8 +8960,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["90650–90652", "90659"],
     "area_codes": [562],
-    "FIPS_code": "06-52526",
-    "GNIS_feature_IDs": ["1661123", "2411281"],
+    "fips_code": "06-52526",
+    "gnis_feature_ids": ["1661123", "2411281"],
     "url": "https://www.norwalk.org/"
   },
   {
@@ -9005,8 +9005,8 @@
       "94666"
     ],
     "area_codes": [510, 341],
-    "FIPS_code": "06-53000",
-    "GNIS_feature_IDs": ["277566", "2411292"],
+    "fips_code": "06-53000",
+    "gnis_feature_ids": ["277566", "2411292"],
     "url": "https://www.oaklandca.gov/"
   },
   {
@@ -9040,8 +9040,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92049", "92051", "92052", "92054", "92056–92058"],
     "area_codes": [442, 760],
-    "FIPS_code": "06-53322",
-    "GNIS_feature_IDs": ["1652761", "2411301"],
+    "fips_code": "06-53322",
+    "gnis_feature_ids": ["1652761", "2411301"],
     "url": "https://www.ci.oceanside.ca.us/"
   },
   {
@@ -9077,8 +9077,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["79760-79769"],
     "area_codes": [432],
-    "FIPS_code": "48-53388",
-    "GNIS_feature_IDs": ["1343067"],
+    "fips_code": "48-53388",
+    "gnis_feature_ids": ["1343067"],
     "url": "https://www.odessa-tx.gov/"
   },
   {
@@ -9135,8 +9135,8 @@
       "73194-73196"
     ],
     "area_codes": [405, 572],
-    "FIPS_code": "40-55000",
-    "GNIS_feature_IDs": ["1102140"],
+    "fips_code": "40-55000",
+    "gnis_feature_ids": ["1102140"],
     "url": "https://www.okc.gov/"
   },
   {
@@ -9172,8 +9172,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["66051", "66061", "66062", "66063"],
     "area_codes": [913],
-    "FIPS_code": "20-52575",
-    "GNIS_feature_IDs": ["479198"],
+    "fips_code": "20-52575",
+    "gnis_feature_ids": ["479198"],
     "url": "https://www.olatheks.gov/"
   },
   {
@@ -9210,8 +9210,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["68022", "68101–68164"],
     "area_codes": [402, 531],
-    "FIPS_code": "31-37000",
-    "GNIS_feature_IDs": ["0835483"],
+    "fips_code": "31-37000",
+    "gnis_feature_ids": ["0835483"],
     "url": "https://www.cityofomaha.org/"
   },
   {
@@ -9245,8 +9245,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["91758", "91761", "91762", "91764"],
     "area_codes": [909],
-    "FIPS_code": "06-53896",
-    "GNIS_feature_IDs": ["1652764", "2411323"],
+    "fips_code": "06-53896",
+    "gnis_feature_ids": ["1652764", "2411323"],
     "url": "https://www.ontarioca.gov/"
   },
   {
@@ -9282,8 +9282,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92856-92869"],
     "area_codes": [657, 714],
-    "FIPS_code": "06-53980",
-    "GNIS_feature_IDs": ["1652765", "2411325"],
+    "fips_code": "06-53980",
+    "gnis_feature_ids": ["1652765", "2411325"],
     "url": "https://www.cityoforange.org/"
   },
   {
@@ -9332,8 +9332,8 @@
       "32899"
     ],
     "area_codes": [407, 689],
-    "FIPS_code": "12-53000",
-    "GNIS_feature_IDs": ["0288240"],
+    "fips_code": "12-53000",
+    "gnis_feature_ids": ["0288240"],
     "url": "https://www.orlando.gov/"
   },
   {
@@ -9398,8 +9398,8 @@
       "66283"
     ],
     "area_codes": [913],
-    "FIPS_code": "20-53775",
-    "GNIS_feature_IDs": ["479210"],
+    "fips_code": "20-53775",
+    "gnis_feature_ids": ["479210"],
     "url": "https://www.opkansas.org/"
   },
   {
@@ -9434,8 +9434,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["93030-93036"],
     "area_codes": [805, 820],
-    "FIPS_code": "06-54652",
-    "GNIS_feature_IDs": ["1652766"],
+    "fips_code": "06-54652",
+    "gnis_feature_ids": ["1652766"],
     "url": "https://www.oxnard.org/"
   },
   {
@@ -9464,8 +9464,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["32905-32911"],
     "area_codes": [321],
-    "FIPS_code": "12-54000",
-    "GNIS_feature_IDs": ["0288389"],
+    "fips_code": "12-54000",
+    "gnis_feature_ids": ["0288389"],
     "url": "https://www.palmbayflorida.org/"
   },
   {
@@ -9499,8 +9499,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["93550–93552", "93590–93591", "93599"],
     "area_codes": [661],
-    "FIPS_code": "06-55156",
-    "GNIS_feature_IDs": ["1652769", "2411359"],
+    "fips_code": "06-55156",
+    "gnis_feature_ids": ["1652769", "2411359"],
     "url": "https://www.cityofpalmdaleca.gov/"
   },
   {
@@ -9549,8 +9549,8 @@
       "91199"
     ],
     "area_codes": [213, 323, 626, 818, 747],
-    "FIPS_code": "06-56000",
-    "GNIS_feature_IDs": ["1664804", "2411379"],
+    "fips_code": "06-56000",
+    "gnis_feature_ids": ["1664804", "2411379"],
     "url": "https://www.cityofpasadena.net/"
   },
   {
@@ -9588,8 +9588,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["77501-77508", "77059", "77586"],
     "area_codes": [713, 281, 346, 832],
-    "FIPS_code": "48-56000",
-    "GNIS_feature_IDs": ["1343631"],
+    "fips_code": "48-56000",
+    "gnis_feature_ids": ["1343631"],
     "url": "https://www.pasadenatx.gov/"
   },
   {
@@ -9637,8 +9637,8 @@
       "07544"
     ],
     "area_codes": [201, 973],
-    "FIPS_code": "3403157000",
-    "GNIS_feature_IDs": ["0885343"],
+    "fips_code": "3403157000",
+    "gnis_feature_ids": ["0885343"],
     "url": "https://www.patersonnj.gov/"
   },
   {
@@ -9675,8 +9675,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["77581", "77584", "77588", "77089"],
     "area_codes": [713, 281, 832, 346],
-    "FIPS_code": "48-56348",
-    "GNIS_feature_IDs": ["1343734"],
+    "fips_code": "48-56348",
+    "gnis_feature_ids": ["1343734"],
     "url": "https://www.pearlandtx.gov/"
   },
   {
@@ -9710,8 +9710,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["33023-33029", "33330-33332"],
     "area_codes": [954, 754],
-    "FIPS_code": "12-55775",
-    "GNIS_feature_IDs": ["0288686"],
+    "fips_code": "12-55775",
+    "gnis_feature_ids": ["0288686"],
     "url": "https://www.ppines.com/"
   },
   {
@@ -9747,8 +9747,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["85345", "85381–85383", "85373", "85387"],
     "area_codes": [623, 928],
-    "FIPS_code": "04-54050",
-    "GNIS_feature_IDs": ["2411401"],
+    "fips_code": "04-54050",
+    "gnis_feature_ids": ["2411401"],
     "url": "https://www.peoriaaz.gov/"
   },
   {
@@ -9800,8 +9800,8 @@
       "61650-61656"
     ],
     "area_codes": [309],
-    "FIPS_code": "17-59000",
-    "GNIS_feature_IDs": ["2396178"],
+    "fips_code": "17-59000",
+    "gnis_feature_ids": ["2396178"],
     "url": "https://www.peoriagov.org/"
   },
   {
@@ -9841,8 +9841,8 @@
     "time_zone": "UTC-5(CST)",
     "zip_codes": ["19092–19093", "19099", "191xx"],
     "area_codes": [215, 267, 445],
-    "FIPS_code": "42-60000",
-    "GNIS_feature_IDs": ["1215531"],
+    "fips_code": "42-60000",
+    "gnis_feature_ids": ["1215531"],
     "url": "https://www.phila.gov/"
   },
   {
@@ -9880,8 +9880,8 @@
     "time_zone": "UTC-7(CST)",
     "zip_codes": ["85001-85099"],
     "area_codes": [480, 602, 623],
-    "FIPS_code": "04-55000",
-    "GNIS_feature_IDs": ["2411414"],
+    "fips_code": "04-55000",
+    "gnis_feature_ids": ["2411414"],
     "url": "https://www.phoenix.gov/"
   },
   {
@@ -9934,8 +9934,8 @@
       "15229"
     ],
     "area_codes": [412, 724, 878],
-    "FIPS_code": "42-61000",
-    "GNIS_feature_IDs": ["1213644"],
+    "fips_code": "42-61000",
+    "gnis_feature_ids": ["1213644"],
     "url": "https://pittsburghpa.gov/"
   },
   {
@@ -9972,8 +9972,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["75023-26", "75074-75", "75086", "75093-94"],
     "area_codes": [214, 469, 945, 972],
-    "FIPS_code": "48-58016",
-    "GNIS_feature_IDs": ["2411437"],
+    "fips_code": "48-58016",
+    "gnis_feature_ids": ["2411437"],
     "url": "https://www.plano.gov/"
   },
   {
@@ -10009,8 +10009,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["91766-91768"],
     "area_codes": [909],
-    "FIPS_code": "06-58072",
-    "GNIS_feature_IDs": ["1661247", "2411454"],
+    "fips_code": "06-58072",
+    "gnis_feature_ids": ["1661247", "2411454"],
     "url": "https://www.pomonaca.gov/"
   },
   {
@@ -10045,8 +10045,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["33060-33077", "33093", "33097"],
     "area_codes": [754, 954],
-    "FIPS_code": "12-58050",
-    "GNIS_feature_IDs": ["0289162"],
+    "fips_code": "12-58050",
+    "gnis_feature_ids": ["0289162"],
     "url": "https://www.pompanobeachfl.gov/"
   },
   {
@@ -10080,8 +10080,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["97086-97299"],
     "area_codes": [503, 971],
-    "FIPS_code": "41-59000",
-    "GNIS_feature_IDs": ["1136645"],
+    "fips_code": "41-59000",
+    "gnis_feature_ids": ["1136645"],
     "url": "https://www.portland.gov/"
   },
   {
@@ -10115,8 +10115,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["34952-53", "34983-88"],
     "area_codes": [772],
-    "FIPS_code": "12-58715",
-    "GNIS_feature_IDs": ["0308089"],
+    "fips_code": "12-58715",
+    "gnis_feature_ids": ["0308089"],
     "url": "https://www.cityofpsl.com/"
   },
   {
@@ -10161,8 +10161,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["02901–02912", "02918-02919", "02940"],
     "area_codes": [401],
-    "FIPS_code": "44-59000",
-    "GNIS_feature_IDs": ["1904021"],
+    "fips_code": "44-59000",
+    "gnis_feature_ids": ["1904021"],
     "url": "https://council.providenceri.gov/"
   },
   {
@@ -10199,8 +10199,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["84601-84606"],
     "area_codes": [385, 801],
-    "FIPS_code": "49-62470",
-    "GNIS_feature_IDs": ["1444661"],
+    "fips_code": "49-62470",
+    "gnis_feature_ids": ["1444661"],
     "url": "https://www.provo.org/government/"
   },
   {
@@ -10237,8 +10237,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["81001-81012"],
     "area_codes": [719],
-    "FIPS_code": "08-62000",
-    "GNIS_feature_IDs": ["0204698"],
+    "fips_code": "08-62000",
+    "gnis_feature_ids": ["0204698"],
     "url": "https://www.pueblo.us/"
   },
   {
@@ -10274,8 +10274,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["01269", "02170", "02171"],
     "area_codes": [617, 857],
-    "FIPS_code": "25-55745",
-    "GNIS_feature_IDs": ["0617701"],
+    "fips_code": "25-55745",
+    "gnis_feature_ids": ["0617701"],
     "url": "https://www.quincyma.gov/"
   },
   {
@@ -10328,8 +10328,8 @@
       "27617"
     ],
     "area_codes": [919, 984],
-    "FIPS_code": "37-55000",
-    "GNIS_feature_IDs": ["1024242"],
+    "fips_code": "37-55000",
+    "gnis_feature_ids": ["1024242"],
     "url": "https://raleighnc.gov/"
   },
   {
@@ -10363,8 +10363,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["91701", "91729", "91730", "91737", "91739"],
     "area_codes": [909, 840],
-    "FIPS_code": "06-59451",
-    "GNIS_feature_IDs": ["1667908"],
+    "fips_code": "06-59451",
+    "gnis_feature_ids": ["1667908"],
     "url": "https://www.cityofrc.us/"
   },
   {
@@ -10400,8 +10400,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["89500-89599"],
     "area_codes": [775],
-    "FIPS_code": "32-60600",
-    "GNIS_feature_IDs": ["0861100"],
+    "fips_code": "32-60600",
+    "gnis_feature_ids": ["0861100"],
     "url": "https://www.reno.gov/"
   },
   {
@@ -10438,8 +10438,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["98055-98059"],
     "area_codes": [425],
-    "FIPS_code": "53-57745",
-    "GNIS_feature_IDs": ["1512599"],
+    "fips_code": "53-57745",
+    "gnis_feature_ids": ["1512599"],
     "url": "https://www.rentonwa.gov/"
   },
   {
@@ -10475,8 +10475,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92376-92377"],
     "area_codes": [909],
-    "FIPS_code": "06-60466",
-    "GNIS_feature_IDs": ["1661306"],
+    "fips_code": "06-60466",
+    "gnis_feature_ids": ["1661306"],
     "url": "https://www.yourrialto.com/"
   },
   {
@@ -10512,8 +10512,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["75080–75083", "75085"],
     "area_codes": [214, 469, 945, 972],
-    "FIPS_code": "48-61796",
-    "GNIS_feature_IDs": ["1345172"],
+    "fips_code": "48-61796",
+    "gnis_feature_ids": ["1345172"],
     "url": "https://www.cor.net/"
   },
   {
@@ -10557,8 +10557,8 @@
       "94850"
     ],
     "area_codes": [510, 341],
-    "FIPS_code": "06-60620",
-    "GNIS_feature_IDs": ["1659507", "2410939"],
+    "fips_code": "06-60620",
+    "gnis_feature_ids": ["1659507", "2410939"],
     "url": "https://www.ci.richmond.ca.us/"
   },
   {
@@ -10611,8 +10611,8 @@
       "23297–23298"
     ],
     "area_codes": [804],
-    "FIPS_code": "51-67000",
-    "GNIS_feature_IDs": ["1499957"],
+    "fips_code": "51-67000",
+    "gnis_feature_ids": ["1499957"],
     "url": "https://rva.gov/"
   },
   {
@@ -10648,8 +10648,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["87124", "87144", "87174"],
     "area_codes": [505],
-    "FIPS_code": "35-63460",
-    "GNIS_feature_IDs": ["1699884"],
+    "fips_code": "35-63460",
+    "gnis_feature_ids": ["1699884"],
     "url": "https://rrnm.gov/"
   },
   {
@@ -10686,8 +10686,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92501–92509", "92513–92519", "92521–92522"],
     "area_codes": [951],
-    "FIPS_code": "06-62000",
-    "GNIS_feature_IDs": ["1661315", "2410965"],
+    "fips_code": "06-62000",
+    "gnis_feature_ids": ["1661315", "2410965"],
     "url": "https://riversideca.gov/"
   },
   {
@@ -10724,8 +10724,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["55901-55906"],
     "area_codes": [507],
-    "FIPS_code": "27-54880",
-    "GNIS_feature_IDs": ["0650180"],
+    "fips_code": "27-54880",
+    "gnis_feature_ids": ["0650180"],
     "url": "https://www.rochestermn.gov/"
   },
   {
@@ -10764,8 +10764,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["146xx"],
     "area_codes": [585],
-    "FIPS_code": "36-63000",
-    "GNIS_feature_IDs": ["0962684"],
+    "fips_code": "36-63000",
+    "gnis_feature_ids": ["0962684"],
     "url": "https://www.cityofrochester.gov/"
   },
   {
@@ -10809,8 +10809,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["61101–61110", "61112", "61114", "61125", "61126"],
     "area_codes": [815, 779],
-    "FIPS_code": "17-65000",
-    "GNIS_feature_IDs": ["2396405"],
+    "fips_code": "17-65000",
+    "gnis_feature_ids": ["2396405"],
     "url": "https://rockfordil.gov/"
   },
   {
@@ -10844,8 +10844,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["95678", "95661", "95747"],
     "area_codes": [916, 279],
-    "FIPS_code": "06-62938",
-    "GNIS_feature_IDs": ["1659544", "2411000"],
+    "fips_code": "06-62938",
+    "gnis_feature_ids": ["1659544", "2411000"],
     "url": "https://www.roseville.ca.us/"
   },
   {
@@ -10881,8 +10881,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["78664", "78665", "78680–78683"],
     "area_codes": [512, 737],
-    "FIPS_code": "48-63500",
-    "GNIS_feature_IDs": ["1366966"],
+    "fips_code": "48-63500",
+    "gnis_feature_ids": ["1366966"],
     "url": "https://www.roundrocktexas.gov/"
   },
   {
@@ -10920,8 +10920,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["942xx", "958xx"],
     "area_codes": [916, 279],
-    "FIPS_code": "06-64000",
-    "GNIS_feature_IDs": ["1659564", "2411751"],
+    "fips_code": "06-64000",
+    "gnis_feature_ids": ["1659564", "2411751"],
     "url": "http://www.cityofsacramento.org/"
   },
   {
@@ -10958,8 +10958,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["55101–55108", "55114", "55116", "55117", "55119", "55130"],
     "area_codes": [651],
-    "FIPS_code": "27-58000",
-    "GNIS_feature_IDs": ["2396511"],
+    "fips_code": "27-58000",
+    "gnis_feature_ids": ["2396511"],
     "url": "https://www.stpaul.gov/"
   },
   {
@@ -10997,8 +10997,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["97301–97306", "97308–97314"],
     "area_codes": [503, 971],
-    "FIPS_code": "41-64900",
-    "GNIS_feature_IDs": ["1167861"],
+    "fips_code": "41-64900",
+    "gnis_feature_ids": ["1167861"],
     "url": "https://www.cityofsalem.net/"
   },
   {
@@ -11034,8 +11034,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["93901–93903", "93905–93908", "93912", "93915"],
     "area_codes": [831],
-    "FIPS_code": "06-64224",
-    "GNIS_feature_IDs": ["277589", "2411768"],
+    "fips_code": "06-64224",
+    "gnis_feature_ids": ["277589", "2411768"],
     "url": "https://www.cityofsalinas.org/"
   },
   {
@@ -11095,8 +11095,8 @@
       "84199"
     ],
     "area_codes": [801, 385],
-    "FIPS_code": "49-67000",
-    "GNIS_feature_IDs": ["1454997"],
+    "fips_code": "49-67000",
+    "gnis_feature_ids": ["1454997"],
     "url": "https://www.slc.gov/"
   },
   {
@@ -11143,8 +11143,8 @@
       "78291-78299"
     ],
     "area_codes": [210, 830, 726],
-    "FIPS_code": "48-65000",
-    "GNIS_feature_IDs": ["2411774"],
+    "fips_code": "48-65000",
+    "gnis_feature_ids": ["2411774"],
     "url": "https://www.sanantonio.gov/"
   },
   {
@@ -11189,8 +11189,8 @@
       "92427"
     ],
     "area_codes": [909, 840, 760],
-    "FIPS_code": "06-65000",
-    "GNIS_feature_IDs": ["1661375", "2411777"],
+    "fips_code": "06-65000",
+    "gnis_feature_ids": ["1661375", "2411777"],
     "url": "https://www.sbcity.org/"
   },
   {
@@ -11245,8 +11245,8 @@
       "92190–92199"
     ],
     "area_codes": [619, 858],
-    "FIPS_code": "06-66000",
-    "GNIS_feature_IDs": ["1661377", "2411782"],
+    "fips_code": "06-66000",
+    "gnis_feature_ids": ["1661377", "2411782"],
     "url": "https://www.sandiego.gov/"
   },
   {
@@ -11291,8 +11291,8 @@
       "30092"
     ],
     "area_codes": [404, 678, 770, 470],
-    "FIPS_code": "13-68516",
-    "GNIS_feature_IDs": ["0332975"],
+    "fips_code": "13-68516",
+    "gnis_feature_ids": ["0332975"],
     "url": "https://www.sandyspringsga.gov/"
   },
   {
@@ -11345,8 +11345,8 @@
       "94188"
     ],
     "area_codes": [415, 628],
-    "FIPS_code": "06-67000",
-    "GNIS_feature_IDs": ["277593", "2411786"],
+    "fips_code": "06-67000",
+    "gnis_feature_ids": ["277593", "2411786"],
     "url": "https://sf.gov/"
   },
   {
@@ -11402,8 +11402,8 @@
       "95196"
     ],
     "area_codes": [408, 669],
-    "FIPS_code": "06-68000",
-    "GNIS_feature_IDs": ["1654952", "2411790"],
+    "fips_code": "06-68000",
+    "gnis_feature_ids": ["1654952", "2411790"],
     "url": "https://www.sanjoseca.gov/"
   },
   {
@@ -11437,8 +11437,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["94401–94404", "94497"],
     "area_codes": [650],
-    "FIPS_code": "06-68252",
-    "GNIS_feature_IDs": ["1659584", "2411800"],
+    "fips_code": "06-68252",
+    "gnis_feature_ids": ["1659584", "2411800"],
     "url": "https://www.cityofsanmateo.org/"
   },
   {
@@ -11474,8 +11474,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92701–92708", "92711", "92712", "92728", "92735", "92799"],
     "area_codes": [657, 714, 949],
-    "FIPS_code": "06-69000",
-    "GNIS_feature_IDs": ["1652790", "2411814"],
+    "fips_code": "06-69000",
+    "gnis_feature_ids": ["1652790", "2411814"],
     "url": "https://www.santa-ana.org/"
   },
   {
@@ -11511,8 +11511,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["95050", "95051", "95054"],
     "area_codes": [408, 669],
-    "FIPS_code": "06-69084",
-    "GNIS_feature_IDs": ["1654953", "2411816"],
+    "fips_code": "06-69084",
+    "gnis_feature_ids": ["1654953", "2411816"],
     "url": "https://www.santaclaraca.gov/"
   },
   {
@@ -11553,8 +11553,8 @@
       "91390"
     ],
     "area_codes": [661],
-    "FIPS_code": "06-69088",
-    "GNIS_feature_IDs": ["1662338", "2411819"],
+    "fips_code": "06-69088",
+    "gnis_feature_ids": ["1662338", "2411819"],
     "url": "https://www.santa-clarita.com/"
   },
   {
@@ -11588,8 +11588,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["93454–93458"],
     "area_codes": [805],
-    "FIPS_code": "06-69196",
-    "GNIS_feature_IDs": ["1652791", "2411824"],
+    "fips_code": "06-69196",
+    "gnis_feature_ids": ["1652791", "2411824"],
     "url": "https://www.cityofsantamaria.org/"
   },
   {
@@ -11625,8 +11625,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["95401–95407", "95409"],
     "area_codes": [707],
-    "FIPS_code": "06-70098",
-    "GNIS_feature_IDs": ["249105", "1659601"],
+    "fips_code": "06-70098",
+    "gnis_feature_ids": ["249105", "1659601"],
     "url": "https://www.srcity.org/"
   },
   {
@@ -11664,8 +11664,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["31401–31499"],
     "area_codes": [912],
-    "FIPS_code": "13-69000",
-    "GNIS_feature_IDs": ["0322590"],
+    "fips_code": "13-69000",
+    "gnis_feature_ids": ["0322590"],
     "url": "https://www.savannahga.gov/"
   },
   {
@@ -11701,8 +11701,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["85250-85271"],
     "area_codes": [480],
-    "FIPS_code": "04-65000",
-    "GNIS_feature_IDs": ["2411845"],
+    "fips_code": "04-65000",
+    "gnis_feature_ids": ["2411845"],
     "url": "https://www.scottsdaleaz.gov/"
   },
   {
@@ -11778,8 +11778,8 @@
       "98199"
     ],
     "area_codes": [206],
-    "FIPS_code": "53-63000",
-    "GNIS_feature_IDs": ["1512650"],
+    "fips_code": "53-63000",
+    "gnis_feature_ids": ["1512650"],
     "url": "https://www.seattle.gov/"
   },
   {
@@ -11816,8 +11816,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["71101-71109", "71115-71166"],
     "area_codes": [318],
-    "FIPS_code": "22-70000",
-    "GNIS_feature_IDs": ["2405463"],
+    "fips_code": "22-70000",
+    "gnis_feature_ids": ["2405463"],
     "url": "https://www.shreveportla.gov"
   },
   {
@@ -11859,8 +11859,8 @@
       "93099"
     ],
     "area_codes": [805, 820],
-    "FIPS_code": "06-72016",
-    "GNIS_feature_IDs": ["1661450", "2411904"],
+    "fips_code": "06-72016",
+    "gnis_feature_ids": ["1661450", "2411904"],
     "url": "https://www.simivalley.org/"
   },
   {
@@ -11907,8 +11907,8 @@
       "57198"
     ],
     "area_codes": [605],
-    "FIPS_code": "46-59020",
-    "GNIS_feature_IDs": ["1267670"],
+    "fips_code": "46-59020",
+    "gnis_feature_ids": ["1267670"],
     "url": "https://www.siouxfalls.org/"
   },
   {
@@ -11960,8 +11960,8 @@
       "46699"
     ],
     "area_codes": [574],
-    "FIPS_code": "1871000",
-    "GNIS_feature_IDs": ["452796"],
+    "fips_code": "1871000",
+    "gnis_feature_ids": ["452796"],
     "url": "https://www.southbendin.gov/"
   },
   {
@@ -11998,8 +11998,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["30213", "30331", "30336", "30349"],
     "area_codes": [404],
-    "FIPS_code": "13-72122",
-    "GNIS_feature_IDs": ["2786574"],
+    "fips_code": "13-72122",
+    "gnis_feature_ids": ["2786574"],
     "url": "https://www.cityofsouthfultonga.gov/"
   },
   {
@@ -12034,8 +12034,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["89431", "89434", "89437"],
     "area_codes": [775],
-    "FIPS_code": "32-68400",
-    "GNIS_feature_IDs": ["0856391"],
+    "fips_code": "32-68400",
+    "gnis_feature_ids": ["0856391"],
     "url": "https://www.cityofsparks.us/"
   },
   {
@@ -12071,8 +12071,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["99206", "99216", "99212", "99016", "99027", "99037"],
     "area_codes": [509],
-    "FIPS_code": "53-67167",
-    "GNIS_feature_IDs": ["1967430"],
+    "fips_code": "53-67167",
+    "gnis_feature_ids": ["1967430"],
     "url": "https://www.spokanevalley.org/"
   },
   {
@@ -12119,8 +12119,8 @@
       "99260"
     ],
     "area_codes": [509],
-    "FIPS_code": "53-67000",
-    "GNIS_feature_IDs": ["1512683"],
+    "fips_code": "53-67000",
+    "gnis_feature_ids": ["1512683"],
     "url": "https://my.spokanecity.org/"
   },
   {
@@ -12183,8 +12183,8 @@
       "62796"
     ],
     "area_codes": [217, 447],
-    "FIPS_code": "17-167-11046",
-    "GNIS_feature_IDs": ["426595"],
+    "fips_code": "17-167-11046",
+    "gnis_feature_ids": ["426595"],
     "url": "https://www.springfield.il.us/"
   },
   {
@@ -12229,8 +12229,8 @@
       "01151"
     ],
     "area_codes": [413],
-    "FIPS_code": "25-67000",
-    "GNIS_feature_IDs": ["0609092"],
+    "fips_code": "25-67000",
+    "gnis_feature_ids": ["0609092"],
     "url": "https://www.springfield-ma.gov/cos/"
   },
   {
@@ -12268,8 +12268,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["65800-65899"],
     "area_codes": [417],
-    "FIPS_code": "29-70000",
-    "GNIS_feature_IDs": ["0735864"],
+    "fips_code": "29-70000",
+    "gnis_feature_ids": ["0735864"],
     "url": "https://www.springfieldmo.gov/"
   },
   {
@@ -12298,8 +12298,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["069xx"],
     "area_codes": [203, 475],
-    "FIPS_code": "09-73000",
-    "GNIS_feature_IDs": ["0211129"],
+    "fips_code": "09-73000",
+    "gnis_feature_ids": ["0211129"],
     "url": "https://www.stamfordct.gov/"
   },
   {
@@ -12335,8 +12335,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["48310", "48311", "48312", "48313", "48314"],
     "area_codes": [586],
-    "FIPS_code": "26-76460",
-    "GNIS_feature_IDs": ["0638798"],
+    "fips_code": "26-76460",
+    "gnis_feature_ids": ["0638798"],
     "url": "https://www.sterling-heights.net/"
   },
   {
@@ -12410,8 +12410,8 @@
       "63199"
     ],
     "area_codes": [314, 557],
-    "FIPS_code": "29-65000",
-    "GNIS_feature_IDs": ["755891"],
+    "fips_code": "29-65000",
+    "gnis_feature_ids": ["755891"],
     "url": "https://www.stlouis-mo.gov/"
   },
   {
@@ -12454,8 +12454,8 @@
       "95296–95297"
     ],
     "area_codes": [209],
-    "FIPS_code": "06-75000",
-    "GNIS_feature_IDs": ["1659872", "2411987"],
+    "fips_code": "06-75000",
+    "gnis_feature_ids": ["1659872", "2411987"],
     "url": "http://ww1.stocktonca.gov/"
   },
   {
@@ -12502,8 +12502,8 @@
       "33715"
     ],
     "area_codes": [727],
-    "FIPS_code": "12-63000",
-    "GNIS_feature_IDs": ["290375"],
+    "fips_code": "12-63000",
+    "gnis_feature_ids": ["290375"],
     "url": "https://www.stpete.org/"
   },
   {
@@ -12539,8 +12539,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["77478-79", "77487", "77496", "77498"],
     "area_codes": [281, 713, 832, 346],
-    "FIPS_code": "48-00157",
-    "GNIS_feature_IDs": ["1348034"],
+    "fips_code": "48-00157",
+    "gnis_feature_ids": ["1348034"],
     "url": "https://www.sugarlandtx.gov/"
   },
   {
@@ -12576,8 +12576,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["94085-94090"],
     "area_codes": [408, 669, 650],
-    "FIPS_code": "06-77000",
-    "GNIS_feature_IDs": ["1656344", "2412009"],
+    "fips_code": "06-77000",
+    "gnis_feature_ids": ["1656344", "2412009"],
     "url": "https://www.sunnyvale.ca.gov/"
   },
   {
@@ -12613,8 +12613,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["85374", "85378–85379", "85387–85388"],
     "area_codes": [623],
-    "FIPS_code": "04-71510",
-    "GNIS_feature_IDs": ["2412016"],
+    "fips_code": "04-71510",
+    "gnis_feature_ids": ["2412016"],
     "url": "https://surpriseaz.gov/"
   },
   {
@@ -12654,8 +12654,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["132xx"],
     "area_codes": [315, 680],
-    "FIPS_code": "36-73000",
-    "GNIS_feature_IDs": ["0966966"],
+    "fips_code": "36-73000",
+    "gnis_feature_ids": ["0966966"],
     "url": "https://www.syr.gov/"
   },
   {
@@ -12712,8 +12712,8 @@
       "98496-98499"
     ],
     "area_codes": [253],
-    "FIPS_code": "53-70000",
-    "GNIS_feature_IDs": ["1512713"],
+    "fips_code": "53-70000",
+    "gnis_feature_ids": ["1512713"],
     "url": "https://www.cityoftacoma.org/"
   },
   {
@@ -12747,8 +12747,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["32300-32399"],
     "area_codes": [850],
-    "FIPS_code": "12-70600",
-    "GNIS_feature_IDs": ["308416"],
+    "fips_code": "12-70600",
+    "gnis_feature_ids": ["308416"],
     "url": "https://www.talgov.com/"
   },
   {
@@ -12800,8 +12800,8 @@
       "33694"
     ],
     "area_codes": [813, 656],
-    "FIPS_code": "12-71000",
-    "GNIS_feature_IDs": ["0292005"],
+    "fips_code": "12-71000",
+    "gnis_feature_ids": ["0292005"],
     "url": "https://www.tampa.gov/"
   },
   {
@@ -12835,8 +12835,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92589-92593"],
     "area_codes": [951],
-    "FIPS_code": "06-78120",
-    "GNIS_feature_IDs": ["1652799", "2412044"],
+    "fips_code": "06-78120",
+    "gnis_feature_ids": ["1652799", "2412044"],
     "url": "https://temeculaca.gov/"
   },
   {
@@ -12872,8 +12872,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["85281–85285", "85287-85288"],
     "area_codes": [480, 602],
-    "FIPS_code": "04-73000",
-    "GNIS_feature_IDs": ["2412045"],
+    "fips_code": "04-73000",
+    "gnis_feature_ids": ["2412045"],
     "url": "https://www.tempe.gov/"
   },
   {
@@ -12911,8 +12911,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["80221", "80229", "80233", "80241", "80260", "80602"],
     "area_codes": [303, 720],
-    "FIPS_code": "08-77290",
-    "GNIS_feature_IDs": ["0181265"],
+    "fips_code": "08-77290",
+    "gnis_feature_ids": ["0181265"],
     "url": "https://www.thorntonco.gov/"
   },
   {
@@ -12941,8 +12941,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["91320", "91359-91362"],
     "area_codes": [805, 820],
-    "FIPS_code": "06-78582",
-    "GNIS_feature_IDs": ["1661567", "2412065"],
+    "fips_code": "06-78582",
+    "gnis_feature_ids": ["1661567", "2412065"],
     "url": "https://www.toaks.org/"
   },
   {
@@ -13002,8 +13002,8 @@
       "43699"
     ],
     "area_codes": [419, 567],
-    "FIPS_code": "39-77000",
-    "GNIS_feature_IDs": ["1067015"],
+    "fips_code": "39-77000",
+    "gnis_feature_ids": ["1067015"],
     "url": "https://toledo.oh.gov/"
   },
   {
@@ -13041,8 +13041,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["90277", "90501–90510"],
     "area_codes": [310, 424],
-    "FIPS_code": "06-80000",
-    "GNIS_feature_IDs": ["1652802"],
+    "fips_code": "06-80000",
+    "gnis_feature_ids": ["1652802"],
     "url": "https://www.torranceca.gov/"
   },
   {
@@ -13079,8 +13079,8 @@
     "time_zone": "UTC-7(PST)",
     "zip_codes": ["85701-85775"],
     "area_codes": [520],
-    "FIPS_code": "04-77000",
-    "GNIS_feature_IDs": ["43534"],
+    "fips_code": "04-77000",
+    "gnis_feature_ids": ["43534"],
     "url": "https://www.tucsonaz.gov/"
   },
   {
@@ -13137,8 +13137,8 @@
       "74193"
     ],
     "area_codes": [539, 918],
-    "FIPS_code": "40-75000",
-    "GNIS_feature_IDs": ["1100962"],
+    "fips_code": "40-75000",
+    "gnis_feature_ids": ["1100962"],
     "url": "https://www.tulsacouncil.org/"
   },
   {
@@ -13175,8 +13175,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["35401-35407", "35485-35487"],
     "area_codes": [205, 659],
-    "FIPS_code": "01-77256",
-    "GNIS_feature_IDs": ["0153742"],
+    "fips_code": "01-77256",
+    "gnis_feature_ids": ["0153742"],
     "url": "https://www.tuscaloosa.com/"
   },
   {
@@ -13212,8 +13212,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["757xx"],
     "area_codes": [430, 903],
-    "FIPS_code": "48-74144",
-    "GNIS_feature_IDs": ["1348998"],
+    "fips_code": "48-74144",
+    "gnis_feature_ids": ["1348998"],
     "url": "https://www.cityoftyler.org/"
   },
   {
@@ -13249,8 +13249,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["95687", "95688", "95696"],
     "area_codes": [707],
-    "FIPS_code": "06-81554",
-    "GNIS_feature_IDs": ["277624", "2412139"],
+    "fips_code": "06-81554",
+    "gnis_feature_ids": ["277624", "2412139"],
     "url": "https://www.ci.vacaville.ca.us/"
   },
   {
@@ -13286,8 +13286,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["94589–94592"],
     "area_codes": [707],
-    "FIPS_code": "06-81666",
-    "GNIS_feature_IDs": ["1661612", "2412142"],
+    "fips_code": "06-81666",
+    "gnis_feature_ids": ["1661612", "2412142"],
     "url": "https://www.ci.vallejo.ca.us/"
   },
   {
@@ -13323,8 +13323,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["98660-98666", "98668", "98682-98687"],
     "area_codes": [360, 564],
-    "FIPS_code": "53-74060",
-    "GNIS_feature_IDs": ["1531916"],
+    "fips_code": "53-74060",
+    "gnis_feature_ids": ["1531916"],
     "url": "https://www.cityofvancouver.us/"
   },
   {
@@ -13360,8 +13360,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["93001–93007", "93009"],
     "area_codes": [805],
-    "FIPS_code": "06-65042",
-    "GNIS_feature_IDs": ["1667934", "2411779"],
+    "fips_code": "06-65042",
+    "gnis_feature_ids": ["1667934", "2411779"],
     "url": "https://www.cityofventura.ca.gov"
   },
   {
@@ -13395,8 +13395,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["92392–92395"],
     "area_codes": [442, 760],
-    "FIPS_code": "06-82590",
-    "GNIS_feature_IDs": ["2412156"],
+    "fips_code": "06-82590",
+    "gnis_feature_ids": ["2412156"],
     "url": "https://www.victorvilleca.gov/"
   },
   {
@@ -13436,8 +13436,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["23450-23467", "23471", "23479"],
     "area_codes": [757, 948],
-    "FIPS_code": "51-82000",
-    "GNIS_feature_IDs": ["1500261"],
+    "fips_code": "51-82000",
+    "gnis_feature_ids": ["1500261"],
     "url": "https://www.vbgov.com/"
   },
   {
@@ -13471,8 +13471,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["93277-93279", "93290-93292"],
     "area_codes": [559],
-    "FIPS_code": "06-82954",
-    "GNIS_feature_IDs": ["1652807", "2412160"],
+    "fips_code": "06-82954",
+    "gnis_feature_ids": ["1652807", "2412160"],
     "url": "https://www.visalia.city/"
   },
   {
@@ -13507,8 +13507,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["76700-76799"],
     "area_codes": [254],
-    "FIPS_code": "48-76000",
-    "GNIS_feature_IDs": ["1370701"],
+    "fips_code": "48-76000",
+    "gnis_feature_ids": ["1370701"],
     "url": "https://www.waco-texas.com/"
   },
   {
@@ -13553,8 +13553,8 @@
       "48397"
     ],
     "area_codes": [586],
-    "FIPS_code": "26-84000",
-    "GNIS_feature_IDs": ["1615781"],
+    "fips_code": "26-84000",
+    "gnis_feature_ids": ["1615781"],
     "url": "https://www.cityofwarren.org/"
   },
   {
@@ -13589,8 +13589,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["20001–20098", "20201–20599", "56901–56999"],
     "area_codes": [202, 771],
-    "FIPS_code": "11001",
-    "GNIS_feature_IDs": ["1999082", "2390665"],
+    "fips_code": "11001",
+    "gnis_feature_ids": ["1999082", "2390665"],
     "url": "https://dc.gov/"
   },
   {
@@ -13630,8 +13630,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["06701-06720"],
     "area_codes": [203, 475],
-    "FIPS_code": "09-80000",
-    "GNIS_feature_IDs": ["0211851"],
+    "fips_code": "09-80000",
+    "gnis_feature_ids": ["0211851"],
     "url": "https://www.waterburyct.org/"
   },
   {
@@ -13665,8 +13665,8 @@
     "time_zone": "UTC-8(PST)",
     "zip_codes": ["91790-91793"],
     "area_codes": [626, 909],
-    "FIPS_code": "06-84200",
-    "GNIS_feature_IDs": ["1652809", "2412219"],
+    "fips_code": "06-84200",
+    "gnis_feature_ids": ["1652809", "2412219"],
     "url": "https://www.westcovina.org/"
   },
   {
@@ -13703,8 +13703,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["84081", "84084", "84088"],
     "area_codes": [385, 801],
-    "FIPS_code": "49-82950",
-    "GNIS_feature_IDs": ["1434086"],
+    "fips_code": "49-82950",
+    "gnis_feature_ids": ["1434086"],
     "url": "https://www.westjordan.utah.gov/"
   },
   {
@@ -13751,8 +13751,8 @@
       "80260"
     ],
     "area_codes": [303, 720],
-    "FIPS_code": "08-83835",
-    "GNIS_feature_IDs": ["0204703"],
+    "fips_code": "08-83835",
+    "gnis_feature_ids": ["0204703"],
     "url": "https://www.cityofwestminster.us/"
   },
   {
@@ -13787,8 +13787,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["33401-33422"],
     "area_codes": [561],
-    "FIPS_code": "12-76600",
-    "GNIS_feature_IDs": ["0293097"],
+    "fips_code": "12-76600",
+    "gnis_feature_ids": ["0293097"],
     "url": "https://www.wpb.org/"
   },
   {
@@ -13824,8 +13824,8 @@
     "time_zone": "UTC-7(MST)",
     "zip_codes": ["84081", "84118-84120", "84128"],
     "area_codes": [385, 801],
-    "FIPS_code": "49-83470",
-    "GNIS_feature_IDs": ["1437843"],
+    "fips_code": "49-83470",
+    "gnis_feature_ids": ["1437843"],
     "url": "https://www.wvc-ut.gov/"
   },
   {
@@ -13861,8 +13861,8 @@
     "time_zone": "UTC-6(CST)",
     "zip_codes": ["76301-76311"],
     "area_codes": [940],
-    "FIPS_code": "48-79000",
-    "GNIS_feature_IDs": ["2412261"],
+    "fips_code": "48-79000",
+    "gnis_feature_ids": ["2412261"],
     "url": "http://www.wichitafallstx.gov/"
   },
   {
@@ -13907,8 +13907,8 @@
       "67275–67278"
     ],
     "area_codes": [316],
-    "FIPS_code": "20-79000",
-    "GNIS_feature_IDs": ["473862"],
+    "fips_code": "20-79000",
+    "gnis_feature_ids": ["473862"],
     "url": "https://www.wichita.gov/"
   },
   {
@@ -13944,8 +13944,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["28401-28412"],
     "area_codes": [910],
-    "FIPS_code": "37-74440",
-    "GNIS_feature_IDs": ["1023269"],
+    "fips_code": "37-74440",
+    "gnis_feature_ids": ["1023269"],
     "url": "https://www.wilmingtonnc.gov/"
   },
   {
@@ -13998,8 +13998,8 @@
       "27284"
     ],
     "area_codes": [336, 743],
-    "FIPS_code": "37-75000",
-    "GNIS_feature_IDs": ["2405771"],
+    "fips_code": "37-75000",
+    "gnis_feature_ids": ["2405771"],
     "url": "https://www.cityofws.org/"
   },
   {
@@ -14049,8 +14049,8 @@
       "08863"
     ],
     "area_codes": [732],
-    "FIPS_code": "34-82000",
-    "GNIS_feature_IDs": ["882165"],
+    "fips_code": "34-82000",
+    "gnis_feature_ids": ["882165"],
     "url": "https://www.twp.woodbridge.nj.us/"
   },
   {
@@ -14090,8 +14090,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["01601–01610", "01612–01615", "01653–01655"],
     "area_codes": [508, 774],
-    "FIPS_code": "25-82000",
-    "GNIS_feature_IDs": ["0617867"],
+    "fips_code": "25-82000",
+    "gnis_feature_ids": ["0617867"],
     "url": "https://www.worcesterma.gov/"
   },
   {
@@ -14128,8 +14128,8 @@
     "time_zone": "UTC-5(EST)",
     "zip_codes": ["10701", "10702", "10703–10705", "10707", "10708", "10710"],
     "area_codes": [914],
-    "FIPS_code": "36-84000",
-    "GNIS_feature_IDs": ["0971828"],
+    "fips_code": "36-84000",
+    "gnis_feature_ids": ["0971828"],
     "url": "https://www.yonkersny.gov/"
   }
 ]

@@ -12,11 +12,11 @@ const routes = {
     async citiesRouter(req, res) {
         // TODO: Refactor for more advanced queries
         // const { query, field , index } = req.params;
-        const { query } = req.params;
+        const { query, field } = req.params;
         if (!query) {
             returnAllCities(res)
         } else {
-            parseCityQuery(res, query)
+            parseCityQuery(res, query, field)
         }
     }
 }

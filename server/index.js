@@ -23,7 +23,7 @@ app.use(json())
 app.get('/states/:query?/:field?/:index?', async (req, res) => {
     statesRouter(req, res)
 })
-app.get('/cities/:query?', async (req, res) => {
+app.get('/cities/:query?/:fieldg', async (req, res) => {
     citiesRouter(req, res)
 })
 
