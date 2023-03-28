@@ -18,6 +18,7 @@ This API will return various statistical data about United States city generally
 reflected from Wikipedia.
 
 __To Do:__
+- [ ] Refactor nested data to use Sqlite's native json functionality
 - [x] Create a basic sample schema for a State
 - [x] Mock Up 3 States and test aggregating into sqlite via csv/bash
 - [ ] Add brief description of States/Cities
