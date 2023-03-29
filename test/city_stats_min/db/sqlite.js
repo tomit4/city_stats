@@ -27,19 +27,15 @@ db.serialize(() => {
             ${JSON.stringify(sd.govenor)}, 
             json('${JSON.stringify(sd.senators)}'),
             json('${JSON.stringify(sd.house_delegation)}'),
-            json_object('total', '${JSON.stringify(
-                sd.area.total,
-            )}', 'land', '${JSON.stringify(
-                sd.area.land,
-            )}', 'water', '${JSON.stringify(sd.area.water)}'),
+            json_object('total', '${sd.area.total}', 'land', '${
+                sd.area.land
+            }', 'water', '${sd.area.water}'),
             ${JSON.stringify(sd.elevation)},
-            json_object('total', '${JSON.stringify(
-                sd.population.total,
-            )}', 'density', '${JSON.stringify(
-                sd.population.density,
-            )}', 'median_household_income', '${JSON.stringify(
-                sd.population.median_household_income,
-            )}'),
+            json_object('total', '${sd.population.total}', 'density', '${
+                sd.population.density
+            }', 'median_household_income', '${
+                sd.population.median_household_income
+            }'),
             ${JSON.stringify(sd.time_zone)},
             ${JSON.stringify(sd.latitude)},
             ${JSON.stringify(sd.longitude)},
@@ -60,24 +56,18 @@ db.serialize(() => {
             json('${JSON.stringify(cd.counties)}'),
             ${JSON.stringify(cd.settled_founded)},
             ${JSON.stringify(cd.incorporated)},
-            json_object('type', '${JSON.stringify(
-                cd.government.type,
-            )}', 'mayor', '${JSON.stringify(
-                cd.government.mayor,
-            )}', 'city_council', json_array('${JSON.stringify(
+            json_object('type', '${cd.government.type}', 'mayor', '${
+                cd.government.mayor
+            }', 'city_council', json_array('${JSON.stringify(
                 cd.government.city_council,
             )}')),
-            json_object('city', '${JSON.stringify(
-                cd.area.city,
-            )}', 'land', '${JSON.stringify(
-                cd.area.land,
-            )}', 'water', '${JSON.stringify(cd.area.water)}'),
+            json_object('city', '${cd.area.city}', 'land', '${
+                cd.area.land
+            }', 'water', '${cd.area.water}'),
             ${JSON.stringify(cd.elevation)},
-            json_object('city', '${JSON.stringify(
-                cd.population.city,
-            )}', 'density', '${JSON.stringify(
-                cd.population.density,
-            )}', 'metro', '${JSON.stringify(cd.population.metro)}'),
+            json_object('city', '${cd.population.city}', 'density', '${
+                cd.population.density
+            }', 'metro', '${cd.population.metro}'),
             ${JSON.stringify(cd.time_zone)},
             json('${JSON.stringify(cd.zip_codes)}'),
             json('${JSON.stringify(cd.area_codes)}'),
