@@ -7,6 +7,7 @@ const parser = {
         'government',
         'counties',
         'zip_codes',
+        'area_codes',
         'fips_code',
         'gnis_feature_ids',
     ],
