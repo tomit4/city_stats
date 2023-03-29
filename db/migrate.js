@@ -22,7 +22,7 @@ const createTableStmts = [
     insignia_url TEXT NOT NULL
     )`,
     `CREATE TABLE IF NOT EXISTS states_test(
-    primary_key INTEGER PRIMARY KEY,
+    primary_key INTEGER PRIMARY KEY AUTOINCREMENT,
     state_name TEXT NOT NULL,
     state_abbreviation TEXT NOT NULL,
     date_admitted TEXT NOT NULL,
@@ -169,19 +169,10 @@ const insertStmts = {
         stmt = `${stmt})`
         return stmt
     },
-    generateInsert: function (table, rows = [], values = [], jsonIndices = []) {
+    generateInsert: function (table, rows = [], values = []) {
         let sqlStmt = `INSERT OR IGNORE INTO ${table}`
         let rowStmt = this._generateStmt(rows)
         if (!values.length) rows.forEach(() => values.push('?'))
-        if (jsonIndices.length) {
-            values.forEach((v, i) => {
-                jsonIndices.forEach(j => {
-                    if (i === j) {
-                        values[i] = 'json(?)'
-                    }
-                })
-            })
-        }
         const valueStmt = this._generateStmt(values)
         rowStmt = `${rowStmt} VALUES`
         sqlStmt = `${sqlStmt}${rowStmt}${valueStmt}`

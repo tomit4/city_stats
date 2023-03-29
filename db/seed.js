@@ -35,23 +35,18 @@ const populateStates = (db, data) => {
 }
 
 const populateStatesTest = (db, data) => {
-    const insertStates = insertStmts.generateInsert(
-        'states_test',
-        insertStmts.state_props_test,
-        [],
-        [6, 7, 8, 10]
-    )
-    // needs to be changed to accept json(?) at specific intervals
-    console.log('insertStates >>',insertStates)
     const jsonized = _setJson(data)
-    console.log('jsonized >>' , jsonized)
+    let insertStates = insertStmts.generateInsert(
+        'states_test',
+        insertStmts.state_props_test
+    )
     data.forEach(() => {
-        const sqlStmt = db.prepare(insertStates)
         let tempArr = []
         jsonized.forEach(arr => {
             tempArr = arr
         })
-        sqlStmt.run(tempArr)
+        const sqlStmt = db.prepare(insertStates)
+        sqlStmt.run(tempArr) 
         sqlStmt.finalize()
     })
 }
@@ -64,24 +59,30 @@ const _setJson = (data) => {
         const tempArr = []
         for (const key in d) {
             let val = d[key] 
-            // TODO:
-            // reads as actual json_array text rather than using sqlite's lib to
-            // convert it, find out why
-            // if (nestedArrs.includes(key)) {
-                // val = `json_array('${JSON.stringify(val)}')`
-                // val = `${JSON.stringify(val)}`
-                // val = `json_array('${val}')`
-            // }
-            // if (nestedObjs.includes(key)) {
-                // let finalSqlIns = 'json_object('
-                // Object.keys(d[key]).forEach((k, i) => {
+            // TODO: json_array and json_object strings go into database...no...
+            if (nestedArrs.includes(key)) {
+                let finalSqlIns = 'json_array('
+                Object.values(val).forEach((v, i) => {
+                    if (i !== val.length - 1) {
+                        finalSqlIns = `${finalSqlIns}'${JSON.stringify(v)}', `
+                    } else {
+                        finalSqlIns = `${finalSqlIns}'${JSON.stringify(v)}')`
+                    }
+                })
+                console.log('finalSqlIns >>', finalSqlIns)
+                val = finalSqlIns
+            }
+            if (nestedObjs.includes(key)) {
+                let finalSqlIns = 'json_object('
+                Object.keys(d[key]).forEach((k, i) => {
                     // hard coded since all objects have 3 key/value pairs
-                    // finalSqlIns = i !== 2 ?
-                        // `${finalSqlIns}'${k}', '${d[key][k]}', ` :
-                        // `${finalSqlIns}'${k}', '${d[key][k]}')`
-                // })
-                // val = finalSqlIns
-            // }
+                    finalSqlIns = i !== 2 ?
+                        `${finalSqlIns}'${k}', ${JSON.stringify(d[key][k])}, ` :
+                        `${finalSqlIns}'${k}', ${JSON.stringify(d[key][k])})`
+                })
+                console.log('finalSqlIns >>', finalSqlIns)
+                val = finalSqlIns
+            }
             tempArr.push(val)
         }
         valuesToInsert.push(tempArr)
