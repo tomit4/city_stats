@@ -4,7 +4,7 @@ const cdb = require('./cities.json')
 const { createStmts } = require('../utils/sql.js')
 
 const db = new sqlite3.Database(
-    './db/test.db',
+    './db/metro_stats.db',
     sqlite3.OPEN_READWRITE | sqlite3.OPEN_CREATE,
     err => {
         if (err) return console.error(err.message)
