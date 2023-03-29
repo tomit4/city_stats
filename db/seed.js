@@ -38,8 +38,13 @@ const populateStatesTest = (db, data) => {
     const insertStates = insertStmts.generateInsert(
         'states_test',
         insertStmts.state_props_test,
+        [],
+        [6, 7, 8, 10]
     )
+    // needs to be changed to accept json(?) at specific intervals
+    console.log('insertStates >>',insertStates)
     const jsonized = _setJson(data)
+    console.log('jsonized >>' , jsonized)
     data.forEach(() => {
         const sqlStmt = db.prepare(insertStates)
         let tempArr = []
@@ -62,19 +67,21 @@ const _setJson = (data) => {
             // TODO:
             // reads as actual json_array text rather than using sqlite's lib to
             // convert it, find out why
-            if (nestedArrs.includes(key)) {
-                val = `json_array('${JSON.stringify(val)}')`
-            }
-            if (nestedObjs.includes(key)) {
-                let finalSqlIns = 'json_object('
-                Object.keys(d[key]).forEach((k, i) => {
+            // if (nestedArrs.includes(key)) {
+                // val = `json_array('${JSON.stringify(val)}')`
+                // val = `${JSON.stringify(val)}`
+                // val = `json_array('${val}')`
+            // }
+            // if (nestedObjs.includes(key)) {
+                // let finalSqlIns = 'json_object('
+                // Object.keys(d[key]).forEach((k, i) => {
                     // hard coded since all objects have 3 key/value pairs
-                    finalSqlIns = i !== 2 ?
-                        `${finalSqlIns}'${k}', '${d[key][k]}', ` :
-                        `${finalSqlIns}'${k}', '${d[key][k]}')`
-                })
-                val = finalSqlIns
-            }
+                    // finalSqlIns = i !== 2 ?
+                        // `${finalSqlIns}'${k}', '${d[key][k]}', ` :
+                        // `${finalSqlIns}'${k}', '${d[key][k]}')`
+                // })
+                // val = finalSqlIns
+            // }
             tempArr.push(val)
         }
         valuesToInsert.push(tempArr)

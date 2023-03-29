@@ -2,6 +2,7 @@ const app = require('express')()
 const json = require('express').json
 const cors = require('cors')
 const bodyParser = require('body-parser')
+const db = require('../db/sqlite.js')
 // const path = require('path')
 // const route = express.Router()
 const { statesRouter, citiesRouter } = require('../routes/server.js')
@@ -25,6 +26,11 @@ app.get('/states/:query?/:field?/:index?', async (req, res) => {
 })
 app.get('/cities/:query?/:field?', async (req, res) => {
     citiesRouter(req, res)
+})
+app.get('/states-test', async (req, res) => {
+    await db.all('SELECT * FROM states_test;', async (err, rows) => {
+        return res.send(rows)
+    })
 })
 
 // Starts Server...

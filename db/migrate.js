@@ -169,10 +169,19 @@ const insertStmts = {
         stmt = `${stmt})`
         return stmt
     },
-    generateInsert: function (table, rows = [], values = []) {
+    generateInsert: function (table, rows = [], values = [], jsonIndices = []) {
         let sqlStmt = `INSERT OR IGNORE INTO ${table}`
         let rowStmt = this._generateStmt(rows)
         if (!values.length) rows.forEach(() => values.push('?'))
+        if (jsonIndices.length) {
+            values.forEach((v, i) => {
+                jsonIndices.forEach(j => {
+                    if (i === j) {
+                        values[i] = 'json(?)'
+                    }
+                })
+            })
+        }
         const valueStmt = this._generateStmt(values)
         rowStmt = `${rowStmt} VALUES`
         sqlStmt = `${sqlStmt}${rowStmt}${valueStmt}`
