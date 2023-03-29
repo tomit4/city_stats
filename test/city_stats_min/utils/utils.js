@@ -7,7 +7,14 @@ const handle404Error = res => {
     return res.send({ ['msg']: '404: data not found!' })
 }
 
+const handleHeadersSentErr = (res, err, next) => {
+    if (res.headersSent) {
+        return next(err)
+    }
+}
+
 module.exports = {
     handle500Error,
     handle404Error,
+    handleHeadersSentErr,
 }

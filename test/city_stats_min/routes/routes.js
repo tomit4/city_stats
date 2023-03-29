@@ -1,35 +1,57 @@
 const db = require('../db/sqlite.js')
-const { handle500Error } = require('../utils/utils.js')
-
+const sdb = require('../db/states.json')
+const cdb = require('../db/cities.json')
+const { handleHeadersSentErr } = require('../utils/utils.js')
+const parser = require('../utils/parser.js')
 const routes = {
-    statesRouter: function(req, res) {
+    stateNames: sdb.map(sd => sd.state_name),
+    citiesNames: cdb.map(cd => cd.city_name),
+    statesRouter: function (req, res, next) {
         const { query } = req.params
         switch (true) {
             case !query:
-                returnAll(res, 'states')
+                returnAll('states', res, next)
+                break
+            case this.stateNames.includes(query):
+                returnSingleInstanceOf('states', 'state', res, next, query)
                 break
             default:
-                res.send({msg: 'no query fields yet'})
+                res.send({ msg: `${query} not found...` })
         }
     },
-    citiesRouter: function(req, res) {
+    citiesRouter: function (req, res, next) {
         const { query } = req.params
         switch (true) {
             case !query:
-                returnAll(res, 'cities')
+                returnAll('cities', res, next)
+                break
+            case this.citiesNames.includes(query):
+                returnSingleInstanceOf('cities', 'city', res, next, query)
                 break
             default:
-                res.send({msg: 'no query fields yet'})
+                res.send({ msg: 'no query fields yet' })
         }
     },
-
 }
 
-const returnAll = (res, entity) => {
+const returnAll = (entity, res, next) => {
     db.all(`SELECT * FROM ${entity}`, [], (err, rows) => {
-        if (err) return handle500Error(res, err)
+        handleHeadersSentErr(res, err, next)
+        parser.prettify(rows)
         return res.send(rows)
     })
+}
+
+const returnSingleInstanceOf = (table, instance, res, next, query) => {
+    db.all(
+        `SELECT * FROM ${table} WHERE ${instance}_name = ?`,
+        [query],
+        (err, rows) => {
+            handleHeadersSentErr(res, err, next)
+            parser.prettify(rows)
+            return res.send(rows)
+        },
+    )
 }
 
 module.exports = { routes }
