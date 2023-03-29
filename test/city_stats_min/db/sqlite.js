@@ -10,7 +10,7 @@ const db = new sqlite3.Database(
         console.log('Connected to the in-memory SQlite states Database.')
     },
 )
-
+// TODO: run for loop like in main project
 db.serialize(() => {
     db.run(`CREATE TABLE IF NOT EXISTS states(
         primary_key INTEGER PRIMARY KEY,
@@ -52,7 +52,7 @@ db.serialize(() => {
         gnis_feature_ids TEXT,
         url TEXT
     )`)
-
+    // TODO: parse these out into separate file somehow...
     sdb.forEach((sd, i) => {
         db.run(
             `INSERT OR IGNORE INTO states VALUES
