@@ -4,6 +4,8 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 const db = require('../db/sqlite.js')
 const parser = require('../utils/parser.js')
+const { routes } = require('../routes/routes.js')
+
 // const path = require('path')
 // const route = express.Router()
 
@@ -20,19 +22,13 @@ app.use(json())
 
 // Main routes
 // TODO: Add specific routes based off of what data is desired
-app.get('/states', async (req, res) => {
-    await db.all('SELECT * FROM states;', [], function (err, rows) {
-        parser.prettify(rows)
-        return res.send(rows)
-    })
+app.get('/states/:query?', (req, res) => {
+    routes.statesRouter(req, res)
 })
 
 // TODO: Add specific routes based off of what data is desired
-app.get('/cities', async (req, res) => {
-    await db.all('SELECT * FROM cities;', [], function (err, rows) {
-        parser.prettify(rows)
-        return res.send(rows)
-    })
+app.get('/cities', (req, res) => {
+    routes.citiesRouter(req, res)
 })
 
 // Starts Server...
