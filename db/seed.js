@@ -25,7 +25,7 @@ const populateStates = (db, data) => {
         const sqlStmt = db.prepare(insertStates)
         const itemToInsert = _parseValues(valuesToInsert, item)
         // itemToInsert is Array of Arrays
-        // console.log(itemToInsert)
+        // console.log('itemToInsert>>', itemToInsert)
         sqlStmt.run(itemToInsert)
         sqlStmt.finalize()
     })
@@ -34,63 +34,52 @@ const populateStates = (db, data) => {
     })
 }
 
-// HEAVY REFACTOR
 const populateStatesTest = (db, data) => {
-    const nestedArrs = ['senators', 'house_delegation']
-    const nestedObjs = ['area', 'population']
-    let valuesToInsert = []
     const insertStates = insertStmts.generateInsert(
         'states_test',
         insertStmts.state_props_test,
     )
+    const jsonized = _setJson(data)
+    data.forEach(() => {
+        const sqlStmt = db.prepare(insertStates)
+        let tempArr = []
+        jsonized.forEach(arr => {
+            tempArr = arr
+        })
+        sqlStmt.run(tempArr)
+        sqlStmt.finalize()
+    })
+}
 
-    insertStmts.state_props_test.forEach(key => {
-        data.forEach(d => {
+const _setJson = (data) => {
+    const nestedArrs = ['senators', 'house_delegation']
+    const nestedObjs = ['area', 'population']
+    const valuesToInsert = []
+    data.forEach(d => {
+        const tempArr = []
+        for (const key in d) {
+            let val = d[key] 
+            // TODO:
+            // reads as actual json_array text rather than using sqlite's lib to
+            // convert it, find out why
             if (nestedArrs.includes(key)) {
-                d[key] = `json_array('${JSON.stringify(d[key])}')`
+                val = `json_array('${JSON.stringify(val)}')`
             }
             if (nestedObjs.includes(key)) {
                 let finalSqlIns = 'json_object('
                 Object.keys(d[key]).forEach((k, i) => {
                     // hard coded since all objects have 3 key/value pairs
-                    if (i !== 2) {
-                        finalSqlIns = `${finalSqlIns}'${k}', '${d[key][k]}', `
-                    } else
-                        finalSqlIns = `${finalSqlIns}'${k}', '${d[key][k]}')`
+                    finalSqlIns = i !== 2 ?
+                        `${finalSqlIns}'${k}', '${d[key][k]}', ` :
+                        `${finalSqlIns}'${k}', '${d[key][k]}')`
                 })
-                d[key] = finalSqlIns
-                valuesToInsert.push(d)
+                val = finalSqlIns
             }
-            // console.log('d[key]', d[key])
-            // valuesToInsert.push(d)
-        })
-    }) 
-    valuesToInsert = [...new Set(valuesToInsert)]
-    const finalArr = []
-    valuesToInsert.forEach(val => {
-        let interArr = []
-        Object.values(val).forEach(v => {
-            interArr.push(v)
-        })
-        finalArr.push(interArr)
+            tempArr.push(val)
+        }
+        valuesToInsert.push(tempArr)
     })
-    // RETURNS 2
-    // console.log('finalArr length >>', finalArr.length)
-    data.forEach(() => {
-        const sqlStmt = db.prepare(insertStates)
-        // RETURNS DUPLICATES OF EACH ITEM IN ARRAY
-        finalArr.forEach(arr => {
-            sqlStmt.run(arr)
-        })
-        // RETURNS 1st ENTRY DOUBLE
-        // sqlStmt.run(...finalArr)
-        // RETURNS EMPTY TABLE
-        // sqlStmt.run(finalArr)
-        sqlStmt.finalize()
-    })
-    // valuesToInsert is Array of Objects...
-    // console.log('valuesToInsert>>', valuesToInsert)
-    // console.log('finalArr>>', ...finalArr)
+    return valuesToInsert
 }
 
 const _parseValues = (valuesToInsert, item) => {
