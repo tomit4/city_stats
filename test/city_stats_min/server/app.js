@@ -25,7 +25,7 @@ app.get('/cities/:query?/:field?/:index?/:subindex?', (req, res) =>
 
 // Initialize Server...
 const server = app.listen(port, () =>
-    console.log(`Serving sqlite database as JSON on port: ${port}`),
+    console.log(`serving sqlite database as JSON on port: ${port}`),
 )
 
 module.exports = server
