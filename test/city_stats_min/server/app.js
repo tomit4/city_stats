@@ -1,3 +1,4 @@
+// Server Configuration
 const app = require('express')()
 const json = require('express').json
 const cors = require('cors')

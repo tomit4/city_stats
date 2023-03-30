@@ -4,6 +4,7 @@ const cdb = require('../db/cities.json')
 const { handle404Error } = require('../utils/utils.js')
 const { returnAll, returnSingleInstanceOf, returnAllSpecs } = require('../utils/queries.js')
 
+// Routes returned data based off of user query
 const routes = {
     // Data needed to be sent down the routes
     stateNames: sdb.map(sd => sd.state_name),

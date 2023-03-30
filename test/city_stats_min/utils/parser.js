@@ -1,3 +1,4 @@
+// Prettifies Nested Values
 const parser = {
     toBeParsed: [
         'senators',

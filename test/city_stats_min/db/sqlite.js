@@ -1,3 +1,4 @@
+// Database Configuration
 const sqlite3 = require('sqlite3').verbose()
 const sdb = require('./states.json')
 const cdb = require('./cities.json')

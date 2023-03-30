@@ -1,4 +1,4 @@
-// Server Configuration
+// Server Connection
 const server = require('./app.js')
 
 let connections = []

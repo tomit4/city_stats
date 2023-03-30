@@ -1,3 +1,4 @@
+// Logic that returns data based off of user specific input (i.e. endpoint)
 const db = require('../db/sqlite.js')
 const parser = require('../utils/parser.js')
 const { handle404Error, handle500Error } = require('../utils/utils.js')

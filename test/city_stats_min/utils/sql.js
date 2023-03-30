@@ -1,6 +1,7 @@
 // Helper function for less typing
 const jsify = (data) => { return JSON.stringify(data) }
 
+// Main SQL hardcoded sql statements
 const createStmts = [
     `CREATE TABLE IF NOT EXISTS states(
     primary_key INTEGER PRIMARY KEY,
