@@ -1,6 +1,11 @@
 const handle500Error = (res, err) => {
     console.error(err)
-    return res.send({ ['msg']: `500: ERROR: ${err}` })
+    res.status(err.status || 500)
+    return res.render('error', {
+        ['msg']: err.message,
+        // default to empty obj in production
+        error: err
+    })
 }
 
 const handle404Error = res => {
