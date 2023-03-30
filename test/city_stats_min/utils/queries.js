@@ -43,7 +43,7 @@ const returnSingleInstanceOf = (table, res, query, field, index, subindex, neste
 
 const mutateRows = (field, index, subindex, instance, rows) => {
     const nestedVal = JSON.parse(rows[0][field])
-    const deeplyNestedVal = !isNaN(index) ? nestedVal[index -1] : nestedVal[index]
+    const deeplyNestedVal = !isNaN(index) ? nestedVal[index - 1] : nestedVal[index]
     let mutRows = {}
     mutRows[`${instance}_name`] = rows[0][`${instance}_name`]
     if (!isNaN(index)) {

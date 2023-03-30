@@ -12,6 +12,7 @@ const routes = {
     cityKeys: Object.keys(cdb[0]),
     stateObjs: Object.keys(sdb[0]).filter(s => typeof sdb[0][s] === 'object'),
     cityObjs: Object.keys(cdb[0]).filter(c => typeof cdb[0][c] === 'object'),
+    // Data prepared for routing
     statesRouter: function (req, res) {
         const table = 'states'
         const nestedObjs = this.stateObjs
@@ -28,6 +29,7 @@ const routes = {
         const { query, field, index, subindex } = req.params
         this.route(res, table, nestedObjs, names, keys, query, field, index, subindex)
     },
+    // Main Router Logic (see last require stmt...)
     route: function(res, table, nestedObjs, names, keys, query, field, index, subindex) {
         switch (true) {
             case !query:
