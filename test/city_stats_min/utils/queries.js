@@ -32,11 +32,10 @@ const returnSingleInstanceOf = (table, res, query, field, index, subindex, neste
             const rowLength = Object.keys(rows).length
             if (nestedObj.includes(field) && index) {
                 rows = mutateRows(field, index, subindex, instance, rows)
-                rows = rowLength > 1 ? rows : undefined
+                rows = rowLength > 0 ? rows : undefined
             }
             if (err) return handle500Error(res, err)
-            if (!rows || rowLength === 0) 
-                return handle404Error(res)
+            if (!rows) return handle404Error(res)
             parser.prettify(rows)
             return res.send(rows)
         },
