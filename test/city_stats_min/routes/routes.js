@@ -1,3 +1,4 @@
+// Routing Logic that interfaces with both db and server
 const db = require('../db/sqlite.js')
 const sdb = require('../db/states.json')
 const cdb = require('../db/cities.json')
