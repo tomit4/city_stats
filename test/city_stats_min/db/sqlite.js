@@ -1,4 +1,4 @@
-// Database Configuration
+// Database Configuration and Initialization
 const sqlite3 = require('sqlite3').verbose()
 const sdb = require('./states.json')
 const cdb = require('./cities.json')
@@ -20,9 +20,3 @@ db.serialize(() => {
 })
 
 module.exports = db
-
-// comment out when running with express
-// db.close((err) => {
-// if (err) return console.error(err.message)
-// console.log('Closing the statesDatabase connection...')
-// });

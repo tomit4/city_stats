@@ -61,9 +61,8 @@ const mutateRows = (field, index, subindex, instance, rows) => {
                 if (parsedVal[subindex - 1]) {
                     mutRows[`${field}`] = {}
                     mutRows[`${field}`][`${index}_${subindex}`] = parsedVal[subindex - 1]
-                } else {
+                } else
                     return undefined
-                }
             }
         }
     }
