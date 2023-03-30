@@ -25,10 +25,10 @@ const routes = {
         const names = this.cityNames
         const keys = this.cityKeys
         // TODO: one more nested field for city_council case ?
-        const { query, field, index } = req.params
-        this.route(res, table, nestedObjs, names, keys, query, field, index)
+        const { query, field, index, subindex } = req.params
+        this.route(res, table, nestedObjs, names, keys, query, field, index, subindex)
     },
-    route: function(res, table, nestedObjs, names, keys, query, field, index) {
+    route: function(res, table, nestedObjs, names, keys, query, field, index, subindex) {
         switch (true) {
             case !query:
                 returnAll(table, res)
@@ -37,7 +37,7 @@ const routes = {
                 returnByKey(table, res, query)
                 break
             case names.includes(query):
-                returnSingleInstanceOf(table, res, query, field, index, nestedObjs)
+                returnSingleInstanceOf(table, res, query, field, index, subindex, nestedObjs)
                 break
             case keys.includes(query):
                 returnAllSpecs(table, res, query)

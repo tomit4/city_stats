@@ -25,14 +25,11 @@ app.use(json())
 // app.use('/test', test.js)
 
 // Main routes
-
-// TODO: figure out proper error handling in case of 500 err... crashes when
-// nonexistent route/column in table is queried...
 app.get('/states/:query?/:field?/:index?', (req, res, next) => 
     routes.statesRouter(req, res, next)
 )
 // TODO: one more nested field for city_council case ?
-app.get('/cities/:query?/:field?/:index?', (req, res, next) => 
+app.get('/cities/:query?/:field?/:index?/:subindex?', (req, res, next) => 
     routes.citiesRouter(req, res, next)
 )
 

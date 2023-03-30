@@ -22,7 +22,7 @@ const returnByKey = (table, res, query) => {
     })
 }
 
-const returnSingleInstanceOf = (table, res, query, field, index, nestedObj) => {
+const returnSingleInstanceOf = (table, res, query, field, index, subindex, nestedObj) => {
     const instance = table === 'states' ? 'state' : 'city'
     const selection = !field ? '*' : `${instance}_name, ${field}`
         db.all(
@@ -30,7 +30,8 @@ const returnSingleInstanceOf = (table, res, query, field, index, nestedObj) => {
             [query],
             (err, rows) => {
                 if (nestedObj.includes(field) && index) {
-                    rows = mutateRows(field, index, instance, rows)
+                    rows = mutateRows(field, index, subindex, instance, rows)
+                    rows = Object.keys(rows).length > 1 ? rows : undefined
                 }
                 if (err) handle500Error(res, err)
                 if (!rows) return handle404Error(res)
@@ -40,7 +41,7 @@ const returnSingleInstanceOf = (table, res, query, field, index, nestedObj) => {
         )
 }
 // TODO: one more nested field for city_council case ?
-const mutateRows = (field, index, instance, rows) => {
+const mutateRows = (field, index, subindex, instance, rows) => {
     const nestedVal = JSON.parse(rows[0][field])
     const deeplyNestedVal = !isNaN(index) ? nestedVal[index -1] : nestedVal[index]
     const mutRows = {}
@@ -54,7 +55,17 @@ const mutateRows = (field, index, instance, rows) => {
             mutRows[`${field}`][`${index}`] = deeplyNestedVal
             return mutRows
         } else {
-            mutRows[`${field}`] = JSON.parse(deeplyNestedVal)
+            const parsedVal = JSON.parse(deeplyNestedVal)
+            if (!subindex) {
+                mutRows[`${field}`] = parsedVal
+            } else if (!isNaN(subindex)){
+                if (parsedVal[subindex - 1]) {
+                    mutRows[`${field}`] = {}
+                    mutRows[`${field}`][`${index}_${subindex}`] = parsedVal[subindex - 1]
+                } else {
+                    return
+                }
+            }
             return mutRows
         }
     }
