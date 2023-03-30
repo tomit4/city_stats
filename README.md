@@ -18,13 +18,13 @@ This API will return various statistical data about United States city generally
 reflected from Wikipedia.
 
 __To Do:__
-- [ ] Refactor nested data to use Sqlite's native json functionality(see test dir)
+- [x] Refactor nested data to use Sqlite's native json functionality(see test dir)
 - [x] Create a basic sample schema for a State
 - [x] Mock Up 3 States and test aggregating into sqlite via csv/bash
-- [ ] Add brief description of States/Cities
 - [x] Create a basic sample schema for a City
 - [x] Fill an Sqlite database with data of both States and Cities
 - [x] Use NodeJs to return sqlite data using basic http request tool, curl
+- [ ] Implement search queries using select statements from both states and cities tables (see below)
 - [ ] Create a sample website which simply queries the database and displays
 - [ ] Add query functionality by the user, utilizing selects/joins for search filtering
 - [ ] Deploy API endpoints via Linode and frontend via netlify
@@ -44,6 +44,9 @@ officials, they should be able to input:
 https://citystats.com/api/cities/`city_name`/senators
 ```
 And Find out who the senators for the state that `city_name` is within.
+
+This is probably easily achievable via simple nested SELECT statements. See
+[sqlite's documentation](https://www.sqlite.org/docs.html).
 
 OF NOTE, BUT DEPRECATED:
 There might be a better way to create the database using bash, the sqlite-cli,
