@@ -5,6 +5,7 @@ const { handle404Error } = require('../utils/utils.js')
 const { returnAll, returnSingleInstanceOf, returnAllSpecs } = require('../utils/queries.js')
 
 const routes = {
+    // Data needed to be sent down the routes
     stateNames: sdb.map(sd => sd.state_name),
     cityNames: cdb.map(cd => cd.city_name),
     stateKeys: Object.keys(sdb[0]),
