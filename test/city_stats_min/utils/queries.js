@@ -4,8 +4,8 @@ const { handle404Error, handle500Error } = require('../utils/utils.js')
 
 const returnAll = (table, res) => {
     db.all(`SELECT * FROM ${table}`, (err, rows) => {
-        if (err) return handle500Error(res, err)
         if (!rows) return handle404Error(res)
+        if (err) return handle500Error(res, err)
         parser.prettify(rows)
         return res.send(rows)
     })
@@ -14,8 +14,8 @@ const returnAll = (table, res) => {
 const returnAllSpecs = (table, res, query) => {
     const instance = table === 'states' ? 'state' : 'city'
     db.all(`SELECT ${instance}_name, ${query} FROM ${table}`, (err, rows) => {
-        if (err) return handle500Error(res, err)
         if (!rows) return handle404Error(res)
+        if (err) return handle500Error(res, err)
         parser.prettify(rows)
         return res.send(rows)
     })
@@ -29,12 +29,13 @@ const returnSingleInstanceOf = (table, res, query, field, index, subindex, neste
         `SELECT ${selection} FROM ${table} ${whereStmt} = ?`,
         [query],
         (err, rows) => {
+            if (!rows) return handle404Error(res)
+            if (err) return handle500Error(res, err)
             const rowLength = Object.keys(rows).length
             if (nestedObj.includes(field) && index) {
                 rows = mutateRows(field, index, subindex, instance, rows)
                 rows = rowLength > 0 ? rows : undefined
             }
-            if (err) return handle500Error(res, err)
             if (!rows) return handle404Error(res)
             parser.prettify(rows)
             return res.send(rows)
