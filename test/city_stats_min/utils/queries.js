@@ -36,6 +36,7 @@ const returnSingleInstanceOf = (table, res, query, field, index, subindex, neste
                 rows = mutateRows(field, index, subindex, instance, rows)
                 rows = rowLength > 0 ? rows : undefined
             }
+            // Mutation requires another check
             if (!rows) return handle404Error(res)
             parser.prettify(rows)
             return res.send(rows)
