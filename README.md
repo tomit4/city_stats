@@ -1,6 +1,3 @@
-03/29/2023
-NOTE: codeberg went down, delete this and try again 
-
 ### City Stats API
 
 :construction: This repository is currently under heavy construction
