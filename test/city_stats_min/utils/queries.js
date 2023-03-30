@@ -31,10 +31,8 @@ const returnSingleInstanceOf = (table, res, query, field, index, subindex, neste
         (err, rows) => {
             if (!rows) return handle404Error(res)
             if (err) return handle500Error(res, err)
-            const rowLength = Object.keys(rows).length
             if (nestedObj.includes(field) && index) {
                 rows = mutateRows(field, index, subindex, instance, rows)
-                rows = rowLength > 0 ? rows : undefined
             }
             // Mutation requires another check
             if (!rows) return handle404Error(res)
@@ -47,16 +45,14 @@ const returnSingleInstanceOf = (table, res, query, field, index, subindex, neste
 const mutateRows = (field, index, subindex, instance, rows) => {
     const nestedVal = JSON.parse(rows[0][field])
     const deeplyNestedVal = !isNaN(index) ? nestedVal[index -1] : nestedVal[index]
-    const mutRows = {}
+    let mutRows = {}
     mutRows[`${instance}_name`] = rows[0][`${instance}_name`]
     if (!isNaN(index) && deeplyNestedVal) {
         mutRows[`${field}_${index}`] = deeplyNestedVal
-        return mutRows
     } else if (deeplyNestedVal) {
         if (typeof deeplyNestedVal !== 'object') {
             mutRows[`${field}`] = {}
             mutRows[`${field}`][`${index}`] = deeplyNestedVal
-            return mutRows
         } else {
             const parsedVal = JSON.parse(deeplyNestedVal)
             if (!subindex) {
@@ -69,9 +65,12 @@ const mutateRows = (field, index, subindex, instance, rows) => {
                     return
                 }
             }
-            return mutRows
         }
     }
+    const mutRowsLength = Object.keys(mutRows).length
+    // If all you return is the instance_name, then return undefined
+    mutRows = mutRowsLength < 2 ? undefined : mutRows
+    return mutRows
 }
 
 module.exports = {
