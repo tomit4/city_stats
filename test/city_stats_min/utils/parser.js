@@ -1,4 +1,6 @@
 // Prettifies Nested Values
+const { jsprs } = require('../utils/utils.js')
+
 const parser = {
     toBeParsed: [
         'senators',
@@ -19,15 +21,15 @@ const parser = {
             for (const k in value) {
                 let v = value[k]
                 if (this.toBeParsed.includes(k))
-                    value[k] = JSON.parse(value[k])
+                    value[k] = jsprs(value[k])
                 if (this.toRemoveBackSlash.includes(k)) {
-                    v = JSON.parse(v)
+                    v = jsprs(v)
                     for (const innerKey in v) {
                         let finVal = value[k][innerKey]
                         finVal =
                             typeof finVal === 'string'
                                 ? finVal.replace(/\"/g, '')
-                                : JSON.parse(finVal)
+                                : jsprs(finVal)
                         value[k][innerKey] = finVal
                     }
                 }

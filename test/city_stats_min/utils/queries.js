@@ -1,7 +1,7 @@
 // Logic that returns data based off of user specific input (i.e. endpoint)
 const db = require('../db/sqlite.js')
 const parser = require('../utils/parser.js')
-const { handle404Error, handle500Error } = require('../utils/utils.js')
+const { jsprs, handle404Error, handle500Error } = require('../utils/utils.js')
 
 const returnAll = (table, res) => {
     db.all(`SELECT * FROM ${table}`, (err, rows) => {
@@ -43,7 +43,7 @@ const returnSingleInstanceOf = (table, res, query, field, index, subindex, neste
 }
 
 const mutateRows = (field, index, subindex, instance, rows) => {
-    const nestedVal = JSON.parse(rows[0][field])
+    const nestedVal = jsprs(rows[0][field])
     const deeplyNestedVal = !isNaN(index) ? nestedVal[index - 1] : nestedVal[index]
     let mutRows = {}
     mutRows[`${instance}_name`] = rows[0][`${instance}_name`]
@@ -54,7 +54,7 @@ const mutateRows = (field, index, subindex, instance, rows) => {
             mutRows[`${field}`] = {}
             mutRows[`${field}`][`${index}`] = deeplyNestedVal
         } else {
-            const parsedVal = JSON.parse(deeplyNestedVal)
+            const parsedVal = jsprs(deeplyNestedVal)
             if (!subindex) {
                 mutRows[`${field}`] = parsedVal
             } else if (!isNaN(subindex)){
