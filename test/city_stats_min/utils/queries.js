@@ -66,7 +66,7 @@ const mutateRows = (field, index, subindex, instance, rows) => {
             }
         }
     }
-    // If all you return is the instance_name, then return undefined
+    // If all that is returned is the instance_name, then return undefined
     mutRows = Object.keys(mutRows).length < 2 ? undefined : mutRows
     return mutRows
 }

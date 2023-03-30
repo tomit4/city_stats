@@ -3,8 +3,9 @@ const handle500Error = (res, err) => {
     res.status(err.status || 500)
     return res.render('error', {
         ['msg']: err.message,
-        // default to empty obj in production
         error: err
+        // default to empty obj in production
+        // error: {}
     })
 }
 

@@ -17,15 +17,13 @@ app.use(json())
 
 // Main routes
 app.get('/states/:query?/:field?/:index?', (req, res) =>
-    routes.statesRouter(req, res),
-)
+    routes.statesRouter(req, res))
+
 app.get('/cities/:query?/:field?/:index?/:subindex?', (req, res) =>
-    routes.citiesRouter(req, res),
-)
+    routes.citiesRouter(req, res))
 
 // Initialize Server...
 const server = app.listen(port, () =>
-    console.log(`serving sqlite database as JSON on port: ${port}`),
-)
+    console.log(`serving sqlite database as JSON on port: ${port}`))
 
 module.exports = server

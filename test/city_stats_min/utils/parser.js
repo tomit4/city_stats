@@ -17,9 +17,8 @@ const parser = {
             const value = rows[key]
             for (const k in value) {
                 let v = value[k]
-                if (this.toBeParsed.includes(k)) {
+                if (this.toBeParsed.includes(k))
                     value[k] = JSON.parse(value[k])
-                }
                 if (this.toRemoveBackSlash.includes(k)) {
                     v = JSON.parse(v)
                     for (const innerKey in v) {
