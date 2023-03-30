@@ -1,81 +1,51 @@
 const db = require('../db/sqlite.js')
 const sdb = require('../db/states.json')
 const cdb = require('../db/cities.json')
-const { handleHeadersSentErr } = require('../utils/utils.js')
-const parser = require('../utils/parser.js')
+const { handle404Error } = require('../utils/utils.js')
+const { returnAll, returnByKey, returnSingleInstanceOf, returnAllSpecs } = require('../utils/queries.js')
 
 const routes = {
     stateNames: sdb.map(sd => sd.state_name),
+    cityNames: cdb.map(cd => cd.city_name),
     stateKeys: Object.keys(sdb[0]),
-    citiesNames: cdb.map(cd => cd.city_name),
     cityKeys: Object.keys(cdb[0]),
-    statesRouter: function (req, res, next) {
-        const { query } = req.params
+    stateObjs: Object.keys(sdb[0]).filter(s => typeof sdb[0][s] === 'object'),
+    cityObjs: Object.keys(cdb[0]).filter(c => typeof cdb[0][c] === 'object'),
+    statesRouter: function (req, res) {
+        const table = 'states'
+        const nestedObjs = this.stateObjs
+        const names = this.stateNames
+        const keys = this.stateKeys
+        const { query, field, index } = req.params
+        this.route(res, table, nestedObjs, names, keys, query, field, index)
+    },
+    citiesRouter: function (req, res) {
+        const table = 'cities'
+        const nestedObjs = this.cityObjs
+        const names = this.cityNames
+        const keys = this.cityKeys
+        // TODO: one more nested field for city_council case ?
+        const { query, field, index } = req.params
+        this.route(res, table, nestedObjs, names, keys, query, field, index)
+    },
+    route: function(res, table, nestedObjs, names, keys, query, field, index) {
         switch (true) {
             case !query:
-                console.log(this.stateKeys)
-                returnAll('states', res, next)
+                returnAll(table, res)
                 break
-            case this.stateNames.includes(query):
-                returnSingleInstanceOf('states', res, next, query)
+            case !isNaN(query):
+                returnByKey(table, res, query)
                 break
-            case this.stateKeys.includes(query):
-                returnAllSpecs('states', res, next, query)
+            case names.includes(query):
+                returnSingleInstanceOf(table, res, query, field, index, nestedObjs)
                 break
-            default:
-                res.send({ msg: `${query} not found...` })
-        }
-    },
-    citiesRouter: function (req, res, next) {
-        const { query } = req.params
-        switch (true) {
-            case !query:
-                returnAll('cities', res, next)
-                break
-            case this.citiesNames.includes(query):
-                returnSingleInstanceOf('cities', res, next, query)
-                break
-            case this.cityKeys.includes(query):
-                returnAllSpecs('cities', res, next, query)
+            case keys.includes(query):
+                returnAllSpecs(table, res, query)
                 break
             default:
-                res.send({ msg: 'no query fields yet' })
+                handle404Error(res)
         }
     },
-}
-
-// TODO: Export these functions out to another file, possibly put in object?
-const returnAll = (table, res, next) => {
-    db.all(`SELECT * FROM ${table}`, (err, rows) => {
-        handleHeadersSentErr(res, err, next)
-        parser.prettify(rows)
-        return res.send(rows)
-    })
-}
-
-const returnSingleInstanceOf = (table, res, next, query) => {
-    const instance = table === 'states' ? 'state' : 'city'
-    db.all(
-        `SELECT * FROM ${table} WHERE ${instance}_name = ?`,
-        [query],
-        (err, rows) => {
-            handleHeadersSentErr(res, err, next)
-            parser.prettify(rows)
-            return res.send(rows)
-        },
-    )
-}
-
-const returnAllSpecs = (table, res, next, query) => {
-    const instance = table === 'states' ? 'state' : 'city'
-    db.all(
-        `SELECT ${instance}_name, ${query} FROM ${table}`, (err, rows) => {
-            handleHeadersSentErr(res, err, next)
-            parser.prettify(rows)
-            return res.send(rows)
-        }
-    )
-
 }
 
 module.exports = { routes }

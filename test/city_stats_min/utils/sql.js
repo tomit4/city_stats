@@ -107,4 +107,4 @@ const insertStmts = {
     }
 }
 
-module.exports = {createStmts, insertStmts}
+module.exports = { createStmts, insertStmts }
