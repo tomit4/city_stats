@@ -11,10 +11,9 @@ const returnAll = (table, res) => {
     })
 }
 
-const returnByKey = (table, res, query) => {
-    db.all(`SELECT * FROM ${table} WHERE primary_key = ?`,
-        [query],
-        (err, rows) => {
+const returnAllSpecs = (table, res, query) => {
+    const instance = table === 'states' ? 'state' : 'city'
+    db.all(`SELECT ${instance}_name, ${query} FROM ${table}`, (err, rows) => {
         if (err) return handle500Error(res, err)
         if (!rows) return handle404Error(res)
         parser.prettify(rows)
@@ -25,22 +24,25 @@ const returnByKey = (table, res, query) => {
 const returnSingleInstanceOf = (table, res, query, field, index, subindex, nestedObj) => {
     const instance = table === 'states' ? 'state' : 'city'
     const selection = !field ? '*' : `${instance}_name, ${field}`
-        db.all(
-            `SELECT ${selection} FROM ${table} WHERE ${instance}_name = ?`,
-            [query],
-            (err, rows) => {
-                if (nestedObj.includes(field) && index) {
-                    rows = mutateRows(field, index, subindex, instance, rows)
-                    rows = Object.keys(rows).length > 1 ? rows : undefined
-                }
-                if (err) handle500Error(res, err)
-                if (!rows) return handle404Error(res)
-                parser.prettify(rows)
-                return res.send(rows)
-            },
-        )
+    const whereStmt = !isNaN(query) ? `WHERE primary_key` : `WHERE ${instance}_name`
+    db.all(
+        `SELECT ${selection} FROM ${table} ${whereStmt} = ?`,
+        [query],
+        (err, rows) => {
+            const rowLength = Object.keys(rows).length
+            if (nestedObj.includes(field) && index) {
+                rows = mutateRows(field, index, subindex, instance, rows)
+                rows = rowLength > 1 ? rows : undefined
+            }
+            if (err) return handle500Error(res, err)
+            if (!rows || rowLength === 0) 
+                return handle404Error(res)
+            parser.prettify(rows)
+            return res.send(rows)
+        },
+    )
 }
-// TODO: one more nested field for city_council case ?
+
 const mutateRows = (field, index, subindex, instance, rows) => {
     const nestedVal = JSON.parse(rows[0][field])
     const deeplyNestedVal = !isNaN(index) ? nestedVal[index -1] : nestedVal[index]
@@ -71,19 +73,8 @@ const mutateRows = (field, index, subindex, instance, rows) => {
     }
 }
 
-const returnAllSpecs = (table, res, query) => {
-    const instance = table === 'states' ? 'state' : 'city'
-    db.all(`SELECT ${instance}_name, ${query} FROM ${table}`, (err, rows) => {
-        if (err) handle500Error(res, err)
-        if (!rows) return handle404Error(res)
-        parser.prettify(rows)
-        return res.send(rows)
-    })
-}
-
 module.exports = {
     returnAll,
-    returnByKey,
+    returnAllSpecs,
     returnSingleInstanceOf,
-    returnAllSpecs
 }

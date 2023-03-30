@@ -25,12 +25,11 @@ app.use(json())
 // app.use('/test', test.js)
 
 // Main routes
-app.get('/states/:query?/:field?/:index?', (req, res, next) => 
-    routes.statesRouter(req, res, next)
+app.get('/states/:query?/:field?/:index?', (req, res) => 
+    routes.statesRouter(req, res)
 )
-// TODO: one more nested field for city_council case ?
-app.get('/cities/:query?/:field?/:index?/:subindex?', (req, res, next) => 
-    routes.citiesRouter(req, res, next)
+app.get('/cities/:query?/:field?/:index?/:subindex?', (req, res) => 
+    routes.citiesRouter(req, res)
 )
 
 // Starts Server...

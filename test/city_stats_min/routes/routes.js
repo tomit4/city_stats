@@ -2,7 +2,7 @@ const db = require('../db/sqlite.js')
 const sdb = require('../db/states.json')
 const cdb = require('../db/cities.json')
 const { handle404Error } = require('../utils/utils.js')
-const { returnAll, returnByKey, returnSingleInstanceOf, returnAllSpecs } = require('../utils/queries.js')
+const { returnAll, returnSingleInstanceOf, returnAllSpecs } = require('../utils/queries.js')
 
 const routes = {
     stateNames: sdb.map(sd => sd.state_name),
@@ -24,7 +24,6 @@ const routes = {
         const nestedObjs = this.cityObjs
         const names = this.cityNames
         const keys = this.cityKeys
-        // TODO: one more nested field for city_council case ?
         const { query, field, index, subindex } = req.params
         this.route(res, table, nestedObjs, names, keys, query, field, index, subindex)
     },
@@ -34,8 +33,6 @@ const routes = {
                 returnAll(table, res)
                 break
             case !isNaN(query):
-                returnByKey(table, res, query)
-                break
             case names.includes(query):
                 returnSingleInstanceOf(table, res, query, field, index, subindex, nestedObjs)
                 break
