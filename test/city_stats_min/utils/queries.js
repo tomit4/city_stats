@@ -31,9 +31,8 @@ const returnSingleInstanceOf = (table, res, query, field, index, subindex, neste
         (err, rows) => {
             if (!rows) return handle404Error(res)
             if (err) return handle500Error(res, err)
-            if (nestedObj.includes(field) && index) {
+            if (nestedObj.includes(field) && index)
                 rows = mutateRows(field, index, subindex, instance, rows)
-            }
             // Mutation requires another check
             if (!rows) return handle404Error(res)
             parser.prettify(rows)
@@ -47,9 +46,9 @@ const mutateRows = (field, index, subindex, instance, rows) => {
     const deeplyNestedVal = !isNaN(index) ? nestedVal[index -1] : nestedVal[index]
     let mutRows = {}
     mutRows[`${instance}_name`] = rows[0][`${instance}_name`]
-    if (!isNaN(index) && deeplyNestedVal) {
+    if (!isNaN(index)) {
         mutRows[`${field}_${index}`] = deeplyNestedVal
-    } else if (deeplyNestedVal) {
+    } else {
         if (typeof deeplyNestedVal !== 'object') {
             mutRows[`${field}`] = {}
             mutRows[`${field}`][`${index}`] = deeplyNestedVal
@@ -67,9 +66,8 @@ const mutateRows = (field, index, subindex, instance, rows) => {
             }
         }
     }
-    const mutRowsLength = Object.keys(mutRows).length
     // If all you return is the instance_name, then return undefined
-    mutRows = mutRowsLength < 2 ? undefined : mutRows
+    mutRows = Object.keys(mutRows).length < 2 ? undefined : mutRows
     return mutRows
 }
 
