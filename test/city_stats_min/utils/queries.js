@@ -55,9 +55,9 @@ const mutateRows = (field, index, subindex, instance, rows) => {
             mutRows[`${field}`][`${index}`] = deeplyNestedVal
         } else {
             const parsedVal = jsprs(deeplyNestedVal)
-            if (!subindex) {
+            if (!subindex)
                 mutRows[`${field}`] = parsedVal
-            } else if (!isNaN(subindex)){
+            else if (!isNaN(subindex)){
                 if (parsedVal[subindex - 1]) {
                     mutRows[`${field}`] = {}
                     mutRows[`${field}`][`${index}_${subindex}`] = parsedVal[subindex - 1]
