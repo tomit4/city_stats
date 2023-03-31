@@ -48,6 +48,19 @@ And Find out who the senators for the state that `city_name` is within.
 This is probably easily achievable via simple nested SELECT statements. See
 [sqlite's documentation](https://www.sqlite.org/docs.html).
 
+REFACTOR (express router):
+This project has already had 3 refactors, but I keep learning more as I move
+along. In looking into better routing, I cam across [this article](https://scribe.rip/express-js-routing-with-nested-paths-2526bae9d2e6) and [this
+github gist](https://gist.github.com/zcaceres/f38b208a492e4dcd45f487638eff716c) that explain how to more cleanly do routing. This would require
+another rewrite of the code however, as this changes the logic going further up
+the stack.
+
+REFACTOR (knexjs):
+This would also require another rewrite, and I specifically did not use knex or
+any query builder/ORM in order to learn the basics of sqlite, but ultimately
+knexjs would make this project much cleaner and probably have faster
+development time.
+
 OF NOTE, BUT DEPRECATED:
 There might be a better way to create the database using bash, the sqlite-cli,
 and sqlite's native json parser. See [this stackoverflow](https://stackoverflow.com/questions/46407770/how-to-convert-a-json-file-to-an-sqlite-database) article regarding how to "quickly" insert json into an sqlite database.

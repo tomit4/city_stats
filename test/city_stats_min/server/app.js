@@ -18,6 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(json())
 
 // Main routes
+// TODO: consider refactor based off of express router (see README.md)
 app.get('/states/:query?/:field?/:index?', (req, res) =>
     routes.statesRouter(req, res))
 
