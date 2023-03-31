@@ -42,6 +42,8 @@ const returnSingleInstanceOf = (table, res, query, field, index, subindex, neste
     )
 }
 
+// TODO: This is a code smell, consider refactoring using express router
+// this is a very hacky workaround to get nested routes working properly
 const mutateRows = (field, index, subindex, instance, rows) => {
     const nestedVal = jsprs(rows[0][field])
     const deeplyNestedVal = !isNaN(index) ? nestedVal[index - 1] : nestedVal[index]
@@ -51,8 +53,11 @@ const mutateRows = (field, index, subindex, instance, rows) => {
         mutRows[`${field}_${index}`] = deeplyNestedVal
     } else if (deeplyNestedVal){
         if (deeplyNestedVal && typeof deeplyNestedVal !== 'object') {
-            mutRows[`${field}`] = {}
-            mutRows[`${field}`][`${index}`] = deeplyNestedVal
+            if (!subindex) {
+                mutRows[`${field}`] = {}
+                mutRows[`${field}`][`${index}`] = deeplyNestedVal
+            } else
+                return undefined
         } else {
             const parsedVal = jsprs(deeplyNestedVal)
             if (!subindex)
