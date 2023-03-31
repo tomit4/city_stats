@@ -49,15 +49,15 @@ const mutateRows = (field, index, subindex, instance, rows) => {
     mutRows[`${instance}_name`] = rows[0][`${instance}_name`]
     if (!isNaN(index)) {
         mutRows[`${field}_${index}`] = deeplyNestedVal
-    } else {
-        if (typeof deeplyNestedVal !== 'object') {
+    } else if (deeplyNestedVal){
+        if (deeplyNestedVal && typeof deeplyNestedVal !== 'object') {
             mutRows[`${field}`] = {}
             mutRows[`${field}`][`${index}`] = deeplyNestedVal
         } else {
             const parsedVal = jsprs(deeplyNestedVal)
             if (!subindex)
                 mutRows[`${field}`] = parsedVal
-            else if (!isNaN(subindex)){
+            else if (!isNaN(subindex)) {
                 if (parsedVal[subindex - 1]) {
                     mutRows[`${field}`] = {}
                     mutRows[`${field}`][`${index}_${subindex}`] = parsedVal[subindex - 1]
@@ -65,7 +65,8 @@ const mutateRows = (field, index, subindex, instance, rows) => {
                     return undefined
             }
         }
-    }
+    } else
+        return undefined
     // If all that is returned is the instance_name, then return undefined
     mutRows = Object.keys(mutRows).length < 2 ? undefined : mutRows
     return mutRows
