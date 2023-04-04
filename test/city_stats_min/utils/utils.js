@@ -11,6 +11,7 @@ const handle500Error = (res, err) => {
 }
 
 const handle404Error = res => {
+    res.status(404)
     return res.send({ ['msg']: '404: data not found!' })
 }
 
