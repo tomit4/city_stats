@@ -26,6 +26,7 @@ const returnSingleInstanceOf = (table, res, query, field, index, subindex, neste
     const instance = table === 'states' ? 'state' : 'city'
     const selection = !field ? '*' : `${instance}_name, ${field}`
     const whereStmt = !isNaN(query) ? `WHERE primary_key` : `WHERE ${instance}_name`
+    if (!isNaN(field)) return handle404Error(res)
     db.all(
         `SELECT ${selection} FROM ${table} ${whereStmt} = ?`,
         [query],
@@ -47,6 +48,7 @@ const returnSingleInstanceOf = (table, res, query, field, index, subindex, neste
 const mutateRows = (field, index, subindex, instance, rows) => {
     const nestedVal = JSON.parse(rows[0][field])
     const deeplyNestedVal = !isNaN(index) ? nestedVal[index - 1] : nestedVal[index]
+    if (!deeplyNestedVal) return undefined
     let mutRows = {}
     mutRows[`${instance}_name`] = rows[0][`${instance}_name`]
     if (!isNaN(index)) {
@@ -72,8 +74,6 @@ const mutateRows = (field, index, subindex, instance, rows) => {
         }
     } else
         return undefined
-    // If all that is returned is the instance_name, then return undefined
-    mutRows = Object.keys(mutRows).length < 2 ? undefined : mutRows
     return mutRows
 }
 
