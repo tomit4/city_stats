@@ -1,7 +1,3 @@
-// Helper functions for less typing
-const jsify = (data) => { return JSON.stringify(data) }
-const jsprs = (data) => { return JSON.parse(data) }
-
 // Error handling functions
 const handle500Error = (res, err) => {
     console.error(err)
@@ -19,8 +15,6 @@ const handle404Error = res => {
 }
 
 module.exports = {
-    jsify,
-    jsprs,
     handle500Error,
     handle404Error,
 }

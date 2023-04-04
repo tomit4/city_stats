@@ -1,6 +1,4 @@
 // Main SQL hardcoded sql statements
-const { jsify } = require('../utils/utils.js')
-
 const createStmts = [
     `CREATE TABLE IF NOT EXISTS states(
     primary_key INTEGER PRIMARY KEY,
@@ -49,27 +47,27 @@ const insertStmts = {
             db.run(
                 `INSERT OR IGNORE INTO states VALUES (
                 ${i + 1},
-                ${jsify(sd.state_name)},
-                ${jsify(sd.state_abbreviation)}, 
-                ${jsify(sd.date_admitted)}, 
-                ${jsify(sd.capital)}, 
-                ${jsify(sd.largest_city)}, 
-                ${jsify(sd.govenor)}, 
-                json('${jsify(sd.senators)}'),
-                json('${jsify(sd.house_delegation)}'),
+                ${JSON.stringify(sd.state_name)},
+                ${JSON.stringify(sd.state_abbreviation)}, 
+                ${JSON.stringify(sd.date_admitted)}, 
+                ${JSON.stringify(sd.capital)}, 
+                ${JSON.stringify(sd.largest_city)}, 
+                ${JSON.stringify(sd.govenor)}, 
+                json('${JSON.stringify(sd.senators)}'),
+                json('${JSON.stringify(sd.house_delegation)}'),
                 json_object('total', '${sd.area.total}',
                             'land', '${sd.area.land}',
                             'water', '${sd.area.water}'),
-                ${jsify(sd.elevation)},
+                ${JSON.stringify(sd.elevation)},
                 json_object('total', '${sd.population.total}',
                             'density', '${sd.population.density}',
                             'median_household_income', '${sd.population.median_household_income}'),
-                ${jsify(sd.time_zone)},
-                ${jsify(sd.latitude)},
-                ${jsify(sd.longitude)},
-                ${jsify(sd.url)},
-                ${jsify(sd.flag_url)},
-                ${jsify(sd.insignia_url)})`
+                ${JSON.stringify(sd.time_zone)},
+                ${JSON.stringify(sd.latitude)},
+                ${JSON.stringify(sd.longitude)},
+                ${JSON.stringify(sd.url)},
+                ${JSON.stringify(sd.flag_url)},
+                ${JSON.stringify(sd.insignia_url)})`
             )
         })
     },
@@ -78,28 +76,28 @@ const insertStmts = {
             db.run(
                 `INSERT OR IGNORE INTO cities VALUES(
                 ${i + 1},
-                ${jsify(cd.city_name)},
-                ${jsify(cd.state_name)},
-                ${jsify(cd.coordinates)},
-                json('${jsify(cd.counties)}'),
-                ${jsify(cd.settled_founded)},
-                ${jsify(cd.incorporated)},
+                ${JSON.stringify(cd.city_name)},
+                ${JSON.stringify(cd.state_name)},
+                ${JSON.stringify(cd.coordinates)},
+                json('${JSON.stringify(cd.counties)}'),
+                ${JSON.stringify(cd.settled_founded)},
+                ${JSON.stringify(cd.incorporated)},
                 json_object('type', '${cd.government.type}',
                             'mayor', '${cd.government.mayor}', 
-                            'city_council', json_array('${jsify(cd.government.city_council,)}')),
+                            'city_council', json_array('${JSON.stringify(cd.government.city_council,)}')),
                 json_object('city', '${cd.area.city}',
                             'land', '${cd.area.land}', 
                             'water', '${cd.area.water}'),
-                ${jsify(cd.elevation)},
+                ${JSON.stringify(cd.elevation)},
                 json_object('city', '${cd.population.city}',
                             'density', '${cd.population.density}', 
                             'metro', '${cd.population.metro}'),
-                ${jsify(cd.time_zone)},
-                json('${jsify(cd.zip_codes)}'),
-                json('${jsify(cd.area_codes)}'),
-                json('${jsify(cd.fips_code)}'),
-                json('${jsify(cd.gnis_feature_ids)}'),
-                ${jsify(cd.url)}
+                ${JSON.stringify(cd.time_zone)},
+                json('${JSON.stringify(cd.zip_codes)}'),
+                json('${JSON.stringify(cd.area_codes)}'),
+                json('${JSON.stringify(cd.fips_code)}'),
+                json('${JSON.stringify(cd.gnis_feature_ids)}'),
+                ${JSON.stringify(cd.url)}
                 )`,
             )
         })
