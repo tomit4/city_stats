@@ -3,8 +3,7 @@ const app = require('express')()
 const json = require('express').json
 const cors = require('cors')
 const bodyParser = require('body-parser')
-const { routes } = require('../routes/routes.js')
-const { handle404Error } = require('../utils/utils.js')
+const router = require('../routes/')
 
 // App configuration
 const port = process.env.PORT || 5000
@@ -18,12 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(json())
 
 // Main routes
-// TODO: consider refactor based off of express router (see README.md)
-app.get('/:table?/:query?/:field?/:index?/:subindex?', (req, res) =>
-    routes.mainRouter(req, res))
-
-app.get('*', (req, res) =>
-    handle404Error(res))
+app.use('/', router)
 
 // Initialize Server...
 const server = app.listen(port, () =>
