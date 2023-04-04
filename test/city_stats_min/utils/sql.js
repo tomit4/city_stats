@@ -1,4 +1,5 @@
 // Main SQL hardcoded sql statements
+
 const createStmts = [
     `CREATE TABLE IF NOT EXISTS states(
     primary_key INTEGER PRIMARY KEY,
@@ -95,7 +96,7 @@ const insertStmts = {
                 ${JSON.stringify(cd.time_zone)},
                 json('${JSON.stringify(cd.zip_codes)}'),
                 json('${JSON.stringify(cd.area_codes)}'),
-                json('${JSON.stringify(cd.fips_code)}'),
+                '${cd.fips_code}',
                 json('${JSON.stringify(cd.gnis_feature_ids)}'),
                 ${JSON.stringify(cd.url)}
                 )`,
