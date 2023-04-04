@@ -19,11 +19,8 @@ app.use(json())
 
 // Main routes
 // TODO: consider refactor based off of express router (see README.md)
-app.get('/states/:query?/:field?/:index?', (req, res) =>
-    routes.statesRouter(req, res))
-
-app.get('/cities/:query?/:field?/:index?/:subindex?', (req, res) =>
-    routes.citiesRouter(req, res))
+app.get('/:table?/:query?/:field?/:index?/:subindex?', (req, res) =>
+    routes.mainRouter(req, res))
 
 app.get('*', (req, res) =>
     handle404Error(res))
