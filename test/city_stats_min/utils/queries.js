@@ -31,7 +31,7 @@ const returnSingleInstanceOf = (table, res, query, field, index, subindex, neste
         `SELECT ${selection} FROM ${table} ${whereStmt} = ?`,
         [query],
         (err, rows) => {
-            if (!rows) return handle404Error(res)
+            if (!rows || !rows.length) return handle404Error(res)
             if (err) return handle500Error(res, err)
             if (nestedObj.includes(field) && index)
                 rows = mutateRows(field, index, subindex, instance, rows)
