@@ -51,16 +51,16 @@ const mutateRows = (field, index, subindex, instance, rows) => {
     if (!deeplyNestedVal) return undefined
     const mutRows = {}
     mutRows[`${instance}_name`] = rows[0][`${instance}_name`]
-    if (!isNaN(index)) {
+    if (!isNaN(index))
         mutRows[`${field}_${index}`] = deeplyNestedVal
-    } else if (deeplyNestedVal){
+    else if (deeplyNestedVal){
         if (deeplyNestedVal && typeof deeplyNestedVal !== 'object') {
             if (!subindex) {
                 mutRows[`${field}`] = {}
                 mutRows[`${field}`][`${index}`] = deeplyNestedVal
-            } else
-                return undefined
-        } else {
+            } else return undefined
+        } 
+        else {
             const parsedVal = JSON.parse(deeplyNestedVal)
             if (!subindex)
                 mutRows[`${field}`] = parsedVal
@@ -68,12 +68,12 @@ const mutateRows = (field, index, subindex, instance, rows) => {
                 if (parsedVal[subindex - 1]) {
                     mutRows[`${field}`] = {}
                     mutRows[`${field}`][`${index}_${subindex}`] = parsedVal[subindex - 1]
-                } else
-                    return undefined
+                } 
+                else return undefined
             }
         }
-    } else
-        return undefined
+    } 
+    else return undefined
     return mutRows
 }
 
