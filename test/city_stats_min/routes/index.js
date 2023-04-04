@@ -5,6 +5,6 @@ const { handle404Error } = require('../utils/utils.js')
 router.get('/:table?/:query?/:field?/:index?/:subindex?', (req, res) =>
     routes.mainRouter(req, res))
 
-router.get('*', (req, res) => handle404Error(res))
+router.get('*', ([], res) => handle404Error(res))
 
 module.exports = router
