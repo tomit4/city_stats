@@ -114,9 +114,7 @@ const alterStmts = {
         db.each(
                 `SELECT ${field} FROM ${table} WHERE ${whereField} = "${dName}"`,
                 (err, rows) => {
-                    Object.values(rows).forEach(val => {
-                        stmt.push(val)
-                })
+                Object.values(rows).forEach(val => stmt.push(val))
                 db.run(`UPDATE ${foreignTable} set ${newRow} = json_insert
                         ('${JSON.stringify(stmt)}') WHERE ${whereField} = "${dName}"`)
             }
