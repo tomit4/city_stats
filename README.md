@@ -26,7 +26,6 @@ __To Do:__
 - [x] Use NodeJs to return sqlite data using basic http request tool, curl
 - [ ] Implement search queries using select statements from both states and cities tables (see below)
 - [ ] Create a sample website which simply queries the database and displays
-- [ ] Add query functionality by the user, utilizing selects/joins for search filtering
 - [ ] Deploy API endpoints via Linode and frontend via netlify
 - [ ] Remove private status of this repo, and clean up using .gitignore and git rm -r
 

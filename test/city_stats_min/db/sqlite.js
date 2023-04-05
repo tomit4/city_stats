@@ -3,7 +3,7 @@
 const sqlite3 = require('sqlite3').verbose()
 const sdb = require('./states.json')
 const cdb = require('./cities.json')
-const { createStmts, insertStmts } = require('../utils/sql.js')
+const { createStmts, insertStmts, alterStmts } = require('../utils/sql.js')
 
 const db = new sqlite3.Database(
     './db/metro_stats.db',
@@ -18,6 +18,10 @@ db.serialize(() => {
     createStmts.forEach(stmt => db.run(stmt))
     insertStmts.populateStates(sdb, db)
     insertStmts.populateCities(cdb, db)
+    db.run(alterStmts.alter('states', 'cities'))
+    sdb.forEach(sd => {
+        alterStmts.update(db, sd.state_name)
+    })
 })
 
 module.exports = db

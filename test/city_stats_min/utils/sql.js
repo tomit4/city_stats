@@ -105,4 +105,22 @@ const insertStmts = {
     }
 }
 
-module.exports = { createStmts, insertStmts }
+const alterStmts = {
+    alter: function(table, column) {
+        return `ALTER TABLE ${table} ADD COLUMN ${column} []`
+
+    },
+    update: async function(db, sdName) {
+        let stmt = []
+        db.each(
+            `SELECT city_name FROM cities WHERE state_name = "${sdName}"`, async (err, rows) => {
+                Object.values(rows).forEach(val => {
+                    stmt.push(val)
+                })
+            db.run(`UPDATE states set cities = json_insert('${JSON.stringify(stmt)}') WHERE state_name = "${sdName}"`)
+            }
+        )
+    }
+}
+
+module.exports = { createStmts, insertStmts, alterStmts }
