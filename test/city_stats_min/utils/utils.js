@@ -10,7 +10,7 @@ const handle500Error = (res, req, err) => {
             // error: err
             error: {}
         })
-    } 
+    }
     else {
         return res.status(500).
             send({ ['msg']: '500: server failed to retrieve data!' })
@@ -23,7 +23,7 @@ const handle404Error = (res, req, err) => {
         res.status(err.status || 404)
         req.log.error(err)
         return res.send({ ['msg']: '404: data not found!' })
-    } 
+    }
     else {
         return res.status(404).
             send({ ['msg']: '404: data not found!' })

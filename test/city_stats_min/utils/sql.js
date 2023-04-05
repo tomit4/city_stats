@@ -49,11 +49,11 @@ const insertStmts = {
                 `INSERT OR IGNORE INTO states VALUES (
                 ${i + 1},
                 ${JSON.stringify(sd.state_name)},
-                ${JSON.stringify(sd.state_abbreviation)}, 
-                ${JSON.stringify(sd.date_admitted)}, 
-                ${JSON.stringify(sd.capital)}, 
-                ${JSON.stringify(sd.largest_city)}, 
-                ${JSON.stringify(sd.govenor)}, 
+                ${JSON.stringify(sd.state_abbreviation)},
+                ${JSON.stringify(sd.date_admitted)},
+                ${JSON.stringify(sd.capital)},
+                ${JSON.stringify(sd.largest_city)},
+                ${JSON.stringify(sd.govenor)},
                 json('${JSON.stringify(sd.senators)}'),
                 json('${JSON.stringify(sd.house_delegation)}'),
                 json_object('total', '${sd.area.total}',
@@ -84,14 +84,14 @@ const insertStmts = {
                 ${JSON.stringify(cd.settled_founded)},
                 ${JSON.stringify(cd.incorporated)},
                 json_object('type', '${cd.government.type}',
-                            'mayor', '${cd.government.mayor}', 
+                            'mayor', '${cd.government.mayor}',
                             'city_council', json_array('${JSON.stringify(cd.government.city_council,)}')),
                 json_object('city', '${cd.area.city}',
-                            'land', '${cd.area.land}', 
+                            'land', '${cd.area.land}',
                             'water', '${cd.area.water}'),
                 ${JSON.stringify(cd.elevation)},
                 json_object('city', '${cd.population.city}',
-                            'density', '${cd.population.density}', 
+                            'density', '${cd.population.density}',
                             'metro', '${cd.population.metro}'),
                 ${JSON.stringify(cd.time_zone)},
                 json('${JSON.stringify(cd.zip_codes)}'),
@@ -112,7 +112,7 @@ const alterStmts = {
     update: function(db, field, table, whereField, foreignTable, newRow, dName) {
         let stmt = []
         db.each(
-                `SELECT ${field} FROM ${table} WHERE ${whereField} = "${dName}"`, 
+                `SELECT ${field} FROM ${table} WHERE ${whereField} = "${dName}"`,
                 (err, rows) => {
                     Object.values(rows).forEach(val => {
                         stmt.push(val)
