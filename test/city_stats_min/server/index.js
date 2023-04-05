@@ -1,5 +1,5 @@
 'use strict'
-// Server Connection
+// Server connection
 const server = require('./app.js')
 
 let connections = []
@@ -11,6 +11,7 @@ server.on('connection', connection => {
     )
 })
 
+// Shutdown configuration
 const shutDown = () => {
     server.close(() => {
         console.log('closing server with exit code 0...')

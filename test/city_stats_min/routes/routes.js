@@ -1,9 +1,9 @@
 'use strict'
-// Routing Logic that interfaces with both db and server
+// Routing logic that interfaces with both db and server
 const sdb = require('../db/states.json')
 const cdb = require('../db/cities.json')
 const { handle404Error } = require('../utils/utils.js')
-const { returnAll, returnSingleInstanceOf, returnAllSpecs } = require('../utils/queries.js')
+const { returnAll, returnSingleInstanceOf } = require('../utils/queries.js')
 
 // Routes returned data based off of user query
 const routes = {
@@ -22,21 +22,19 @@ const routes = {
         const keys = table === 'states' ? this.stateKeys : this.cityKeys
         this.route(req, res, table, nestedObjs, names, keys, query, field, index, subindex)
     },
-    // Main Router Logic (see last require stmt...)
+    // Main router logic
     route: function(req, res, table, nestedObjs, names, keys, query, field, index, subindex) {
         switch (true) {
             case !query:
-                returnAll(table, res, req)
+            case keys.includes(query):
+                returnAll(table, res, req, query)
                 break
             case !isNaN(query):
             case names.includes(query):
                 returnSingleInstanceOf(table, res, req, query, field, index, subindex, nestedObjs)
                 break
-            case keys.includes(query):
-                returnAllSpecs(table, res, req, query)
-                break
             default:
-                handle404Error(res)
+                handle404Error(res, req)
         }
     },
 }

@@ -1,5 +1,5 @@
 'use strict'
-// Database Configuration and Initialization
+// Database configuration and initialization
 const sqlite3 = require('sqlite3').verbose()
 const sdb = require('./states.json')
 const cdb = require('./cities.json')
