@@ -18,6 +18,7 @@ db.serialize(() => {
     createStmts.forEach(stmt => db.run(stmt))
     insertStmts.populateStates(sdb, db)
     insertStmts.populateCities(cdb, db)
+    // TODO: rewrite these to more reflect insertStmts syntax
     db.run(alterStmts.alter('states', 'major_cities'))
     sdb.forEach(sd => {
         alterStmts.update(db, 'city_name', 'cities', 'state_name',
