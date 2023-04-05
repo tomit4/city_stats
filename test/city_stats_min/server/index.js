@@ -24,8 +24,7 @@ const shutDown = () => {
     }, 10000)
     connections.forEach(curr => curr.end())
     setTimeout(() =>
-        connections.forEach(curr =>
-            curr.destroy()), 5000)
+        connections.forEach(curr => curr.destroy()), 5000)
 }
 
 process.on('SIGTERM', shutDown)
