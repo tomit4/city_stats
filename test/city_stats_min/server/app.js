@@ -1,8 +1,25 @@
+'use strict'
 // Server Configuration
 const app = require('express')()
 const json = require('express').json
 const cors = require('cors')
 const bodyParser = require('body-parser')
+const pino = require('pino')
+
+const logger = require('pino-http')({
+    // add defaults to change maximum file size
+    logger: pino(pino.destination('logs/test.json')),
+    quietReqLogger: true,
+    transport: {
+        target: 'pino-http-print',
+        options: {
+            destination: 1,
+            all: true,
+            translateTime: true
+        }
+    }
+})
+
 const router = require('../routes/')
 
 // App configuration
@@ -15,6 +32,7 @@ app.use(
 )
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(json())
+app.use(logger)
 
 // Main routes
 app.use('/', router)

@@ -1,5 +1,5 @@
+'use strict'
 // Prettifies Nested Values
-
 function prettify(rows) {
     for (const key in rows) {
         if (typeof rows[key] === 'object') {

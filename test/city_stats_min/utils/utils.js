@@ -1,12 +1,13 @@
+'use strict'
 // Error handling functions
-const handle500Error = (res, err) => {
+const handle500Error = (res, req, err) => {
     console.error(err)
     res.status(err.status || 500)
+    req.log.error(err)
     return res.render('error', {
         ['msg']: err.message,
-        error: err
-        // default to empty obj in production
-        // error: {}
+        // error: err
+        error: {}
     })
 }
 
