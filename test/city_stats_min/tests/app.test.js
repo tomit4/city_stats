@@ -1,3 +1,4 @@
+'use strict'
 const test = require('ava')
 const request = require('supertest')
 const { app } = require('../server/app.js')

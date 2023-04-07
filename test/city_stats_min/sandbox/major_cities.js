@@ -1,3 +1,4 @@
+'use strict'
 // To be removed along with sandbox folder later, quick fix for refactor
 
 const sdb = require('../db/states.json')
