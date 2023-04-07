@@ -20,6 +20,10 @@ db.serialize(() => {
     insertStmts.populateCities(cdb, db)
     // TODO: rewrite these to more reflect insertStmts syntax
     db.run(alterStmts.alter('states', 'major_cities'))
+    // TODO: Due to synchronicity problems revealed by ava,
+    // We'll have to refactor this by using javascript to parse through the
+    // states.jsona nd cities.json files first before sending it to a more
+    // simplified sql update statement
     sdb.forEach(sd =>
         alterStmts.update(db, 'city_name', 'cities', 'state_name',
                         'states', 'major_cities', sd.state_name)
