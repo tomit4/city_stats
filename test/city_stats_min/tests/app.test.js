@@ -3,17 +3,6 @@ const test = require('ava')
 const request = require('supertest')
 const { app } = require('../server/app.js')
 
-// TODO: set this up so it can be run given a "test" env variable set
-// test('testing 404 return object', async t => {
-// const res = await request(app).get('/').send()
-// t.like(res.body, {
-// ['msg']: '404: data not found!',
-// })
-// })
-
-// NOTE: this func did its job:
-// Interesting asynchronisity error, major cities always returns null because its
-// not populated by the update statement yet...
 test('testing states route', async t => {
     const res = await request(app).get('/states/1').send()
     const mock = [
@@ -54,7 +43,13 @@ test('testing states route', async t => {
                 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Alabama.svg',
             insignia_url:
                 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Seal_of_Alabama.svg',
-            major_cities: ['Birmingham', 'Huntsville', 'Mobile', 'Montgomery', 'Tuscaloosa'],
+            major_cities: [
+                'Birmingham',
+                'Huntsville',
+                'Mobile',
+                'Montgomery',
+                'Tuscaloosa',
+            ],
         },
     ]
     // t.plan(2)
@@ -62,13 +57,21 @@ test('testing states route', async t => {
     await t.deepEqual(res.body, mock)
 })
 
-// test('testing states route with spec field', async t => {
-    // const res = await request(app).get('/states/1/state_abbreviation').send()
-    // const mock =[
-        // {
-            // state_name: 'Alabama',
-            // state_abbreviation: 'AL',
-        // }
-    // ]
-    // t.deepEqual(res.body, mock)
-// })
+test('testing states route with spec field', async t => {
+    const res = await request(app).get('/states/1/state_abbreviation').send()
+    const mock = [
+        {
+            state_name: 'Alabama',
+            state_abbreviation: 'AL',
+        },
+    ]
+    t.deepEqual(res.body, mock)
+})
+
+// TODO: set this up so it can be run given a "test" env variable set
+// test('testing 404 return object', async t => {
+    // const res = await request(app).get('/').send()
+    // t.like(res.body, {
+        // ['msg']: '404: data not found!',
+    // })
+})

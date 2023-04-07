@@ -5,14 +5,18 @@ const { prettify } = require('../utils/parser.js')
 const { handle404Error, handle500Error } = require('../utils/utils.js')
 
 const returnAll = (table, res, req, query) => {
+    if (table === 'favicon.ico') return // weird edge case
     const instance = table === 'states' ? 'state' : 'city'
     const selection = !query ? '*' : `${instance}_name, ${query}`
-    db.all(`SELECT ${selection} FROM ${table}`, (err, rows) => {
-        if (!rows) return handle404Error(res, req, err)
-        if (err) return handle500Error(res, req, err)
-        prettify(rows)
-        return res.send(rows)
-    })
+    try {
+        db.all(`SELECT ${selection} FROM ${table}`, (err, rows) => {
+            if (!rows) return handle404Error(res, req, err)
+            prettify(rows)
+            return res.send(rows)
+        })
+    } catch (err) {
+        return handle500Error(res, req, err)
+    }
 }
 
 // TODO: Add feature where state_name in cities query returns all info from
@@ -22,20 +26,23 @@ const returnSingleInstanceOf = (table, res, req, query, field, index, subindex, 
     const selection = !field ? '*' : `${instance}_name, ${field}`
     const whereStmt = !isNaN(query) ? `WHERE primary_key` : `WHERE ${instance}_name`
     if (!isNaN(field)) return handle404Error(res, req)
-    db.all(
-        `SELECT ${selection} FROM ${table} ${whereStmt} = ?`,
-        [query],
-        (err, rows) => {
-            if (!rows || !rows.length) return handle404Error(res, req, err)
-            if (err) return handle500Error(res, req, err)
-            if (nestedObj.includes(field) && index)
-                rows = mutateRows(field, index, subindex, instance, rows)
-            // Mutation requires another check
-            if (!rows) return handle404Error(res, req, err)
-            prettify(rows)
-            return res.send(rows)
-        },
-    )
+    try {
+        db.all(
+            `SELECT ${selection} FROM ${table} ${whereStmt} = ?`,
+            [query],
+            (err, rows) => {
+                if (!rows || !rows.length) return handle404Error(res, req, err)
+                if (nestedObj.includes(field) && index)
+                    rows = mutateRows(field, index, subindex, instance, rows)
+                // Mutation requires another check
+                if (!rows) return handle404Error(res, req, err)
+                prettify(rows)
+                return res.send(rows)
+            },
+        )
+    } catch (err) {
+        return handle500Error(res, req, err)
+    }
 }
 
 // Embarrassing hacky workaround to get nested routes working properly

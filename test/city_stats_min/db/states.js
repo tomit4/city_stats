@@ -1,9 +1,8 @@
 'use strict'
-// To be removed along with sandbox folder later, quick fix for refactor
+const sdb = require('./states.json')
+const cdb = require('./cities.json')
 
-const sdb = require('../db/states.json')
-const cdb = require('../db/cities.json')
-
+// Hacky workaround to address asynchronicity issues with previously used update statement
 const returnMajorCities = (sdb, cdb) => {
     const majorCities = []
     sdb.forEach(sd => {
@@ -21,4 +20,13 @@ const returnMajorCities = (sdb, cdb) => {
 }
 
 const majorCities = returnMajorCities(sdb, cdb)
-console.log('majorCities >>', majorCities)
+
+sdb.forEach(sd => {
+    majorCities.forEach(city => {
+        if (sd.state_name === city.state_name) {
+            sd.major_cities = city.major_cities
+        }
+    })
+})
+
+module.exports = sdb

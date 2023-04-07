@@ -19,7 +19,8 @@ const createStmts = [
     longitutde TEXT,
     url TEXT,
     flag_url TEXT,
-    insignia_url TEXT
+    insignia_url TEXT,
+    major_cities TEXT
     )`,
     `CREATE TABLE IF NOT EXISTS cities(
     primary_key INTEGER PRIMARY KEY,
@@ -68,7 +69,10 @@ const insertStmts = {
                 ${JSON.stringify(sd.longitude)},
                 ${JSON.stringify(sd.url)},
                 ${JSON.stringify(sd.flag_url)},
-                ${JSON.stringify(sd.insignia_url)})`
+                ${JSON.stringify(sd.insignia_url)},
+                json('${JSON.stringify(sd.major_cities)}')
+                )
+                `
             )
         })
     },
@@ -105,26 +109,4 @@ const insertStmts = {
     }
 }
 
-const alterStmts = {
-    alter: function(table, column) {
-        return `ALTER TABLE ${table} ADD COLUMN ${column} []`
-    },
-    // TODO: Due to synchronicity problems revealed by ava,
-    // We'll have to refactor this by using javascript to parse through the
-    // states.jsona nd cities.json files first before sending it to a more
-    // simplified sql update statement
-    update: function(db, field, table, whereField, foreignTable, newRow, dName) {
-        let stmt = []
-        db.each(
-                `SELECT ${field} FROM ${table} WHERE ${whereField} = "${dName}"`,
-                (err, rows) => {
-                Object.values(rows).forEach(val => stmt.push(val))
-                console.log('stmt >>', stmt)
-                db.run(`UPDATE ${foreignTable} set ${newRow} = json_insert
-                        ('${JSON.stringify(stmt)}') WHERE ${whereField} = "${dName}"`)
-            }
-        )
-    }
-}
-
-module.exports = { createStmts, insertStmts, alterStmts }
+module.exports = { createStmts, insertStmts }
