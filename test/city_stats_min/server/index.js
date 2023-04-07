@@ -1,6 +1,6 @@
 'use strict'
 // Server connection
-const server = require('./app.js')
+const { server } = require('./app.js')
 
 let connections = []
 server.on('connection', connection => {

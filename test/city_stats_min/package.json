@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ava",
-    "start": "/usr/bin/touch ./db/metro_stats ; /usr/bin/rm ./db/metro_stats.db ; node ./server/index.js"
+    "test": "/usr/bin/rm ./db/metro_stats.db ; ava --verbose",
+    "start": "/usr/bin/rm ./db/metro_stats.db ; node ./server/index.js"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +16,7 @@
     "express": "^4.18.2",
     "pino": "^8.11.0",
     "pino-http": "^8.3.3",
-    "sinon": "^15.0.3",
-    "sqlite3": "^5.1.6"
+    "sqlite3": "^5.1.6",
+    "supertest": "^6.3.3"
   }
 }

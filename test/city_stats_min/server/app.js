@@ -22,4 +22,4 @@ app.use('/', router)
 const server = app.listen(port, () =>
     console.log(`serving sqlite database as JSON on port: ${port}`))
 
-module.exports = server
+module.exports = { app, server }
