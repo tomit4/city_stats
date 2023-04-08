@@ -19,8 +19,6 @@ const returnAll = (table, res, req, query) => {
     }
 }
 
-// TODO: Add feature where state_name in cities query returns all info from
-// states table?
 const returnSingleInstanceOf = (table, res, req, query, field, index, subindex, nestedObj) => {
     const instance = table === 'states' ? 'state' : 'city'
     const selection = !field ? '*' : `${instance}_name, ${field}`
