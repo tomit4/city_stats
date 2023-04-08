@@ -1,7 +1,7 @@
 'use strict'
 // Logic that returns data based off of user specific input (i.e. application endpoint)
 const db = require('../db/sqlite.js')
-const { prettify } = require('../utils/parser.js')
+const prettify = require('../utils/parser.js')
 const { handle404Error, handle500Error } = require('../utils/utils.js')
 
 const returnAll = (table, res, req, query) => {
@@ -46,7 +46,11 @@ const returnSingleInstanceOf = (table, res, req, query, field, index, subindex, 
 // Embarrassing hacky workaround to get nested routes working properly
 const mutateRows = (field, index, subindex, instance, rows) => {
     const nestedVal = JSON.parse(rows[0][field])
+    // console.log(`nestedVal >>: ${nestedVal}`)
     const deeplyNestedVal = !isNaN(index) ? nestedVal[index - 1] : nestedVal[index]
+    // console.log(`deeplyNestedVal >>: ${deeplyNestedVal}`)
+    // console.log(`typeof deeplyNestedVal >>: ${typeof deeplyNestedVal}`)
+    // console.log(`is deeplyNestedVal Array? >>: ${Array.isArray(deeplyNestedVal)}`)
     if (!deeplyNestedVal) return undefined
     const mutRows = {}
     mutRows[`${instance}_name`] = rows[0][`${instance}_name`]

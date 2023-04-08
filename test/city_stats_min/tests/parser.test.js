@@ -24,7 +24,7 @@ const mock = {
 
 // Ava tests
 test('parser prettifies state object', async t => {
-    const { prettify } = require('../utils/parser.js')
+    const prettify = require('../utils/parser.js')
     t.deepEqual(prettify(mock.input), mock.output)
 })
 

@@ -35,7 +35,7 @@ const testAll = async (test) => {
 const testAllStateRoutes = (test) => {
     const indexes = [...Array(50).keys()]
     indexes.forEach(index => {
-        test(`testing states route >> ${index}`, async t => {
+        test(`testing states route >>: ${index}`, async t => {
             let mock = {}
             const res = await request(app).get(`/states/${index + 1}`).send()
             sdb.forEach((sd, i) => {
@@ -51,12 +51,11 @@ const testAllStateRoutes = (test) => {
         })
     })
 }
-
-// currently all fails due to some issue with parsing city_council
+// doesn't like O\\'
 const testAllCityRoutes = (test) => {
     const indexes = [...Array(330).keys()] // ... 0 through 329
     indexes.forEach(index => {
-        test(`testing cities route >> ${index}`, async t => {
+        test(`testing cities route >>: ${index}`, async t => {
             let mock = {}
             const res = await request(app).get(`/cities/${index + 1}`).send()
             cdb.forEach((cd, i) => {
