@@ -6,8 +6,11 @@ const { sdb, cdb } = require('../db/db_utils')
 
 const testAll = async (test) => {
     console.log('testing express routes...')
-    testAllStateRoutes(test)
-    testAllCityRoutes(test)
+    // Compares all output from each individual state/city 
+    // against original json data
+    testRoutes(test, 50, 'states', sdb)
+    testRoutes(test, 330, 'cities', cdb)
+
     test('testing states route with spec field', async t => {
         const res = await request(app).get('/states/1/state_abbreviation').send()
         const mock = [
@@ -21,6 +24,7 @@ const testAll = async (test) => {
         t.is(res.status, 200)
         t.deepEqual(res.body, mock)
     })
+
     test('testing 404 return object', async t => {
         const res = await request(app).get('/').send()
         t.plan(3)
@@ -32,15 +36,15 @@ const testAll = async (test) => {
     })
 }
 
-const testAllStateRoutes = (test) => {
-    const indexes = [...Array(50).keys()]
+const testRoutes = (test, numIndexes = 0, entity, db) => {
+    const indexes = [...Array(numIndexes).keys()]
     indexes.forEach(index => {
-        test(`testing states route >>: ${index}`, async t => {
+        test(`testing ${entity} route >>: ${index + 1}`, async t => {
             let mock = {}
-            const res = await request(app).get(`/states/${index + 1}`).send()
-            sdb.forEach((sd, i) => {
+            const res = await request(app).get(`/${entity}/${index + 1}`).send()
+            db.forEach((data, i) => {
                 if (index == i) {
-                    mock = sd
+                    mock = data
                     mock.primary_key = index + 1
                 }
             })
@@ -50,26 +54,7 @@ const testAllStateRoutes = (test) => {
             t.deepEqual(res.body, [mock])
         })
     })
-}
-// doesn't like O\\'
-const testAllCityRoutes = (test) => {
-    const indexes = [...Array(330).keys()] // ... 0 through 329
-    indexes.forEach(index => {
-        test(`testing cities route >>: ${index}`, async t => {
-            let mock = {}
-            const res = await request(app).get(`/cities/${index + 1}`).send()
-            cdb.forEach((cd, i) => {
-                if (index == i) {
-                    mock = cd
-                    mock.primary_key = index + 1
-                }
-            })
-            t.plan(3)
-            t.true(res.ok)
-            t.is(res.status, 200)
-            t.deepEqual(res.body, [mock])
-        })
-    })
+
 }
 
 testAll(test)
