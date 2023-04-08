@@ -370,7 +370,20 @@
         "government": {
             "type": "Municipality",
             "mayor": "Dave Bronson",
-            "city_council": null
+            "city_council": [
+                "Christopher Constant",
+                "Daniel Volland",
+                "Robin Dern",
+                "Kevin Cross",
+                "Kameron Perez-Verdia",
+                "Austin Quinn-Davidson",
+                "Felix Rivera",
+                "Meg Zaletel",
+                "Pete Peterson",
+                "Joey Sweet",
+                "Suzanne LaFrance",
+                "Randy Sulte"
+            ]
         },
         "area": {
             "city": "1946.69 sq mi",
@@ -7520,7 +7533,14 @@
         "government": {
             "type": "Council-Manager",
             "mayor": "Javier Villalobos",
-            "city_council": null
+            "city_council": [
+                "Tony Aguirre",
+                "Joaquin Zamora",
+                "Omar Quintanilla",
+                "Rodolfo Castillo",
+                "Victor Haddad",
+                "Pepe Cabeza de Vaca"
+            ]
         },
         "area": {
             "city": "62.73 sq mi",
