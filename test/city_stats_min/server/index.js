@@ -1,7 +1,15 @@
 'use strict'
-// Server connection
-const { server } = require('./app.js')
+require('dotenv').config()
 
+// Server connection
+const { app } = require('./app.js')
+const port = process.env.PORT
+
+// Initialize server
+const server = app.listen(port, () =>
+    console.log(`serving sqlite database as JSON on port: ${port}`))
+
+// Cleanly keeps track of connections
 let connections = []
 server.on('connection', connection => {
     connections.push(connection)
