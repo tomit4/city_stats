@@ -1,8 +1,7 @@
 'use strict'
 // Database configuration and initialization
 const sqlite3 = require('sqlite3').verbose()
-const sdb = require('./states.js')
-const cdb = require('./cities.json')
+const { sdb, cdb } = require('./db_utils.js')
 const { createStmts, insertStmts } = require('../utils/sql.js')
 
 const db = new sqlite3.Database(
