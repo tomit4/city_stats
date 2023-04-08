@@ -3,6 +3,7 @@ const test = require('ava')
 const request = require('supertest')
 const { app } = require('../server/app.js')
 
+console.log('testing express routes...')
 test('testing states route', async t => {
     const res = await request(app).get('/states/1').send()
     const mock = [
@@ -52,9 +53,10 @@ test('testing states route', async t => {
             ],
         },
     ]
-    // t.plan(2)
-    // t.true(res.ok)
-    await t.deepEqual(res.body, mock)
+    t.plan(3)
+    t.true(res.ok)
+    t.is(res.status, 200)
+    t.deepEqual(res.body, mock)
 })
 
 test('testing states route with spec field', async t => {
@@ -65,13 +67,18 @@ test('testing states route with spec field', async t => {
             state_abbreviation: 'AL',
         },
     ]
+    t.plan(3)
+    t.true(res.ok)
+    t.is(res.status, 200)
     t.deepEqual(res.body, mock)
 })
 
-// TODO: set this up so it can be run given a "test" env variable set
-// test('testing 404 return object', async t => {
-    // const res = await request(app).get('/').send()
-    // t.like(res.body, {
-        // ['msg']: '404: data not found!',
-    // })
-// })
+test('testing 404 return object', async t => {
+    const res = await request(app).get('/').send()
+    t.plan(3)
+    t.false(res.ok)
+    t.is(res.status, 404)
+    t.like(res.body, {
+        ['msg']: '404: data not found!',
+    })
+})
