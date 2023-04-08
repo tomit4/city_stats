@@ -24,9 +24,12 @@ __To Do:__
 - [x] Create a basic sample schema for a City
 - [x] Fill an Sqlite database with data of both States and Cities
 - [x] Use NodeJs to return sqlite data using basic http request tool, curl
-- [ ] Implement search queries using select statements from both states and cities tables (see below)
+- [ ] Apply backend to a docker image/script
+- [ ] Write docker script that installs log directory/configuration correctly
+- [ ] Make sure to copy database in docker script to ensure that last version of
+db remains in tact
 - [ ] Create a sample website which simply queries the database and displays
-- [ ] Deploy API endpoints via Linode and frontend via netlify
+- [ ] Deploy API endpoints via Linode and frontend via netlify (or host that as well on Linode)
 - [ ] Remove private status of this repo, and clean up using .gitignore and git rm -r
 
 __Notes:__
