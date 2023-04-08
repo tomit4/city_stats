@@ -26,32 +26,10 @@ const routes = {
         const nestedObjs = table === 'states' ? this.stateObjs : this.cityObjs
         const names = table === 'states' ? this.stateNames : this.cityNames
         const keys = table === 'states' ? this.stateKeys : this.cityKeys
-        this.route(
-            req,
-            res,
-            table,
-            nestedObjs,
-            names,
-            keys,
-            query,
-            field,
-            index,
-            subindex,
-        )
+        this.route(req, res, table, nestedObjs, names, keys, query, field, index, subindex)
     },
     // Main router logic
-    route: function (
-        req,
-        res,
-        table,
-        nestedObjs,
-        names,
-        keys,
-        query,
-        field,
-        index,
-        subindex,
-    ) {
+    route: function (req, res, table, nestedObjs, names, keys, query, field, index, subindex) {
         switch (true) {
             case !query:
             case keys.includes(query):
@@ -59,16 +37,7 @@ const routes = {
                 break
             case !isNaN(query):
             case names.includes(query):
-                returnSingleInstanceOf(
-                    table,
-                    res,
-                    req,
-                    query,
-                    field,
-                    index,
-                    subindex,
-                    nestedObjs,
-                )
+                returnSingleInstanceOf(table, res, req, query, field, index, subindex, nestedObjs)
                 break
             default:
                 handle404Error(res, req)
