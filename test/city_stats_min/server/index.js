@@ -9,7 +9,7 @@ const port = process.env.PORT
 const server = app.listen(port, () =>
     console.log(`serving sqlite database as JSON on port: ${port}`))
 
-// Cleanly keeps track of connections
+// Keeps track of connections
 let connections = []
 server.on('connection', connection => {
     connections.push(connection)
@@ -30,6 +30,7 @@ const shutDown = () => {
         console.error('exit code 1...')
         process.exit(1)
     }, 10000)
+    // Attempts to cleanly end any remaining connections 
     connections.forEach(curr => curr.end())
     setTimeout(() =>
         connections.forEach(curr => curr.destroy()), 5000)
