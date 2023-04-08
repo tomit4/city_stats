@@ -15,6 +15,7 @@ function prettify(rows) {
                 }
             }
         }
+        if (rows[key] === 'null') rows[key] = null
     }
     return rows
 }

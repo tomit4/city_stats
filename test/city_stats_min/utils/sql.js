@@ -16,7 +16,7 @@ const createStmts = [
     population TEXT,
     time_zone TEXT,
     latitude TEXT,
-    longitutde TEXT,
+    longitude TEXT,
     url TEXT,
     flag_url TEXT,
     insignia_url TEXT,

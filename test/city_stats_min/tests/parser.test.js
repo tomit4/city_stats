@@ -28,6 +28,5 @@ test('parser prettifies state object', async t => {
     t.deepEqual(prettify(mock.input), mock.output)
 })
 
-test('state object without prettify does not pass', async t => {
-    t.notDeepEqual(mock.input == mock.output)
-})
+test('state object without prettify does not pass', async t =>
+    t.notDeepEqual(mock.input == mock.output))

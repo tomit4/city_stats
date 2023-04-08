@@ -35,6 +35,7 @@ const stateKeys = Object.keys(sdb[0])
 const cityKeys = Object.keys(cdb[0])
 const stateObjs = Object.keys(sdb[0]).filter(s => typeof sdb[0][s] === 'object')
 const cityObjs = Object.keys(cdb[0]).filter(c => typeof cdb[0][c] === 'object')
+
 module.exports = {
     sdb,
     cdb,
