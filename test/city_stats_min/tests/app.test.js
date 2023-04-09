@@ -6,13 +6,10 @@ const { sdb, cdb } = require('../db/db_utils')
 
 const testAll = async (test) => {
     console.log('testing express routes...')
-    // Compares all output from each individual state/city 
-    // against original json data
+    // Compares all output from each individual state/city against original json data
     testRoutes(test, 50, 'states', sdb)
     testRoutes(test, 330, 'cities', cdb)
 
-    // TODO: Like with testRoutes, take this test and automate it for every
-    // non-nested field
     test('testing states route with spec field', async t => {
         const res = await request(app).get('/states/1/state_abbreviation').send()
         const mock = [
@@ -56,7 +53,6 @@ const testRoutes = (test, numIndexes = 0, entity, db) => {
             t.deepEqual(res.body, [mock])
         })
     })
-
 }
 
 testAll(test)
