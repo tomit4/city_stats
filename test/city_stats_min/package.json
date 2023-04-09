@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "/usr/bin/rm ./db/metro_stats.db ; ava --verbose ; npm run start",
+    "test": "/usr/bin/rm ./db/metro_stats.db ; ava --verbose",
     "start": "/usr/bin/rm ./db/metro_stats.db ; node ./server/index.js"
   },
   "keywords": [],
