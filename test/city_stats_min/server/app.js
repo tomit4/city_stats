@@ -1,10 +1,11 @@
 'use strict'
+require('dotenv').config()
 
 // Server configuration
 const app = require('express')()
 const router = require('../routes/')
 
-// App configuration
+// Log configuration
 const pino = require('pino')
 const logger = require('pino-http')({
     logger: pino(pino.destination(process.env.LOGFILE)),
