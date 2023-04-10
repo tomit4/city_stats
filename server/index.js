@@ -1,40 +1,40 @@
-const app = require('express')()
-const json = require('express').json
-const cors = require('cors')
-const bodyParser = require('body-parser')
-const db = require('../db/sqlite.js')
-// const path = require('path')
-// const route = express.Router()
-const { statesRouter, citiesRouter } = require('../routes/server.js')
-const { populateLocalData } = require('../utils/server.js')
+'use strict'
+require('dotenv').config()
 
-// Server configuration
-const port = process.env.PORT || 8000
-app.use(
-    cors({
-        origin: true,
-        credentials: true,
-    }),
-)
-app.use(bodyParser.urlencoded({ extended: false }))
-app.use(json())
-// app.use(express.static(path.join(__dirstate_name, "public")))
+// Server connection
+const { app } = require('./app.js')
+const port = process.env.PORT
 
-// Main routes
-app.get('/states/:query?/:field?/:index?', async (req, res) => {
-    statesRouter(req, res)
+// Initialize server
+const server = app.listen(port, () =>
+    console.log(`serving sqlite database as JSON on port: ${port}`))
+
+// Keeps track of connections
+let connections = []
+server.on('connection', connection => {
+    connections.push(connection)
+    connection.on('close', () =>
+        (connections = connections.filter(curr =>
+            curr !== connection)),
+    )
 })
-app.get('/cities/:query?/:field?', async (req, res) => {
-    citiesRouter(req, res)
-})
-app.get('/states-test', async (req, res) => {
-    await db.all('SELECT * FROM states_test;', async (err, rows) => {
-        return res.send(rows)
+
+// Shutdown configuration
+const shutDown = () => {
+    server.close(() => {
+        console.log('closing server with exit code 0...')
+        process.exit(0)
     })
-})
+    setTimeout(() => {
+        console.error('failure to close server properly...')
+        console.error('exit code 1...')
+        process.exit(1)
+    }, 10000)
+    // Attempts to cleanly end any remaining connections
+    connections.forEach(curr => curr.end())
+    setTimeout(() =>
+        connections.forEach(curr => curr.destroy()), 5000)
+}
 
-// Starts Server...
-app.listen(port, () => {
-    populateLocalData()
-    console.log(`Serving sqlite database as JSON on port: ${port}`)
-})
+process.on('SIGTERM', shutDown)
+process.on('SIGINT', shutDown)

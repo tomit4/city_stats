@@ -24,6 +24,8 @@ __To Do:__
 - [x] Create a basic sample schema for a City
 - [x] Fill an Sqlite database with data of both States and Cities
 - [x] Use NodeJs to return sqlite data using basic http request tool, curl
+- [ ] Attempt to refactor prettify function using recusrsion, attempt O(n)
+- [ ] Refactor config of pino logger to ensure smallest size of logs possible (see /var/log/)
 - [ ] Apply backend to a docker image/script
 - [ ] Write docker script that installs log directory/configuration correctly
 - [ ] Make sure to copy database in docker script to ensure that last version of

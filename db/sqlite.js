@@ -1,30 +1,23 @@
+'use strict'
+// Database configuration and initialization
 const sqlite3 = require('sqlite3').verbose()
-const statesData = require('./states.json')
-const statesDataTest = require('./states_test.json')
-const citiesData = require('./cities.json')
-const { createTables, populateStates, populateStatesTest, populateCities } = require('./seed.js')
+const { sdb, cdb } = require('./db_utils.js')
+const { createStmts, insertStmts } = require('../utils/sql.js')
 
 const db = new sqlite3.Database(
-    './db/states.db',
+    './db/metro_stats.db',
     sqlite3.OPEN_READWRITE | sqlite3.OPEN_CREATE,
     err => {
         if (err) return console.error(err.message)
-        console.log('Connected to the in-memory SQlite states Database.')
+        console.log('connected to in-memory sqlite database.')
     },
 )
 
+// Populate the database
 db.serialize(() => {
-    createTables(db)
-    populateStates(db, statesData)
-    populateStatesTest(db, statesDataTest)
-    // populateStatesTest(db, statesData)
-    populateCities(db, citiesData)
+    createStmts.forEach(stmt => db.run(stmt))
+    insertStmts.populateStates(sdb, db)
+    insertStmts.populateCities(cdb, db)
 })
 
 module.exports = db
-
-// comment out when running with express
-// db.close((err) => {
-// if (err) return console.error(err.message)
-// console.log('Closing the statesDatabase connection...')
-// });
