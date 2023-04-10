@@ -89,7 +89,7 @@ const insertStmts = {
                 ${JSON.stringify(cd.incorporated)},
                 json_object('type', '${cd.government.type}',
                             'mayor', '${cd.government.mayor}',
-                            'city_council', json_array('${JSON.stringify(cd.government.city_council,)}')),
+                            'city_council', json('${JSON.stringify(cd.government.city_council,)}')),
                 json_object('city', '${cd.area.city}',
                             'land', '${cd.area.land}',
                             'water', '${cd.area.water}'),

@@ -1,5 +1,6 @@
 // Simple test to see if prettify parses JSON properly
 const test = require('ava')
+const prettify = require('../utils/parser.js')
 // Mock data, json as string and parsed
 const mock = {
     input: [
@@ -24,7 +25,6 @@ const mock = {
 
 // Ava tests
 test('parser prettifies state object', async t => {
-    const prettify = require('../utils/parser.js')
     t.deepEqual(prettify(mock.input), mock.output)
 })
 
