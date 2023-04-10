@@ -15,4 +15,4 @@ const logger = require('pino-http')({
 app.use(logger)
 app.use('/', router)
 
-module.exports = { app }
+module.exports = app
