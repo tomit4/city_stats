@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "/usr/bin/rm ./db/metro_stats.db ; nyc ava --verbose",
-    "start": "/usr/bin/rm ./db/metro_stats.db ; node ./server/index.js"
+    "test": "nyc ava --verbose",
+    "start": "node ./server/index.js"
   },
   "keywords": [],
   "author": "",
