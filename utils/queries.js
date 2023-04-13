@@ -60,13 +60,12 @@ const mutateRows = (field, index, subindex, instance, rows) => {
             } else return undefined
         }
         else {
-            const parsedVal = JSON.parse(deeplyNestedVal)
             if (!subindex)
-                mutRows[`${field}`] = parsedVal
+                mutRows[`${field}`] = deeplyNestedVal
             else if (!isNaN(subindex)) {
-                if (parsedVal[subindex - 1]) {
+                if (deeplyNestedVal[subindex - 1]) {
                     mutRows[`${field}`] = {}
-                    mutRows[`${field}`][`${index}_${subindex}`] = parsedVal[subindex - 1]
+                    mutRows[`${field}`][`${index}_${subindex}`] = deeplyNestedVal[subindex - 1]
                 }
                 else return undefined
             }
