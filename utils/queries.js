@@ -14,9 +14,7 @@ const returnAll = (table, res, req, query) => {
             prettify(rows)
             return res.send(rows)
         })
-    } catch (err) {
-        return handle500Error(res, req, err)
-    }
+    } catch (err) { return handle500Error(res, req, err) }
 }
 
 const returnSingleInstanceOf = (table, res, req, query, field, index, subindex, nestedObj) => {
@@ -38,9 +36,7 @@ const returnSingleInstanceOf = (table, res, req, query, field, index, subindex, 
                 return res.send(rows)
             },
         )
-    } catch (err) {
-        return handle500Error(res, req, err)
-    }
+    } catch (err) { return handle500Error(res, req, err) }
 }
 
 // Embarrassing hacky workaround to get nested routes working properly
@@ -53,9 +49,9 @@ const mutateRows = (field, index, subindex, instance, rows) => {
     if (!isNaN(index))
         mutRows[`${field}_${index}`] = deeplyNestedVal
     else if (deeplyNestedVal){
+        mutRows[`${field}`] = {}
         if (deeplyNestedVal && typeof deeplyNestedVal !== 'object') {
             if (!subindex) {
-                mutRows[`${field}`] = {}
                 mutRows[`${field}`][`${index}`] = deeplyNestedVal
             } else return undefined
         }
@@ -64,7 +60,6 @@ const mutateRows = (field, index, subindex, instance, rows) => {
                 mutRows[`${field}`] = deeplyNestedVal
             else if (!isNaN(subindex)) {
                 if (deeplyNestedVal[subindex - 1]) {
-                    mutRows[`${field}`] = {}
                     mutRows[`${field}`][`${index}_${subindex}`] = deeplyNestedVal[subindex - 1]
                 }
                 else return undefined
