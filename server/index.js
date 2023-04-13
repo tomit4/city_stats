@@ -2,7 +2,7 @@
 require('dotenv').config()
 
 // Server connection
-const app = require('./app.js')
+const app = require('./app')
 const port = process.env.PORT
 
 // Initialize server

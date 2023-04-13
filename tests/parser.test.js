@@ -1,6 +1,6 @@
 // Simple test to see if prettify parses JSON properly
 const test = require('ava')
-const prettify = require('../utils/parser.js')
+const prettify = require('../utils/parser')
 // Mock data, json as string and parsed
 const mock = {
     input: [

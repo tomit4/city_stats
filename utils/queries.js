@@ -1,8 +1,8 @@
 'use strict'
 // Logic that returns data based off of user specific input (i.e. application endpoint)
-const db = require('../db/sqlite.js')
-const prettify = require('../utils/parser.js')
-const { handle404Error, handle500Error } = require('../utils/utils.js')
+const db = require('../db/sqlite')
+const prettify = require('../utils/parser')
+const { handle404Error, handle500Error } = require('../utils/utils')
 
 const returnAll = (table, res, req, query) => {
     if (table === 'favicon.ico') return // weird edge case

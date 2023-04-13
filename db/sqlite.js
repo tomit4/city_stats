@@ -1,8 +1,8 @@
 'use strict'
 // Database configuration and initialization
 const sqlite3 = require('sqlite3').verbose()
-const { sdb, cdb } = require('./db_utils.js')
-const { createStmts, insertStmts } = require('../utils/sql.js')
+const { sdb, cdb } = require('./db_utils')
+const { createStmts, insertStmts } = require('./sql')
 
 const db = new sqlite3.Database(
     './db/metro_stats.db',

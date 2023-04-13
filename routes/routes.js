@@ -7,9 +7,9 @@ const {
     cityKeys,
     stateObjs,
     cityObjs,
-} = require('../db/db_utils.js')
-const { handle404Error } = require('../utils/utils.js')
-const { returnAll, returnSingleInstanceOf } = require('../utils/queries.js')
+} = require('../db/db_utils')
+const { handle404Error } = require('../utils/utils')
+const { returnAll, returnSingleInstanceOf } = require('../utils/queries')
 
 // Routes returned data based off of user query
 const routes = {
