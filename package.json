@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "BSD-3-Clause-Clear",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
