@@ -10,9 +10,7 @@ const prettify = (rows) => {
                 if (rows[row].includes('{') || rows[row].includes('[')) {
                     try {
                         rows[row] = JSON.parse(rows[row])
-                        if (typeof rows[row] === 'object'
-                            && rows[row])
-                            parse(rows[row])
+                        parse(rows[row])
                     }
                     catch (err) {console.warn(`parsing error >>: ${err}`) }
                 }

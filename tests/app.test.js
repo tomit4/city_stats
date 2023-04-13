@@ -10,6 +10,7 @@ const testAll = async (test) => {
     testRoutes(test, 50, 'states', sdb)
     testRoutes(test, 330, 'cities', cdb)
 
+    // TODO: Write more tests that simply check each route
     test('testing states route with spec field', async t => {
         const res = await request(app).get('/states/1/state_abbreviation').send()
         const mock = [
