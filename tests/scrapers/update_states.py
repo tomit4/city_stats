@@ -4,56 +4,56 @@ import requests
 import pandas as pd
 import os
 
+urls = [
+    'https://en.wikipedia.org/wiki/List_of_current_members_of_the_United_States_House_of_Representatives',
+    'https://en.wikipedia.org/wiki/List_of_US_Senators'
+]
 
-def scrape_rep_data():
-    url = 'https://en.wikipedia.org/wiki/List_of_current_members_of_the_United_States_House_of_Representatives'
+
+def rm_if_exists(file):
+    if os.path.exists(file):
+        os.remove(file)
+
+
+def scrape_data(url, field, file):
     html = requests.get(url).content
     df_list = pd.read_html(html)
-    df = df_list[6]
-    df.to_json('new_reps.json')
+    df = df_list[field]
+    df.to_json(file)
 
 
-def scrape_sen_data():
-    url = 'https://en.wikipedia.org/wiki/List_of_US_Senators'
-    html = requests.get(url).content
-    df_list = pd.read_html(html)
-    df = df_list[5]
-    df.to_json('new_sens.json')
+def grab_json(jsonFile):
+    with open(jsonFile, 'r') as json_file:
+        data = json.load(json_file)
+    return data
+
+
+def grab_data(new_reps_data, field):
+    data = {}
+    for key, value in new_reps_data[field].items():
+        data[key] = value
+    return data
 
 
 # TODO: break this out into smaller funcs
 def update_reps():
-    if os.path.exists('new_reps.json'):
-        os.remove('new_reps.json')
-    if os.path.exists('new_sens.json'):
-        os.remove('new_sens.json')
-    scrape_rep_data()
-    scrape_sen_data()
+    rm_if_exists('new_reps.json')
+    rm_if_exists('new_sens.json')
+    scrape_data(urls[0], 6, 'new_reps.json')
+    scrape_data(urls[1], 5, 'new_sens.json')
 
     # Load the my_data.json file containing the new representatives
-    with open('new_reps.json', 'r') as json_file:
-        new_reps_data = json.load(json_file)
-    with open('new_sens.json', 'r') as json_file:
-        new_sens_data = json.load(json_file)
-    # Load the states.json file containing the state information
-    with open('states.json', 'r') as json_file:
-        states_data = json.load(json_file)
+    new_reps_data = grab_json('new_reps.json')
+    new_sens_data = grab_json('new_sens.json')
+    states_data = grab_json('states.json')
 
-    # Create a dictionary to store the new representatives' data
-    new_reps = {}
-    districts = {}
-    for key, rep in new_reps_data['Member'].items():
-        new_reps[key] = rep
-    for key, state_name in new_reps_data['District'].items():
-        districts[key] = state_name
+    # Grab representatives' data
+    new_reps = grab_data(new_reps_data, 'Member')
+    districts = grab_data(new_reps_data, 'District')
 
-    # Create a dictionary to store the new senators' data
-    new_sens = {}
-    states = {}
-    for key, sen in new_sens_data['Senator'].items():
-        new_sens[key] = sen
-    for key, state_name in new_sens_data['State'].items():
-        states[key] = state_name
+    # Grab new senators' data
+    new_sens = grab_data(new_sens_data, 'Senator')
+    states = grab_data(new_sens_data, 'State')
 
     new_sen_info = {}
     for key, state in states.items():
